@@ -1,0 +1,271 @@
+\hypertarget{class_program}{\section{Dokumentacja klasy Program}
+\label{class_program}\index{Program@{Program}}
+}
+
+
+Modeluje klase \hyperlink{class_program}{Program}.  
+
+
+
+
+{\ttfamily \#include $<$program.\-hh$>$}
+
+
+
+Diagram dziedziczenia dla Program\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=132pt]{class_program__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_program_a4fb9c2979a0dca1e14c75f4cc461bebd}{get\-Rozmiar\-\_\-tab} ()
+\begin{DoxyCompactList}\small\item\em Akcesor get\-Rozmiar\-\_\-tab. \end{DoxyCompactList}\item 
+\hyperlink{class_program_aaefaa0df08f3484476fc4d61e97acbdc}{Program} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor bezparametryczny. \end{DoxyCompactList}\item 
+\hyperlink{class_program_a986aef1c50e1d338a3315a47ba6df549}{$\sim$\-Program} ()
+\begin{DoxyCompactList}\small\item\em Destruktor. \end{DoxyCompactList}\item 
+bool \hyperlink{class_program_a618d9d6e3255ca5ff3d65de0385c6d46}{wczytaj\-\_\-dane} (char $\ast$nazwa\-\_\-pliku)
+\begin{DoxyCompactList}\small\item\em Metoda wczytaj\-\_\-dane. \end{DoxyCompactList}\item 
+bool \hyperlink{class_program_a6bfc0c61a365d212dbb73e95034185c1}{wczytaj\-\_\-dane} (char $\ast$nazwa\-\_\-pliku, int ile\-\_\-danych)
+\begin{DoxyCompactList}\small\item\em Metoda wczytaj\-\_\-dane. \end{DoxyCompactList}\item 
+bool \hyperlink{class_program_a0a0d555a69e791820a70000375462e32}{zapisz\-\_\-dane} (char $\ast$nazwa\-\_\-pliku)
+\item 
+void \hyperlink{class_program_ac939bc41859b867dd631163f6540573f}{wyswietl\-\_\-dane} ()
+\begin{DoxyCompactList}\small\item\em Procedura wyswietl\-\_\-dane. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_program_ac396401ba5cade863d0e6acb727bec4e}{wykonaj\-\_\-program} ()
+\begin{DoxyCompactList}\small\item\em Wirtualna metoda wykonaj\-\_\-program. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atrybuty chronione}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_program_a3b5a10104019b9daa23ce4a5f5533820}{rozmiar\-\_\-tab}
+\begin{DoxyCompactList}\small\item\em Zmiena rozmiar\-\_\-tab. \end{DoxyCompactList}\item 
+int $\ast$ \hyperlink{class_program_ac72268c925315098b1632cc97d0f818a}{tab}
+\begin{DoxyCompactList}\small\item\em Zmienna tablica. \end{DoxyCompactList}\item 
+ifstream \hyperlink{class_program_aac2f72538e24e533c327fe5546a59210}{plik\-\_\-we}
+\begin{DoxyCompactList}\small\item\em Zmienna plik\-\_\-we. \end{DoxyCompactList}\item 
+ofstream \hyperlink{class_program_a59c1761a5ea875b3d5a4678928f3a1de}{plik\-\_\-wy}
+\begin{DoxyCompactList}\small\item\em Zmienna plik\-\_\-wy. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Opis szczegółowy}
+Klasa \hyperlink{class_program}{Program} zawiera zmienne oraz metody wspolne dla wszystkich programow. Sa one zwiazane z przechowywaniem i obsluga danych. 
+
+Definicja w linii 21 pliku program.\-hh.
+
+
+
+\subsection{Dokumentacja konstruktora i destruktora}
+\hypertarget{class_program_aaefaa0df08f3484476fc4d61e97acbdc}{\index{Program@{Program}!Program@{Program}}
+\index{Program@{Program}!Program@{Program}}
+\subsubsection[{Program}]{\setlength{\rightskip}{0pt plus 5cm}Program\-::\-Program (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_program_aaefaa0df08f3484476fc4d61e97acbdc}
+Przypisuje domyslna wartosc 0 dla rozmiaru tablicy danych oraz N\-U\-L\-L dla wskaznika. 
+
+Definicja w linii 70 pliku program.\-hh.
+
+\hypertarget{class_program_a986aef1c50e1d338a3315a47ba6df549}{\index{Program@{Program}!$\sim$\-Program@{$\sim$\-Program}}
+\index{$\sim$\-Program@{$\sim$\-Program}!Program@{Program}}
+\subsubsection[{$\sim$\-Program}]{\setlength{\rightskip}{0pt plus 5cm}Program\-::$\sim$\-Program (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_program_a986aef1c50e1d338a3315a47ba6df549}
+Usuwa dynamicznie utworzona tablice danych oraz przypisuje wskaznikowi wartosc N\-U\-L\-L. 
+
+Definicja w linii 78 pliku program.\-hh.
+
+
+
+\subsection{Dokumentacja funkcji składowych}
+\hypertarget{class_program_a4fb9c2979a0dca1e14c75f4cc461bebd}{\index{Program@{Program}!get\-Rozmiar\-\_\-tab@{get\-Rozmiar\-\_\-tab}}
+\index{get\-Rozmiar\-\_\-tab@{get\-Rozmiar\-\_\-tab}!Program@{Program}}
+\subsubsection[{get\-Rozmiar\-\_\-tab}]{\setlength{\rightskip}{0pt plus 5cm}int Program\-::get\-Rozmiar\-\_\-tab (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_program_a4fb9c2979a0dca1e14c75f4cc461bebd}
+Metoda dajaca mozliwosc odczytu rozmiaru tablicy. 
+
+Definicja w linii 62 pliku program.\-hh.
+
+\hypertarget{class_program_a618d9d6e3255ca5ff3d65de0385c6d46}{\index{Program@{Program}!wczytaj\-\_\-dane@{wczytaj\-\_\-dane}}
+\index{wczytaj\-\_\-dane@{wczytaj\-\_\-dane}!Program@{Program}}
+\subsubsection[{wczytaj\-\_\-dane}]{\setlength{\rightskip}{0pt plus 5cm}bool Program\-::wczytaj\-\_\-dane (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{nazwa\-\_\-pliku}
+\end{DoxyParamCaption}
+)}}\label{class_program_a618d9d6e3255ca5ff3d65de0385c6d46}
+Wczytuje dane z pliku. W pierwszej linii pliku musi znajdowac sie informacja o ilosci wczytywanych danych, dane w kolejnych liniach\-: ilosc\-\_\-danych dana1 dana2 ...
+
+
+\begin{DoxyParams}[1]{Parametry}
+\mbox{\tt in}  & {\em nazwa\-\_\-pliku} & Wskaznik do nazwy pliku do wczytania.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Zwracane wartości}
+{\em T\-R\-U\-E} & Poprawnie wczytano plik. \\
+\hline
+{\em F\-A\-L\-S\-E} & Blad podczas wczytywania pliku. \\
+\hline
+\end{DoxyRetVals}
+
+
+Definicja w linii 9 pliku program.\-cpp.
+
+
+
+Oto graf wywoływań tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_program_a618d9d6e3255ca5ff3d65de0385c6d46_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_program_a6bfc0c61a365d212dbb73e95034185c1}{\index{Program@{Program}!wczytaj\-\_\-dane@{wczytaj\-\_\-dane}}
+\index{wczytaj\-\_\-dane@{wczytaj\-\_\-dane}!Program@{Program}}
+\subsubsection[{wczytaj\-\_\-dane}]{\setlength{\rightskip}{0pt plus 5cm}bool Program\-::wczytaj\-\_\-dane (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{nazwa\-\_\-pliku, }
+\item[{int}]{ile\-\_\-danych}
+\end{DoxyParamCaption}
+)}}\label{class_program_a6bfc0c61a365d212dbb73e95034185c1}
+Wczytuje okreslona liczbe danych z pliku. W pierwszej linii pliku musi znajdowac sie informacja o ilosci wczytywanych danych, dane w kolejnych liniach\-: ilosc\-\_\-danych dana1 dana2 ...
+
+
+\begin{DoxyParams}[1]{Parametry}
+\mbox{\tt in}  & {\em nazwa\-\_\-pliku} & Wskaznik do nazwy pliku do wczytania.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Zwracane wartości}
+{\em T\-R\-U\-E} & Poprawnie wczytano plik. \\
+\hline
+{\em F\-A\-L\-S\-E} & Blad podczas wczytywania pliku. \\
+\hline
+\end{DoxyRetVals}
+
+
+Definicja w linii 27 pliku program.\-cpp.
+
+\hypertarget{class_program_ac396401ba5cade863d0e6acb727bec4e}{\index{Program@{Program}!wykonaj\-\_\-program@{wykonaj\-\_\-program}}
+\index{wykonaj\-\_\-program@{wykonaj\-\_\-program}!Program@{Program}}
+\subsubsection[{wykonaj\-\_\-program}]{\setlength{\rightskip}{0pt plus 5cm}bool Program\-::wykonaj\-\_\-program (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_program_ac396401ba5cade863d0e6acb727bec4e}
+Wykonuje program na zadanej liczbie danych. 
+
+Reimplementowana w \hyperlink{class_tabx2_a30db6636cba36a354443ec5f101fd188}{Tabx2}.
+
+
+
+Definicja w linii 68 pliku program.\-cpp.
+
+
+
+Oto graf wywoływań tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_program_ac396401ba5cade863d0e6acb727bec4e_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_program_ac939bc41859b867dd631163f6540573f}{\index{Program@{Program}!wyswietl\-\_\-dane@{wyswietl\-\_\-dane}}
+\index{wyswietl\-\_\-dane@{wyswietl\-\_\-dane}!Program@{Program}}
+\subsubsection[{wyswietl\-\_\-dane}]{\setlength{\rightskip}{0pt plus 5cm}void Program\-::wyswietl\-\_\-dane (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_program_ac939bc41859b867dd631163f6540573f}
+Wypisuje wczytane dane jedna pod druga na standardowy strumien wyjscia. 
+
+Definicja w linii 63 pliku program.\-cpp.
+
+\hypertarget{class_program_a0a0d555a69e791820a70000375462e32}{\index{Program@{Program}!zapisz\-\_\-dane@{zapisz\-\_\-dane}}
+\index{zapisz\-\_\-dane@{zapisz\-\_\-dane}!Program@{Program}}
+\subsubsection[{zapisz\-\_\-dane}]{\setlength{\rightskip}{0pt plus 5cm}bool Program\-::zapisz\-\_\-dane (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{nazwa\-\_\-pliku}
+\end{DoxyParamCaption}
+)}}\label{class_program_a0a0d555a69e791820a70000375462e32}
+Metoda zapisz\-\_\-dane
+
+Zapisuje przetworzone dane do pliku. W pierwszej linijce zamieszcza informacje o ilosci danych, w kolejnych liniach pojedyncze dane\-: ilosc\-\_\-danych dana1 dana2 ...
+
+
+\begin{DoxyParams}[1]{Parametry}
+\mbox{\tt in}  & {\em nazwa\-\_\-pliku} & Wskaznik do nazwy pliku do zapisu.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Zwracane wartości}
+{\em T\-R\-U\-E} & Poprawnie zapisano plik. \\
+\hline
+{\em F\-A\-L\-S\-E} & Blad podczas zapisu pliku. \\
+\hline
+\end{DoxyRetVals}
+
+
+Definicja w linii 48 pliku program.\-cpp.
+
+
+
+Oto graf wywoływań tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_program_a0a0d555a69e791820a70000375462e32_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Dokumentacja atrybutów składowych}
+\hypertarget{class_program_aac2f72538e24e533c327fe5546a59210}{\index{Program@{Program}!plik\-\_\-we@{plik\-\_\-we}}
+\index{plik\-\_\-we@{plik\-\_\-we}!Program@{Program}}
+\subsubsection[{plik\-\_\-we}]{\setlength{\rightskip}{0pt plus 5cm}ifstream Program\-::plik\-\_\-we\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_program_aac2f72538e24e533c327fe5546a59210}
+Zmienna przechowujaca strumien wejsciowy do otwartego pliku z wczytywanymi danymi. 
+
+Definicja w linii 46 pliku program.\-hh.
+
+\hypertarget{class_program_a59c1761a5ea875b3d5a4678928f3a1de}{\index{Program@{Program}!plik\-\_\-wy@{plik\-\_\-wy}}
+\index{plik\-\_\-wy@{plik\-\_\-wy}!Program@{Program}}
+\subsubsection[{plik\-\_\-wy}]{\setlength{\rightskip}{0pt plus 5cm}ofstream Program\-::plik\-\_\-wy\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_program_a59c1761a5ea875b3d5a4678928f3a1de}
+Zmienna przechowujaca strumien wyjsciowy do tworzonego pliku z danymi po przetworzeniu. 
+
+Definicja w linii 54 pliku program.\-hh.
+
+\hypertarget{class_program_a3b5a10104019b9daa23ce4a5f5533820}{\index{Program@{Program}!rozmiar\-\_\-tab@{rozmiar\-\_\-tab}}
+\index{rozmiar\-\_\-tab@{rozmiar\-\_\-tab}!Program@{Program}}
+\subsubsection[{rozmiar\-\_\-tab}]{\setlength{\rightskip}{0pt plus 5cm}int Program\-::rozmiar\-\_\-tab\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_program_a3b5a10104019b9daa23ce4a5f5533820}
+Zmienna przechowujaca informacje o ilosci wczytanych danych, ktora rowna jest dlugosci utworzonej tablicy dynamicznej (wskazywanej wskaznikiem tab). 
+
+Definicja w linii 30 pliku program.\-hh.
+
+\hypertarget{class_program_ac72268c925315098b1632cc97d0f818a}{\index{Program@{Program}!tab@{tab}}
+\index{tab@{tab}!Program@{Program}}
+\subsubsection[{tab}]{\setlength{\rightskip}{0pt plus 5cm}int$\ast$ Program\-::tab\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_program_ac72268c925315098b1632cc97d0f818a}
+Zamienna wskaznikowa wskazujaca na dynamicznie tworzona tablice z danymi. 
+
+Definicja w linii 38 pliku program.\-hh.
+
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{program_8hh}{program.\-hh}\item 
+\hyperlink{program_8cpp}{program.\-cpp}\end{DoxyCompactItemize}

@@ -1,0 +1,107 @@
+\begin{theindex}
+
+  \item {$\sim $\discretionary {-}{}{}Program}
+    \subitem {Program}, \hyperpage{11}
+
+  \indexspace
+
+  \item {Benchmark}, \hyperpage{7}
+    \subitem {czas\discretionary {-}{}{}\_\discretionary {-}{}{}pomiaru}, 
+		\hyperpage{9}
+    \subitem {rozpocznij\discretionary {-}{}{}\_\discretionary {-}{}{}pomiar}, 
+		\hyperpage{7}
+    \subitem {t1}, \hyperpage{9}
+    \subitem {t2}, \hyperpage{9}
+    \subitem {testuj}, \hyperpage{8}
+    \subitem {zakoncz\discretionary {-}{}{}\_\discretionary {-}{}{}pomiar}, 
+		\hyperpage{9}
+  \item {benchmark.\discretionary {-}{}{}cpp}, \hyperpage{17}
+  \item {benchmark.\discretionary {-}{}{}hh}, \hyperpage{17}
+
+  \indexspace
+
+  \item {czas\discretionary {-}{}{}\_\discretionary {-}{}{}pomiaru}
+    \subitem {Benchmark}, \hyperpage{9}
+
+  \indexspace
+
+  \item {get\discretionary {-}{}{}Rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}tab}
+    \subitem {Program}, \hyperpage{11}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{19}
+  \item {main.\discretionary {-}{}{}cpp}, \hyperpage{18}
+    \subitem {main}, \hyperpage{19}
+
+  \indexspace
+
+  \item {plik\discretionary {-}{}{}\_\discretionary {-}{}{}we}
+    \subitem {Program}, \hyperpage{14}
+  \item {plik\discretionary {-}{}{}\_\discretionary {-}{}{}wy}
+    \subitem {Program}, \hyperpage{14}
+  \item {Program}, \hyperpage{10}
+    \subitem {$\sim $\discretionary {-}{}{}Program}, \hyperpage{11}
+    \subitem {get\discretionary {-}{}{}Rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}tab}, 
+		\hyperpage{11}
+    \subitem {plik\discretionary {-}{}{}\_\discretionary {-}{}{}we}, 
+		\hyperpage{14}
+    \subitem {plik\discretionary {-}{}{}\_\discretionary {-}{}{}wy}, 
+		\hyperpage{14}
+    \subitem {Program}, \hyperpage{11}
+    \subitem {rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}tab}, 
+		\hyperpage{14}
+    \subitem {tab}, \hyperpage{14}
+    \subitem {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane}, 
+		\hyperpage{11}
+    \subitem {wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program}, 
+		\hyperpage{13}
+    \subitem {wyswietl\discretionary {-}{}{}\_\discretionary {-}{}{}dane}, 
+		\hyperpage{13}
+    \subitem {zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}dane}, 
+		\hyperpage{13}
+  \item {program.\discretionary {-}{}{}cpp}, \hyperpage{20}
+  \item {program.\discretionary {-}{}{}hh}, \hyperpage{20}
+
+  \indexspace
+
+  \item {rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}tab}
+    \subitem {Program}, \hyperpage{14}
+  \item {rozpocznij\discretionary {-}{}{}\_\discretionary {-}{}{}pomiar}
+    \subitem {Benchmark}, \hyperpage{7}
+
+  \indexspace
+
+  \item {t1}
+    \subitem {Benchmark}, \hyperpage{9}
+  \item {t2}
+    \subitem {Benchmark}, \hyperpage{9}
+  \item {tab}
+    \subitem {Program}, \hyperpage{14}
+  \item {Tabx2}, \hyperpage{14}
+    \subitem {wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program}, 
+		\hyperpage{15}
+  \item {tabx2.\discretionary {-}{}{}cpp}, \hyperpage{21}
+  \item {tabx2.\discretionary {-}{}{}hh}, \hyperpage{22}
+  \item {testuj}
+    \subitem {Benchmark}, \hyperpage{8}
+
+  \indexspace
+
+  \item {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane}
+    \subitem {Program}, \hyperpage{11}
+  \item {wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program}
+    \subitem {Program}, \hyperpage{13}
+    \subitem {Tabx2}, \hyperpage{15}
+  \item {wyswietl\discretionary {-}{}{}\_\discretionary {-}{}{}dane}
+    \subitem {Program}, \hyperpage{13}
+
+  \indexspace
+
+  \item {zakoncz\discretionary {-}{}{}\_\discretionary {-}{}{}pomiar}
+    \subitem {Benchmark}, \hyperpage{9}
+  \item {zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}dane}
+    \subitem {Program}, \hyperpage{13}
+
+\end{theindex}

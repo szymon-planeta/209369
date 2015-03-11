@@ -1,0 +1,166 @@
+\hypertarget{class_benchmark}{\section{Dokumentacja klasy Benchmark}
+\label{class_benchmark}\index{Benchmark@{Benchmark}}
+}
+
+
+Klasa \hyperlink{class_benchmark}{Benchmark}.  
+
+
+
+
+{\ttfamily \#include $<$benchmark.\-hh$>$}
+
+\subsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_benchmark_a684ddcbdd22608838da1ad23f1fcc2ce}{rozpocznij\-\_\-pomiar} ()
+\begin{DoxyCompactList}\small\item\em Procedura rozpocznij\-\_\-pomiar. \end{DoxyCompactList}\item 
+void \hyperlink{class_benchmark_a3f4b4595a3d1145d238f5b3c8486d875}{zakoncz\-\_\-pomiar} ()
+\begin{DoxyCompactList}\small\item\em Procedura zakoncz\-\_\-pomiar. \end{DoxyCompactList}\item 
+double \hyperlink{class_benchmark_ad2f9d4a8ee5a33de5261c2b2eff3d87a}{testuj} (\hyperlink{class_program}{Program} \&program, char $\ast$dane, int ilosc\-\_\-danych, int ilosc\-\_\-testow)
+\begin{DoxyCompactList}\small\item\em Metoda testuj. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+timeval \hyperlink{class_benchmark_ab951e55dc4470926e0eb0761804f13bc}{t1}
+\begin{DoxyCompactList}\small\item\em Zmienne t1, t2. \end{DoxyCompactList}\item 
+timeval \hyperlink{class_benchmark_a2b145dd2458fea33d6df41f310058bec}{t2}
+\item 
+double \hyperlink{class_benchmark_ab72b3cbe324970fd8c738f03718d52fc}{czas\-\_\-pomiaru}
+\begin{DoxyCompactList}\small\item\em Zmienna czas\-\_\-pomiaru. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Opis szczegółowy}
+Jest to klasa służąca do testowania programów. 
+
+Definicja w linii 23 pliku benchmark.\-hh.
+
+
+
+\subsection{Dokumentacja funkcji składowych}
+\hypertarget{class_benchmark_a684ddcbdd22608838da1ad23f1fcc2ce}{\index{Benchmark@{Benchmark}!rozpocznij\-\_\-pomiar@{rozpocznij\-\_\-pomiar}}
+\index{rozpocznij\-\_\-pomiar@{rozpocznij\-\_\-pomiar}!Benchmark@{Benchmark}}
+\subsubsection[{rozpocznij\-\_\-pomiar}]{\setlength{\rightskip}{0pt plus 5cm}void Benchmark\-::rozpocznij\-\_\-pomiar (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_benchmark_a684ddcbdd22608838da1ad23f1fcc2ce}
+Rozpoczyna pomiar czasu. 
+
+Definicja w linii 6 pliku benchmark.\-cpp.
+
+
+
+Oto graf wywoływań tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_benchmark_a684ddcbdd22608838da1ad23f1fcc2ce_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_benchmark_ad2f9d4a8ee5a33de5261c2b2eff3d87a}{\index{Benchmark@{Benchmark}!testuj@{testuj}}
+\index{testuj@{testuj}!Benchmark@{Benchmark}}
+\subsubsection[{testuj}]{\setlength{\rightskip}{0pt plus 5cm}double Benchmark\-::testuj (
+\begin{DoxyParamCaption}
+\item[{{\bf Program} \&}]{program, }
+\item[{char $\ast$}]{dane, }
+\item[{int}]{ilosc\-\_\-danych, }
+\item[{int}]{ilosc\-\_\-testow}
+\end{DoxyParamCaption}
+)}}\label{class_benchmark_ad2f9d4a8ee5a33de5261c2b2eff3d87a}
+Dokonuje testow wybranego programu.
+
+
+\begin{DoxyParams}[1]{Parametry}
+\mbox{\tt in}  & {\em program} & \hyperlink{class_program}{Program} wybrany do testowania. \\
+\hline
+\mbox{\tt in}  & {\em dane} & Wskaznik na nazwe pliku z danymi. \\
+\hline
+\mbox{\tt in}  & {\em ilosc\-\_\-danych} & Ilosc danych, ktore chcemy pobrac do testu. \\
+\hline
+\mbox{\tt in}  & {\em ilosc\-\_\-pomiarow} & Ilosc testow, jakie chcemy przeprowadzic.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+Metoda zwraca sredni czas wykonania programu dla podanych parametrow. 
+\end{DoxyReturn}
+
+
+Definicja w linii 16 pliku benchmark.\-cpp.
+
+
+
+Oto graf wywołań dla tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{class_benchmark_ad2f9d4a8ee5a33de5261c2b2eff3d87a_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Oto graf wywoływań tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=250pt]{class_benchmark_ad2f9d4a8ee5a33de5261c2b2eff3d87a_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_benchmark_a3f4b4595a3d1145d238f5b3c8486d875}{\index{Benchmark@{Benchmark}!zakoncz\-\_\-pomiar@{zakoncz\-\_\-pomiar}}
+\index{zakoncz\-\_\-pomiar@{zakoncz\-\_\-pomiar}!Benchmark@{Benchmark}}
+\subsubsection[{zakoncz\-\_\-pomiar}]{\setlength{\rightskip}{0pt plus 5cm}void Benchmark\-::zakoncz\-\_\-pomiar (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_benchmark_a3f4b4595a3d1145d238f5b3c8486d875}
+Konczy pomiar czasu i zapisuje wartosc zmierzona w zmiennej czas\-\_\-pomiaru. 
+
+Definicja w linii 10 pliku benchmark.\-cpp.
+
+
+
+Oto graf wywoływań tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_benchmark_a3f4b4595a3d1145d238f5b3c8486d875_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Dokumentacja atrybutów składowych}
+\hypertarget{class_benchmark_ab72b3cbe324970fd8c738f03718d52fc}{\index{Benchmark@{Benchmark}!czas\-\_\-pomiaru@{czas\-\_\-pomiaru}}
+\index{czas\-\_\-pomiaru@{czas\-\_\-pomiaru}!Benchmark@{Benchmark}}
+\subsubsection[{czas\-\_\-pomiaru}]{\setlength{\rightskip}{0pt plus 5cm}double Benchmark\-::czas\-\_\-pomiaru\hspace{0.3cm}{\ttfamily [private]}}}\label{class_benchmark_ab72b3cbe324970fd8c738f03718d52fc}
+Przechowuje obliczony czas pojedynczego pomiaru (w ms) 
+
+Definicja w linii 37 pliku benchmark.\-hh.
+
+\hypertarget{class_benchmark_ab951e55dc4470926e0eb0761804f13bc}{\index{Benchmark@{Benchmark}!t1@{t1}}
+\index{t1@{t1}!Benchmark@{Benchmark}}
+\subsubsection[{t1}]{\setlength{\rightskip}{0pt plus 5cm}timeval Benchmark\-::t1\hspace{0.3cm}{\ttfamily [private]}}}\label{class_benchmark_ab951e55dc4470926e0eb0761804f13bc}
+Zmienne przechowujace momenty rozpaczecia i zakonczenia pomiaru czasu. 
+
+Definicja w linii 30 pliku benchmark.\-hh.
+
+\hypertarget{class_benchmark_a2b145dd2458fea33d6df41f310058bec}{\index{Benchmark@{Benchmark}!t2@{t2}}
+\index{t2@{t2}!Benchmark@{Benchmark}}
+\subsubsection[{t2}]{\setlength{\rightskip}{0pt plus 5cm}timeval Benchmark\-::t2\hspace{0.3cm}{\ttfamily [private]}}}\label{class_benchmark_a2b145dd2458fea33d6df41f310058bec}
+
+
+Definicja w linii 30 pliku benchmark.\-hh.
+
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{benchmark_8hh}{benchmark.\-hh}\item 
+\hyperlink{benchmark_8cpp}{benchmark.\-cpp}\end{DoxyCompactItemize}
