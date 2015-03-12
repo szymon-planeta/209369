@@ -31,8 +31,8 @@ obj/kolejka.o: src/kolejka.cpp inc/kolejka.hh
 obj/struktura.o: src/struktura.cpp inc/struktura.hh
 	g++ ${CPPFLAGS} -o obj/struktura.o src/struktura.cpp
 
-obj/program.o: src/program.cpp inc/program.hh
-	g++ ${CPPFLAGS} -o obj/program.o src/program.cpp
+
+	g++ ${CPPFLAGS} -o obj/struktura.o src/struktura.cpp
 
 clean:
 	rm -f obj/*.o benchmark
