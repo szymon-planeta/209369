@@ -16,7 +16,7 @@
     \subitem {zakoncz\discretionary {-}{}{}\_\discretionary {-}{}{}pomiar}, 
 		\hyperpage{9}
   \item {benchmark.\discretionary {-}{}{}cpp}, \hyperpage{17}
-  \item {benchmark.\discretionary {-}{}{}hh}, \hyperpage{17}
+  \item {benchmark.\discretionary {-}{}{}hh}, \hyperpage{18, 19}
 
   \indexspace
 
@@ -31,14 +31,15 @@
   \indexspace
 
   \item {main}
-    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{19}
-  \item {main.\discretionary {-}{}{}cpp}, \hyperpage{18}
-    \subitem {main}, \hyperpage{19}
+    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{20}
+  \item {main.\discretionary {-}{}{}cpp}, \hyperpage{19}, 
+		\hyperpage{21}
+    \subitem {main}, \hyperpage{20}
 
   \indexspace
 
   \item {plik\discretionary {-}{}{}\_\discretionary {-}{}{}we}
-    \subitem {Program}, \hyperpage{14}
+    \subitem {Program}, \hyperpage{13}
   \item {plik\discretionary {-}{}{}\_\discretionary {-}{}{}wy}
     \subitem {Program}, \hyperpage{14}
   \item {Program}, \hyperpage{10}
@@ -46,7 +47,7 @@
     \subitem {get\discretionary {-}{}{}Rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}tab}, 
 		\hyperpage{11}
     \subitem {plik\discretionary {-}{}{}\_\discretionary {-}{}{}we}, 
-		\hyperpage{14}
+		\hyperpage{13}
     \subitem {plik\discretionary {-}{}{}\_\discretionary {-}{}{}wy}, 
 		\hyperpage{14}
     \subitem {Program}, \hyperpage{11}
@@ -61,8 +62,8 @@
 		\hyperpage{13}
     \subitem {zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}dane}, 
 		\hyperpage{13}
-  \item {program.\discretionary {-}{}{}cpp}, \hyperpage{20}
-  \item {program.\discretionary {-}{}{}hh}, \hyperpage{20}
+  \item {program.\discretionary {-}{}{}cpp}, \hyperpage{21}
+  \item {program.\discretionary {-}{}{}hh}, \hyperpage{22, 23}
 
   \indexspace
 
@@ -82,8 +83,8 @@
   \item {Tabx2}, \hyperpage{14}
     \subitem {wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program}, 
 		\hyperpage{15}
-  \item {tabx2.\discretionary {-}{}{}cpp}, \hyperpage{21}
-  \item {tabx2.\discretionary {-}{}{}hh}, \hyperpage{22}
+  \item {tabx2.\discretionary {-}{}{}cpp}, \hyperpage{24}
+  \item {tabx2.\discretionary {-}{}{}hh}, \hyperpage{24, 25}
   \item {testuj}
     \subitem {Benchmark}, \hyperpage{8}
 

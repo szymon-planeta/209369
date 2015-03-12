@@ -1,11 +1,10 @@
 //program.cpp
 #include "program.hh"
-#include <iostream>
-#include <fstream>
-#include <cstdlib>
 
 using namespace std;
-
+/*!\file
+ * \brief Plik zawiera metody klasy Program
+ */
 bool Program::wczytaj_dane(char* nazwa_pliku){
   if(plik_we.good()==true)
     plik_we.close();

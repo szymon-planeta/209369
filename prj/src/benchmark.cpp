@@ -1,7 +1,8 @@
 #include "benchmark.hh"
-#include <iostream>
-#include <sys/time.h>
-#include <fstream>
+
+/*!\file
+ * \brief Plik zawiera metody klasy Benchmark
+ */
 
 void Benchmark::rozpocznij_pomiar(){
   gettimeofday(&t1, NULL);
@@ -18,20 +19,20 @@ double Benchmark::testuj(Program &program, char* dane, int ilosc_danych, int ilo
   double srednia=0;
   ofstream wyniki;
   wyniki.open("wyniki.csv",ios::app);
-  rozpocznij_pomiar();
+  
   if(program.wczytaj_dane(dane,ilosc_danych)==false){
       cerr<<"Niewystarczajaca ilosc danych!"<<endl;
       return 0;
     }
-  char* dane_wy = (char*)"dane_wy.dat";
-  program.wczytaj_dane(dane,ilosc_danych);
+  //char* dane_wy = (char*)"dane_wy.dat"; //do zapisu do pliku
+  rozpocznij_pomiar();
   program.wykonaj_program();
-  program.zapisz_dane(dane_wy);
+  //program.zapisz_dane(dane_wy);//zapisywanie wynikow do pliku
   zakoncz_pomiar();
   suma+=czas_pomiaru;
   for(int i=1;i<ilosc_testow;i++){
+    //program.wczytaj_dane(dane,ilosc_danych); //zawsze dane od poczatku
     rozpocznij_pomiar();
-    program.wczytaj_dane(dane,ilosc_danych);
     program.wykonaj_program();
     zakoncz_pomiar();
     suma+=czas_pomiaru;

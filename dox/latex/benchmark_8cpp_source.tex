@@ -1,0 +1,47 @@
+\hypertarget{benchmark_8cpp}{\section{benchmark.\-cpp}
+\label{benchmark_8cpp}\index{benchmark.\-cpp@{benchmark.\-cpp}}
+}
+
+\begin{DoxyCode}
+00001 \textcolor{preprocessor}{#include "\hyperlink{benchmark_8hh}{benchmark.hh}"}
+00002 
+\hypertarget{benchmark_8cpp_source_l00007}{}\hyperlink{class_benchmark_a684ddcbdd22608838da1ad23f1fcc2ce}{00007} \textcolor{keywordtype}{void} \hyperlink{class_benchmark_a684ddcbdd22608838da1ad23f1fcc2ce}{Benchmark::rozpocznij\_pomiar}()\{
+00008   gettimeofday(&\hyperlink{class_benchmark_ab951e55dc4470926e0eb0761804f13bc}{t1}, NULL);
+00009 \}
+00010 
+\hypertarget{benchmark_8cpp_source_l00011}{}\hyperlink{class_benchmark_a3f4b4595a3d1145d238f5b3c8486d875}{00011} \textcolor{keywordtype}{void} \hyperlink{class_benchmark_a3f4b4595a3d1145d238f5b3c8486d875}{Benchmark::zakoncz\_pomiar}()\{
+00012   gettimeofday(&\hyperlink{class_benchmark_a2b145dd2458fea33d6df41f310058bec}{t2}, NULL);
+00013   \hyperlink{class_benchmark_ab72b3cbe324970fd8c738f03718d52fc}{czas\_pomiaru} = (\hyperlink{class_benchmark_a2b145dd2458fea33d6df41f310058bec}{t2}.tv\_sec - \hyperlink{class_benchmark_ab951e55dc4470926e0eb0761804f13bc}{t1}.tv\_sec) * 1000.0;      \textcolor{comment}{// sec to ms}
+00014   \hyperlink{class_benchmark_ab72b3cbe324970fd8c738f03718d52fc}{czas\_pomiaru} += (\hyperlink{class_benchmark_a2b145dd2458fea33d6df41f310058bec}{t2}.tv\_usec - \hyperlink{class_benchmark_ab951e55dc4470926e0eb0761804f13bc}{t1}.tv\_usec) / 1000.0;   \textcolor{comment}{// us to ms}
+00015 \}
+00016 
+\hypertarget{benchmark_8cpp_source_l00017}{}\hyperlink{class_benchmark_ad2f9d4a8ee5a33de5261c2b2eff3d87a}{00017} \textcolor{keywordtype}{double} \hyperlink{class_benchmark_ad2f9d4a8ee5a33de5261c2b2eff3d87a}{Benchmark::testuj}(\hyperlink{class_program}{Program} &program, \textcolor{keywordtype}{char}* dane, \textcolor{keywordtype}{int} ilosc\_danych, \textcolor{keywordtype}{int} 
+      ilosc\_testow)\{
+00018   \textcolor{keywordtype}{double} suma=0;
+00019   \textcolor{keywordtype}{double} srednia=0;
+00020   ofstream wyniki;
+00021   wyniki.open(\textcolor{stringliteral}{"wyniki.csv"},ios::app);
+00022   
+00023   \textcolor{keywordflow}{if}(program.\hyperlink{class_program_a618d9d6e3255ca5ff3d65de0385c6d46}{wczytaj\_dane}(dane,ilosc\_danych)==\textcolor{keyword}{false})\{
+00024       cerr<<\textcolor{stringliteral}{"Niewystarczajaca ilosc danych!"}<<endl;
+00025       \textcolor{keywordflow}{return} 0;
+00026     \}
+00027   \textcolor{comment}{//char* dane\_wy = (char*)"dane\_wy.dat"; //do zapisu do pliku}
+00028   \hyperlink{class_benchmark_a684ddcbdd22608838da1ad23f1fcc2ce}{rozpocznij\_pomiar}();
+00029   program.\hyperlink{class_program_ac396401ba5cade863d0e6acb727bec4e}{wykonaj\_program}();
+00030   \textcolor{comment}{//program.zapisz\_dane(dane\_wy);//zapisywanie wynikow do pliku}
+00031   \hyperlink{class_benchmark_a3f4b4595a3d1145d238f5b3c8486d875}{zakoncz\_pomiar}();
+00032   suma+=\hyperlink{class_benchmark_ab72b3cbe324970fd8c738f03718d52fc}{czas\_pomiaru};
+00033   \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i=1;i<ilosc\_testow;i++)\{
+00034     \textcolor{comment}{//program.wczytaj\_dane(dane,ilosc\_danych); //zawsze dane od poczatku}
+00035     \hyperlink{class_benchmark_a684ddcbdd22608838da1ad23f1fcc2ce}{rozpocznij\_pomiar}();
+00036     program.\hyperlink{class_program_ac396401ba5cade863d0e6acb727bec4e}{wykonaj\_program}();
+00037     \hyperlink{class_benchmark_a3f4b4595a3d1145d238f5b3c8486d875}{zakoncz\_pomiar}();
+00038     suma+=\hyperlink{class_benchmark_ab72b3cbe324970fd8c738f03718d52fc}{czas\_pomiaru};
+00039   \}
+00040   srednia=suma/(ilosc\_testow);
+00041   wyniki<<endl<<ilosc\_danych<<\textcolor{stringliteral}{","}<<srednia;
+00042   wyniki.close();
+00043   \textcolor{keywordflow}{return} srednia;
+00044 \}
+\end{DoxyCode}

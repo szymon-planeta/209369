@@ -1,0 +1,33 @@
+\hypertarget{benchmark_8hh}{\section{benchmark.\-hh}
+\label{benchmark_8hh}\index{benchmark.\-hh@{benchmark.\-hh}}
+}
+
+\begin{DoxyCode}
+00001 \textcolor{comment}{//benchmark.hh}
+00002 
+00003 \textcolor{preprocessor}{#ifndef BENCHMARK\_HH}
+00004 \textcolor{preprocessor}{}\textcolor{preprocessor}{#define BENCHMARK\_HH}
+00005 \textcolor{preprocessor}{}
+00006 \textcolor{preprocessor}{#include <iostream>}
+00007 \textcolor{preprocessor}{#include "\hyperlink{program_8hh}{program.hh}"}
+00008 \textcolor{preprocessor}{#include <sys/time.h>}
+00009 \textcolor{preprocessor}{#include <fstream>}
+00010 
+00016 \textcolor{keyword}{using namespace }std;
+00017 
+\hypertarget{benchmark_8hh_source_l00023}{}\hyperlink{class_benchmark}{00023} \textcolor{keyword}{class }\hyperlink{class_benchmark}{Benchmark}\{
+00024 \textcolor{keyword}{private}:
+\hypertarget{benchmark_8hh_source_l00030}{}\hyperlink{class_benchmark_a2b145dd2458fea33d6df41f310058bec}{00030}   timeval t1, \hyperlink{class_benchmark_a2b145dd2458fea33d6df41f310058bec}{t2};
+00031 
+\hypertarget{benchmark_8hh_source_l00037}{}\hyperlink{class_benchmark_ab72b3cbe324970fd8c738f03718d52fc}{00037}   \textcolor{keywordtype}{double} \hyperlink{class_benchmark_ab72b3cbe324970fd8c738f03718d52fc}{czas\_pomiaru};
+00038 
+00039 \textcolor{keyword}{public}:
+00045   \textcolor{keywordtype}{void} rozpocznij\_pomiar();
+00046 
+00052   \textcolor{keywordtype}{void} zakoncz\_pomiar();
+00053 
+00066   \textcolor{keywordtype}{double} testuj(\hyperlink{class_program}{Program} &program,\textcolor{keywordtype}{char}* dane, \textcolor{keywordtype}{int} ilosc\_danych, \textcolor{keywordtype}{int} ilosc\_testow);
+00067 \};
+00068 
+00069 \textcolor{preprocessor}{#endif}
+\end{DoxyCode}

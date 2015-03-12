@@ -28,8 +28,8 @@
 \indexentry{wyswietl\discretionary {-}{}{}\_\discretionary {-}{}{}dane@{wyswietl\discretionary {-}{}{}\_\discretionary {-}{}{}dane}!Program@{Program}|hyperpage}{13}
 \indexentry{Program@{Program}!zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}dane@{zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}dane}|hyperpage}{13}
 \indexentry{zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}dane@{zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}dane}!Program@{Program}|hyperpage}{13}
-\indexentry{Program@{Program}!plik\discretionary {-}{}{}\_\discretionary {-}{}{}we@{plik\discretionary {-}{}{}\_\discretionary {-}{}{}we}|hyperpage}{14}
-\indexentry{plik\discretionary {-}{}{}\_\discretionary {-}{}{}we@{plik\discretionary {-}{}{}\_\discretionary {-}{}{}we}!Program@{Program}|hyperpage}{14}
+\indexentry{Program@{Program}!plik\discretionary {-}{}{}\_\discretionary {-}{}{}we@{plik\discretionary {-}{}{}\_\discretionary {-}{}{}we}|hyperpage}{13}
+\indexentry{plik\discretionary {-}{}{}\_\discretionary {-}{}{}we@{plik\discretionary {-}{}{}\_\discretionary {-}{}{}we}!Program@{Program}|hyperpage}{13}
 \indexentry{Program@{Program}!plik\discretionary {-}{}{}\_\discretionary {-}{}{}wy@{plik\discretionary {-}{}{}\_\discretionary {-}{}{}wy}|hyperpage}{14}
 \indexentry{plik\discretionary {-}{}{}\_\discretionary {-}{}{}wy@{plik\discretionary {-}{}{}\_\discretionary {-}{}{}wy}!Program@{Program}|hyperpage}{14}
 \indexentry{Program@{Program}!rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}tab@{rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}tab}|hyperpage}{14}
@@ -40,11 +40,18 @@
 \indexentry{Tabx2@{Tabx2}!wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program@{wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program}|hyperpage}{15}
 \indexentry{wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program@{wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program}!Tabx2@{Tabx2}|hyperpage}{15}
 \indexentry{benchmark.\discretionary {-}{}{}cpp@{benchmark.\discretionary {-}{}{}cpp}|hyperpage}{17}
-\indexentry{benchmark.\discretionary {-}{}{}hh@{benchmark.\discretionary {-}{}{}hh}|hyperpage}{17}
-\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{18}
-\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}!main@{main}|hyperpage}{19}
-\indexentry{main@{main}!main.cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{19}
-\indexentry{program.\discretionary {-}{}{}cpp@{program.\discretionary {-}{}{}cpp}|hyperpage}{20}
-\indexentry{program.\discretionary {-}{}{}hh@{program.\discretionary {-}{}{}hh}|hyperpage}{20}
-\indexentry{tabx2.\discretionary {-}{}{}cpp@{tabx2.\discretionary {-}{}{}cpp}|hyperpage}{21}
-\indexentry{tabx2.\discretionary {-}{}{}hh@{tabx2.\discretionary {-}{}{}hh}|hyperpage}{22}
+\indexentry{benchmark.\discretionary {-}{}{}cpp@{benchmark.\discretionary {-}{}{}cpp}|hyperpage}{17}
+\indexentry{benchmark.\discretionary {-}{}{}hh@{benchmark.\discretionary {-}{}{}hh}|hyperpage}{18}
+\indexentry{benchmark.\discretionary {-}{}{}hh@{benchmark.\discretionary {-}{}{}hh}|hyperpage}{19}
+\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{19}
+\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}!main@{main}|hyperpage}{20}
+\indexentry{main@{main}!main.cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{20}
+\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{21}
+\indexentry{program.\discretionary {-}{}{}cpp@{program.\discretionary {-}{}{}cpp}|hyperpage}{21}
+\indexentry{program.\discretionary {-}{}{}cpp@{program.\discretionary {-}{}{}cpp}|hyperpage}{21}
+\indexentry{program.\discretionary {-}{}{}hh@{program.\discretionary {-}{}{}hh}|hyperpage}{22}
+\indexentry{program.\discretionary {-}{}{}hh@{program.\discretionary {-}{}{}hh}|hyperpage}{23}
+\indexentry{tabx2.\discretionary {-}{}{}cpp@{tabx2.\discretionary {-}{}{}cpp}|hyperpage}{24}
+\indexentry{tabx2.\discretionary {-}{}{}cpp@{tabx2.\discretionary {-}{}{}cpp}|hyperpage}{24}
+\indexentry{tabx2.\discretionary {-}{}{}hh@{tabx2.\discretionary {-}{}{}hh}|hyperpage}{24}
+\indexentry{tabx2.\discretionary {-}{}{}hh@{tabx2.\discretionary {-}{}{}hh}|hyperpage}{25}

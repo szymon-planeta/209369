@@ -1,0 +1,24 @@
+\hypertarget{main_8cpp}{\section{main.\-cpp}
+\label{main_8cpp}\index{main.\-cpp@{main.\-cpp}}
+}
+
+\begin{DoxyCode}
+00001 \textcolor{comment}{//main.cpp}
+00002 \textcolor{preprocessor}{#include <iostream>}
+00003 \textcolor{preprocessor}{#include "\hyperlink{program_8hh}{program.hh}"}
+00004 \textcolor{preprocessor}{#include "\hyperlink{tabx2_8hh}{tabx2.hh}"}
+00005 \textcolor{preprocessor}{#include "\hyperlink{benchmark_8hh}{benchmark.hh}"}
+00006 
+00007 \textcolor{keyword}{using namespace }std;
+00008 
+\hypertarget{main_8cpp_source_l00009}{}\hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{00009} \textcolor{keywordtype}{int} \hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}()\{
+00010   \hyperlink{class_tabx2}{Tabx2} a;
+00011   \hyperlink{class_benchmark}{Benchmark} b;
+00012   \textcolor{keywordtype}{char}* dane = (\textcolor{keywordtype}{char}*)\textcolor{stringliteral}{"dane.dat"};
+00013   \textcolor{keywordtype}{int} ilosc\_testow = 20;
+00014   \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} ilosc\_danych=50; ilosc\_danych<1000000;ilosc\_danych*=1.5)\{
+00015     cout << b.\hyperlink{class_benchmark_ad2f9d4a8ee5a33de5261c2b2eff3d87a}{testuj}(a,dane,ilosc\_danych,ilosc\_testow) << endl;
+00016   \}
+00017   \textcolor{keywordflow}{return} 0;
+00018 \}
+\end{DoxyCode}

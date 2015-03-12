@@ -6,7 +6,7 @@
 #include <iostream>
 #include "program.hh"
 #include <sys/time.h>
-#include <vector>
+#include <fstream>
 
 /*!
  * \file

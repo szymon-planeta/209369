@@ -1,8 +1,9 @@
 #include "tabx2.hh"
-#include <iostream>
 
 using namespace std;
-
+/*!\file
+ * \brief Plik zawiera metody klasy Tabx2
+ */
 bool Tabx2::wykonaj_program(){
   if(rozmiar_tab==0){
     cerr<<"Brak danych wejsciowych!"<<endl;

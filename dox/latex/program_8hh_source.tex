@@ -1,0 +1,45 @@
+\hypertarget{program_8hh}{\section{program.\-hh}
+\label{program_8hh}\index{program.\-hh@{program.\-hh}}
+}
+
+\begin{DoxyCode}
+00001 \textcolor{comment}{//program.hh}
+00002 
+00003 \textcolor{preprocessor}{#ifndef PROGRAM\_HH}
+00004 \textcolor{preprocessor}{}\textcolor{preprocessor}{#define PROGRAM\_HH}
+00005 \textcolor{preprocessor}{}
+00006 \textcolor{preprocessor}{#include <fstream>}
+00007 \textcolor{preprocessor}{#include <iostream>}
+00008 
+00009 \textcolor{keyword}{using namespace }std;
+00010 
+\hypertarget{program_8hh_source_l00022}{}\hyperlink{class_program}{00022} \textcolor{keyword}{class }\hyperlink{class_program}{Program}\{
+00023 \textcolor{keyword}{protected}:
+\hypertarget{program_8hh_source_l00031}{}\hyperlink{class_program_a3b5a10104019b9daa23ce4a5f5533820}{00031}   \textcolor{keywordtype}{int} \hyperlink{class_program_a3b5a10104019b9daa23ce4a5f5533820}{rozmiar\_tab};
+00032 
+\hypertarget{program_8hh_source_l00039}{}\hyperlink{class_program_ac72268c925315098b1632cc97d0f818a}{00039}   \textcolor{keywordtype}{int} *\hyperlink{class_program_ac72268c925315098b1632cc97d0f818a}{tab};
+00040 
+\hypertarget{program_8hh_source_l00047}{}\hyperlink{class_program_aac2f72538e24e533c327fe5546a59210}{00047}   ifstream \hyperlink{class_program_aac2f72538e24e533c327fe5546a59210}{plik\_we};
+00048 
+\hypertarget{program_8hh_source_l00055}{}\hyperlink{class_program_a59c1761a5ea875b3d5a4678928f3a1de}{00055}   ofstream \hyperlink{class_program_a59c1761a5ea875b3d5a4678928f3a1de}{plik\_wy};
+00056 
+00057 \textcolor{keyword}{public}:
+\hypertarget{program_8hh_source_l00063}{}\hyperlink{class_program_a4fb9c2979a0dca1e14c75f4cc461bebd}{00063}   \textcolor{keywordtype}{int} \hyperlink{class_program_a4fb9c2979a0dca1e14c75f4cc461bebd}{getRozmiar\_tab}()\{\textcolor{keywordflow}{return} rozmiar\_tab;\}
+00064 
+\hypertarget{program_8hh_source_l00071}{}\hyperlink{class_program_aaefaa0df08f3484476fc4d61e97acbdc}{00071}   \hyperlink{class_program_aaefaa0df08f3484476fc4d61e97acbdc}{Program}()\{rozmiar\_tab=0;tab=NULL;\}
+00072 
+\hypertarget{program_8hh_source_l00079}{}\hyperlink{class_program_a986aef1c50e1d338a3315a47ba6df549}{00079}   \hyperlink{class_program_a986aef1c50e1d338a3315a47ba6df549}{~Program}()\{\textcolor{keyword}{delete}[] tab; tab=NULL;\}
+00080 
+00096   \textcolor{keywordtype}{bool} wczytaj\_dane(\textcolor{keywordtype}{char}* nazwa\_pliku);
+00097 
+00114   \textcolor{keywordtype}{bool} wczytaj\_dane(\textcolor{keywordtype}{char}* nazwa\_pliku, \textcolor{keywordtype}{int} ile\_danych);
+00115 
+00131  \textcolor{keywordtype}{bool} zapisz\_dane(\textcolor{keywordtype}{char}* nazwa\_pliku);
+00132 
+00138   \textcolor{keywordtype}{void} wyswietl\_dane();
+00139 
+00145   \textcolor{keyword}{virtual} \textcolor{keywordtype}{bool} wykonaj\_program();
+00146 \};
+00147 
+00148 \textcolor{preprocessor}{#endif}
+\end{DoxyCode}
