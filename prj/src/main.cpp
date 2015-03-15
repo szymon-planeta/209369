@@ -10,6 +10,10 @@
 using namespace std;
 
 int main(){
+  Lista a;
+  
+  
+  
   //Benchmark b;
   //char* dane = (char*)"dane.dat";
   //A.wczytaj_dane(dane);

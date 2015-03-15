@@ -6,13 +6,20 @@
 
 struct pole{
   int wartosc;
-  int *nastepna;
-  pole(){wartosc=0; nastepna=NULL;}
+  pole *next;
+  pole(){wartosc=0; next=NULL;}
 };
 
 class Lista: public Struktura{
-  int *pole;
-  virtual void push(int x);
+  public: //zmien zmien
+  pole *first;
+  Lista(){
+    first = NULL;
+  }
+public:
+  void push(int x);
+  void pop();
+  int size();
 };
 
 #endif
