@@ -2,7 +2,7 @@
 #ifndef LISTA_HH
 #define LISTA_HH
 
-#include "struktura.hh"
+#include "program.hh"
 
 struct pole{
   int wartosc;
@@ -10,7 +10,7 @@ struct pole{
   pole(){wartosc=0; next=NULL;}
 };
 
-class Lista: public Struktura{
+class Lista: public Program{
   public: //zmien zmien
   pole *first;
   Lista(){

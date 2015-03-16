@@ -19,6 +19,38 @@ void Lista::push(int x){
   }
 }
 
-void Lista::pop(){}
+void Lista::pop(){
+  if(first == NULL){
+    cerr<<"Lista jest pusta!"<<endl;
+  }
+  else{
+    pole *wsk = first;
+    pole *prev = NULL;
+    while(wsk->next){
+      prev=wsk;
+      wsk=wsk->next;
+    }
+    if(prev==NULL){
+      delete wsk;
+      wsk = NULL;
+    }
+    else{
+      prev->next = NULL;
+      delete wsk;
+    }
+  }
+}
 
-int Lista::size(){return 0;}
+int Lista::size(){
+  if(first == NULL)
+    return 0;
+  else{
+    pole *wsk = first;
+    int i=1;
+    while(wsk->next){
+      wsk=wsk->next;
+      i++;
+    }
+    return i;
+  }
+}

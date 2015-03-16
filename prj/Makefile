@@ -6,11 +6,11 @@ CPPFLAGS= -c -g -Iinc -Wall -pedantic
 __start__: benchmark
 	./benchmark
 
-benchmark: obj/main.o obj/program.o obj/benchmark.o obj/tabx2.o obj/struktura.o obj/stos.o obj/lista.o obj/kolejka.o
+benchmark: obj/main.o obj/program.o obj/benchmark.o obj/tabx2.o obj/stos.o obj/lista.o obj/kolejka.o
 	g++ -Wall -pedantic -o benchmark obj/main.o obj/tabx2.o  \
-					obj/program.o obj/benchmark.o obj/struktura.o obj/stos.o obj/lista.o obj/kolejka.o	
+					obj/program.o obj/benchmark.o obj/stos.o obj/lista.o obj/kolejka.o	
 
-obj/main.o: src/main.cpp inc/program.hh	inc/benchmark.hh inc/tabx2.hh inc/struktura.hh inc/stos.hh inc/lista.hh inc/kolejka.hh	
+obj/main.o: src/main.cpp inc/program.hh	inc/benchmark.hh inc/tabx2.hh inc/stos.hh inc/lista.hh inc/kolejka.hh	
 	g++ ${CPPFLAGS} -o obj/main.o src/main.cpp
 
 obj/tabx2.o: src/tabx2.cpp inc/tabx2.hh 
@@ -27,9 +27,6 @@ obj/lista.o: src/lista.cpp inc/lista.hh
 
 obj/kolejka.o: src/kolejka.cpp inc/kolejka.hh
 	g++ ${CPPFLAGS} -o obj/kolejka.o src/kolejka.cpp
-
-obj/struktura.o: src/struktura.cpp inc/struktura.hh
-	g++ ${CPPFLAGS} -o obj/struktura.o src/struktura.cpp
 
 obj/program.o: src/program.cpp inc/program.hh
 	g++ ${CPPFLAGS} -o obj/program.o src/program.cpp
