@@ -11,12 +11,23 @@ using namespace std;
 
 int main(){
   Lista a;
-  for(int i=0;i<1000;i++){
+  //for(int i=0;i<10;i++){
+  cout<<"Rozmiar: "<<a.size()<<endl;
     a.push(10000000);
-  }
-  cout<<"Rozmiar: "<<a.size()<<endl;
-  a.pop(); a.pop(); a.pop();
-  cout<<"Rozmiar: "<<a.size()<<endl;
+cout<<"Rozmiar: "<<a.size()<<endl;
+  // }
+ cout<<a.first->wartosc<<endl;
+ a.push(5000);
+cout<<"Rozmiar: "<<a.size()<<endl;
+ cout<<a.first->wartosc<<endl;
+ a.pop();
+cout<<"Rozmiar: "<<a.size()<<endl;
+ cout<<a.first->wartosc<<endl;
+a.pop();
+cout<<"Rozmiar: "<<a.size()<<endl;
+  //  cout<<"Rozmiar: "<<a.size()<<endl;
+
+  // cout<<"Rozmiar: "<<a.size()<<endl;
   
   //Benchmark b;
   //char* dane = (char*)"dane.dat";

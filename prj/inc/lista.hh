@@ -4,6 +4,18 @@
 
 #include "program.hh"
 
+/*!
+ * \file
+ * \brief Definicja klasy Lista
+ */
+
+/*!
+ * \brief Struktura pole
+ *
+ * Jest to struktura skladowa klasy Lista, zawierajaca
+ * przechowywana wartosc oraz wskaznik na zmienna typu
+ * pole.
+ */
 struct pole{
   int wartosc;
   pole *next;
@@ -17,8 +29,27 @@ class Lista: public Program{
     first = NULL;
   }
 public:
+  /*!
+   * \brief Metoda push
+   *
+   * Dodaje podana wartosc na koniec listy.
+   *
+   * \param[in] x Wartosc, ktora chcemy dodac na koniec listy.
+   */
   void push(int x);
+  /*!
+   * \brief Procedura pop
+   *
+   * Usuwa ostatni element listy.
+   */
   void pop();
+  /*!
+   * \brief Metoda size
+   *
+   * Daje informacje o rozmiarze listy (liczbie jej elementow).
+   *
+   * \return Rozmiar listy (liczba jej elementow)
+   */
   int size();
 };
 
