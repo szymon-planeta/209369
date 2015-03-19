@@ -3,55 +3,127 @@
 \indexentry{rozpocznij\discretionary {-}{}{}\_\discretionary {-}{}{}pomiar@{rozpocznij\discretionary {-}{}{}\_\discretionary {-}{}{}pomiar}!Benchmark@{Benchmark}|hyperpage}{7}
 \indexentry{Benchmark@{Benchmark}!testuj@{testuj}|hyperpage}{8}
 \indexentry{testuj@{testuj}!Benchmark@{Benchmark}|hyperpage}{8}
+\indexentry{Benchmark@{Benchmark}!testuj\discretionary {-}{}{}\_\discretionary {-}{}{}strukture@{testuj\discretionary {-}{}{}\_\discretionary {-}{}{}strukture}|hyperpage}{8}
+\indexentry{testuj\discretionary {-}{}{}\_\discretionary {-}{}{}strukture@{testuj\discretionary {-}{}{}\_\discretionary {-}{}{}strukture}!Benchmark@{Benchmark}|hyperpage}{8}
 \indexentry{Benchmark@{Benchmark}!zakoncz\discretionary {-}{}{}\_\discretionary {-}{}{}pomiar@{zakoncz\discretionary {-}{}{}\_\discretionary {-}{}{}pomiar}|hyperpage}{9}
 \indexentry{zakoncz\discretionary {-}{}{}\_\discretionary {-}{}{}pomiar@{zakoncz\discretionary {-}{}{}\_\discretionary {-}{}{}pomiar}!Benchmark@{Benchmark}|hyperpage}{9}
-\indexentry{Benchmark@{Benchmark}!czas\discretionary {-}{}{}\_\discretionary {-}{}{}pomiaru@{czas\discretionary {-}{}{}\_\discretionary {-}{}{}pomiaru}|hyperpage}{9}
-\indexentry{czas\discretionary {-}{}{}\_\discretionary {-}{}{}pomiaru@{czas\discretionary {-}{}{}\_\discretionary {-}{}{}pomiaru}!Benchmark@{Benchmark}|hyperpage}{9}
-\indexentry{Benchmark@{Benchmark}!t1@{t1}|hyperpage}{9}
-\indexentry{t1@{t1}!Benchmark@{Benchmark}|hyperpage}{9}
-\indexentry{Benchmark@{Benchmark}!t2@{t2}|hyperpage}{9}
-\indexentry{t2@{t2}!Benchmark@{Benchmark}|hyperpage}{9}
-\indexentry{Program@{Program}|hyperpage}{10}
-\indexentry{Program@{Program}!Program@{Program}|hyperpage}{11}
-\indexentry{Program@{Program}!Program@{Program}|hyperpage}{11}
-\indexentry{Program@{Program}!$\sim $\discretionary {-}{}{}Program@{$\sim $\discretionary {-}{}{}Program}|hyperpage}{11}
-\indexentry{$\sim $\discretionary {-}{}{}Program@{$\sim $\discretionary {-}{}{}Program}!Program@{Program}|hyperpage}{11}
-\indexentry{Program@{Program}!get\discretionary {-}{}{}Rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}tab@{get\discretionary {-}{}{}Rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}tab}|hyperpage}{11}
-\indexentry{get\discretionary {-}{}{}Rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}tab@{get\discretionary {-}{}{}Rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}tab}!Program@{Program}|hyperpage}{11}
-\indexentry{Program@{Program}!wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane@{wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane}|hyperpage}{11}
-\indexentry{wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane@{wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane}!Program@{Program}|hyperpage}{11}
-\indexentry{Program@{Program}!wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane@{wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane}|hyperpage}{11}
-\indexentry{wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane@{wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane}!Program@{Program}|hyperpage}{11}
-\indexentry{Program@{Program}!wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program@{wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program}|hyperpage}{13}
-\indexentry{wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program@{wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program}!Program@{Program}|hyperpage}{13}
-\indexentry{Program@{Program}!wyswietl\discretionary {-}{}{}\_\discretionary {-}{}{}dane@{wyswietl\discretionary {-}{}{}\_\discretionary {-}{}{}dane}|hyperpage}{13}
-\indexentry{wyswietl\discretionary {-}{}{}\_\discretionary {-}{}{}dane@{wyswietl\discretionary {-}{}{}\_\discretionary {-}{}{}dane}!Program@{Program}|hyperpage}{13}
-\indexentry{Program@{Program}!zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}dane@{zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}dane}|hyperpage}{13}
-\indexentry{zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}dane@{zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}dane}!Program@{Program}|hyperpage}{13}
-\indexentry{Program@{Program}!plik\discretionary {-}{}{}\_\discretionary {-}{}{}we@{plik\discretionary {-}{}{}\_\discretionary {-}{}{}we}|hyperpage}{13}
-\indexentry{plik\discretionary {-}{}{}\_\discretionary {-}{}{}we@{plik\discretionary {-}{}{}\_\discretionary {-}{}{}we}!Program@{Program}|hyperpage}{13}
-\indexentry{Program@{Program}!plik\discretionary {-}{}{}\_\discretionary {-}{}{}wy@{plik\discretionary {-}{}{}\_\discretionary {-}{}{}wy}|hyperpage}{14}
-\indexentry{plik\discretionary {-}{}{}\_\discretionary {-}{}{}wy@{plik\discretionary {-}{}{}\_\discretionary {-}{}{}wy}!Program@{Program}|hyperpage}{14}
-\indexentry{Program@{Program}!rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}tab@{rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}tab}|hyperpage}{14}
-\indexentry{rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}tab@{rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}tab}!Program@{Program}|hyperpage}{14}
-\indexentry{Program@{Program}!tab@{tab}|hyperpage}{14}
-\indexentry{tab@{tab}!Program@{Program}|hyperpage}{14}
-\indexentry{Tabx2@{Tabx2}|hyperpage}{14}
-\indexentry{Tabx2@{Tabx2}!wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program@{wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program}|hyperpage}{15}
-\indexentry{wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program@{wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program}!Tabx2@{Tabx2}|hyperpage}{15}
-\indexentry{benchmark.\discretionary {-}{}{}cpp@{benchmark.\discretionary {-}{}{}cpp}|hyperpage}{17}
-\indexentry{benchmark.\discretionary {-}{}{}cpp@{benchmark.\discretionary {-}{}{}cpp}|hyperpage}{17}
-\indexentry{benchmark.\discretionary {-}{}{}hh@{benchmark.\discretionary {-}{}{}hh}|hyperpage}{18}
-\indexentry{benchmark.\discretionary {-}{}{}hh@{benchmark.\discretionary {-}{}{}hh}|hyperpage}{19}
-\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{19}
-\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}!main@{main}|hyperpage}{20}
-\indexentry{main@{main}!main.cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{20}
-\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{21}
-\indexentry{program.\discretionary {-}{}{}cpp@{program.\discretionary {-}{}{}cpp}|hyperpage}{21}
-\indexentry{program.\discretionary {-}{}{}cpp@{program.\discretionary {-}{}{}cpp}|hyperpage}{21}
-\indexentry{program.\discretionary {-}{}{}hh@{program.\discretionary {-}{}{}hh}|hyperpage}{22}
-\indexentry{program.\discretionary {-}{}{}hh@{program.\discretionary {-}{}{}hh}|hyperpage}{23}
-\indexentry{tabx2.\discretionary {-}{}{}cpp@{tabx2.\discretionary {-}{}{}cpp}|hyperpage}{24}
-\indexentry{tabx2.\discretionary {-}{}{}cpp@{tabx2.\discretionary {-}{}{}cpp}|hyperpage}{24}
-\indexentry{tabx2.\discretionary {-}{}{}hh@{tabx2.\discretionary {-}{}{}hh}|hyperpage}{24}
-\indexentry{tabx2.\discretionary {-}{}{}hh@{tabx2.\discretionary {-}{}{}hh}|hyperpage}{25}
+\indexentry{Benchmark@{Benchmark}!czas\discretionary {-}{}{}\_\discretionary {-}{}{}pomiaru@{czas\discretionary {-}{}{}\_\discretionary {-}{}{}pomiaru}|hyperpage}{10}
+\indexentry{czas\discretionary {-}{}{}\_\discretionary {-}{}{}pomiaru@{czas\discretionary {-}{}{}\_\discretionary {-}{}{}pomiaru}!Benchmark@{Benchmark}|hyperpage}{10}
+\indexentry{Benchmark@{Benchmark}!t1@{t1}|hyperpage}{10}
+\indexentry{t1@{t1}!Benchmark@{Benchmark}|hyperpage}{10}
+\indexentry{Benchmark@{Benchmark}!t2@{t2}|hyperpage}{10}
+\indexentry{t2@{t2}!Benchmark@{Benchmark}|hyperpage}{10}
+\indexentry{Kolejka@{Kolejka}|hyperpage}{10}
+\indexentry{Kolejka@{Kolejka}!Kolejka@{Kolejka}|hyperpage}{11}
+\indexentry{Kolejka@{Kolejka}!Kolejka@{Kolejka}|hyperpage}{11}
+\indexentry{Kolejka@{Kolejka}!pop@{pop}|hyperpage}{12}
+\indexentry{pop@{pop}!Kolejka@{Kolejka}|hyperpage}{12}
+\indexentry{Kolejka@{Kolejka}!push@{push}|hyperpage}{12}
+\indexentry{push@{push}!Kolejka@{Kolejka}|hyperpage}{12}
+\indexentry{Kolejka@{Kolejka}!size@{size}|hyperpage}{12}
+\indexentry{size@{size}!Kolejka@{Kolejka}|hyperpage}{12}
+\indexentry{Kolejka@{Kolejka}!wyczysc\discretionary {-}{}{}\_\discretionary {-}{}{}dane@{wyczysc\discretionary {-}{}{}\_\discretionary {-}{}{}dane}|hyperpage}{12}
+\indexentry{wyczysc\discretionary {-}{}{}\_\discretionary {-}{}{}dane@{wyczysc\discretionary {-}{}{}\_\discretionary {-}{}{}dane}!Kolejka@{Kolejka}|hyperpage}{12}
+\indexentry{Kolejka@{Kolejka}!wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program@{wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program}|hyperpage}{13}
+\indexentry{wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program@{wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program}!Kolejka@{Kolejka}|hyperpage}{13}
+\indexentry{Kolejka@{Kolejka}!head@{head}|hyperpage}{13}
+\indexentry{head@{head}!Kolejka@{Kolejka}|hyperpage}{13}
+\indexentry{Kolejka@{Kolejka}!tail@{tail}|hyperpage}{13}
+\indexentry{tail@{tail}!Kolejka@{Kolejka}|hyperpage}{13}
+\indexentry{Lista@{Lista}|hyperpage}{14}
+\indexentry{Lista@{Lista}!Lista@{Lista}|hyperpage}{15}
+\indexentry{Lista@{Lista}!Lista@{Lista}|hyperpage}{15}
+\indexentry{Lista@{Lista}!pop@{pop}|hyperpage}{15}
+\indexentry{pop@{pop}!Lista@{Lista}|hyperpage}{15}
+\indexentry{Lista@{Lista}!push@{push}|hyperpage}{15}
+\indexentry{push@{push}!Lista@{Lista}|hyperpage}{15}
+\indexentry{Lista@{Lista}!size@{size}|hyperpage}{16}
+\indexentry{size@{size}!Lista@{Lista}|hyperpage}{16}
+\indexentry{Lista@{Lista}!wyczysc\discretionary {-}{}{}\_\discretionary {-}{}{}dane@{wyczysc\discretionary {-}{}{}\_\discretionary {-}{}{}dane}|hyperpage}{16}
+\indexentry{wyczysc\discretionary {-}{}{}\_\discretionary {-}{}{}dane@{wyczysc\discretionary {-}{}{}\_\discretionary {-}{}{}dane}!Lista@{Lista}|hyperpage}{16}
+\indexentry{Lista@{Lista}!wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program@{wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program}|hyperpage}{16}
+\indexentry{wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program@{wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program}!Lista@{Lista}|hyperpage}{16}
+\indexentry{Lista@{Lista}!first@{first}|hyperpage}{17}
+\indexentry{first@{first}!Lista@{Lista}|hyperpage}{17}
+\indexentry{pole@{pole}|hyperpage}{17}
+\indexentry{pole@{pole}!pole@{pole}|hyperpage}{18}
+\indexentry{pole@{pole}!pole@{pole}|hyperpage}{18}
+\indexentry{pole@{pole}!next@{next}|hyperpage}{18}
+\indexentry{next@{next}!pole@{pole}|hyperpage}{18}
+\indexentry{pole@{pole}!wartosc@{wartosc}|hyperpage}{18}
+\indexentry{wartosc@{wartosc}!pole@{pole}|hyperpage}{18}
+\indexentry{Program@{Program}|hyperpage}{18}
+\indexentry{Program@{Program}!Program@{Program}|hyperpage}{19}
+\indexentry{Program@{Program}!Program@{Program}|hyperpage}{19}
+\indexentry{Program@{Program}!$\sim $\discretionary {-}{}{}Program@{$\sim $\discretionary {-}{}{}Program}|hyperpage}{19}
+\indexentry{$\sim $\discretionary {-}{}{}Program@{$\sim $\discretionary {-}{}{}Program}!Program@{Program}|hyperpage}{19}
+\indexentry{Program@{Program}!get\discretionary {-}{}{}Rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}tab@{get\discretionary {-}{}{}Rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}tab}|hyperpage}{19}
+\indexentry{get\discretionary {-}{}{}Rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}tab@{get\discretionary {-}{}{}Rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}tab}!Program@{Program}|hyperpage}{19}
+\indexentry{Program@{Program}!wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane@{wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane}|hyperpage}{19}
+\indexentry{wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane@{wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane}!Program@{Program}|hyperpage}{19}
+\indexentry{Program@{Program}!wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane@{wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane}|hyperpage}{20}
+\indexentry{wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane@{wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane}!Program@{Program}|hyperpage}{20}
+\indexentry{Program@{Program}!wyczysc\discretionary {-}{}{}\_\discretionary {-}{}{}dane@{wyczysc\discretionary {-}{}{}\_\discretionary {-}{}{}dane}|hyperpage}{20}
+\indexentry{wyczysc\discretionary {-}{}{}\_\discretionary {-}{}{}dane@{wyczysc\discretionary {-}{}{}\_\discretionary {-}{}{}dane}!Program@{Program}|hyperpage}{20}
+\indexentry{Program@{Program}!wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program@{wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program}|hyperpage}{20}
+\indexentry{wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program@{wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program}!Program@{Program}|hyperpage}{20}
+\indexentry{Program@{Program}!wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program@{wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program}|hyperpage}{21}
+\indexentry{wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program@{wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program}!Program@{Program}|hyperpage}{21}
+\indexentry{Program@{Program}!wyswietl\discretionary {-}{}{}\_\discretionary {-}{}{}dane@{wyswietl\discretionary {-}{}{}\_\discretionary {-}{}{}dane}|hyperpage}{21}
+\indexentry{wyswietl\discretionary {-}{}{}\_\discretionary {-}{}{}dane@{wyswietl\discretionary {-}{}{}\_\discretionary {-}{}{}dane}!Program@{Program}|hyperpage}{21}
+\indexentry{Program@{Program}!zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}dane@{zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}dane}|hyperpage}{21}
+\indexentry{zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}dane@{zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}dane}!Program@{Program}|hyperpage}{21}
+\indexentry{Program@{Program}!plik\discretionary {-}{}{}\_\discretionary {-}{}{}we@{plik\discretionary {-}{}{}\_\discretionary {-}{}{}we}|hyperpage}{21}
+\indexentry{plik\discretionary {-}{}{}\_\discretionary {-}{}{}we@{plik\discretionary {-}{}{}\_\discretionary {-}{}{}we}!Program@{Program}|hyperpage}{21}
+\indexentry{Program@{Program}!plik\discretionary {-}{}{}\_\discretionary {-}{}{}wy@{plik\discretionary {-}{}{}\_\discretionary {-}{}{}wy}|hyperpage}{21}
+\indexentry{plik\discretionary {-}{}{}\_\discretionary {-}{}{}wy@{plik\discretionary {-}{}{}\_\discretionary {-}{}{}wy}!Program@{Program}|hyperpage}{21}
+\indexentry{Program@{Program}!rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}tab@{rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}tab}|hyperpage}{22}
+\indexentry{rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}tab@{rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}tab}!Program@{Program}|hyperpage}{22}
+\indexentry{Program@{Program}!tab@{tab}|hyperpage}{22}
+\indexentry{tab@{tab}!Program@{Program}|hyperpage}{22}
+\indexentry{Stos@{Stos}|hyperpage}{22}
+\indexentry{Stos@{Stos}!Stos@{Stos}|hyperpage}{23}
+\indexentry{Stos@{Stos}!Stos@{Stos}|hyperpage}{23}
+\indexentry{Stos@{Stos}!pop@{pop}|hyperpage}{24}
+\indexentry{pop@{pop}!Stos@{Stos}|hyperpage}{24}
+\indexentry{Stos@{Stos}!push@{push}|hyperpage}{24}
+\indexentry{push@{push}!Stos@{Stos}|hyperpage}{24}
+\indexentry{Stos@{Stos}!size@{size}|hyperpage}{24}
+\indexentry{size@{size}!Stos@{Stos}|hyperpage}{24}
+\indexentry{Stos@{Stos}!wyczysc\discretionary {-}{}{}\_\discretionary {-}{}{}dane@{wyczysc\discretionary {-}{}{}\_\discretionary {-}{}{}dane}|hyperpage}{24}
+\indexentry{wyczysc\discretionary {-}{}{}\_\discretionary {-}{}{}dane@{wyczysc\discretionary {-}{}{}\_\discretionary {-}{}{}dane}!Stos@{Stos}|hyperpage}{24}
+\indexentry{Stos@{Stos}!wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program@{wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program}|hyperpage}{25}
+\indexentry{wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program@{wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program}!Stos@{Stos}|hyperpage}{25}
+\indexentry{Stos@{Stos}!top@{top}|hyperpage}{25}
+\indexentry{top@{top}!Stos@{Stos}|hyperpage}{25}
+\indexentry{Tabx2@{Tabx2}|hyperpage}{26}
+\indexentry{Tabx2@{Tabx2}!wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program@{wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program}|hyperpage}{26}
+\indexentry{wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program@{wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program}!Tabx2@{Tabx2}|hyperpage}{26}
+\indexentry{benchmark.\discretionary {-}{}{}cpp@{benchmark.\discretionary {-}{}{}cpp}|hyperpage}{29}
+\indexentry{benchmark.\discretionary {-}{}{}cpp@{benchmark.\discretionary {-}{}{}cpp}|hyperpage}{30}
+\indexentry{benchmark.\discretionary {-}{}{}hh@{benchmark.\discretionary {-}{}{}hh}|hyperpage}{30}
+\indexentry{benchmark.\discretionary {-}{}{}hh@{benchmark.\discretionary {-}{}{}hh}|hyperpage}{31}
+\indexentry{kolejka.\discretionary {-}{}{}cpp@{kolejka.\discretionary {-}{}{}cpp}|hyperpage}{32}
+\indexentry{kolejka.\discretionary {-}{}{}cpp@{kolejka.\discretionary {-}{}{}cpp}|hyperpage}{33}
+\indexentry{kolejka.\discretionary {-}{}{}hh@{kolejka.\discretionary {-}{}{}hh}|hyperpage}{33}
+\indexentry{kolejka.\discretionary {-}{}{}hh@{kolejka.\discretionary {-}{}{}hh}|hyperpage}{34}
+\indexentry{lista.\discretionary {-}{}{}cpp@{lista.\discretionary {-}{}{}cpp}|hyperpage}{35}
+\indexentry{lista.\discretionary {-}{}{}cpp@{lista.\discretionary {-}{}{}cpp}|hyperpage}{35}
+\indexentry{lista.\discretionary {-}{}{}hh@{lista.\discretionary {-}{}{}hh}|hyperpage}{36}
+\indexentry{lista.\discretionary {-}{}{}hh@{lista.\discretionary {-}{}{}hh}|hyperpage}{37}
+\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{38}
+\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}!main@{main}|hyperpage}{38}
+\indexentry{main@{main}!main.cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{38}
+\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{39}
+\indexentry{program.\discretionary {-}{}{}cpp@{program.\discretionary {-}{}{}cpp}|hyperpage}{39}
+\indexentry{program.\discretionary {-}{}{}cpp@{program.\discretionary {-}{}{}cpp}|hyperpage}{40}
+\indexentry{program.\discretionary {-}{}{}hh@{program.\discretionary {-}{}{}hh}|hyperpage}{41}
+\indexentry{program.\discretionary {-}{}{}hh@{program.\discretionary {-}{}{}hh}|hyperpage}{42}
+\indexentry{stos.\discretionary {-}{}{}cpp@{stos.\discretionary {-}{}{}cpp}|hyperpage}{42}
+\indexentry{stos.\discretionary {-}{}{}cpp@{stos.\discretionary {-}{}{}cpp}|hyperpage}{43}
+\indexentry{stos.\discretionary {-}{}{}hh@{stos.\discretionary {-}{}{}hh}|hyperpage}{44}
+\indexentry{stos.\discretionary {-}{}{}hh@{stos.\discretionary {-}{}{}hh}|hyperpage}{45}
+\indexentry{tabx2.\discretionary {-}{}{}cpp@{tabx2.\discretionary {-}{}{}cpp}|hyperpage}{45}
+\indexentry{tabx2.\discretionary {-}{}{}cpp@{tabx2.\discretionary {-}{}{}cpp}|hyperpage}{46}
+\indexentry{tabx2.\discretionary {-}{}{}hh@{tabx2.\discretionary {-}{}{}hh}|hyperpage}{46}
+\indexentry{tabx2.\discretionary {-}{}{}hh@{tabx2.\discretionary {-}{}{}hh}|hyperpage}{47}

@@ -9,21 +9,18 @@
  * \brief Definicja klasy Stos
  */
 
-/*!
- * \brief Struktura pole
- *
- * Jest to struktura skladowa klasy Lista, zawierajaca
- * przechowywana wartosc oraz wskaznik na zmienna typu
- * pole.
- */
 
 class Stos: public Program{
-public: //zmien zmien
   pole *top;
-  Stos(){
-     top = NULL;
-   }
 public:
+  /*!
+   * \brief Konstruktor bezparametryczny
+   *
+   * Ustawia wierzcholek stosu na NULL
+   */
+  Stos(){
+    top = NULL;
+  }
   /*!
    * \brief Metoda push
    *
@@ -46,6 +43,26 @@ public:
    * \return Rozmiar stosu (liczba jego elementow)
    */
   int size();
+
+ /*!
+   * \brief Metoda wykonaj_program
+   *
+   * Wykonuje zadany program - dodanie zadanej ilosci danych z pliku
+   * do stosu za pomoca metody push()
+   *
+   * \retval TRUE Poprawnie wykonano program
+   * \retval FALSE Nie wczytano danych
+   */
+  bool wykonaj_program(char* nazwa_pliku,int ilosc_danych);
+
+  /*!
+   * \brief Metoda wyczysc_dane
+   *
+   * Usuwa zadana ilosc elementow stosu za pomoca metody pop
+   *
+   * \param[in] ile Liczba elementow, ktore chcemy usunac.
+   */
+  void wyczysc_dane(int ile);
 };
 
 #endif

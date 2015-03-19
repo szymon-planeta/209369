@@ -11,33 +11,11 @@ using namespace std;
 
 int main(){
   Lista a;
-  //for(int i=0;i<10;i++){
-  cout<<"Rozmiar: "<<a.size()<<endl;
-    a.push(10000000);
-cout<<"Rozmiar: "<<a.size()<<endl;
-  // }
- cout<<a.first->wartosc<<endl;
- a.push(5000);
-cout<<"Rozmiar: "<<a.size()<<endl;
- cout<<a.first->wartosc<<endl;
- a.pop();
-cout<<"Rozmiar: "<<a.size()<<endl;
- cout<<a.first->wartosc<<endl;
-a.pop();
-cout<<"Rozmiar: "<<a.size()<<endl;
-  //  cout<<"Rozmiar: "<<a.size()<<endl;
-
-  // cout<<"Rozmiar: "<<a.size()<<endl;
-  
-  //Benchmark b;
-  //char* dane = (char*)"dane.dat";
-  //A.wczytaj_dane(dane);
-
-
-
-  //int ilosc_testow = 30;
-  // for(int ilosc_danych=50; ilosc_danych<1000000;ilosc_danych*=2){
-  // cout << b.testuj(a,dane,ilosc_danych,ilosc_testow) << endl;
-  //}
+  Benchmark b;
+  char* dane = (char*)"dane.dat";
+  int ilosc_testow = 10;
+  for(int ilosc_danych=10; ilosc_danych<=100000000;ilosc_danych*=2){
+    cout << b.testuj_strukture(a,dane,ilosc_danych,ilosc_testow) << endl;
+  }
   return 0;
 }

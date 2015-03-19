@@ -39,7 +39,10 @@
 00138   \textcolor{keywordtype}{void} wyswietl\_dane();
 00139 
 00145   \textcolor{keyword}{virtual} \textcolor{keywordtype}{bool} wykonaj\_program();
-00146 \};
-00147 
-00148 \textcolor{preprocessor}{#endif}
+00146 
+00147   \textcolor{keyword}{virtual} \textcolor{keywordtype}{bool} wykonaj\_program(\textcolor{keywordtype}{char}* nazwa\_pliku, \textcolor{keywordtype}{int} ilosc\_danych)=0;
+00148   \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} wyczysc\_dane(\textcolor{keywordtype}{int} ile)=0;
+00149 \};
+00150 
+00151 \textcolor{preprocessor}{#endif}
 \end{DoxyCode}

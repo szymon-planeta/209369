@@ -143,6 +143,9 @@ public:
    * Wykonuje program na zadanej liczbie danych.
    */
   virtual bool wykonaj_program();
+
+  virtual bool wykonaj_program(char* nazwa_pliku, int ilosc_danych)=0;
+  virtual void wyczysc_dane(int ile)=0;
 };
 
 #endif

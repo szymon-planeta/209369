@@ -12,7 +12,7 @@
 00007 \textcolor{preprocessor}{#include "\hyperlink{program_8hh}{program.hh}"}
 00008 \textcolor{preprocessor}{#include <sys/time.h>}
 00009 \textcolor{preprocessor}{#include <fstream>}
-00010 
+00010 \textcolor{preprocessor}{#include "\hyperlink{kolejka_8hh}{kolejka.hh}"}
 00016 \textcolor{keyword}{using namespace }std;
 00017 
 \hypertarget{benchmark_8hh_source_l00023}{}\hyperlink{class_benchmark}{00023} \textcolor{keyword}{class }\hyperlink{class_benchmark}{Benchmark}\{
@@ -27,7 +27,9 @@
 00052   \textcolor{keywordtype}{void} zakoncz\_pomiar();
 00053 
 00066   \textcolor{keywordtype}{double} testuj(\hyperlink{class_program}{Program} &program,\textcolor{keywordtype}{char}* dane, \textcolor{keywordtype}{int} ilosc\_danych, \textcolor{keywordtype}{int} ilosc\_testow);
-00067 \};
-00068 
-00069 \textcolor{preprocessor}{#endif}
+00067 
+00081   \textcolor{keywordtype}{double} testuj\_strukture(\hyperlink{class_program}{Program} &program,\textcolor{keywordtype}{char}* dane, \textcolor{keywordtype}{int} ilosc\_danych, \textcolor{keywordtype}{int} ilosc\_testow);
+00082 \};
+00083 
+00084 \textcolor{preprocessor}{#endif}
 \end{DoxyCode}

@@ -35,3 +35,24 @@ int Stos::size(){
   return i;
   }
 }
+
+bool Stos::wykonaj_program(char* nazwa_pliku, int ilosc_danych){
+  int tmp;
+  plik_we.open(nazwa_pliku);
+  if(plik_we.good()==false){
+    cerr<<"Blad odczytu pliku!"<<endl;
+    return false;
+  }
+  plik_we >> rozmiar_tab;
+  for(int i=0;i<ilosc_danych;i++){
+    plik_we >> tmp;
+    push(tmp);
+  }
+  plik_we.close();
+  return true;
+}
+
+void Stos::wyczysc_dane(int ile){
+  for(int i=0;i<ile;i++)
+    pop();
+}

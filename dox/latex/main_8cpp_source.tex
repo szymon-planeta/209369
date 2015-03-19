@@ -8,17 +8,20 @@
 00003 \textcolor{preprocessor}{#include "\hyperlink{program_8hh}{program.hh}"}
 00004 \textcolor{preprocessor}{#include "\hyperlink{tabx2_8hh}{tabx2.hh}"}
 00005 \textcolor{preprocessor}{#include "\hyperlink{benchmark_8hh}{benchmark.hh}"}
-00006 
-00007 \textcolor{keyword}{using namespace }std;
-00008 
-\hypertarget{main_8cpp_source_l00009}{}\hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{00009} \textcolor{keywordtype}{int} \hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}()\{
-00010   \hyperlink{class_tabx2}{Tabx2} a;
-00011   \hyperlink{class_benchmark}{Benchmark} b;
-00012   \textcolor{keywordtype}{char}* dane = (\textcolor{keywordtype}{char}*)\textcolor{stringliteral}{"dane.dat"};
-00013   \textcolor{keywordtype}{int} ilosc\_testow = 20;
-00014   \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} ilosc\_danych=50; ilosc\_danych<1000000;ilosc\_danych*=1.5)\{
-00015     cout << b.\hyperlink{class_benchmark_ad2f9d4a8ee5a33de5261c2b2eff3d87a}{testuj}(a,dane,ilosc\_danych,ilosc\_testow) << endl;
-00016   \}
-00017   \textcolor{keywordflow}{return} 0;
-00018 \}
+00006 \textcolor{preprocessor}{#include "\hyperlink{stos_8hh}{stos.hh}"}
+00007 \textcolor{preprocessor}{#include "\hyperlink{kolejka_8hh}{kolejka.hh}"}
+00008 \textcolor{preprocessor}{#include "\hyperlink{lista_8hh}{lista.hh}"}
+00009 
+00010 \textcolor{keyword}{using namespace }std;
+00011 
+\hypertarget{main_8cpp_source_l00012}{}\hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{00012} \textcolor{keywordtype}{int} \hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}()\{
+00013   \hyperlink{class_lista}{Lista} a;
+00014   \hyperlink{class_benchmark}{Benchmark} b;
+00015   \textcolor{keywordtype}{char}* dane = (\textcolor{keywordtype}{char}*)\textcolor{stringliteral}{"dane.dat"};
+00016   \textcolor{keywordtype}{int} ilosc\_testow = 10;
+00017   \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} ilosc\_danych=10; ilosc\_danych<=100000000;ilosc\_danych*=2)\{
+00018     cout << b.\hyperlink{class_benchmark_ac8fa0356657b4a1ffd46df6ae7fd78d0}{testuj\_strukture}(a,dane,ilosc\_danych,ilosc\_testow) << endl;
+00019   \}
+00020   \textcolor{keywordflow}{return} 0;
+00021 \}
 \end{DoxyCode}

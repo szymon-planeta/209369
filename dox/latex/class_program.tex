@@ -12,12 +12,11 @@ Modeluje klase \hyperlink{class_program}{Program}.
 
 
 
-Diagram dziedziczenia dla Program
-\nopagebreak
+Diagram dziedziczenia dla Program\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=132pt]{class_program__inherit__graph}
+\includegraphics[width=303pt]{class_program__inherit__graph}
 \end{center}
 \end{figure}
 \subsection*{Metody publiczne}
@@ -38,7 +37,11 @@ bool \hyperlink{class_program_a0a0d555a69e791820a70000375462e32}{zapisz\-\_\-dan
 void \hyperlink{class_program_ac939bc41859b867dd631163f6540573f}{wyswietl\-\_\-dane} ()
 \begin{DoxyCompactList}\small\item\em Procedura wyswietl\-\_\-dane. \end{DoxyCompactList}\item 
 virtual bool \hyperlink{class_program_ac396401ba5cade863d0e6acb727bec4e}{wykonaj\-\_\-program} ()
-\begin{DoxyCompactList}\small\item\em Wirtualna metoda wykonaj\-\_\-program. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Wirtualna metoda wykonaj\-\_\-program. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_program_afc2ba31ffb01e8d2c6448a222fa02c8c}{wykonaj\-\_\-program} (char $\ast$nazwa\-\_\-pliku, int ilosc\-\_\-danych)=0
+\item 
+virtual void \hyperlink{class_program_a4f26df1d57d90eeb7095e1ef2fe4c229}{wyczysc\-\_\-dane} (int ile)=0
+\end{DoxyCompactItemize}
 \subsection*{Atrybuty chronione}
 \begin{DoxyCompactItemize}
 \item 
@@ -123,12 +126,11 @@ Definicja w linii \hyperlink{program_8cpp_source_l00008}{8} pliku \hyperlink{pro
 
 
 
-Oto graf wywoływań tej funkcji\-:
-\nopagebreak
+Oto graf wywoływań tej funkcji\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{class_program_a618d9d6e3255ca5ff3d65de0385c6d46_icgraph}
+\includegraphics[width=332pt]{class_program_a618d9d6e3255ca5ff3d65de0385c6d46_icgraph}
 \end{center}
 \end{figure}
 
@@ -161,6 +163,28 @@ Wczytuje okreslona liczbe danych z pliku. W pierwszej linii pliku musi znajdowac
 
 Definicja w linii \hyperlink{program_8cpp_source_l00026}{26} pliku \hyperlink{program_8cpp_source}{program.\-cpp}.
 
+\hypertarget{class_program_a4f26df1d57d90eeb7095e1ef2fe4c229}{\index{Program@{Program}!wyczysc\-\_\-dane@{wyczysc\-\_\-dane}}
+\index{wyczysc\-\_\-dane@{wyczysc\-\_\-dane}!Program@{Program}}
+\subsubsection[{wyczysc\-\_\-dane}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Program\-::wyczysc\-\_\-dane (
+\begin{DoxyParamCaption}
+\item[{int}]{ile}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{class_program_a4f26df1d57d90eeb7095e1ef2fe4c229}
+
+
+Implementowany w \hyperlink{class_lista_af73c0c1eba31c0d82d107d57e99fc3d7}{Lista}, \hyperlink{class_kolejka_aaf67b4be89eaa07ebd9cbae057dc2b0d}{Kolejka} i \hyperlink{class_stos_aa54f9d021e324f5a204dbc8193dd9a6e}{Stos}.
+
+
+
+Oto graf wywoływań tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_program_a4f26df1d57d90eeb7095e1ef2fe4c229_icgraph}
+\end{center}
+\end{figure}
+
+
 \hypertarget{class_program_ac396401ba5cade863d0e6acb727bec4e}{\index{Program@{Program}!wykonaj\-\_\-program@{wykonaj\-\_\-program}}
 \index{wykonaj\-\_\-program@{wykonaj\-\_\-program}!Program@{Program}}
 \subsubsection[{wykonaj\-\_\-program}]{\setlength{\rightskip}{0pt plus 5cm}bool Program\-::wykonaj\-\_\-program (
@@ -178,8 +202,7 @@ Definicja w linii \hyperlink{program_8cpp_source_l00067}{67} pliku \hyperlink{pr
 
 
 
-Oto graf wywoływań tej funkcji\-:
-\nopagebreak
+Oto graf wywoływań tej funkcji\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -187,6 +210,18 @@ Oto graf wywoływań tej funkcji\-:
 \end{center}
 \end{figure}
 
+
+\hypertarget{class_program_afc2ba31ffb01e8d2c6448a222fa02c8c}{\index{Program@{Program}!wykonaj\-\_\-program@{wykonaj\-\_\-program}}
+\index{wykonaj\-\_\-program@{wykonaj\-\_\-program}!Program@{Program}}
+\subsubsection[{wykonaj\-\_\-program}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool Program\-::wykonaj\-\_\-program (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{nazwa\-\_\-pliku, }
+\item[{int}]{ilosc\-\_\-danych}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{class_program_afc2ba31ffb01e8d2c6448a222fa02c8c}
+
+
+Implementowany w \hyperlink{class_lista_a39367fb8f22f8bb34ba65bcc37f522bf}{Lista}, \hyperlink{class_kolejka_af849bac74dd62a28df378ed3f95b622e}{Kolejka} i \hyperlink{class_stos_a7b9d5405298070fa7cbd3389a99dbcc8}{Stos}.
 
 \hypertarget{class_program_ac939bc41859b867dd631163f6540573f}{\index{Program@{Program}!wyswietl\-\_\-dane@{wyswietl\-\_\-dane}}
 \index{wyswietl\-\_\-dane@{wyswietl\-\_\-dane}!Program@{Program}}

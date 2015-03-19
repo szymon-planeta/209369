@@ -1,0 +1,60 @@
+\hypertarget{stos_8cpp}{\section{stos.\-cpp}
+\label{stos_8cpp}\index{stos.\-cpp@{stos.\-cpp}}
+}
+
+\begin{DoxyCode}
+00001 \textcolor{comment}{//stos.cpp}
+00002 \textcolor{preprocessor}{#include "\hyperlink{stos_8hh}{stos.hh}"}
+\hypertarget{stos_8cpp_source_l00007}{}\hyperlink{class_stos_a08bb7c9208d9a81d30fe569deceb946f}{00007} \textcolor{keywordtype}{void} \hyperlink{class_stos_a08bb7c9208d9a81d30fe569deceb946f}{Stos::push}(\textcolor{keywordtype}{int} x)\{
+00008   \hyperlink{structpole}{pole} *nowe = \textcolor{keyword}{new} \hyperlink{structpole}{pole};
+00009   nowe->\hyperlink{structpole_a22b23161f03ecb022f751026360b8348}{wartosc} = x;
+00010   nowe->\hyperlink{structpole_a323a379be6456423a7d002d2f67a7a23}{next}=\hyperlink{class_stos_adcfbb6ee470a16fa67eddb412dc556a0}{top};
+00011   \hyperlink{class_stos_adcfbb6ee470a16fa67eddb412dc556a0}{top}=nowe;
+00012 \}
+00013     
+\hypertarget{stos_8cpp_source_l00014}{}\hyperlink{class_stos_a88b0da41b49ef4d4b63cfd4924665683}{00014} \textcolor{keywordtype}{void} \hyperlink{class_stos_a88b0da41b49ef4d4b63cfd4924665683}{Stos::pop}()\{
+00015   \textcolor{keywordflow}{if}(\hyperlink{class_stos_adcfbb6ee470a16fa67eddb412dc556a0}{top} == NULL)
+00016     cerr<<\textcolor{stringliteral}{"Stos jest pusty!"}<<endl;
+00017   \textcolor{keywordflow}{else}\{
+00018     \hyperlink{structpole}{pole} *tmp = \hyperlink{class_stos_adcfbb6ee470a16fa67eddb412dc556a0}{top};
+00019     \hyperlink{class_stos_adcfbb6ee470a16fa67eddb412dc556a0}{top}=\hyperlink{class_stos_adcfbb6ee470a16fa67eddb412dc556a0}{top}->\hyperlink{structpole_a323a379be6456423a7d002d2f67a7a23}{next};
+00020     \textcolor{keyword}{delete} tmp;
+00021   \}
+00022 \}
+00023 
+\hypertarget{stos_8cpp_source_l00024}{}\hyperlink{class_stos_a696195d5125d9bbe6b491bc5985f9461}{00024} \textcolor{keywordtype}{int} \hyperlink{class_stos_a696195d5125d9bbe6b491bc5985f9461}{Stos::size}()\{
+00025  
+00026   \textcolor{keywordflow}{if}(\hyperlink{class_stos_adcfbb6ee470a16fa67eddb412dc556a0}{top} == NULL)
+00027     \textcolor{keywordflow}{return} 0;
+00028   \textcolor{keywordflow}{else}\{
+00029     \hyperlink{structpole}{pole} *wsk = \hyperlink{class_stos_adcfbb6ee470a16fa67eddb412dc556a0}{top};
+00030     \textcolor{keywordtype}{int} i=1;
+00031     \textcolor{keywordflow}{while}(wsk->\hyperlink{structpole_a323a379be6456423a7d002d2f67a7a23}{next})\{
+00032       wsk=wsk->\hyperlink{structpole_a323a379be6456423a7d002d2f67a7a23}{next};
+00033       i++;
+00034     \}
+00035   \textcolor{keywordflow}{return} i;
+00036   \}
+00037 \}
+00038 
+\hypertarget{stos_8cpp_source_l00039}{}\hyperlink{class_stos_a7b9d5405298070fa7cbd3389a99dbcc8}{00039} \textcolor{keywordtype}{bool} \hyperlink{class_program_ac396401ba5cade863d0e6acb727bec4e}{Stos::wykonaj\_program}(\textcolor{keywordtype}{char}* nazwa\_pliku, \textcolor{keywordtype}{int} ilosc\_danych)\{
+00040   \textcolor{keywordtype}{int} tmp;
+00041   \hyperlink{class_program_aac2f72538e24e533c327fe5546a59210}{plik\_we}.open(nazwa\_pliku);
+00042   \textcolor{keywordflow}{if}(\hyperlink{class_program_aac2f72538e24e533c327fe5546a59210}{plik\_we}.good()==\textcolor{keyword}{false})\{
+00043     cerr<<\textcolor{stringliteral}{"Blad odczytu pliku!"}<<endl;
+00044     \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+00045   \}
+00046   \hyperlink{class_program_aac2f72538e24e533c327fe5546a59210}{plik\_we} >> \hyperlink{class_program_a3b5a10104019b9daa23ce4a5f5533820}{rozmiar\_tab};
+00047   \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i=0;i<ilosc\_danych;i++)\{
+00048     \hyperlink{class_program_aac2f72538e24e533c327fe5546a59210}{plik\_we} >> tmp;
+00049     \hyperlink{class_stos_a08bb7c9208d9a81d30fe569deceb946f}{push}(tmp);
+00050   \}
+00051   \hyperlink{class_program_aac2f72538e24e533c327fe5546a59210}{plik\_we}.close();
+00052   \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+00053 \}
+00054 
+\hypertarget{stos_8cpp_source_l00055}{}\hyperlink{class_stos_aa54f9d021e324f5a204dbc8193dd9a6e}{00055} \textcolor{keywordtype}{void} \hyperlink{class_stos_aa54f9d021e324f5a204dbc8193dd9a6e}{Stos::wyczysc\_dane}(\textcolor{keywordtype}{int} ile)\{
+00056   \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i=0;i<ile;i++)
+00057     \hyperlink{class_stos_a88b0da41b49ef4d4b63cfd4924665683}{pop}();
+00058 \}
+\end{DoxyCode}

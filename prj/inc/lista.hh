@@ -23,12 +23,16 @@ struct pole{
 };
 
 class Lista: public Program{
-  public: //zmien zmien
   pole *first;
-  Lista(){
+public:
+  /*!
+   * \brief Konstruktor bezparametryczny
+   *
+   * Ustawia poczatek listy na NULL
+   */
+ Lista(){
     first = NULL;
   }
-public:
   /*!
    * \brief Metoda push
    *
@@ -51,6 +55,26 @@ public:
    * \return Rozmiar listy (liczba jej elementow)
    */
   int size();
+
+  /*!
+   * \brief Metoda wykonaj_program
+   *
+   * Wykonuje zadany program - dodanie zadanej ilosci danych z pliku
+   * do listy za pomoca metody push()
+   *
+   * \retval TRUE Poprawnie wykonano program
+   * \retval FALSE Nie wczytano danych
+   */
+  bool wykonaj_program(char* nazwa_pliku,int ilosc_danych);
+
+  /*!
+   * \brief Metoda wyczysc_dane
+   *
+   * Usuwa zadana ilosc elementow listy za pomoca metody pop
+   *
+   * \param[in] ile Liczba elementow, ktore chcemy usunac.
+   */
+  void wyczysc_dane(int ile);
 };
 
 #endif

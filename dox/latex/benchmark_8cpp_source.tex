@@ -44,4 +44,30 @@
 00042   wyniki.close();
 00043   \textcolor{keywordflow}{return} srednia;
 00044 \}
+00045 
+\hypertarget{benchmark_8cpp_source_l00046}{}\hyperlink{class_benchmark_ac8fa0356657b4a1ffd46df6ae7fd78d0}{00046} \textcolor{keywordtype}{double} \hyperlink{class_benchmark_ac8fa0356657b4a1ffd46df6ae7fd78d0}{Benchmark::testuj\_strukture}(\hyperlink{class_program}{Program} &program,\textcolor{keywordtype}{char}* dane, \textcolor{keywordtype}{int} 
+      ilosc\_danych, \textcolor{keywordtype}{int} ilosc\_testow)\{
+00047   \textcolor{keywordtype}{double} suma=0;
+00048   \textcolor{keywordtype}{double} srednia=0;
+00049   ofstream wyniki;
+00050   
+00051   \hyperlink{class_benchmark_a684ddcbdd22608838da1ad23f1fcc2ce}{rozpocznij\_pomiar}();
+00052   program.\hyperlink{class_program_ac396401ba5cade863d0e6acb727bec4e}{wykonaj\_program}(dane,ilosc\_danych);
+00053   \hyperlink{class_benchmark_a3f4b4595a3d1145d238f5b3c8486d875}{zakoncz\_pomiar}();
+00054   program.\hyperlink{class_program_a4f26df1d57d90eeb7095e1ef2fe4c229}{wyczysc\_dane}(ilosc\_danych);
+00055   suma+=\hyperlink{class_benchmark_ab72b3cbe324970fd8c738f03718d52fc}{czas\_pomiaru};
+00056   \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i=1;i<ilosc\_testow;i++)\{
+00057     \hyperlink{class_benchmark_a684ddcbdd22608838da1ad23f1fcc2ce}{rozpocznij\_pomiar}();
+00058     program.\hyperlink{class_program_ac396401ba5cade863d0e6acb727bec4e}{wykonaj\_program}(dane,ilosc\_danych);
+00059     \hyperlink{class_benchmark_a3f4b4595a3d1145d238f5b3c8486d875}{zakoncz\_pomiar}();
+00060     program.\hyperlink{class_program_a4f26df1d57d90eeb7095e1ef2fe4c229}{wyczysc\_dane}(ilosc\_danych); 
+00061     suma+=\hyperlink{class_benchmark_ab72b3cbe324970fd8c738f03718d52fc}{czas\_pomiaru};
+00062   \}
+00063   srednia=suma/(ilosc\_testow);
+00064 
+00065   wyniki.open(\textcolor{stringliteral}{"wyniki.csv"},ios::app);
+00066   wyniki<<endl<<ilosc\_danych<<\textcolor{stringliteral}{","}<<srednia;
+00067   wyniki.close();
+00068   \textcolor{keywordflow}{return} srednia;
+00069 \}
 \end{DoxyCode}

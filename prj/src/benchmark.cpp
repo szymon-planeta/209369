@@ -42,3 +42,28 @@ double Benchmark::testuj(Program &program, char* dane, int ilosc_danych, int ilo
   wyniki.close();
   return srednia;
 }
+
+double Benchmark::testuj_strukture(Program &program,char* dane, int ilosc_danych, int ilosc_testow){
+  double suma=0;
+  double srednia=0;
+  ofstream wyniki;
+  
+  rozpocznij_pomiar();
+  program.wykonaj_program(dane,ilosc_danych);
+  zakoncz_pomiar();
+  program.wyczysc_dane(ilosc_danych);
+  suma+=czas_pomiaru;
+  for(int i=1;i<ilosc_testow;i++){
+    rozpocznij_pomiar();
+    program.wykonaj_program(dane,ilosc_danych);
+    zakoncz_pomiar();
+    program.wyczysc_dane(ilosc_danych); 
+    suma+=czas_pomiaru;
+  }
+  srednia=suma/(ilosc_testow);
+
+  wyniki.open("wyniki.csv",ios::app);
+  wyniki<<endl<<ilosc_danych<<","<<srednia;
+  wyniki.close();
+  return srednia;
+}

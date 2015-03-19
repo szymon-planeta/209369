@@ -1,0 +1,28 @@
+\hypertarget{stos_8hh}{\section{stos.\-hh}
+\label{stos_8hh}\index{stos.\-hh@{stos.\-hh}}
+}
+
+\begin{DoxyCode}
+00001 \textcolor{comment}{//stos.hh}
+00002 \textcolor{preprocessor}{#ifndef STOS\_HH}
+00003 \textcolor{preprocessor}{}\textcolor{preprocessor}{#define STOS\_HH}
+00004 \textcolor{preprocessor}{}\textcolor{preprocessor}{#include "\hyperlink{program_8hh}{program.hh}"}
+00005 \textcolor{preprocessor}{#include "\hyperlink{lista_8hh}{lista.hh}"}
+00006 
+\hypertarget{stos_8hh_source_l00013}{}\hyperlink{class_stos}{00013} \textcolor{keyword}{class }\hyperlink{class_stos}{Stos}: \textcolor{keyword}{public} \hyperlink{class_program}{Program}\{
+\hypertarget{stos_8hh_source_l00014}{}\hyperlink{class_stos_adcfbb6ee470a16fa67eddb412dc556a0}{00014}   \hyperlink{structpole}{pole} *\hyperlink{class_stos_adcfbb6ee470a16fa67eddb412dc556a0}{top};
+00015 \textcolor{keyword}{public}:
+\hypertarget{stos_8hh_source_l00021}{}\hyperlink{class_stos_a1de3b50386d5dfb56ddece17d0ea2389}{00021}   \hyperlink{class_stos_a1de3b50386d5dfb56ddece17d0ea2389}{Stos}()\{
+00022     \hyperlink{class_stos_adcfbb6ee470a16fa67eddb412dc556a0}{top} = NULL;
+00023   \}
+00031   \textcolor{keywordtype}{void} \hyperlink{class_stos_a08bb7c9208d9a81d30fe569deceb946f}{push}(\textcolor{keywordtype}{int} x);
+00037   \textcolor{keywordtype}{void} \hyperlink{class_stos_a88b0da41b49ef4d4b63cfd4924665683}{pop}();
+00045   \textcolor{keywordtype}{int} \hyperlink{class_stos_a696195d5125d9bbe6b491bc5985f9461}{size}();
+00046 
+00056   \textcolor{keywordtype}{bool} \hyperlink{class_program_ac396401ba5cade863d0e6acb727bec4e}{wykonaj\_program}(\textcolor{keywordtype}{char}* nazwa\_pliku,\textcolor{keywordtype}{int} ilosc\_danych);
+00057 
+00065   \textcolor{keywordtype}{void} \hyperlink{class_stos_aa54f9d021e324f5a204dbc8193dd9a6e}{wyczysc\_dane}(\textcolor{keywordtype}{int} ile);
+00066 \};
+00067 
+00068 \textcolor{preprocessor}{#endif}
+\end{DoxyCode}

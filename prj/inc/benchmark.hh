@@ -7,7 +7,7 @@
 #include "program.hh"
 #include <sys/time.h>
 #include <fstream>
-
+#include "kolejka.hh"
 /*!
  * \file
  * \brief Definicja klasy Benchmark
@@ -54,7 +54,7 @@ public:
   /*!
    * \brief Metoda testuj
    *
-   * Dokonuje testow wybranego programu.
+   * Dokonuje testow wybranego programu. Dane wczytywane sa do tablicy.
    *
    * \param[in] program Program wybrany do testowania.
    * \param[in] dane Wskaznik na nazwe pliku z danymi.
@@ -64,6 +64,21 @@ public:
    * \return Metoda zwraca sredni czas wykonania programu dla podanych parametrow.
    */
   double testuj(Program &program,char* dane, int ilosc_danych, int ilosc_testow);
+
+  /*!
+   * \brief Metoda testuj_strukture
+   *
+   * Dokonuje testow wybranego programu. Dane wczytywane sa do odpowiedniej
+   * struktury.
+   *
+   * \param[in] program Program wybrany do testowania.
+   * \param[in] dane Wskaznik na nazwe pliku z danymi.
+   * \param[in] ilosc_danych Ilosc danych, ktore chcemy pobrac do testu.
+   * \param[in] ilosc_testow Ilosc testow, jakie chcemy przeprowadzic.
+   *
+   * \return Metoda zwraca sredni czas wykonania programu dla podanych parametrow.
+   */
+  double testuj_strukture(Program &program,char* dane, int ilosc_danych, int ilosc_testow);
 };
 
 #endif

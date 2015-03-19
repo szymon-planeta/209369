@@ -1,0 +1,233 @@
+\hypertarget{class_kolejka}{\section{Dokumentacja klasy Kolejka}
+\label{class_kolejka}\index{Kolejka@{Kolejka}}
+}
+
+
+{\ttfamily \#include $<$kolejka.\-hh$>$}
+
+
+
+Diagram dziedziczenia dla Kolejka\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=132pt]{class_kolejka__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Diagram współpracy dla Kolejka\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=225pt]{class_kolejka__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_kolejka_a37c886fdc73dce62b04da0381dec5484}{Kolejka} ()
+\item 
+void \hyperlink{class_kolejka_a220ee5f92afb7712ce2bc502decfa6c9}{push} (int x)
+\begin{DoxyCompactList}\small\item\em Metoda push. \end{DoxyCompactList}\item 
+void \hyperlink{class_kolejka_adfdd97205e15a3ce3d0e99af64122572}{pop} ()
+\begin{DoxyCompactList}\small\item\em Procedura pop. \end{DoxyCompactList}\item 
+int \hyperlink{class_kolejka_a82920d7b90e967a4d5e175a20fe6de68}{size} ()
+\begin{DoxyCompactList}\small\item\em Metoda size. \end{DoxyCompactList}\item 
+bool \hyperlink{class_kolejka_af849bac74dd62a28df378ed3f95b622e}{wykonaj\-\_\-program} (char $\ast$nazwa\-\_\-pliku, int ilosc\-\_\-danych)
+\begin{DoxyCompactList}\small\item\em Metoda wykonaj\-\_\-program. \end{DoxyCompactList}\item 
+void \hyperlink{class_kolejka_aaf67b4be89eaa07ebd9cbae057dc2b0d}{wyczysc\-\_\-dane} (int ile)
+\begin{DoxyCompactList}\small\item\em Metoda wyczysc\-\_\-dane. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{structpole}{pole} $\ast$ \hyperlink{class_kolejka_a3d36327a29f61dc107ca0147ab4cbc52}{head}
+\item 
+\hyperlink{structpole}{pole} $\ast$ \hyperlink{class_kolejka_a9e4cb4e670cf69985de2a92e479d327f}{tail}
+\end{DoxyCompactItemize}
+\subsection*{Dodatkowe Dziedziczone Składowe}
+
+
+\subsection{Opis szczegółowy}
+
+
+Definicja w linii \hyperlink{kolejka_8hh_source_l00011}{11} pliku \hyperlink{kolejka_8hh_source}{kolejka.\-hh}.
+
+
+
+\subsection{Dokumentacja konstruktora i destruktora}
+\hypertarget{class_kolejka_a37c886fdc73dce62b04da0381dec5484}{\index{Kolejka@{Kolejka}!Kolejka@{Kolejka}}
+\index{Kolejka@{Kolejka}!Kolejka@{Kolejka}}
+\subsubsection[{Kolejka}]{\setlength{\rightskip}{0pt plus 5cm}Kolejka\-::\-Kolejka (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_kolejka_a37c886fdc73dce62b04da0381dec5484}
+\textbackslash{} brief Konstruktor bezparametryczny
+
+Ustawia glowe (head) i ogon (tail) kolejki na N\-U\-L\-L 
+
+Definicja w linii \hyperlink{kolejka_8hh_source_l00021}{21} pliku \hyperlink{kolejka_8hh_source}{kolejka.\-hh}.
+
+
+
+\subsection{Dokumentacja funkcji składowych}
+\hypertarget{class_kolejka_adfdd97205e15a3ce3d0e99af64122572}{\index{Kolejka@{Kolejka}!pop@{pop}}
+\index{pop@{pop}!Kolejka@{Kolejka}}
+\subsubsection[{pop}]{\setlength{\rightskip}{0pt plus 5cm}void Kolejka\-::pop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_kolejka_adfdd97205e15a3ce3d0e99af64122572}
+Usuwa element z poczatku kolejki. 
+
+Definicja w linii \hyperlink{kolejka_8cpp_source_l00020}{20} pliku \hyperlink{kolejka_8cpp_source}{kolejka.\-cpp}.
+
+
+
+Oto graf wywoływań tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{class_kolejka_adfdd97205e15a3ce3d0e99af64122572_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_kolejka_a220ee5f92afb7712ce2bc502decfa6c9}{\index{Kolejka@{Kolejka}!push@{push}}
+\index{push@{push}!Kolejka@{Kolejka}}
+\subsubsection[{push}]{\setlength{\rightskip}{0pt plus 5cm}void Kolejka\-::push (
+\begin{DoxyParamCaption}
+\item[{int}]{x}
+\end{DoxyParamCaption}
+)}}\label{class_kolejka_a220ee5f92afb7712ce2bc502decfa6c9}
+Dodaje podana wartosc na koniec kolejki.
+
+
+\begin{DoxyParams}[1]{Parametry}
+\mbox{\tt in}  & {\em x} & Wartosc, ktora chcemy dodac na koniec kolejki. \\
+\hline
+\end{DoxyParams}
+
+
+Definicja w linii \hyperlink{kolejka_8cpp_source_l00007}{7} pliku \hyperlink{kolejka_8cpp_source}{kolejka.\-cpp}.
+
+
+
+Oto graf wywoływań tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=324pt]{class_kolejka_a220ee5f92afb7712ce2bc502decfa6c9_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_kolejka_a82920d7b90e967a4d5e175a20fe6de68}{\index{Kolejka@{Kolejka}!size@{size}}
+\index{size@{size}!Kolejka@{Kolejka}}
+\subsubsection[{size}]{\setlength{\rightskip}{0pt plus 5cm}int Kolejka\-::size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_kolejka_a82920d7b90e967a4d5e175a20fe6de68}
+Daje informacje o rozmiarze kolejki (liczbie jej elementow).
+
+\begin{DoxyReturn}{Zwraca}
+Rozmiar kolejki (liczba jej elementow) 
+\end{DoxyReturn}
+
+
+Definicja w linii \hyperlink{kolejka_8cpp_source_l00031}{31} pliku \hyperlink{kolejka_8cpp_source}{kolejka.\-cpp}.
+
+\hypertarget{class_kolejka_aaf67b4be89eaa07ebd9cbae057dc2b0d}{\index{Kolejka@{Kolejka}!wyczysc\-\_\-dane@{wyczysc\-\_\-dane}}
+\index{wyczysc\-\_\-dane@{wyczysc\-\_\-dane}!Kolejka@{Kolejka}}
+\subsubsection[{wyczysc\-\_\-dane}]{\setlength{\rightskip}{0pt plus 5cm}void Kolejka\-::wyczysc\-\_\-dane (
+\begin{DoxyParamCaption}
+\item[{int}]{ile}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_kolejka_aaf67b4be89eaa07ebd9cbae057dc2b0d}
+Usuwa zadana ilosc elementow kolejki za pomoca metody pop
+
+
+\begin{DoxyParams}[1]{Parametry}
+\mbox{\tt in}  & {\em ile} & Liczba elementow, ktore chcemy usunac. \\
+\hline
+\end{DoxyParams}
+
+
+Implementuje \hyperlink{class_program_a4f26df1d57d90eeb7095e1ef2fe4c229}{Program}.
+
+
+
+Definicja w linii \hyperlink{kolejka_8cpp_source_l00061}{61} pliku \hyperlink{kolejka_8cpp_source}{kolejka.\-cpp}.
+
+
+
+Oto graf wywołań dla tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{class_kolejka_aaf67b4be89eaa07ebd9cbae057dc2b0d_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_kolejka_af849bac74dd62a28df378ed3f95b622e}{\index{Kolejka@{Kolejka}!wykonaj\-\_\-program@{wykonaj\-\_\-program}}
+\index{wykonaj\-\_\-program@{wykonaj\-\_\-program}!Kolejka@{Kolejka}}
+\subsubsection[{wykonaj\-\_\-program}]{\setlength{\rightskip}{0pt plus 5cm}bool Kolejka\-::wykonaj\-\_\-program (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{nazwa\-\_\-pliku, }
+\item[{int}]{ilosc\-\_\-danych}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_kolejka_af849bac74dd62a28df378ed3f95b622e}
+Wykonuje zadany program -\/ dodanie zadanej ilosci danych z pliku do kolejki za pomoca metody \hyperlink{class_kolejka_a220ee5f92afb7712ce2bc502decfa6c9}{push()}
+
+
+\begin{DoxyRetVals}{Zwracane wartości}
+{\em T\-R\-U\-E} & Poprawnie wykonano program \\
+\hline
+{\em F\-A\-L\-S\-E} & Nie wczytano danych \\
+\hline
+\end{DoxyRetVals}
+
+
+Implementuje \hyperlink{class_program_afc2ba31ffb01e8d2c6448a222fa02c8c}{Program}.
+
+
+
+Definicja w linii \hyperlink{kolejka_8cpp_source_l00045}{45} pliku \hyperlink{kolejka_8cpp_source}{kolejka.\-cpp}.
+
+
+
+Oto graf wywołań dla tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=324pt]{class_kolejka_af849bac74dd62a28df378ed3f95b622e_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Dokumentacja atrybutów składowych}
+\hypertarget{class_kolejka_a3d36327a29f61dc107ca0147ab4cbc52}{\index{Kolejka@{Kolejka}!head@{head}}
+\index{head@{head}!Kolejka@{Kolejka}}
+\subsubsection[{head}]{\setlength{\rightskip}{0pt plus 5cm}{\bf pole}$\ast$ Kolejka\-::head\hspace{0.3cm}{\ttfamily [private]}}}\label{class_kolejka_a3d36327a29f61dc107ca0147ab4cbc52}
+
+
+Definicja w linii \hyperlink{kolejka_8hh_source_l00012}{12} pliku \hyperlink{kolejka_8hh_source}{kolejka.\-hh}.
+
+\hypertarget{class_kolejka_a9e4cb4e670cf69985de2a92e479d327f}{\index{Kolejka@{Kolejka}!tail@{tail}}
+\index{tail@{tail}!Kolejka@{Kolejka}}
+\subsubsection[{tail}]{\setlength{\rightskip}{0pt plus 5cm}{\bf pole}$\ast$ Kolejka\-::tail\hspace{0.3cm}{\ttfamily [private]}}}\label{class_kolejka_a9e4cb4e670cf69985de2a92e479d327f}
+
+
+Definicja w linii \hyperlink{kolejka_8hh_source_l00013}{13} pliku \hyperlink{kolejka_8hh_source}{kolejka.\-hh}.
+
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{kolejka_8hh}{kolejka.\-hh}\item 
+\hyperlink{kolejka_8cpp}{kolejka.\-cpp}\end{DoxyCompactItemize}
