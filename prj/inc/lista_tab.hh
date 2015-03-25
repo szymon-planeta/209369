@@ -46,6 +46,10 @@ public:
    * \brief Metoda push
    *
    * Dodaje podana wartosc na koniec listy.
+   * Do wyboru 2 metody push - po osiagnieciu maksymalnego rozmiaru
+   * tablicy, jedna z nich zwieksza rozmiar tablicy o 1, a druga
+   * podwaja aktualny rozmiar tablicy. Wyboru metody nalezy dokonac
+   * poprzed odkomentowanie odpowiedniej metody w pliku .cpp.
    *
    * \param[in] x Wartosc, ktora chcemy dodac na koniec listy.
    */

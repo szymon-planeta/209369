@@ -26,7 +26,9 @@ void Lista_tab::push(int x){
       rozmiar++;
     }
   }
-}/*
+}
+//TABLICA POWIEKSZANA DWUKROTNIE
+/*
    void Lista_tab::push(int x){
    if(rozmiar==0){
    tab = new int [1];

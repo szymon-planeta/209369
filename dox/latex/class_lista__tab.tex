@@ -1,0 +1,235 @@
+\hypertarget{class_lista__tab}{\section{Dokumentacja klasy Lista\-\_\-tab}
+\label{class_lista__tab}\index{Lista\-\_\-tab@{Lista\-\_\-tab}}
+}
+
+
+{\ttfamily \#include $<$lista\-\_\-tab.\-hh$>$}
+
+
+
+Diagram dziedziczenia dla Lista\-\_\-tab
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=134pt]{class_lista__tab__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Diagram współpracy dla Lista\-\_\-tab\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=134pt]{class_lista__tab__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_lista__tab_af10d3131eadfebb4df8abbe6379e6d7c}{Lista\-\_\-tab} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor bezparametryczny. \end{DoxyCompactList}\item 
+\hyperlink{class_lista__tab_aaf55f952c14d2996c6f1e09acd718528}{$\sim$\-Lista\-\_\-tab} ()
+\begin{DoxyCompactList}\small\item\em Destruktor. \end{DoxyCompactList}\item 
+void \hyperlink{class_lista__tab_a800998768639b41b5be5c52ec4ccbda4}{push} (int x)
+\begin{DoxyCompactList}\small\item\em Metoda push. \end{DoxyCompactList}\item 
+void \hyperlink{class_lista__tab_affc42a7ffc6eda21076fc56eae38e980}{pop} ()
+\begin{DoxyCompactList}\small\item\em Procedura pop. \end{DoxyCompactList}\item 
+int \hyperlink{class_lista__tab_af092dd7943f7cd5ff407485f2991a1e4}{size} ()
+\begin{DoxyCompactList}\small\item\em Metoda size. \end{DoxyCompactList}\item 
+bool \hyperlink{class_lista__tab_ac9adc6ecc7348c5e1871b239c1313405}{wykonaj\-\_\-program} (char $\ast$nazwa\-\_\-pliku, int ilosc\-\_\-danych)
+\begin{DoxyCompactList}\small\item\em Metoda wykonaj\-\_\-program. \end{DoxyCompactList}\item 
+void \hyperlink{class_lista__tab_a506a6de79a600bac8316a6caf9878528}{wyczysc\-\_\-dane} (int ile)
+\begin{DoxyCompactList}\small\item\em Metoda wyczysc\-\_\-dane. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_lista__tab_a59e0425d896070457d1f3456b91842fd}{rozmiar}
+\begin{DoxyCompactList}\small\item\em Aktualny rozmiar tablicy. \end{DoxyCompactList}\item 
+int \hyperlink{class_lista__tab_afd2c6ba3ae15e658890641b188c7ed39}{iterator}
+\begin{DoxyCompactList}\small\item\em Iterator, zawierajacy informacje o liczbie elementow w tablicy. \end{DoxyCompactList}\item 
+int $\ast$ \hyperlink{class_lista__tab_a123dfb670e5a5592e512c41cc4faf14e}{tab}
+\begin{DoxyCompactList}\small\item\em Wskaznik na dynamicznie alokowana tablice z danymi. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Dodatkowe Dziedziczone Składowe}
+
+
+\subsection{Opis szczegółowy}
+
+
+Definicja w linii \hyperlink{lista__tab_8hh_source_l00012}{12} pliku \hyperlink{lista__tab_8hh_source}{lista\-\_\-tab.\-hh}.
+
+
+
+\subsection{Dokumentacja konstruktora i destruktora}
+\hypertarget{class_lista__tab_af10d3131eadfebb4df8abbe6379e6d7c}{\index{Lista\-\_\-tab@{Lista\-\_\-tab}!Lista\-\_\-tab@{Lista\-\_\-tab}}
+\index{Lista\-\_\-tab@{Lista\-\_\-tab}!Lista_tab@{Lista\-\_\-tab}}
+\subsubsection[{Lista\-\_\-tab}]{\setlength{\rightskip}{0pt plus 5cm}Lista\-\_\-tab\-::\-Lista\-\_\-tab (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_lista__tab_af10d3131eadfebb4df8abbe6379e6d7c}
+Ustawia poczatek listy na N\-U\-L\-L 
+
+Definicja w linii \hyperlink{lista__tab_8hh_source_l00031}{31} pliku \hyperlink{lista__tab_8hh_source}{lista\-\_\-tab.\-hh}.
+
+\hypertarget{class_lista__tab_aaf55f952c14d2996c6f1e09acd718528}{\index{Lista\-\_\-tab@{Lista\-\_\-tab}!$\sim$\-Lista\-\_\-tab@{$\sim$\-Lista\-\_\-tab}}
+\index{$\sim$\-Lista\-\_\-tab@{$\sim$\-Lista\-\_\-tab}!Lista_tab@{Lista\-\_\-tab}}
+\subsubsection[{$\sim$\-Lista\-\_\-tab}]{\setlength{\rightskip}{0pt plus 5cm}Lista\-\_\-tab\-::$\sim$\-Lista\-\_\-tab (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_lista__tab_aaf55f952c14d2996c6f1e09acd718528}
+Usuwa dynamicznie utworzona tablice danych oraz przypisuje wskaznikowi wartosc N\-U\-L\-L. 
+
+Definicja w linii \hyperlink{lista__tab_8hh_source_l00043}{43} pliku \hyperlink{lista__tab_8hh_source}{lista\-\_\-tab.\-hh}.
+
+
+
+\subsection{Dokumentacja funkcji składowych}
+\hypertarget{class_lista__tab_affc42a7ffc6eda21076fc56eae38e980}{\index{Lista\-\_\-tab@{Lista\-\_\-tab}!pop@{pop}}
+\index{pop@{pop}!Lista_tab@{Lista\-\_\-tab}}
+\subsubsection[{pop}]{\setlength{\rightskip}{0pt plus 5cm}void Lista\-\_\-tab\-::pop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_lista__tab_affc42a7ffc6eda21076fc56eae38e980}
+Usuwa ostatni element listy. 
+
+Definicja w linii \hyperlink{lista__tab_8cpp_source_l00054}{54} pliku \hyperlink{lista__tab_8cpp_source}{lista\-\_\-tab.\-cpp}.
+
+\hypertarget{class_lista__tab_a800998768639b41b5be5c52ec4ccbda4}{\index{Lista\-\_\-tab@{Lista\-\_\-tab}!push@{push}}
+\index{push@{push}!Lista_tab@{Lista\-\_\-tab}}
+\subsubsection[{push}]{\setlength{\rightskip}{0pt plus 5cm}void Lista\-\_\-tab\-::push (
+\begin{DoxyParamCaption}
+\item[{int}]{x}
+\end{DoxyParamCaption}
+)}}\label{class_lista__tab_a800998768639b41b5be5c52ec4ccbda4}
+Dodaje podana wartosc na koniec listy.
+
+
+\begin{DoxyParams}[1]{Parametry}
+\mbox{\tt in}  & {\em x} & Wartosc, ktora chcemy dodac na koniec listy. \\
+\hline
+\end{DoxyParams}
+
+
+Definicja w linii \hyperlink{lista__tab_8cpp_source_l00008}{8} pliku \hyperlink{lista__tab_8cpp_source}{lista\-\_\-tab.\-cpp}.
+
+
+
+Oto graf wywoływań tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=298pt]{class_lista__tab_a800998768639b41b5be5c52ec4ccbda4_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_lista__tab_af092dd7943f7cd5ff407485f2991a1e4}{\index{Lista\-\_\-tab@{Lista\-\_\-tab}!size@{size}}
+\index{size@{size}!Lista_tab@{Lista\-\_\-tab}}
+\subsubsection[{size}]{\setlength{\rightskip}{0pt plus 5cm}int Lista\-\_\-tab\-::size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_lista__tab_af092dd7943f7cd5ff407485f2991a1e4}
+Daje informacje o rozmiarze listy (liczbie jej elementow).
+
+\begin{DoxyReturn}{Zwraca}
+Rozmiar listy (liczba jej elementow) 
+\end{DoxyReturn}
+
+
+Definicja w linii \hyperlink{lista__tab_8cpp_source_l00071}{71} pliku \hyperlink{lista__tab_8cpp_source}{lista\-\_\-tab.\-cpp}.
+
+\hypertarget{class_lista__tab_a506a6de79a600bac8316a6caf9878528}{\index{Lista\-\_\-tab@{Lista\-\_\-tab}!wyczysc\-\_\-dane@{wyczysc\-\_\-dane}}
+\index{wyczysc\-\_\-dane@{wyczysc\-\_\-dane}!Lista_tab@{Lista\-\_\-tab}}
+\subsubsection[{wyczysc\-\_\-dane}]{\setlength{\rightskip}{0pt plus 5cm}void Lista\-\_\-tab\-::wyczysc\-\_\-dane (
+\begin{DoxyParamCaption}
+\item[{int}]{ile}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_lista__tab_a506a6de79a600bac8316a6caf9878528}
+Usuwa zadana ilosc elementow listy za pomoca metody pop
+
+
+\begin{DoxyParams}[1]{Parametry}
+\mbox{\tt in}  & {\em ile} & Liczba elementow, ktore chcemy usunac. \\
+\hline
+\end{DoxyParams}
+
+
+Implementuje \hyperlink{class_program_a4f26df1d57d90eeb7095e1ef2fe4c229}{Program}.
+
+
+
+Definicja w linii \hyperlink{lista__tab_8cpp_source_l00091}{91} pliku \hyperlink{lista__tab_8cpp_source}{lista\-\_\-tab.\-cpp}.
+
+\hypertarget{class_lista__tab_ac9adc6ecc7348c5e1871b239c1313405}{\index{Lista\-\_\-tab@{Lista\-\_\-tab}!wykonaj\-\_\-program@{wykonaj\-\_\-program}}
+\index{wykonaj\-\_\-program@{wykonaj\-\_\-program}!Lista_tab@{Lista\-\_\-tab}}
+\subsubsection[{wykonaj\-\_\-program}]{\setlength{\rightskip}{0pt plus 5cm}bool Lista\-\_\-tab\-::wykonaj\-\_\-program (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{nazwa\-\_\-pliku, }
+\item[{int}]{ilosc\-\_\-danych}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_lista__tab_ac9adc6ecc7348c5e1871b239c1313405}
+Wykonuje zadany program -\/ dodanie zadanej ilosci danych z pliku do listy za pomoca metody \hyperlink{class_lista__tab_a800998768639b41b5be5c52ec4ccbda4}{push()}
+
+
+\begin{DoxyRetVals}{Zwracane wartości}
+{\em T\-R\-U\-E} & Poprawnie wykonano program \\
+\hline
+{\em F\-A\-L\-S\-E} & Nie wczytano danych \\
+\hline
+\end{DoxyRetVals}
+
+
+Implementuje \hyperlink{class_program_afc2ba31ffb01e8d2c6448a222fa02c8c}{Program}.
+
+
+
+Definicja w linii \hyperlink{lista__tab_8cpp_source_l00075}{75} pliku \hyperlink{lista__tab_8cpp_source}{lista\-\_\-tab.\-cpp}.
+
+
+
+Oto graf wywołań dla tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=298pt]{class_lista__tab_ac9adc6ecc7348c5e1871b239c1313405_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Dokumentacja atrybutów składowych}
+\hypertarget{class_lista__tab_afd2c6ba3ae15e658890641b188c7ed39}{\index{Lista\-\_\-tab@{Lista\-\_\-tab}!iterator@{iterator}}
+\index{iterator@{iterator}!Lista_tab@{Lista\-\_\-tab}}
+\subsubsection[{iterator}]{\setlength{\rightskip}{0pt plus 5cm}int Lista\-\_\-tab\-::iterator\hspace{0.3cm}{\ttfamily [private]}}}\label{class_lista__tab_afd2c6ba3ae15e658890641b188c7ed39}
+
+
+Definicja w linii \hyperlink{lista__tab_8hh_source_l00020}{20} pliku \hyperlink{lista__tab_8hh_source}{lista\-\_\-tab.\-hh}.
+
+\hypertarget{class_lista__tab_a59e0425d896070457d1f3456b91842fd}{\index{Lista\-\_\-tab@{Lista\-\_\-tab}!rozmiar@{rozmiar}}
+\index{rozmiar@{rozmiar}!Lista_tab@{Lista\-\_\-tab}}
+\subsubsection[{rozmiar}]{\setlength{\rightskip}{0pt plus 5cm}int Lista\-\_\-tab\-::rozmiar\hspace{0.3cm}{\ttfamily [private]}}}\label{class_lista__tab_a59e0425d896070457d1f3456b91842fd}
+
+
+Definicja w linii \hyperlink{lista__tab_8hh_source_l00016}{16} pliku \hyperlink{lista__tab_8hh_source}{lista\-\_\-tab.\-hh}.
+
+\hypertarget{class_lista__tab_a123dfb670e5a5592e512c41cc4faf14e}{\index{Lista\-\_\-tab@{Lista\-\_\-tab}!tab@{tab}}
+\index{tab@{tab}!Lista_tab@{Lista\-\_\-tab}}
+\subsubsection[{tab}]{\setlength{\rightskip}{0pt plus 5cm}int$\ast$ Lista\-\_\-tab\-::tab\hspace{0.3cm}{\ttfamily [private]}}}\label{class_lista__tab_a123dfb670e5a5592e512c41cc4faf14e}
+
+
+Definicja w linii \hyperlink{lista__tab_8hh_source_l00024}{24} pliku \hyperlink{lista__tab_8hh_source}{lista\-\_\-tab.\-hh}.
+
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{lista__tab_8hh}{lista\-\_\-tab.\-hh}\item 
+\hyperlink{lista__tab_8cpp}{lista\-\_\-tab.\-cpp}\end{DoxyCompactItemize}
