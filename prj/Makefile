@@ -6,11 +6,11 @@ CPPFLAGS= -c -g -Iinc -Wall -pedantic
 __start__: benchmark
 	./benchmark
 
-benchmark: obj/main.o obj/program.o obj/benchmark.o obj/tabx2.o obj/stos.o obj/lista.o obj/kolejka.o obj/lista_tab.o
-	g++ -Wall -pedantic -o benchmark obj/main.o obj/tabx2.o obj/lista_tab.o  \
+benchmark: obj/main.o obj/program.o obj/benchmark.o obj/tabx2.o obj/stos.o obj/lista.o obj/kolejka.o obj/lista_tab.o obj/hashtab.o
+	g++ -Wall -pedantic -o benchmark obj/main.o obj/tabx2.o obj/lista_tab.o obj/hashtab.o  \
 					obj/program.o obj/benchmark.o obj/stos.o obj/lista.o obj/kolejka.o	
 
-obj/main.o: src/main.cpp inc/program.hh	inc/benchmark.hh inc/tabx2.hh inc/stos.hh inc/lista.hh inc/kolejka.hh	
+obj/main.o: src/main.cpp inc/program.hh	inc/benchmark.hh inc/tabx2.hh inc/stos.hh inc/lista.hh inc/kolejka.hh inc/hashtab.hh
 	g++ ${CPPFLAGS} -o obj/main.o src/main.cpp
 
 obj/tabx2.o: src/tabx2.cpp inc/tabx2.hh 
@@ -30,6 +30,9 @@ obj/kolejka.o: src/kolejka.cpp inc/kolejka.hh
 
 obj/lista_tab.o: src/lista_tab.cpp inc/lista_tab.hh
 	g++ ${CPPFLAGS} -o obj/lista_tab.o src/lista_tab.cpp
+
+obj/hashtab.o: src/hashtab.cpp inc/hashtab.hh
+	g++ ${CPPFLAGS} -o obj/hashtab.o src/hashtab.cpp
 
 obj/program.o: src/program.cpp inc/program.hh
 	g++ ${CPPFLAGS} -o obj/program.o src/program.cpp
