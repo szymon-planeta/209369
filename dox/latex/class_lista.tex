@@ -1,5 +1,5 @@
-\hypertarget{class_lista}{\section{Dokumentacja klasy Lista}
-\label{class_lista}\index{Lista@{Lista}}
+\hypertarget{class_lista}{\section{Dokumentacja szablonu klasy Lista$<$ type, type2 $>$}
+\label{class_lista}\index{Lista$<$ type, type2 $>$@{Lista$<$ type, type2 $>$}}
 }
 
 
@@ -7,96 +7,134 @@
 
 
 
-Diagram dziedziczenia dla Lista\nopagebreak
+Diagram dziedziczenia dla Lista$<$ type, type2 $>$
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=132pt]{class_lista__inherit__graph}
+\includegraphics[width=184pt]{class_lista__inherit__graph}
 \end{center}
 \end{figure}
 
 
-Diagram współpracy dla Lista\-:\nopagebreak
+Diagram współpracy dla Lista$<$ type, type2 $>$\-:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=225pt]{class_lista__coll__graph}
+\includegraphics[width=285pt]{class_lista__coll__graph}
 \end{center}
 \end{figure}
+\subsection*{Komponenty}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{struct_lista_1_1pole}{pole}
+\begin{DoxyCompactList}\small\item\em Struktura pole. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Metody publiczne}
 \begin{DoxyCompactItemize}
 \item 
-\hyperlink{class_lista_a1f668b36909182ef1360b48503529a31}{Lista} ()
+\hyperlink{class_lista_a43eba77afd8dcde8d1492bf8ca283319}{Lista} ()
 \begin{DoxyCompactList}\small\item\em Konstruktor bezparametryczny. \end{DoxyCompactList}\item 
-void \hyperlink{class_lista_ac844f54fca7aaadf53620d1e147068e3}{push} (int x)
+void \hyperlink{class_lista_a3b89123537e441b622630a1654afff3c}{push} (type x, type2 y)
 \begin{DoxyCompactList}\small\item\em Metoda push. \end{DoxyCompactList}\item 
-void \hyperlink{class_lista_a5bece8ad206f5e6497f8cc23419ed051}{pop} ()
+void \hyperlink{class_lista_aa0a993823fa462fbe6d6072a61f1a1f3}{push\-\_\-front} (type x, type2 y)
+\begin{DoxyCompactList}\small\item\em Metoda push. \end{DoxyCompactList}\item 
+void \hyperlink{class_lista_ac3c0760924a0cae03f837a581640d32b}{pop} ()
 \begin{DoxyCompactList}\small\item\em Procedura pop. \end{DoxyCompactList}\item 
-int \hyperlink{class_lista_a3836382e3cf53b6ea281937d045d181c}{size} ()
+int \hyperlink{class_lista_a2951b209d8977cc61a570ce46fff1e82}{size} ()
 \begin{DoxyCompactList}\small\item\em Metoda size. \end{DoxyCompactList}\item 
-bool \hyperlink{class_lista_a39367fb8f22f8bb34ba65bcc37f522bf}{wykonaj\-\_\-program} (char $\ast$nazwa\-\_\-pliku, int ilosc\-\_\-danych)
+bool \hyperlink{class_lista_af74ba5fb933184e05ec9daf952f4cf86}{wykonaj\-\_\-program} (char $\ast$nazwa\-\_\-pliku, int ilosc\-\_\-danych)
 \begin{DoxyCompactList}\small\item\em Metoda wykonaj\-\_\-program. \end{DoxyCompactList}\item 
-void \hyperlink{class_lista_af73c0c1eba31c0d82d107d57e99fc3d7}{wyczysc\-\_\-dane} (int ile)
-\begin{DoxyCompactList}\small\item\em Metoda wyczysc\-\_\-dane. \end{DoxyCompactList}\end{DoxyCompactItemize}
-\subsection*{Atrybuty prywatne}
+void \hyperlink{class_lista_aee6110c6d9d5b36fe5342f2f8968d5ad}{wyczysc\-\_\-dane} (int ile)
+\begin{DoxyCompactList}\small\item\em Metoda wyczysc\-\_\-dane. \end{DoxyCompactList}\item 
+void \hyperlink{class_lista_aca842e81998c231283f8d82b3c17fbc8}{wyswietl} ()
+\item 
+void \hyperlink{class_lista_a234e4c9e70c2d71c281173a5348032d0}{wyswietl} (type key)
+\item 
+type2 \& \hyperlink{class_lista_a00136dbc6562f02884a8b27bf98e51d8}{daj} (type key)
+\item 
+void \hyperlink{class_lista_ac5309fa4e772c9de87abdd0a752bafad}{pop} (type key)
+\begin{DoxyCompactList}\small\item\em Procedura pop. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atrybuty publiczne}
 \begin{DoxyCompactItemize}
 \item 
-\hyperlink{structpole}{pole} $\ast$ \hyperlink{class_lista_ae9ddc4b39562b5382a9c2559f2e4b421}{first}
+\hyperlink{struct_lista_1_1pole}{pole} $\ast$ \hyperlink{class_lista_a7b19bc8c210d1bac9bb7608a638a8b27}{first}
 \end{DoxyCompactItemize}
 \subsection*{Dodatkowe Dziedziczone Składowe}
 
 
 \subsection{Opis szczegółowy}
+\subsubsection*{template$<$class type, class type2$>$class Lista$<$ type, type2 $>$}
 
 
-Definicja w linii \hyperlink{lista_8hh_source_l00025}{25} pliku \hyperlink{lista_8hh_source}{lista.\-hh}.
+
+Definicja w linii \hyperlink{lista_8hh_source_l00022}{22} pliku \hyperlink{lista_8hh_source}{lista.\-hh}.
 
 
 
 \subsection{Dokumentacja konstruktora i destruktora}
-\hypertarget{class_lista_a1f668b36909182ef1360b48503529a31}{\index{Lista@{Lista}!Lista@{Lista}}
+\hypertarget{class_lista_a43eba77afd8dcde8d1492bf8ca283319}{\index{Lista@{Lista}!Lista@{Lista}}
 \index{Lista@{Lista}!Lista@{Lista}}
-\subsubsection[{Lista}]{\setlength{\rightskip}{0pt plus 5cm}Lista\-::\-Lista (
+\subsubsection[{Lista}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class type, class type2$>$ {\bf Lista}$<$ type, type2 $>$\-::{\bf Lista} (
 \begin{DoxyParamCaption}
 {}
 \end{DoxyParamCaption}
-)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_lista_a1f668b36909182ef1360b48503529a31}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_lista_a43eba77afd8dcde8d1492bf8ca283319}
 Ustawia poczatek listy na N\-U\-L\-L 
 
-Definicja w linii \hyperlink{lista_8hh_source_l00033}{33} pliku \hyperlink{lista_8hh_source}{lista.\-hh}.
+Definicja w linii \hyperlink{lista_8hh_source_l00044}{44} pliku \hyperlink{lista_8hh_source}{lista.\-hh}.
 
 
 
 \subsection{Dokumentacja funkcji składowych}
-\hypertarget{class_lista_a5bece8ad206f5e6497f8cc23419ed051}{\index{Lista@{Lista}!pop@{pop}}
+\hypertarget{class_lista_a00136dbc6562f02884a8b27bf98e51d8}{\index{Lista@{Lista}!daj@{daj}}
+\index{daj@{daj}!Lista@{Lista}}
+\subsubsection[{daj}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class type, class type2 $>$ type2 \& {\bf Lista}$<$ type, type2 $>$\-::daj (
+\begin{DoxyParamCaption}
+\item[{type}]{key}
+\end{DoxyParamCaption}
+)}}\label{class_lista_a00136dbc6562f02884a8b27bf98e51d8}
+
+
+Definicja w linii \hyperlink{lista_8hh_source_l00238}{238} pliku \hyperlink{lista_8hh_source}{lista.\-hh}.
+
+\hypertarget{class_lista_ac3c0760924a0cae03f837a581640d32b}{\index{Lista@{Lista}!pop@{pop}}
 \index{pop@{pop}!Lista@{Lista}}
-\subsubsection[{pop}]{\setlength{\rightskip}{0pt plus 5cm}void Lista\-::pop (
+\subsubsection[{pop}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class type , class type2 $>$ void {\bf Lista}$<$ type, type2 $>$\-::pop (
 \begin{DoxyParamCaption}
 {}
 \end{DoxyParamCaption}
-)}}\label{class_lista_a5bece8ad206f5e6497f8cc23419ed051}
+)}}\label{class_lista_ac3c0760924a0cae03f837a581640d32b}
 Usuwa ostatni element listy. 
 
-Definicja w linii \hyperlink{lista_8cpp_source_l00022}{22} pliku \hyperlink{lista_8cpp_source}{lista.\-cpp}.
+Definicja w linii \hyperlink{lista_8hh_source_l00178}{178} pliku \hyperlink{lista_8hh_source}{lista.\-hh}.
 
-
-
-Oto graf wywoływań tej funkcji\-:\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=286pt]{class_lista_a5bece8ad206f5e6497f8cc23419ed051_icgraph}
-\end{center}
-\end{figure}
-
-
-\hypertarget{class_lista_ac844f54fca7aaadf53620d1e147068e3}{\index{Lista@{Lista}!push@{push}}
-\index{push@{push}!Lista@{Lista}}
-\subsubsection[{push}]{\setlength{\rightskip}{0pt plus 5cm}void Lista\-::push (
+\hypertarget{class_lista_ac5309fa4e772c9de87abdd0a752bafad}{\index{Lista@{Lista}!pop@{pop}}
+\index{pop@{pop}!Lista@{Lista}}
+\subsubsection[{pop}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class type, class type2 $>$ void {\bf Lista}$<$ type, type2 $>$\-::pop (
 \begin{DoxyParamCaption}
-\item[{int}]{x}
+\item[{type}]{key}
 \end{DoxyParamCaption}
-)}}\label{class_lista_ac844f54fca7aaadf53620d1e147068e3}
+)}}\label{class_lista_ac5309fa4e772c9de87abdd0a752bafad}
+Usuwa wszystkie elementy listy o podanej wartosci val1.
+
+
+\begin{DoxyParams}[1]{Parametry}
+\mbox{\tt in}  & {\em Wartosc} & val1 elementow do usuniecia \\
+\hline
+\end{DoxyParams}
+
+
+Definicja w linii \hyperlink{lista_8hh_source_l00258}{258} pliku \hyperlink{lista_8hh_source}{lista.\-hh}.
+
+\hypertarget{class_lista_a3b89123537e441b622630a1654afff3c}{\index{Lista@{Lista}!push@{push}}
+\index{push@{push}!Lista@{Lista}}
+\subsubsection[{push}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class type, class type2$>$ void {\bf Lista}$<$ type, type2 $>$\-::push (
+\begin{DoxyParamCaption}
+\item[{type}]{x, }
+\item[{type2}]{y}
+\end{DoxyParamCaption}
+)}}\label{class_lista_a3b89123537e441b622630a1654afff3c}
 Dodaje podana wartosc na koniec listy.
 
 
@@ -106,26 +144,34 @@ Dodaje podana wartosc na koniec listy.
 \end{DoxyParams}
 
 
-Definicja w linii \hyperlink{lista_8cpp_source_l00007}{7} pliku \hyperlink{lista_8cpp_source}{lista.\-cpp}.
+Definicja w linii \hyperlink{lista_8hh_source_l00148}{148} pliku \hyperlink{lista_8hh_source}{lista.\-hh}.
+
+\hypertarget{class_lista_aa0a993823fa462fbe6d6072a61f1a1f3}{\index{Lista@{Lista}!push\-\_\-front@{push\-\_\-front}}
+\index{push\-\_\-front@{push\-\_\-front}!Lista@{Lista}}
+\subsubsection[{push\-\_\-front}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class type, class type2$>$ void {\bf Lista}$<$ type, type2 $>$\-::push\-\_\-front (
+\begin{DoxyParamCaption}
+\item[{type}]{x, }
+\item[{type2}]{y}
+\end{DoxyParamCaption}
+)}}\label{class_lista_aa0a993823fa462fbe6d6072a61f1a1f3}
+Dodaje podana wartosc na koniec listy.
 
 
-
-Oto graf wywoływań tej funkcji\-:\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=302pt]{class_lista_ac844f54fca7aaadf53620d1e147068e3_icgraph}
-\end{center}
-\end{figure}
+\begin{DoxyParams}[1]{Parametry}
+\mbox{\tt in}  & {\em x} & Wartosc, ktora chcemy dodac na poczatek listy. \\
+\hline
+\end{DoxyParams}
 
 
-\hypertarget{class_lista_a3836382e3cf53b6ea281937d045d181c}{\index{Lista@{Lista}!size@{size}}
+Definicja w linii \hyperlink{lista_8hh_source_l00164}{164} pliku \hyperlink{lista_8hh_source}{lista.\-hh}.
+
+\hypertarget{class_lista_a2951b209d8977cc61a570ce46fff1e82}{\index{Lista@{Lista}!size@{size}}
 \index{size@{size}!Lista@{Lista}}
-\subsubsection[{size}]{\setlength{\rightskip}{0pt plus 5cm}int Lista\-::size (
+\subsubsection[{size}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class type , class type2 $>$ int {\bf Lista}$<$ type, type2 $>$\-::size (
 \begin{DoxyParamCaption}
 {}
 \end{DoxyParamCaption}
-)}}\label{class_lista_a3836382e3cf53b6ea281937d045d181c}
+)}}\label{class_lista_a2951b209d8977cc61a570ce46fff1e82}
 Daje informacje o rozmiarze listy (liczbie jej elementow).
 
 \begin{DoxyReturn}{Zwraca}
@@ -133,15 +179,15 @@ Rozmiar listy (liczba jej elementow)
 \end{DoxyReturn}
 
 
-Definicja w linii \hyperlink{lista_8cpp_source_l00044}{44} pliku \hyperlink{lista_8cpp_source}{lista.\-cpp}.
+Definicja w linii \hyperlink{lista_8hh_source_l00200}{200} pliku \hyperlink{lista_8hh_source}{lista.\-hh}.
 
-\hypertarget{class_lista_af73c0c1eba31c0d82d107d57e99fc3d7}{\index{Lista@{Lista}!wyczysc\-\_\-dane@{wyczysc\-\_\-dane}}
+\hypertarget{class_lista_aee6110c6d9d5b36fe5342f2f8968d5ad}{\index{Lista@{Lista}!wyczysc\-\_\-dane@{wyczysc\-\_\-dane}}
 \index{wyczysc\-\_\-dane@{wyczysc\-\_\-dane}!Lista@{Lista}}
-\subsubsection[{wyczysc\-\_\-dane}]{\setlength{\rightskip}{0pt plus 5cm}void Lista\-::wyczysc\-\_\-dane (
+\subsubsection[{wyczysc\-\_\-dane}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class type , class type2 $>$ void {\bf Lista}$<$ type, type2 $>$\-::wyczysc\-\_\-dane (
 \begin{DoxyParamCaption}
 \item[{int}]{ile}
 \end{DoxyParamCaption}
-)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_lista_af73c0c1eba31c0d82d107d57e99fc3d7}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_lista_aee6110c6d9d5b36fe5342f2f8968d5ad}
 Usuwa zadana ilosc elementow listy za pomoca metody pop
 
 
@@ -155,28 +201,17 @@ Implementuje \hyperlink{class_program_a4f26df1d57d90eeb7095e1ef2fe4c229}{Program
 
 
 
-Definicja w linii \hyperlink{lista_8cpp_source_l00074}{74} pliku \hyperlink{lista_8cpp_source}{lista.\-cpp}.
+Definicja w linii \hyperlink{lista_8hh_source_l00218}{218} pliku \hyperlink{lista_8hh_source}{lista.\-hh}.
 
-
-
-Oto graf wywołań dla tej funkcji\-:\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=286pt]{class_lista_af73c0c1eba31c0d82d107d57e99fc3d7_cgraph}
-\end{center}
-\end{figure}
-
-
-\hypertarget{class_lista_a39367fb8f22f8bb34ba65bcc37f522bf}{\index{Lista@{Lista}!wykonaj\-\_\-program@{wykonaj\-\_\-program}}
+\hypertarget{class_lista_af74ba5fb933184e05ec9daf952f4cf86}{\index{Lista@{Lista}!wykonaj\-\_\-program@{wykonaj\-\_\-program}}
 \index{wykonaj\-\_\-program@{wykonaj\-\_\-program}!Lista@{Lista}}
-\subsubsection[{wykonaj\-\_\-program}]{\setlength{\rightskip}{0pt plus 5cm}bool Lista\-::wykonaj\-\_\-program (
+\subsubsection[{wykonaj\-\_\-program}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class type , class type2 $>$ bool {\bf Lista}$<$ type, type2 $>$\-::wykonaj\-\_\-program (
 \begin{DoxyParamCaption}
 \item[{char $\ast$}]{nazwa\-\_\-pliku, }
 \item[{int}]{ilosc\-\_\-danych}
 \end{DoxyParamCaption}
-)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_lista_a39367fb8f22f8bb34ba65bcc37f522bf}
-Wykonuje zadany program -\/ dodanie zadanej ilosci danych z pliku do listy za pomoca metody \hyperlink{class_lista_ac844f54fca7aaadf53620d1e147068e3}{push()}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_lista_af74ba5fb933184e05ec9daf952f4cf86}
+Wykonuje zadany program -\/ dodanie zadanej ilosci danych z pliku do listy za pomoca metody \hyperlink{class_lista_a3b89123537e441b622630a1654afff3c}{push()}
 
 
 \begin{DoxyRetVals}{Zwracane wartości}
@@ -191,32 +226,42 @@ Implementuje \hyperlink{class_program_afc2ba31ffb01e8d2c6448a222fa02c8c}{Program
 
 
 
-Definicja w linii \hyperlink{lista_8cpp_source_l00058}{58} pliku \hyperlink{lista_8cpp_source}{lista.\-cpp}.
+Definicja w linii \hyperlink{lista_8hh_source_l00214}{214} pliku \hyperlink{lista_8hh_source}{lista.\-hh}.
+
+\hypertarget{class_lista_aca842e81998c231283f8d82b3c17fbc8}{\index{Lista@{Lista}!wyswietl@{wyswietl}}
+\index{wyswietl@{wyswietl}!Lista@{Lista}}
+\subsubsection[{wyswietl}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class type, class type2$>$ void {\bf Lista}$<$ type, type2 $>$\-::wyswietl (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_lista_aca842e81998c231283f8d82b3c17fbc8}
 
 
+Definicja w linii \hyperlink{lista_8hh_source_l00106}{106} pliku \hyperlink{lista_8hh_source}{lista.\-hh}.
 
-Oto graf wywołań dla tej funkcji\-:\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=302pt]{class_lista_a39367fb8f22f8bb34ba65bcc37f522bf_cgraph}
-\end{center}
-\end{figure}
+\hypertarget{class_lista_a234e4c9e70c2d71c281173a5348032d0}{\index{Lista@{Lista}!wyswietl@{wyswietl}}
+\index{wyswietl@{wyswietl}!Lista@{Lista}}
+\subsubsection[{wyswietl}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class type, class type2 $>$ void {\bf Lista}$<$ type, type2 $>$\-::wyswietl (
+\begin{DoxyParamCaption}
+\item[{type}]{key}
+\end{DoxyParamCaption}
+)}}\label{class_lista_a234e4c9e70c2d71c281173a5348032d0}
 
+
+Definicja w linii \hyperlink{lista_8hh_source_l00223}{223} pliku \hyperlink{lista_8hh_source}{lista.\-hh}.
 
 
 
 \subsection{Dokumentacja atrybutów składowych}
-\hypertarget{class_lista_ae9ddc4b39562b5382a9c2559f2e4b421}{\index{Lista@{Lista}!first@{first}}
+\hypertarget{class_lista_a7b19bc8c210d1bac9bb7608a638a8b27}{\index{Lista@{Lista}!first@{first}}
 \index{first@{first}!Lista@{Lista}}
-\subsubsection[{first}]{\setlength{\rightskip}{0pt plus 5cm}{\bf pole}$\ast$ Lista\-::first\hspace{0.3cm}{\ttfamily [private]}}}\label{class_lista_ae9ddc4b39562b5382a9c2559f2e4b421}
+\subsubsection[{first}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class type, class type2$>$ {\bf pole}$\ast$ {\bf Lista}$<$ type, type2 $>$\-::first}}\label{class_lista_a7b19bc8c210d1bac9bb7608a638a8b27}
 
 
-Definicja w linii \hyperlink{lista_8hh_source_l00026}{26} pliku \hyperlink{lista_8hh_source}{lista.\-hh}.
+Definicja w linii \hyperlink{lista_8hh_source_l00037}{37} pliku \hyperlink{lista_8hh_source}{lista.\-hh}.
 
 
 
-Dokumentacja dla tej klasy została wygenerowana z plików\-:\begin{DoxyCompactItemize}
+Dokumentacja dla tej klasy została wygenerowana z pliku\-:\begin{DoxyCompactItemize}
 \item 
-\hyperlink{lista_8hh}{lista.\-hh}\item 
-\hyperlink{lista_8cpp}{lista.\-cpp}\end{DoxyCompactItemize}
+\hyperlink{lista_8hh}{lista.\-hh}\end{DoxyCompactItemize}

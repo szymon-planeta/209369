@@ -20,20 +20,22 @@ double Benchmark::testuj(Program &program, char* dane, int ilosc_danych, int ilo
   ofstream wyniki;
   wyniki.open("wyniki.csv",ios::app);
   
-  if(program.wczytaj_dane(dane,ilosc_danych)==false){
-      cerr<<"Niewystarczajaca ilosc danych!"<<endl;
-      return 0;
-    }
+  //if(program.wczytaj_dane(dane,ilosc_danych)==false){
+  //     cerr<<"Niewystarczajaca ilosc danych!"<<endl;
+  //    return 0;
+  // }
   //char* dane_wy = (char*)"dane_wy.dat"; //do zapisu do pliku
-  rozpocznij_pomiar();
-  program.wykonaj_program();
+  //program.wykonaj_program();
+  //rozpocznij_pomiar();
+  //program.test();
   //program.zapisz_dane(dane_wy);//zapisywanie wynikow do pliku
-  zakoncz_pomiar();
-  suma+=czas_pomiaru;
+  //zakoncz_pomiar();
+  //suma+=czas_pomiaru;
   for(int i=1;i<ilosc_testow;i++){
     //program.wczytaj_dane(dane,ilosc_danych); //zawsze dane od poczatku
     rozpocznij_pomiar();
-    program.wykonaj_program();
+    //program.wykonaj_program();
+    program.test();
     zakoncz_pomiar();
     suma+=czas_pomiaru;
   }
@@ -47,23 +49,16 @@ double Benchmark::testuj_strukture(Program &program,char* dane, int ilosc_danych
   double suma=0;
   double srednia=0;
   ofstream wyniki;
-  
-  rozpocznij_pomiar();
-  program.wykonaj_program(dane,ilosc_danych);
-  zakoncz_pomiar();
-  program.wyczysc_dane(ilosc_danych);
-  suma+=czas_pomiaru;
+  wyniki.open("wyniki.csv",ios::app);
   for(int i=1;i<ilosc_testow;i++){
     rozpocznij_pomiar();
-    program.wykonaj_program(dane,ilosc_danych);
+    program.test();
     zakoncz_pomiar();
-    program.wyczysc_dane(ilosc_danych); 
     suma+=czas_pomiaru;
   }
   srednia=suma/(ilosc_testow);
-
-  wyniki.open("wyniki.csv",ios::app);
   wyniki<<endl<<ilosc_danych<<","<<srednia;
   wyniki.close();
   return srednia;
+ 
 }

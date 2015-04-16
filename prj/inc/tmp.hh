@@ -1,20 +1,26 @@
-//hashtab.hh
-#ifndef HASHTAB_HH
-#define HASHTAB_HH
+//assoctab.hh
+#ifndef ASSOCTAB_HH
+#define ASSOCTAB_HH
+
+//Donald Knuth hashing const
+#define HASH 0.6180339887
+#define TAB 1
 
 #include "program.hh"
+#include <cmath>
 
 /*!
  * \file
- * \brief Definicja klasy Hashtab
+ * \brief Definicja klasy Assoctab
  */
 
-class Hashtab: public Program{
+template <class typeK, class typeV>
+class Assoctab: public Program{
 public:
   /*!
    * \brief Wskaznik na dynamicznie alokowana tablice z danymi
    */
-  string *tab;
+  Lista<typeK, typeV> *tab;
 
   
   /*!
@@ -28,9 +34,9 @@ public:
    *
    * Ustawia poczatek listy na NULL
    */
- Hashtab(){
-    tab = new string [10000];
-    rozmiar = 10000;
+    Assoctab(){
+    tab = new Lista<typeK, typeV> [TAB];
+    rozmiar = TAB;
   }
 
   /*!
@@ -39,7 +45,7 @@ public:
    * Usuwa dynamicznie utworzona tablice danych oraz przypisuje wskaznikowi
    * wartosc NULL.
    */
-  ~Hashtab(){delete[] tab; tab=NULL; rozmiar=0;}
+  ~Assoctab(){delete[] tab; tab=NULL; rozmiar=0;}
 
 
 /*!
@@ -53,21 +59,23 @@ public:
    *
    * \param[in] x String, ktory chcemy dodac na koniec listy.
    */
-  void push(string klucz, string wartosc);
+  void push(typeK klucz, typeV wartosc);
  
   /*!
    * \brief Procedura pop
    *
    * Usuwa z tablicy wartosc odpowiadajaca danemu kluczowi.
    */
-  void pop(string klucz);
+  void pop(typeK klucz);
 
   /*!
    * \brief Metoda hash
    *
    * Dokonuje haszowania podanego klucza na wartosc liczbowa.
    */
-  int h(string klucz);
+  int h(typeK klucz);
+
+  //int h(string klucz);
 
   /*!
    * \brief Metoda size
@@ -102,14 +110,58 @@ public:
   /*!
    * \brief Metoda wyswietl
    *
-   * Wyswietla element odpowiadajacy podanemu kluczowi
+   * Wyswietla wszystkie elementy, ktorych klucze po haszowaniu maja te sama wartosc
    */
-  void wyswietl(string klucz);
-
- 
-
-
-
+  void wyswietl_liste(typeK klucz);
+  /*!
+   * \brief Metoda wyswietl
+   *
+   * Wyswietla elementy dokladnie odpowiadajace podanemu kluczowi
+   *
+   * \param[in] Klucz
+   */
+  void wyswietl(typeK klucz);
 };
+
+template <class typeK, class typeV> void Assoctab<typeK, typeV>::push(typeK klucz, typeV wartosc){
+  tab[h(klucz)].push(klucz, wartosc);	 				 
+}
+
+template <class typeK, class typeV> void Assoctab<typeK, typeV>::pop(typeK klucz){
+  tab[h(klucz)].pop(klucz);
+}
+
+template<class typeK, class typeV> int Assoctab<typeK, typeV>::h(typeK klucz){
+  double val=0; double add;
+  for(unsigned int i=0; i<klucz.length(); i++){
+    add = klucz[i]*(i+1);
+    val+=add;
+  }
+  val*=HASH;
+  val-=(int)val;
+  return floor(rozmiar*val);
+}
+/*
+template <class typeK, class typeV> int Assoctab<typeK, typeV>::h(typeK klucz){
+  double val = (double)klucz;
+  val*=HASH;
+  val-=(int)val;
+
+  return floor(rozmiar*val);
+}
+*/
+
+template <class typeK, class typeV> int Assoctab<typeK, typeV>::size(){
+  return rozmiar;
+}
+
+template <class typeK, class typeV> void Assoctab<typeK, typeV>::wyswietl_liste(typeK klucz){
+  tab[h(klucz)].wyswietl();				 
+}
+
+template <class typeK, class typeV> void Assoctab<typeK, typeV>::wyswietl(typeK klucz){
+  tab[h(klucz)].wyswietl(klucz);				 
+}
+
 
 #endif

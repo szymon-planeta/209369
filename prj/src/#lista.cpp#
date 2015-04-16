@@ -4,6 +4,7 @@
 /*!\file 
  * \brief Zawiera definicje metod klasy Lista
  */
+
 void Lista::push(int x){
   pole *nowe = new pole;
   nowe->wartosc = x;

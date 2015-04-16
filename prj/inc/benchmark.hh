@@ -7,7 +7,7 @@
 #include "program.hh"
 #include <sys/time.h>
 #include <fstream>
-#include "kolejka.hh"
+
 /*!
  * \file
  * \brief Definicja klasy Benchmark

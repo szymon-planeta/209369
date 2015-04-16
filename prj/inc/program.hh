@@ -146,6 +146,8 @@ public:
 
   virtual bool wykonaj_program(char* nazwa_pliku, int ilosc_danych)=0;
   virtual void wyczysc_dane(int ile)=0;
+
+  virtual void test(){};
 };
 
 #endif
