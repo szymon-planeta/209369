@@ -7,52 +7,52 @@
 00002 \textcolor{preprocessor}{#include "\hyperlink{lista__tab_8hh}{lista\_tab.hh}"}
 00003 
 00007 \textcolor{comment}{// ZWIEKSZA SIE O 1}
-\hypertarget{lista__tab_8cpp_source_l00008}{}\hyperlink{class_lista__tab_a800998768639b41b5be5c52ec4ccbda4}{00008} \textcolor{keywordtype}{void} \hyperlink{class_lista__tab_a800998768639b41b5be5c52ec4ccbda4}{Lista\_tab::push}(\textcolor{keywordtype}{int} x)\{
-00009   \textcolor{keywordflow}{if}(\hyperlink{class_lista__tab_a59e0425d896070457d1f3456b91842fd}{rozmiar}==0)\{
-00010     \hyperlink{class_lista__tab_a123dfb670e5a5592e512c41cc4faf14e}{tab} = \textcolor{keyword}{new} \textcolor{keywordtype}{int} [1];
-00011     \hyperlink{class_lista__tab_a59e0425d896070457d1f3456b91842fd}{rozmiar}=1;
-00012     \hyperlink{class_lista__tab_afd2c6ba3ae15e658890641b188c7ed39}{iterator}=0;
-00013     \hyperlink{class_lista__tab_a123dfb670e5a5592e512c41cc4faf14e}{tab}[\hyperlink{class_lista__tab_afd2c6ba3ae15e658890641b188c7ed39}{iterator}]=x;
-00014   \}
-00015   \textcolor{keywordflow}{else}\{
-00016     \textcolor{keywordflow}{if}(\hyperlink{class_lista__tab_afd2c6ba3ae15e658890641b188c7ed39}{iterator}<\hyperlink{class_lista__tab_a59e0425d896070457d1f3456b91842fd}{rozmiar}-1)\{
-00017       \hyperlink{class_lista__tab_a123dfb670e5a5592e512c41cc4faf14e}{tab}[++\hyperlink{class_lista__tab_afd2c6ba3ae15e658890641b188c7ed39}{iterator}]=x;
-00018     \}
-00019     \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(\hyperlink{class_lista__tab_afd2c6ba3ae15e658890641b188c7ed39}{iterator}>=\hyperlink{class_lista__tab_a59e0425d896070457d1f3456b91842fd}{rozmiar}-1)\{
-00020       \textcolor{keywordtype}{int} *tmp = \textcolor{keyword}{new} \textcolor{keywordtype}{int}[\hyperlink{class_lista__tab_a59e0425d896070457d1f3456b91842fd}{rozmiar}+1];
-00021       \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i=0;i<=\hyperlink{class_lista__tab_afd2c6ba3ae15e658890641b188c7ed39}{iterator};i++)
-00022     tmp[i] = \hyperlink{class_lista__tab_a123dfb670e5a5592e512c41cc4faf14e}{tab}[i];
-00023       \textcolor{keyword}{delete} [] \hyperlink{class_lista__tab_a123dfb670e5a5592e512c41cc4faf14e}{tab};
-00024       \hyperlink{class_lista__tab_a123dfb670e5a5592e512c41cc4faf14e}{tab} = tmp;
-00025       \hyperlink{class_lista__tab_a123dfb670e5a5592e512c41cc4faf14e}{tab}[++\hyperlink{class_lista__tab_afd2c6ba3ae15e658890641b188c7ed39}{iterator}]=x;
-00026       \hyperlink{class_lista__tab_a59e0425d896070457d1f3456b91842fd}{rozmiar}++;
-00027     \}
-00028   \}
-00029 \}
+00008 \textcolor{comment}{/*void Lista\_tab::push(int x)\{}
+00009 \textcolor{comment}{  if(rozmiar==0)\{}
+00010 \textcolor{comment}{    tab = new int [1];}
+00011 \textcolor{comment}{    rozmiar=1;}
+00012 \textcolor{comment}{    iterator=0;}
+00013 \textcolor{comment}{    tab[iterator]=x;}
+00014 \textcolor{comment}{  \}}
+00015 \textcolor{comment}{  else\{}
+00016 \textcolor{comment}{    if(iterator<rozmiar-1)\{}
+00017 \textcolor{comment}{      tab[++iterator]=x;}
+00018 \textcolor{comment}{    \}}
+00019 \textcolor{comment}{    else if(iterator>=rozmiar-1)\{}
+00020 \textcolor{comment}{      int *tmp = new int[rozmiar+1];}
+00021 \textcolor{comment}{      for(int i=0;i<=iterator;i++)}
+00022 \textcolor{comment}{    tmp[i] = tab[i];}
+00023 \textcolor{comment}{      delete [] tab;}
+00024 \textcolor{comment}{      tab = tmp;}
+00025 \textcolor{comment}{      tab[++iterator]=x;}
+00026 \textcolor{comment}{      rozmiar++;}
+00027 \textcolor{comment}{    \}}
+00028 \textcolor{comment}{  \}}
+00029 \textcolor{comment}{  \}*/}
 00030 \textcolor{comment}{//TABLICA POWIEKSZANA DWUKROTNIE}
-00031 \textcolor{comment}{/*}
-00032 \textcolor{comment}{   void Lista\_tab::push(int x)\{}
-00033 \textcolor{comment}{   if(rozmiar==0)\{}
-00034 \textcolor{comment}{   tab = new int [1];}
-00035 \textcolor{comment}{    rozmiar=1;}
-00036 \textcolor{comment}{    iterator=0;}
-00037 \textcolor{comment}{    tab[iterator]=x;}
-00038 \textcolor{comment}{  \}}
-00039 \textcolor{comment}{  else\{}
-00040 \textcolor{comment}{    if(iterator<rozmiar-1)\{}
-00041 \textcolor{comment}{      tab[++iterator]=x;}
-00042 \textcolor{comment}{    \}}
-00043 \textcolor{comment}{    else if(iterator>=rozmiar-1)\{}
-00044 \textcolor{comment}{      int *tmp = new int[2*rozmiar];}
-00045 \textcolor{comment}{      for(int i=0;i<=iterator;i++)}
-00046 \textcolor{comment}{    tmp[i] = tab[i];}
-00047 \textcolor{comment}{      delete [] tab;}
-00048 \textcolor{comment}{      tab = tmp;}
-00049 \textcolor{comment}{      tab[++iterator]=x;}
-00050 \textcolor{comment}{      rozmiar*=2;}
-00051 \textcolor{comment}{    \}}
-00052 \textcolor{comment}{  \}}
-00053 \textcolor{comment}{  \}*/}
+00031 
+\hypertarget{lista__tab_8cpp_source_l00032}{}\hyperlink{class_lista__tab_a800998768639b41b5be5c52ec4ccbda4}{00032} \textcolor{keywordtype}{void} \hyperlink{class_lista__tab_a800998768639b41b5be5c52ec4ccbda4}{Lista\_tab::push}(\textcolor{keywordtype}{int} x)\{
+00033   \textcolor{keywordflow}{if}(\hyperlink{class_lista__tab_a59e0425d896070457d1f3456b91842fd}{rozmiar}==0)\{
+00034     \hyperlink{class_lista__tab_a123dfb670e5a5592e512c41cc4faf14e}{tab} = \textcolor{keyword}{new} \textcolor{keywordtype}{int} [1];
+00035     \hyperlink{class_lista__tab_a59e0425d896070457d1f3456b91842fd}{rozmiar}=1;
+00036     \hyperlink{class_lista__tab_afd2c6ba3ae15e658890641b188c7ed39}{iterator}=0;
+00037     \hyperlink{class_lista__tab_a123dfb670e5a5592e512c41cc4faf14e}{tab}[\hyperlink{class_lista__tab_afd2c6ba3ae15e658890641b188c7ed39}{iterator}]=x;
+00038   \}
+00039   \textcolor{keywordflow}{else}\{
+00040     \textcolor{keywordflow}{if}(\hyperlink{class_lista__tab_afd2c6ba3ae15e658890641b188c7ed39}{iterator}<\hyperlink{class_lista__tab_a59e0425d896070457d1f3456b91842fd}{rozmiar}-1)\{
+00041       \hyperlink{class_lista__tab_a123dfb670e5a5592e512c41cc4faf14e}{tab}[++\hyperlink{class_lista__tab_afd2c6ba3ae15e658890641b188c7ed39}{iterator}]=x;
+00042     \}
+00043     \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(\hyperlink{class_lista__tab_afd2c6ba3ae15e658890641b188c7ed39}{iterator}>=\hyperlink{class_lista__tab_a59e0425d896070457d1f3456b91842fd}{rozmiar}-1)\{
+00044       \textcolor{keywordtype}{int} *tmp = \textcolor{keyword}{new} \textcolor{keywordtype}{int}[2*\hyperlink{class_lista__tab_a59e0425d896070457d1f3456b91842fd}{rozmiar}];
+00045       \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i=0;i<=\hyperlink{class_lista__tab_afd2c6ba3ae15e658890641b188c7ed39}{iterator};i++)
+00046     tmp[i] = \hyperlink{class_lista__tab_a123dfb670e5a5592e512c41cc4faf14e}{tab}[i];
+00047       \textcolor{keyword}{delete} [] \hyperlink{class_lista__tab_a123dfb670e5a5592e512c41cc4faf14e}{tab};
+00048       \hyperlink{class_lista__tab_a123dfb670e5a5592e512c41cc4faf14e}{tab} = tmp;
+00049       \hyperlink{class_lista__tab_a123dfb670e5a5592e512c41cc4faf14e}{tab}[++\hyperlink{class_lista__tab_afd2c6ba3ae15e658890641b188c7ed39}{iterator}]=x;
+00050       \hyperlink{class_lista__tab_a59e0425d896070457d1f3456b91842fd}{rozmiar}*=2;
+00051     \}
+00052   \}
+00053 \}
 00054 
 00055 
 \hypertarget{lista__tab_8cpp_source_l00056}{}\hyperlink{class_lista__tab_affc42a7ffc6eda21076fc56eae38e980}{00056} \textcolor{keywordtype}{void} \hyperlink{class_lista__tab_affc42a7ffc6eda21076fc56eae38e980}{Lista\_tab::pop}()\{
@@ -99,4 +99,17 @@
 00097   \hyperlink{class_lista__tab_a123dfb670e5a5592e512c41cc4faf14e}{tab} = NULL;
 00098 \}
 00099 
+\hypertarget{lista__tab_8cpp_source_l00100}{}\hyperlink{class_lista__tab_a409e9a4edbef4337980c7184b6cbfb63}{00100} \textcolor{keywordtype}{void} \hyperlink{class_lista__tab_a409e9a4edbef4337980c7184b6cbfb63}{Lista\_tab::mergesort}(\textcolor{keywordtype}{int} beg, \textcolor{keywordtype}{int} end)\{
+00101   \textcolor{keywordtype}{int} tmp[end+1];
+00102   \textcolor{keywordtype}{int} mid = (beg+end+1)/2; \textcolor{keywordtype}{int} i1, i2,i;
+00103   \textcolor{keywordflow}{if}(mid-beg>1)
+00104     \hyperlink{class_lista__tab_a409e9a4edbef4337980c7184b6cbfb63}{mergesort}(beg,mid-1);
+00105   \textcolor{keywordflow}{if}(end-mid>0)
+00106     \hyperlink{class_lista__tab_a409e9a4edbef4337980c7184b6cbfb63}{mergesort}(mid,end);
+00107   i1=beg; i2=mid;
+00108   \textcolor{keywordflow}{for}(i=beg; i<=end; i++)
+00109     tmp[i]=((i1==mid)||((i2<=end)&&(\hyperlink{class_lista__tab_a123dfb670e5a5592e512c41cc4faf14e}{tab}[i1] > \hyperlink{class_lista__tab_a123dfb670e5a5592e512c41cc4faf14e}{tab}[i2]))) ? \hyperlink{class_lista__tab_a123dfb670e5a5592e512c41cc4faf14e}{tab}[i2++] : 
+      \hyperlink{class_lista__tab_a123dfb670e5a5592e512c41cc4faf14e}{tab}[i1++];
+00110   \textcolor{keywordflow}{for}(i=beg; i<=end; i++) \hyperlink{class_lista__tab_a123dfb670e5a5592e512c41cc4faf14e}{tab}[i]=tmp[i];
+00111 \}
 \end{DoxyCode}

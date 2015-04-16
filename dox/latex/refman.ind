@@ -6,7 +6,7 @@
     \subitem {Lista\discretionary {-}{}{}\_\discretionary {-}{}{}tab}, 
 		\hyperpage{23}
   \item {$\sim $\discretionary {-}{}{}Program}
-    \subitem {Program}, \hyperpage{27}
+    \subitem {Program}, \hyperpage{28}
 
   \indexspace
 
@@ -29,38 +29,38 @@
 		\hyperpage{14}
   \item {Assoctab$<$ type\discretionary {-}{}{}K, type\discretionary {-}{}{}V $>$}, 
 		\hyperpage{7}
-  \item {assoctab.\discretionary {-}{}{}hh}, \hyperpage{33, 34}
+  \item {assoctab.\discretionary {-}{}{}hh}, \hyperpage{35, 36}
     \subitem {H\discretionary {-}{}{}A\discretionary {-}{}{}S\discretionary {-}{}{}H}, 
-		\hyperpage{34}
+		\hyperpage{36}
     \subitem {T\discretionary {-}{}{}A\discretionary {-}{}{}B}, 
-		\hyperpage{34}
+		\hyperpage{36}
 
   \indexspace
 
   \item {Benchmark}, \hyperpage{14}
     \subitem {czas\discretionary {-}{}{}\_\discretionary {-}{}{}pomiaru}, 
-		\hyperpage{18}
+		\hyperpage{17}
     \subitem {rozpocznij\discretionary {-}{}{}\_\discretionary {-}{}{}pomiar}, 
 		\hyperpage{15}
-    \subitem {t1}, \hyperpage{18}
+    \subitem {t1}, \hyperpage{17}
     \subitem {t2}, \hyperpage{18}
     \subitem {testuj}, \hyperpage{15}
     \subitem {testuj\discretionary {-}{}{}\_\discretionary {-}{}{}strukture}, 
 		\hyperpage{16}
     \subitem {zakoncz\discretionary {-}{}{}\_\discretionary {-}{}{}pomiar}, 
 		\hyperpage{17}
-  \item {benchmark.\discretionary {-}{}{}cpp}, \hyperpage{36}
-  \item {benchmark.\discretionary {-}{}{}hh}, \hyperpage{37, 38}
+  \item {benchmark.\discretionary {-}{}{}cpp}, \hyperpage{38}
+  \item {benchmark.\discretionary {-}{}{}hh}, \hyperpage{39, 40}
 
   \indexspace
 
   \item {czas\discretionary {-}{}{}\_\discretionary {-}{}{}pomiaru}
-    \subitem {Benchmark}, \hyperpage{18}
+    \subitem {Benchmark}, \hyperpage{17}
 
   \indexspace
 
   \item {daj}
-    \subitem {Lista}, \hyperpage{20}
+    \subitem {Lista}, \hyperpage{19}
 
   \indexspace
 
@@ -70,16 +70,16 @@
   \indexspace
 
   \item {get\discretionary {-}{}{}Rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}tab}
-    \subitem {Program}, \hyperpage{27}
+    \subitem {Program}, \hyperpage{28}
 
   \indexspace
 
   \item {h}
     \subitem {Assoctab}, \hyperpage{10}
   \item {H\discretionary {-}{}{}A\discretionary {-}{}{}S\discretionary {-}{}{}H}
-    \subitem {assoctab.\discretionary {-}{}{}hh}, \hyperpage{34}
-    \subitem {tmp.\discretionary {-}{}{}hh}, \hyperpage{54}
-  \item {hashtab.\discretionary {-}{}{}cpp}, \hyperpage{39}
+    \subitem {assoctab.\discretionary {-}{}{}hh}, \hyperpage{36}
+    \subitem {tmp.\discretionary {-}{}{}hh}, \hyperpage{56}
+  \item {hashtab.\discretionary {-}{}{}cpp}, \hyperpage{41}
 
   \indexspace
 
@@ -91,32 +91,32 @@
 
   \item {L\discretionary {-}{}{}I\discretionary {-}{}{}S\discretionary {-}{}{}T\discretionary {-}{}{}A\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}T\discretionary {-}{}{}A\discretionary {-}{}{}B\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}H\discretionary {-}{}{}H}
     \subitem {lista\discretionary {-}{}{}\_\discretionary {-}{}{}tab.\discretionary {-}{}{}hh}, 
-		\hyperpage{46}
+		\hyperpage{48}
   \item {Lista}
-    \subitem {daj}, \hyperpage{20}
+    \subitem {daj}, \hyperpage{19}
     \subitem {first}, \hyperpage{21}
-    \subitem {Lista}, \hyperpage{20}
-    \subitem {pop}, \hyperpage{20}
+    \subitem {Lista}, \hyperpage{19}
+    \subitem {pop}, \hyperpage{19}
     \subitem {push}, \hyperpage{20}
     \subitem {push\discretionary {-}{}{}\_\discretionary {-}{}{}front}, 
 		\hyperpage{20}
-    \subitem {size}, \hyperpage{21}
+    \subitem {size}, \hyperpage{20}
     \subitem {wyczysc\discretionary {-}{}{}\_\discretionary {-}{}{}dane}, 
-		\hyperpage{21}
+		\hyperpage{20}
     \subitem {wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program}, 
-		\hyperpage{21}
+		\hyperpage{20}
     \subitem {wyswietl}, \hyperpage{21}
   \item {Lista$<$ type, type2 $>$}, \hyperpage{18}
   \item {Lista$<$ type, type2 $>$\discretionary {-}{}{}::pole}, 
-		\hyperpage{25}
-  \item {lista.\discretionary {-}{}{}hh}, \hyperpage{40}
+		\hyperpage{26}
+  \item {lista.\discretionary {-}{}{}hh}, \hyperpage{42}
   \item {Lista\discretionary {-}{}{}::pole}
-    \subitem {next}, \hyperpage{26}
+    \subitem {next}, \hyperpage{27}
     \subitem {pole}, \hyperpage{26}
-    \subitem {val1}, \hyperpage{26}
-    \subitem {val2}, \hyperpage{26}
+    \subitem {val1}, \hyperpage{27}
+    \subitem {val2}, \hyperpage{27}
   \item {Lista\discretionary {-}{}{}\_\discretionary {-}{}{}tab}, 
-		\hyperpage{22}
+		\hyperpage{21}
     \subitem {$\sim $\discretionary {-}{}{}Lista\discretionary {-}{}{}\_\discretionary {-}{}{}tab}, 
 		\hyperpage{23}
     \subitem {iterator}, \hyperpage{25}
@@ -124,72 +124,77 @@
 		\hyperpage{23}
     \subitem {Lista\discretionary {-}{}{}\_\discretionary {-}{}{}tab}, 
 		\hyperpage{23}
+    \subitem {mergesort}, \hyperpage{23}
     \subitem {pop}, \hyperpage{23}
     \subitem {push}, \hyperpage{23}
     \subitem {rozmiar}, \hyperpage{25}
     \subitem {size}, \hyperpage{24}
     \subitem {tab}, \hyperpage{25}
+    \subitem {test}, \hyperpage{24}
     \subitem {wyczysc\discretionary {-}{}{}\_\discretionary {-}{}{}dane}, 
 		\hyperpage{24}
     \subitem {wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program}, 
-		\hyperpage{24}
+		\hyperpage{25}
   \item {lista\discretionary {-}{}{}\_\discretionary {-}{}{}tab.\discretionary {-}{}{}cpp}, 
-		\hyperpage{43, 44}
+		\hyperpage{45, 46}
   \item {lista\discretionary {-}{}{}\_\discretionary {-}{}{}tab.\discretionary {-}{}{}hh}, 
-		\hyperpage{45}, \hyperpage{47}
+		\hyperpage{47}, \hyperpage{49}
     \subitem {L\discretionary {-}{}{}I\discretionary {-}{}{}S\discretionary {-}{}{}T\discretionary {-}{}{}A\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}T\discretionary {-}{}{}A\discretionary {-}{}{}B\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}H\discretionary {-}{}{}H}, 
-		\hyperpage{46}
+		\hyperpage{48}
 
   \indexspace
 
   \item {main}
-    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{48}
-  \item {main.\discretionary {-}{}{}cpp}, \hyperpage{47, 48}
-    \subitem {main}, \hyperpage{48}
+    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{50}
+  \item {main.\discretionary {-}{}{}cpp}, \hyperpage{49, 50}
+    \subitem {main}, \hyperpage{50}
+  \item {mergesort}
+    \subitem {Lista\discretionary {-}{}{}\_\discretionary {-}{}{}tab}, 
+		\hyperpage{23}
 
   \indexspace
 
   \item {next}
-    \subitem {Lista\discretionary {-}{}{}::pole}, \hyperpage{26}
+    \subitem {Lista\discretionary {-}{}{}::pole}, \hyperpage{27}
 
   \indexspace
 
   \item {plik\discretionary {-}{}{}\_\discretionary {-}{}{}we}
-    \subitem {Program}, \hyperpage{29}
+    \subitem {Program}, \hyperpage{31}
   \item {plik\discretionary {-}{}{}\_\discretionary {-}{}{}wy}
-    \subitem {Program}, \hyperpage{29}
+    \subitem {Program}, \hyperpage{31}
   \item {pole}
     \subitem {Lista\discretionary {-}{}{}::pole}, \hyperpage{26}
   \item {pop}
     \subitem {Assoctab}, \hyperpage{10}
-    \subitem {Lista}, \hyperpage{20}
+    \subitem {Lista}, \hyperpage{19}
     \subitem {Lista\discretionary {-}{}{}\_\discretionary {-}{}{}tab}, 
 		\hyperpage{23}
-  \item {Program}, \hyperpage{26}
-    \subitem {$\sim $\discretionary {-}{}{}Program}, \hyperpage{27}
+  \item {Program}, \hyperpage{27}
+    \subitem {$\sim $\discretionary {-}{}{}Program}, \hyperpage{28}
     \subitem {get\discretionary {-}{}{}Rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}tab}, 
-		\hyperpage{27}
+		\hyperpage{28}
     \subitem {plik\discretionary {-}{}{}\_\discretionary {-}{}{}we}, 
-		\hyperpage{29}
+		\hyperpage{31}
     \subitem {plik\discretionary {-}{}{}\_\discretionary {-}{}{}wy}, 
-		\hyperpage{29}
-    \subitem {Program}, \hyperpage{27}
+		\hyperpage{31}
+    \subitem {Program}, \hyperpage{28}
     \subitem {rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}tab}, 
-		\hyperpage{29}
-    \subitem {tab}, \hyperpage{29}
-    \subitem {test}, \hyperpage{27}
+		\hyperpage{31}
+    \subitem {tab}, \hyperpage{31}
+    \subitem {test}, \hyperpage{28}
     \subitem {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane}, 
-		\hyperpage{28}
+		\hyperpage{29}
     \subitem {wyczysc\discretionary {-}{}{}\_\discretionary {-}{}{}dane}, 
-		\hyperpage{28}
+		\hyperpage{29}
     \subitem {wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program}, 
-		\hyperpage{28, 29}
+		\hyperpage{30}
     \subitem {wyswietl\discretionary {-}{}{}\_\discretionary {-}{}{}dane}, 
-		\hyperpage{29}
+		\hyperpage{30}
     \subitem {zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}dane}, 
-		\hyperpage{29}
-  \item {program.\discretionary {-}{}{}cpp}, \hyperpage{48, 49}
-  \item {program.\discretionary {-}{}{}hh}, \hyperpage{50, 51}
+		\hyperpage{30}
+  \item {program.\discretionary {-}{}{}cpp}, \hyperpage{50, 51}
+  \item {program.\discretionary {-}{}{}hh}, \hyperpage{52, 53}
   \item {push}
     \subitem {Assoctab}, \hyperpage{10}
     \subitem {Lista}, \hyperpage{20}
@@ -205,7 +210,7 @@
     \subitem {Lista\discretionary {-}{}{}\_\discretionary {-}{}{}tab}, 
 		\hyperpage{25}
   \item {rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}tab}
-    \subitem {Program}, \hyperpage{29}
+    \subitem {Program}, \hyperpage{31}
   \item {rozpocznij\discretionary {-}{}{}\_\discretionary {-}{}{}pomiar}
     \subitem {Benchmark}, \hyperpage{15}
 
@@ -213,71 +218,73 @@
 
   \item {size}
     \subitem {Assoctab}, \hyperpage{11}
-    \subitem {Lista}, \hyperpage{21}
+    \subitem {Lista}, \hyperpage{20}
     \subitem {Lista\discretionary {-}{}{}\_\discretionary {-}{}{}tab}, 
 		\hyperpage{24}
 
   \indexspace
 
   \item {t1}
-    \subitem {Benchmark}, \hyperpage{18}
+    \subitem {Benchmark}, \hyperpage{17}
   \item {t2}
     \subitem {Benchmark}, \hyperpage{18}
   \item {T\discretionary {-}{}{}A\discretionary {-}{}{}B}
-    \subitem {assoctab.\discretionary {-}{}{}hh}, \hyperpage{34}
-    \subitem {tmp.\discretionary {-}{}{}hh}, \hyperpage{54}
+    \subitem {assoctab.\discretionary {-}{}{}hh}, \hyperpage{36}
+    \subitem {tmp.\discretionary {-}{}{}hh}, \hyperpage{56}
   \item {tab}
     \subitem {Assoctab}, \hyperpage{14}
     \subitem {Lista\discretionary {-}{}{}\_\discretionary {-}{}{}tab}, 
 		\hyperpage{25}
-    \subitem {Program}, \hyperpage{29}
-  \item {Tabx2}, \hyperpage{30}
+    \subitem {Program}, \hyperpage{31}
+  \item {Tabx2}, \hyperpage{31}
     \subitem {wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program}, 
-		\hyperpage{31}
-  \item {tabx2.\discretionary {-}{}{}cpp}, \hyperpage{51, 52}
-  \item {tabx2.\discretionary {-}{}{}hh}, \hyperpage{52, 53}
+		\hyperpage{32}
+  \item {tabx2.\discretionary {-}{}{}cpp}, \hyperpage{53, 54}
+  \item {tabx2.\discretionary {-}{}{}hh}, \hyperpage{54, 55}
   \item {test}
     \subitem {Assoctab}, \hyperpage{11}
-    \subitem {Program}, \hyperpage{27}
+    \subitem {Lista\discretionary {-}{}{}\_\discretionary {-}{}{}tab}, 
+		\hyperpage{24}
+    \subitem {Program}, \hyperpage{28}
   \item {testuj}
     \subitem {Benchmark}, \hyperpage{15}
   \item {testuj\discretionary {-}{}{}\_\discretionary {-}{}{}strukture}
     \subitem {Benchmark}, \hyperpage{16}
-  \item {tmp.\discretionary {-}{}{}hh}, \hyperpage{54, 55}
+  \item {tmp.\discretionary {-}{}{}hh}, \hyperpage{56, 57}
     \subitem {H\discretionary {-}{}{}A\discretionary {-}{}{}S\discretionary {-}{}{}H}, 
-		\hyperpage{54}
+		\hyperpage{56}
     \subitem {T\discretionary {-}{}{}A\discretionary {-}{}{}B}, 
-		\hyperpage{54}
+		\hyperpage{56}
 
   \indexspace
 
   \item {val1}
-    \subitem {Lista\discretionary {-}{}{}::pole}, \hyperpage{26}
+    \subitem {Lista\discretionary {-}{}{}::pole}, \hyperpage{27}
   \item {val2}
-    \subitem {Lista\discretionary {-}{}{}::pole}, \hyperpage{26}
+    \subitem {Lista\discretionary {-}{}{}::pole}, \hyperpage{27}
 
   \indexspace
 
   \item {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane}
-    \subitem {Program}, \hyperpage{28}
+    \subitem {Program}, \hyperpage{29}
   \item {wyczysc\discretionary {-}{}{}\_\discretionary {-}{}{}dane}
     \subitem {Assoctab}, \hyperpage{11}
-    \subitem {Lista}, \hyperpage{21}
+    \subitem {Lista}, \hyperpage{20}
     \subitem {Lista\discretionary {-}{}{}\_\discretionary {-}{}{}tab}, 
 		\hyperpage{24}
-    \subitem {Program}, \hyperpage{28}
+    \subitem {Program}, \hyperpage{29}
   \item {wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}program}
     \subitem {Assoctab}, \hyperpage{13}
-    \subitem {Lista}, \hyperpage{21}
+    \subitem {Lista}, \hyperpage{20}
     \subitem {Lista\discretionary {-}{}{}\_\discretionary {-}{}{}tab}, 
-		\hyperpage{24}
-    \subitem {Program}, \hyperpage{28, 29}
-    \subitem {Tabx2}, \hyperpage{31}
+		\hyperpage{25}
+    \subitem {Program}, \hyperpage{30}
+    \subitem {Tabx2}, \hyperpage{32}
   \item {wyswietl}
     \subitem {Assoctab}, \hyperpage{13}
     \subitem {Lista}, \hyperpage{21}
   \item {wyswietl\discretionary {-}{}{}\_\discretionary {-}{}{}dane}
-    \subitem {Program}, \hyperpage{29}
+    \subitem {Program}, \hyperpage{30}
   \item {wyswietl\discretionary {-}{}{}\_\discretionary {-}{}{}liste}
     \subitem {Assoctab}, \hyperpage{14}
 
@@ -286,6 +293,6 @@
   \item {zakoncz\discretionary {-}{}{}\_\discretionary {-}{}{}pomiar}
     \subitem {Benchmark}, \hyperpage{17}
   \item {zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}dane}
-    \subitem {Program}, \hyperpage{29}
+    \subitem {Program}, \hyperpage{30}
 
 \end{theindex}

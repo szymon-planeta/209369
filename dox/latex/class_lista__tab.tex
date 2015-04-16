@@ -39,8 +39,12 @@ int \hyperlink{class_lista__tab_af092dd7943f7cd5ff407485f2991a1e4}{size} ()
 bool \hyperlink{class_lista__tab_ac9adc6ecc7348c5e1871b239c1313405}{wykonaj\-\_\-program} (char $\ast$nazwa\-\_\-pliku, int ilosc\-\_\-danych)
 \begin{DoxyCompactList}\small\item\em Metoda wykonaj\-\_\-program. \end{DoxyCompactList}\item 
 void \hyperlink{class_lista__tab_a506a6de79a600bac8316a6caf9878528}{wyczysc\-\_\-dane} (int ile)
-\begin{DoxyCompactList}\small\item\em Metoda wyczysc\-\_\-dane. \end{DoxyCompactList}\end{DoxyCompactItemize}
-\subsection*{Atrybuty prywatne}
+\begin{DoxyCompactList}\small\item\em Metoda wyczysc\-\_\-dane. \end{DoxyCompactList}\item 
+void \hyperlink{class_lista__tab_a409e9a4edbef4337980c7184b6cbfb63}{mergesort} (int beg, int end)
+\begin{DoxyCompactList}\small\item\em Metoda mergesort. \end{DoxyCompactList}\item 
+void \hyperlink{class_lista__tab_a34c4a75347b05d367d7d1b08fcbde095}{test} ()
+\begin{DoxyCompactList}\small\item\em Metoda test. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atrybuty publiczne}
 \begin{DoxyCompactItemize}
 \item 
 int \hyperlink{class_lista__tab_a59e0425d896070457d1f3456b91842fd}{rozmiar}
@@ -85,6 +89,39 @@ Definicja w linii \hyperlink{lista__tab_8hh_source_l00043}{43} pliku \hyperlink{
 
 
 \subsection{Dokumentacja funkcji składowych}
+\hypertarget{class_lista__tab_a409e9a4edbef4337980c7184b6cbfb63}{\index{Lista\-\_\-tab@{Lista\-\_\-tab}!mergesort@{mergesort}}
+\index{mergesort@{mergesort}!Lista_tab@{Lista\-\_\-tab}}
+\subsubsection[{mergesort}]{\setlength{\rightskip}{0pt plus 5cm}void Lista\-\_\-tab\-::mergesort (
+\begin{DoxyParamCaption}
+\item[{int}]{beg, }
+\item[{int}]{end}
+\end{DoxyParamCaption}
+)}}\label{class_lista__tab_a409e9a4edbef4337980c7184b6cbfb63}
+Dokonuje sortowania tablicy przez scalanie
+
+
+\begin{DoxyParams}[1]{Parametry}
+\mbox{\tt in}  & {\em beg} & Początek obszaru sortowania \\
+\hline
+\mbox{\tt in}  & {\em end} & Koniec obszaru sortowania \\
+\hline
+\end{DoxyParams}
+
+
+Definicja w linii \hyperlink{lista__tab_8cpp_source_l00100}{100} pliku \hyperlink{lista__tab_8cpp_source}{lista\-\_\-tab.\-cpp}.
+
+
+
+Oto graf wywoływań tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=302pt]{class_lista__tab_a409e9a4edbef4337980c7184b6cbfb63_icgraph}
+\end{center}
+\end{figure}
+
+
 \hypertarget{class_lista__tab_affc42a7ffc6eda21076fc56eae38e980}{\index{Lista\-\_\-tab@{Lista\-\_\-tab}!pop@{pop}}
 \index{pop@{pop}!Lista_tab@{Lista\-\_\-tab}}
 \subsubsection[{pop}]{\setlength{\rightskip}{0pt plus 5cm}void Lista\-\_\-tab\-::pop (
@@ -112,15 +149,16 @@ Dodaje podana wartosc na koniec listy. Do wyboru 2 metody push -\/ po osiagnieci
 \end{DoxyParams}
 
 
-Definicja w linii \hyperlink{lista__tab_8cpp_source_l00008}{8} pliku \hyperlink{lista__tab_8cpp_source}{lista\-\_\-tab.\-cpp}.
+Definicja w linii \hyperlink{lista__tab_8cpp_source_l00032}{32} pliku \hyperlink{lista__tab_8cpp_source}{lista\-\_\-tab.\-cpp}.
 
 
 
-Oto graf wywoływań tej funkcji\-:\nopagebreak
+Oto graf wywoływań tej funkcji\-:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=298pt]{class_lista__tab_a800998768639b41b5be5c52ec4ccbda4_icgraph}
+\includegraphics[width=350pt]{class_lista__tab_a800998768639b41b5be5c52ec4ccbda4_icgraph}
 \end{center}
 \end{figure}
 
@@ -140,6 +178,33 @@ Rozmiar listy (liczba jej elementow)
 
 
 Definicja w linii \hyperlink{lista__tab_8cpp_source_l00073}{73} pliku \hyperlink{lista__tab_8cpp_source}{lista\-\_\-tab.\-cpp}.
+
+\hypertarget{class_lista__tab_a34c4a75347b05d367d7d1b08fcbde095}{\index{Lista\-\_\-tab@{Lista\-\_\-tab}!test@{test}}
+\index{test@{test}!Lista_tab@{Lista\-\_\-tab}}
+\subsubsection[{test}]{\setlength{\rightskip}{0pt plus 5cm}void Lista\-\_\-tab\-::test (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{class_lista__tab_a34c4a75347b05d367d7d1b08fcbde095}
+Wykonuje sortowanie przez scalanie 
+
+Reimplementowana z \hyperlink{class_program_ae866e995ea153f83031107c194f604e5}{Program}.
+
+
+
+Definicja w linii \hyperlink{lista__tab_8hh_source_l00107}{107} pliku \hyperlink{lista__tab_8hh_source}{lista\-\_\-tab.\-hh}.
+
+
+
+Oto graf wywołań dla tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=302pt]{class_lista__tab_a34c4a75347b05d367d7d1b08fcbde095_cgraph}
+\end{center}
+\end{figure}
+
 
 \hypertarget{class_lista__tab_a506a6de79a600bac8316a6caf9878528}{\index{Lista\-\_\-tab@{Lista\-\_\-tab}!wyczysc\-\_\-dane@{wyczysc\-\_\-dane}}
 \index{wyczysc\-\_\-dane@{wyczysc\-\_\-dane}!Lista_tab@{Lista\-\_\-tab}}
@@ -201,24 +266,36 @@ Oto graf wywołań dla tej funkcji\-:\nopagebreak
 
 
 
+Oto graf wywoływań tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=252pt]{class_lista__tab_ac9adc6ecc7348c5e1871b239c1313405_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
 \subsection{Dokumentacja atrybutów składowych}
 \hypertarget{class_lista__tab_afd2c6ba3ae15e658890641b188c7ed39}{\index{Lista\-\_\-tab@{Lista\-\_\-tab}!iterator@{iterator}}
 \index{iterator@{iterator}!Lista_tab@{Lista\-\_\-tab}}
-\subsubsection[{iterator}]{\setlength{\rightskip}{0pt plus 5cm}int Lista\-\_\-tab\-::iterator\hspace{0.3cm}{\ttfamily [private]}}}\label{class_lista__tab_afd2c6ba3ae15e658890641b188c7ed39}
+\subsubsection[{iterator}]{\setlength{\rightskip}{0pt plus 5cm}int Lista\-\_\-tab\-::iterator}}\label{class_lista__tab_afd2c6ba3ae15e658890641b188c7ed39}
 
 
 Definicja w linii \hyperlink{lista__tab_8hh_source_l00020}{20} pliku \hyperlink{lista__tab_8hh_source}{lista\-\_\-tab.\-hh}.
 
 \hypertarget{class_lista__tab_a59e0425d896070457d1f3456b91842fd}{\index{Lista\-\_\-tab@{Lista\-\_\-tab}!rozmiar@{rozmiar}}
 \index{rozmiar@{rozmiar}!Lista_tab@{Lista\-\_\-tab}}
-\subsubsection[{rozmiar}]{\setlength{\rightskip}{0pt plus 5cm}int Lista\-\_\-tab\-::rozmiar\hspace{0.3cm}{\ttfamily [private]}}}\label{class_lista__tab_a59e0425d896070457d1f3456b91842fd}
+\subsubsection[{rozmiar}]{\setlength{\rightskip}{0pt plus 5cm}int Lista\-\_\-tab\-::rozmiar}}\label{class_lista__tab_a59e0425d896070457d1f3456b91842fd}
 
 
 Definicja w linii \hyperlink{lista__tab_8hh_source_l00016}{16} pliku \hyperlink{lista__tab_8hh_source}{lista\-\_\-tab.\-hh}.
 
 \hypertarget{class_lista__tab_a123dfb670e5a5592e512c41cc4faf14e}{\index{Lista\-\_\-tab@{Lista\-\_\-tab}!tab@{tab}}
 \index{tab@{tab}!Lista_tab@{Lista\-\_\-tab}}
-\subsubsection[{tab}]{\setlength{\rightskip}{0pt plus 5cm}int$\ast$ Lista\-\_\-tab\-::tab\hspace{0.3cm}{\ttfamily [private]}}}\label{class_lista__tab_a123dfb670e5a5592e512c41cc4faf14e}
+\subsubsection[{tab}]{\setlength{\rightskip}{0pt plus 5cm}int$\ast$ Lista\-\_\-tab\-::tab}}\label{class_lista__tab_a123dfb670e5a5592e512c41cc4faf14e}
 
 
 Definicja w linii \hyperlink{lista__tab_8hh_source_l00024}{24} pliku \hyperlink{lista__tab_8hh_source}{lista\-\_\-tab.\-hh}.

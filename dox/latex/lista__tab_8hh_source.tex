@@ -10,6 +10,7 @@
 00005 \textcolor{preprocessor}{#include "\hyperlink{program_8hh}{program.hh}"}
 00006 
 \hypertarget{lista__tab_8hh_source_l00012}{}\hyperlink{class_lista__tab}{00012} \textcolor{keyword}{class }\hyperlink{class_lista__tab}{Lista\_tab}: \textcolor{keyword}{public} \hyperlink{class_program}{Program}\{
+00013 \textcolor{keyword}{public}:
 \hypertarget{lista__tab_8hh_source_l00016}{}\hyperlink{class_lista__tab_a59e0425d896070457d1f3456b91842fd}{00016}   \textcolor{keywordtype}{int} \hyperlink{class_lista__tab_a59e0425d896070457d1f3456b91842fd}{rozmiar};
 \hypertarget{lista__tab_8hh_source_l00020}{}\hyperlink{class_lista__tab_afd2c6ba3ae15e658890641b188c7ed39}{00020}   \textcolor{keywordtype}{int} \hyperlink{class_lista__tab_afd2c6ba3ae15e658890641b188c7ed39}{iterator};
 \hypertarget{lista__tab_8hh_source_l00024}{}\hyperlink{class_lista__tab_a123dfb670e5a5592e512c41cc4faf14e}{00024}   \textcolor{keywordtype}{int} *\hyperlink{class_lista__tab_a123dfb670e5a5592e512c41cc4faf14e}{tab};
@@ -30,7 +31,11 @@
 00081   \textcolor{keywordtype}{bool} \hyperlink{class_program_ac396401ba5cade863d0e6acb727bec4e}{wykonaj\_program}(\textcolor{keywordtype}{char}* nazwa\_pliku,\textcolor{keywordtype}{int} ilosc\_danych);
 00082 
 00090   \textcolor{keywordtype}{void} \hyperlink{class_lista__tab_a506a6de79a600bac8316a6caf9878528}{wyczysc\_dane}(\textcolor{keywordtype}{int} ile);
-00091 \};
-00092 
-00093 \textcolor{preprocessor}{#endif}
+00091 
+00100   \textcolor{keywordtype}{void} \hyperlink{class_lista__tab_a409e9a4edbef4337980c7184b6cbfb63}{mergesort}(\textcolor{keywordtype}{int} beg, \textcolor{keywordtype}{int} end);
+00101 
+\hypertarget{lista__tab_8hh_source_l00107}{}\hyperlink{class_lista__tab_a34c4a75347b05d367d7d1b08fcbde095}{00107}   \textcolor{keywordtype}{void} \hyperlink{class_lista__tab_a34c4a75347b05d367d7d1b08fcbde095}{test}()\{\hyperlink{class_lista__tab_a409e9a4edbef4337980c7184b6cbfb63}{mergesort}(0,\hyperlink{class_lista__tab_afd2c6ba3ae15e658890641b188c7ed39}{iterator});\};
+00108 \};
+00109 
+00110 \textcolor{preprocessor}{#endif}
 \end{DoxyCode}

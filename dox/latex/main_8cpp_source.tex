@@ -15,17 +15,24 @@
 00010 \textcolor{keyword}{using namespace }std;
 00011 
 \hypertarget{main_8cpp_source_l00012}{}\hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{00012} \textcolor{keywordtype}{int} \hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}()\{
-00013   
+00013   \hyperlink{class_lista__tab}{Lista\_tab} a;
 00014   \hyperlink{class_benchmark}{Benchmark} b;
-00015   \textcolor{keywordtype}{char}* dane = (\textcolor{keywordtype}{char}*)\textcolor{stringliteral}{"pary.dat"};
+00015   \textcolor{keywordtype}{char}* dane = (\textcolor{keywordtype}{char}*)\textcolor{stringliteral}{"dane.dat"};
 00016   \textcolor{keywordtype}{int} ilosc\_testow = 10;
-00017 
-00018   \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} ilosc\_danych=1; ilosc\_danych<=1000000;ilosc\_danych*=10)\{
-00019     \hyperlink{class_assoctab}{Assoctab<string, string>} asoc;
-00020     asoc.\hyperlink{class_assoctab_a1abfeacbbd181c019aa3f671ede976ea}{wykonaj\_program}(dane,ilosc\_danych);
-00021     cout << b.\hyperlink{class_benchmark_ac8fa0356657b4a1ffd46df6ae7fd78d0}{testuj\_strukture}(asoc,dane,ilosc\_danych,ilosc\_testow) << endl;
-00022   \}
-00023 
-00024   \textcolor{keywordflow}{return} 0;
-00025 \}
+00017   
+00018     a.\hyperlink{class_lista__tab_ac9adc6ecc7348c5e1871b239c1313405}{wykonaj\_program}(dane, 10);
+00019     \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i=0; i<=a.\hyperlink{class_lista__tab_afd2c6ba3ae15e658890641b188c7ed39}{iterator}; i++)
+00020     cout<< a.\hyperlink{class_lista__tab_a123dfb670e5a5592e512c41cc4faf14e}{tab}[i]<<endl;
+00021     a.\hyperlink{class_lista__tab_a409e9a4edbef4337980c7184b6cbfb63}{mergesort}(0,a.\hyperlink{class_lista__tab_afd2c6ba3ae15e658890641b188c7ed39}{iterator});
+00022     cout<<endl<<endl;
+00023     \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i=0; i<=a.\hyperlink{class_lista__tab_afd2c6ba3ae15e658890641b188c7ed39}{iterator}; i++)
+00024     cout<< a.\hyperlink{class_lista__tab_a123dfb670e5a5592e512c41cc4faf14e}{tab}[i]<<endl;
+00025   
+00026   \textcolor{comment}{/*}
+00027 \textcolor{comment}{  for(int ilosc\_danych=1; ilosc\_danych<=10000000;ilosc\_danych*=10)\{}
+00028 \textcolor{comment}{    cout << b.testuj\_strukture(a,dane,ilosc\_danych,ilosc\_testow) << endl;}
+00029 \textcolor{comment}{  \}}
+00030 \textcolor{comment}{  */}  
+00031   \textcolor{keywordflow}{return} 0;
+00032 \}
 \end{DoxyCode}

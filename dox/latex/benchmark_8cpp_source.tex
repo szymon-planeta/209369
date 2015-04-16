@@ -52,17 +52,20 @@
 00049   \textcolor{keywordtype}{double} suma=0;
 00050   \textcolor{keywordtype}{double} srednia=0;
 00051   ofstream wyniki;
-00052   wyniki.open(\textcolor{stringliteral}{"wyniki.csv"},ios::app);
-00053   \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i=1;i<ilosc\_testow;i++)\{
-00054     \hyperlink{class_benchmark_a684ddcbdd22608838da1ad23f1fcc2ce}{rozpocznij\_pomiar}();
-00055     program.\hyperlink{class_program_ae866e995ea153f83031107c194f604e5}{test}();
-00056     \hyperlink{class_benchmark_a3f4b4595a3d1145d238f5b3c8486d875}{zakoncz\_pomiar}();
-00057     suma+=\hyperlink{class_benchmark_ab72b3cbe324970fd8c738f03718d52fc}{czas\_pomiaru};
-00058   \}
-00059   srednia=suma/(ilosc\_testow);
-00060   wyniki<<endl<<ilosc\_danych<<\textcolor{stringliteral}{","}<<srednia;
-00061   wyniki.close();
-00062   \textcolor{keywordflow}{return} srednia;
-00063  
-00064 \}
+00052   
+00053   \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i=1;i<=ilosc\_testow;i++)\{
+00054     program.\hyperlink{class_program_ac396401ba5cade863d0e6acb727bec4e}{wykonaj\_program}(dane,ilosc\_danych);
+00055     \hyperlink{class_benchmark_a684ddcbdd22608838da1ad23f1fcc2ce}{rozpocznij\_pomiar}();
+00056     program.\hyperlink{class_program_ae866e995ea153f83031107c194f604e5}{test}();
+00057     \hyperlink{class_benchmark_a3f4b4595a3d1145d238f5b3c8486d875}{zakoncz\_pomiar}();
+00058     program.\hyperlink{class_program_a4f26df1d57d90eeb7095e1ef2fe4c229}{wyczysc\_dane}(ilosc\_danych); 
+00059     suma+=\hyperlink{class_benchmark_ab72b3cbe324970fd8c738f03718d52fc}{czas\_pomiaru};
+00060   \}
+00061   srednia=suma/(ilosc\_testow);
+00062 
+00063   wyniki.open(\textcolor{stringliteral}{"wyniki.csv"},ios::app);
+00064   wyniki<<endl<<ilosc\_danych<<\textcolor{stringliteral}{","}<<srednia;
+00065   wyniki.close();
+00066   \textcolor{keywordflow}{return} srednia;
+00067 \}
 \end{DoxyCode}
