@@ -94,7 +94,7 @@ public:
    *
    * Dokonuje sortowania tablicy przez scalanie
    */
-  void mergesort();
+  void mergesort(int beg, int end);
 
   /*!
    * \brief Metoda test

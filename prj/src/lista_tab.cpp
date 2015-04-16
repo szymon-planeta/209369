@@ -97,5 +97,10 @@ void Lista_tab::wyczysc_dane(int ile){
   tab = NULL;
 }
 
-void Lista_tab::mergesort(){
+void Lista_tab::mergesort(int beg, int end){
+  int mid = (beg+end+1)/2;
+  if(mid-beg>1)
+    mergesort(beg,mid-1);
+  if(end-mid>0)
+    mergesort(mid,end);
 }

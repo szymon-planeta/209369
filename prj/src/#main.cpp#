@@ -15,6 +15,7 @@ int main(){
   char* dane = (char*)"dane.dat";
   int ilosc_testow = 10;
 
+
   /*
   for(int ilosc_danych=1; ilosc_danych<=1000000;ilosc_danych*=10){
     Assoctab<string, string> asoc;
