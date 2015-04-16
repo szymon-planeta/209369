@@ -5,7 +5,7 @@
  * \brief Zawiera definicje metod klasy Lista
  */
 // ZWIEKSZA SIE O 1
-void Lista_tab::push(int x){
+/*void Lista_tab::push(int x){
   if(rozmiar==0){
     tab = new int [1];
     rozmiar=1;
@@ -26,12 +26,12 @@ void Lista_tab::push(int x){
       rozmiar++;
     }
   }
-}
+  }*/
 //TABLICA POWIEKSZANA DWUKROTNIE
-/*
-   void Lista_tab::push(int x){
-   if(rozmiar==0){
-   tab = new int [1];
+
+void Lista_tab::push(int x){
+  if(rozmiar==0){
+    tab = new int [1];
     rozmiar=1;
     iterator=0;
     tab[iterator]=x;
@@ -50,7 +50,7 @@ void Lista_tab::push(int x){
       rozmiar*=2;
     }
   }
-  }*/
+}
 
 
 void Lista_tab::pop(){
@@ -97,3 +97,5 @@ void Lista_tab::wyczysc_dane(int ile){
   tab = NULL;
 }
 
+void Lista_tab::mergesort(){
+}

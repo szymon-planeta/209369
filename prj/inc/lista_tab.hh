@@ -88,6 +88,20 @@ public:
    * \param[in] ile Liczba elementow, ktore chcemy usunac.
    */
   void wyczysc_dane(int ile);
+
+  /*!
+   * \brief Metoda mergesort
+   *
+   * Dokonuje sortowania tablicy przez scalanie
+   */
+  void mergesort();
+
+  /*!
+   * \brief Metoda test
+   *
+   * Wykonuje sortowanie przez scalanie
+   */
+  void test(){void mergesort();};
 };
 
 #endif
