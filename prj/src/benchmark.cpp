@@ -50,13 +50,7 @@ double Benchmark::testuj_strukture(Program &program,char* dane, int ilosc_danych
   double srednia=0;
   ofstream wyniki;
   
-  program.wykonaj_program(dane,ilosc_danych);
-  rozpocznij_pomiar();
-  program.test();
-  zakoncz_pomiar();
-  program.wyczysc_dane(ilosc_danych);
-  suma+=czas_pomiaru;
-  for(int i=1;i<ilosc_testow;i++){
+  for(int i=1;i<=ilosc_testow;i++){
     program.wykonaj_program(dane,ilosc_danych);
     rozpocznij_pomiar();
     program.test();

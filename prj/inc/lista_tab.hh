@@ -10,7 +10,7 @@
  */
 
 class Lista_tab: public Program{
-  /*!
+public:/*!
    * \brief Aktualny rozmiar tablicy
    */
   int rozmiar;
@@ -93,6 +93,9 @@ public:
    * \brief Metoda mergesort
    *
    * Dokonuje sortowania tablicy przez scalanie
+   *
+   * \param[in] beg Początek obszaru sortowania
+   * \param[in] end Koniec obszaru sortowania
    */
   void mergesort(int beg, int end);
 
@@ -101,7 +104,7 @@ public:
    *
    * Wykonuje sortowanie przez scalanie
    */
-  void test(){void mergesort();};
+  void test(){mergesort(0,iterator);};
 };
 
 #endif

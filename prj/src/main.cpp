@@ -14,13 +14,19 @@ int main(){
   Benchmark b;
   char* dane = (char*)"dane.dat";
   int ilosc_testow = 10;
-
+  
+    a.wykonaj_program(dane, 10);
+    for(int i=0; i<=a.iterator; i++)
+    cout<< a.tab[i]<<endl;
+    a.mergesort(0,a.iterator);
+    cout<<endl<<endl;
+    for(int i=0; i<=a.iterator; i++)
+    cout<< a.tab[i]<<endl;
+  
   /*
-  for(int ilosc_danych=1; ilosc_danych<=1000000;ilosc_danych*=10){
-    Assoctab<string, string> asoc;
-    asoc.wykonaj_program(dane,ilosc_danych);
-    cout << b.testuj_strukture(asoc,dane,ilosc_danych,ilosc_testow) << endl;
+  for(int ilosc_danych=1; ilosc_danych<=10000000;ilosc_danych*=10){
+    cout << b.testuj_strukture(a,dane,ilosc_danych,ilosc_testow) << endl;
   }
-  */
+  */  
   return 0;
 }

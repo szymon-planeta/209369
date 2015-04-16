@@ -98,9 +98,14 @@ void Lista_tab::wyczysc_dane(int ile){
 }
 
 void Lista_tab::mergesort(int beg, int end){
-  int mid = (beg+end+1)/2;
+  int tmp[end+1];
+  int mid = (beg+end+1)/2; int i1, i2,i;
   if(mid-beg>1)
     mergesort(beg,mid-1);
   if(end-mid>0)
     mergesort(mid,end);
+  i1=beg; i2=mid;
+  for(i=beg; i<=end; i++)
+    tmp[i]=((i1==mid)||((i2<=end)&&(tab[i1] > tab[i2]))) ? tab[i2++] : tab[i1++];
+  for(i=beg; i<=end; i++) tab[i]=tmp[i];
 }
