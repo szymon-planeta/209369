@@ -15,7 +15,7 @@ public:/*!
    */
   int rozmiar;
   /*!
-   * \brief Iterator, zawierajacy informacje o liczbie elementow w tablicy
+   * \brief Iterator, numer ostatniego elementu tablicy
    */
   int iterator;
   /*!
@@ -104,7 +104,46 @@ public:
    *
    * Wykonuje sortowanie przez scalanie
    */
-  void test(){mergesort(0,iterator);};
+  void test(){
+    //mergesort(0,iterator);
+    //heapsort();
+    //quicksort(0,iterator);
+    hybridsort();
+  };
+  /*!
+   * \brief Procedura heapsort
+   *
+   * Przeprowadza opreację sortowania przez kopcowanie na całej liscie
+   */
+  void heapsort();
+
+  /*!
+   * \brief Metoda quicksort(int left, int right) przeprowadza operację sortowania szybkiego (piwot to mediana z pierwszego, srodkowego i ostatniego elementu tablicy)
+   *
+   * Aby posortować całą tablicę, należy jako argumenty podać 0 i size()-1.
+   * quicksort(0,size()-1)
+   *
+   * \param[in] left - początek zakresu (pierwszy element) sortowania
+   * \param[in] right - koniec zakresu (ostatni element) sortowania
+   */
+  void quicksort(int left, int right);
+
+  /*!
+   * \brief Procedura hybridsort
+   *
+   * Przeprowadza operacje sortowania hybrydowego - laczy quicksorta i heapsorta
+   *
+   */
+  void hybridsort();
+
+  /*!
+   * \brief Procedura insertsort
+   *
+   * Przeprowadza operacje sortowania przez wstawianie
+   */
+  void insertsort();
 };
+
+
 
 #endif

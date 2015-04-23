@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.12)  16 APR 2015 11:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.12)  23 APR 2015 04:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1279,7 +1279,7 @@ LaTeX Font Info:    Try loading font information for T1+pcr on input line 6.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-<class_assoctab__inherit__graph.pdf, id=913, 212.795pt x 156.585pt>
+<class_assoctab__inherit__graph.pdf, id=958, 212.795pt x 156.585pt>
 File: class_assoctab__inherit__graph.pdf Graphic file (type pdf)
 
 <use class_assoctab__inherit__graph.pdf>
@@ -1287,7 +1287,7 @@ Package pdftex.def Info: class_assoctab__inherit__graph.pdf used on input line
 14.
 (pdftex.def)             Requested size: 212.0pt x 156.00879pt.
 
-<class_assoctab__coll__graph.pdf, id=914, 328.22626pt x 248.93pt>
+<class_assoctab__coll__graph.pdf, id=959, 328.22626pt x 248.93pt>
 File: class_assoctab__coll__graph.pdf Graphic file (type pdf)
 
 <use class_assoctab__coll__graph.pdf>
@@ -1403,7 +1403,7 @@ Underfull \hbox (badness 10000) detected at line 259
  []
 
 
-<class_assoctab_a95890cb32e29d145859574cb7377d78e_cgraph.pdf, id=1032, 299.1175
+<class_assoctab_a95890cb32e29d145859574cb7377d78e_cgraph.pdf, id=1077, 299.1175
 pt x 100.375pt>
 File: class_assoctab_a95890cb32e29d145859574cb7377d78e_cgraph.pdf Graphic file 
 (type pdf)
@@ -1428,7 +1428,7 @@ he same identifier (name{class_assoctab_a41be0d66caf726997c96461da2d603cd}) has
 l.320 \begin{DoxyParams}[1]{Parametry}
                                        <./class_assoctab_a95890cb32e29d14585957
 4cb7377d78e_cgraph.pdf>] [12]
-<class_assoctab_a20dd25b3c3881a5c2d1337ea9b400687_icgraph.pdf, id=1068, 299.117
+<class_assoctab_a20dd25b3c3881a5c2d1337ea9b400687_icgraph.pdf, id=1114, 299.117
 5pt x 100.375pt>
 File: class_assoctab_a20dd25b3c3881a5c2d1337ea9b400687_icgraph.pdf Graphic file
  (type pdf)
@@ -1463,22 +1463,22 @@ en already used, duplicate ignored
 l.24 \subsection*{Atrybuty prywatne}
                                      <./class_assoctab_a20dd25b3c3881a5c2d1337e
 a9b400687_icgraph.pdf>]
-<class_benchmark_a684ddcbdd22608838da1ad23f1fcc2ce_icgraph.pdf, id=1119, 373.39
-5pt x 138.5175pt>
+<class_benchmark_a684ddcbdd22608838da1ad23f1fcc2ce_icgraph.pdf, id=1164, 447.67
+25pt x 138.5175pt>
 File: class_benchmark_a684ddcbdd22608838da1ad23f1fcc2ce_icgraph.pdf Graphic fil
 e (type pdf)
 
 <use class_benchmark_a684ddcbdd22608838da1ad23f1fcc2ce_icgraph.pdf>
 Package pdftex.def Info: class_benchmark_a684ddcbdd22608838da1ad23f1fcc2ce_icgr
 aph.pdf used on input line 61.
-(pdftex.def)             Requested size: 350.0pt x 129.84503pt.
+(pdftex.def)             Requested size: 350.0pt x 108.29895pt.
 
 Underfull \hbox (badness 10000) detected at line 89
 [][][]
  []
 
 
-<class_benchmark_ad2f9d4a8ee5a33de5261c2b2eff3d87a_cgraph.pdf, id=1123, 329.23p
+<class_benchmark_ad2f9d4a8ee5a33de5261c2b2eff3d87a_cgraph.pdf, id=1168, 329.23p
 t x 198.7425pt>
 File: class_benchmark_ad2f9d4a8ee5a33de5261c2b2eff3d87a_cgraph.pdf Graphic file
  (type pdf)
@@ -1493,33 +1493,46 @@ Underfull \hbox (badness 10000) detected at line 130
  []
 
 
-<class_benchmark_ac8fa0356657b4a1ffd46df6ae7fd78d0_cgraph.pdf, id=1146, 393.47p
+<class_benchmark_ac8fa0356657b4a1ffd46df6ae7fd78d0_cgraph.pdf, id=1190, 393.47p
 t x 277.035pt>
 File: class_benchmark_ac8fa0356657b4a1ffd46df6ae7fd78d0_cgraph.pdf Graphic file
  (type pdf)
 
 <use class_benchmark_ac8fa0356657b4a1ffd46df6ae7fd78d0_cgraph.pdf>
 Package pdftex.def Info: class_benchmark_ac8fa0356657b4a1ffd46df6ae7fd78d0_cgra
-ph.pdf used on input line 144.
+ph.pdf used on input line 143.
 (pdftex.def)             Requested size: 350.0pt x 246.4251pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 7722) has occurred while \output is active []
 
  [16 <./class_benchmark_ad2f9d4a8ee5a33de5261c2b2eff3d87a_cgraph.pdf>]
-<class_benchmark_a3f4b4595a3d1145d238f5b3c8486d875_icgraph.pdf, id=1160, 367.37
-25pt x 138.5175pt>
+<class_benchmark_ac8fa0356657b4a1ffd46df6ae7fd78d0_icgraph.pdf, id=1203, 295.10
+25pt x 100.375pt>
+File: class_benchmark_ac8fa0356657b4a1ffd46df6ae7fd78d0_icgraph.pdf Graphic fil
+e (type pdf)
+
+<use class_benchmark_ac8fa0356657b4a1ffd46df6ae7fd78d0_icgraph.pdf>
+Package pdftex.def Info: class_benchmark_ac8fa0356657b4a1ffd46df6ae7fd78d0_icgr
+aph.pdf used on input line 154.
+(pdftex.def)             Requested size: 294.0pt x 100.00255pt.
+
+<class_benchmark_a3f4b4595a3d1145d238f5b3c8486d875_icgraph.pdf, id=1206, 441.65
+pt x 138.5175pt>
 File: class_benchmark_a3f4b4595a3d1145d238f5b3c8486d875_icgraph.pdf Graphic fil
 e (type pdf)
 
 <use class_benchmark_a3f4b4595a3d1145d238f5b3c8486d875_icgraph.pdf>
 Package pdftex.def Info: class_benchmark_a3f4b4595a3d1145d238f5b3c8486d875_icgr
-aph.pdf used on input line 167.
-(pdftex.def)             Requested size: 350.0pt x 131.97554pt.
- [17 <./class_benchmark_ac8fa0356657b4a1ffd46df6ae7fd78d0_cgraph.pdf> <./class_
-benchmark_a3f4b4595a3d1145d238f5b3c8486d875_icgraph.pdf
+aph.pdf used on input line 177.
+(pdftex.def)             Requested size: 350.0pt x 109.77847pt.
 
-pdfTeX warning: pdflatex (file ./class_benchmark_a3f4b4595a3d1145d238f5b3c8486d
-875_icgraph.pdf): PDF inclusion: multiple pdfs with page group included in a si
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17 <./class_benchmark_ac8fa0356657b4a1ffd46df6ae7fd78d0_cgraph.pdf> <./class_
+benchmark_ac8fa0356657b4a1ffd46df6ae7fd78d0_icgraph.pdf
+
+pdfTeX warning: pdflatex (file ./class_benchmark_ac8fa0356657b4a1ffd46df6ae7fd7
+8d0_icgraph.pdf): PDF inclusion: multiple pdfs with page group included in a si
 ngle page
 >]) (./class_lista.tex
 
@@ -1538,7 +1551,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 3.
 
-<class_lista__inherit__graph.pdf, id=1188, 184.69pt x 156.585pt>
+<class_lista__inherit__graph.pdf, id=1233, 184.69pt x 156.585pt>
 File: class_lista__inherit__graph.pdf Graphic file (type pdf)
 
 <use class_lista__inherit__graph.pdf>
@@ -1546,23 +1559,24 @@ Package pdftex.def Info: class_lista__inherit__graph.pdf used on input line 14.
 
 (pdftex.def)             Requested size: 184.0pt x 156.00162pt.
 
-<class_lista__coll__graph.pdf, id=1189, 286.06876pt x 180.675pt>
+<class_lista__coll__graph.pdf, id=1234, 286.06876pt x 180.675pt>
 File: class_lista__coll__graph.pdf Graphic file (type pdf)
 
 <use class_lista__coll__graph.pdf>
 Package pdftex.def Info: class_lista__coll__graph.pdf used on input line 23.
 (pdftex.def)             Requested size: 285.0pt x 180.00186pt.
- [18 <./class_lista__inherit__graph.pdf> <./class_lista__coll__graph.pdf
+ [18 <./class_benchmark_a3f4b4595a3d1145d238f5b3c8486d875_icgraph.pdf> <./class
+_lista__inherit__graph.pdf
 
-pdfTeX warning: pdflatex (file ./class_lista__coll__graph.pdf): PDF inclusion: 
-multiple pdfs with page group included in a single page
->] [19]
+pdfTeX warning: pdflatex (file ./class_lista__inherit__graph.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+>] [19 <./class_lista__coll__graph.pdf>] [20]
 Underfull \hbox (badness 10000) detected at line 175
 [][][]
  []
 
-[20]) (./class_lista__tab.tex
-<class_lista__tab__inherit__graph.pdf, id=1285, 134.5025pt x 156.585pt>
+) (./class_lista__tab.tex [21]
+<class_lista__tab__inherit__graph.pdf, id=1346, 134.5025pt x 156.585pt>
 File: class_lista__tab__inherit__graph.pdf Graphic file (type pdf)
 
 <use class_lista__tab__inherit__graph.pdf>
@@ -1570,97 +1584,176 @@ Package pdftex.def Info: class_lista__tab__inherit__graph.pdf used on input lin
 e 14.
 (pdftex.def)             Requested size: 134.0pt x 156.00162pt.
 
-<class_lista__tab__coll__graph.pdf, id=1286, 134.5025pt x 156.585pt>
+<class_lista__tab__coll__graph.pdf, id=1347, 134.5025pt x 156.585pt>
 File: class_lista__tab__coll__graph.pdf Graphic file (type pdf)
 
 <use class_lista__tab__coll__graph.pdf>
 Package pdftex.def Info: class_lista__tab__coll__graph.pdf used on input line 2
 3.
 (pdftex.def)             Requested size: 134.0pt x 156.00162pt.
+ [22 <./class_lista__tab__inherit__graph.pdf> <./class_lista__tab__coll__graph.
+pdf
 
-Underfull \vbox (badness 6893) has occurred while \output is active []
-
- [21 <./class_lista__tab__inherit__graph.pdf>] [22 <./class_lista__tab__coll__g
-raph.pdf>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 84.
-
+pdfTeX warning: pdflatex (file ./class_lista__tab__coll__graph.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
+>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\sim' on input line 84.
+(hyperref)                removing `math shift' on input line 92.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 84.
+(hyperref)                removing `\sim' on input line 92.
 
 
-<class_lista__tab_a409e9a4edbef4337980c7184b6cbfb63_icgraph.pdf, id=1349, 303.1
-325pt x 138.5175pt>
-File: class_lista__tab_a409e9a4edbef4337980c7184b6cbfb63_icgraph.pdf Graphic fi
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 92.
+
+
+<class_lista__tab_ac9dc3e6ccaff0aef1a1370c1a83c48d9_cgraph.pdf, id=1397, 297.11
+pt x 100.375pt>
+File: class_lista__tab_ac9dc3e6ccaff0aef1a1370c1a83c48d9_cgraph.pdf Graphic fil
+e (type pdf)
+
+<use class_lista__tab_ac9dc3e6ccaff0aef1a1370c1a83c48d9_cgraph.pdf>
+Package pdftex.def Info: class_lista__tab_ac9dc3e6ccaff0aef1a1370c1a83c48d9_cgr
+aph.pdf used on input line 118.
+(pdftex.def)             Requested size: 296.0pt x 100.00409pt.
+ [23]
+<class_lista__tab_a9ae23cf825b116cb27ccc73bd4bca3c8_cgraph.pdf, id=1421, 527.97
+25pt x 195.73125pt>
+File: class_lista__tab_a9ae23cf825b116cb27ccc73bd4bca3c8_cgraph.pdf Graphic fil
+e (type pdf)
+
+<use class_lista__tab_a9ae23cf825b116cb27ccc73bd4bca3c8_cgraph.pdf>
+Package pdftex.def Info: class_lista__tab_a9ae23cf825b116cb27ccc73bd4bca3c8_cgr
+aph.pdf used on input line 141.
+(pdftex.def)             Requested size: 350.0pt x 129.75047pt.
+
+<class_lista__tab_a9ae23cf825b116cb27ccc73bd4bca3c8_icgraph.pdf, id=1422, 303.1
+325pt x 100.375pt>
+File: class_lista__tab_a9ae23cf825b116cb27ccc73bd4bca3c8_icgraph.pdf Graphic fi
 le (type pdf)
 
-<use class_lista__tab_a409e9a4edbef4337980c7184b6cbfb63_icgraph.pdf>
-Package pdftex.def Info: class_lista__tab_a409e9a4edbef4337980c7184b6cbfb63_icg
-raph.pdf used on input line 120.
-(pdftex.def)             Requested size: 302.0pt x 138.00142pt.
- [23 <./class_lista__tab_a409e9a4edbef4337980c7184b6cbfb63_icgraph.pdf>]
-<class_lista__tab_a800998768639b41b5be5c52ec4ccbda4_icgraph.pdf, id=1370, 373.3
-95pt x 110.4125pt>
+<use class_lista__tab_a9ae23cf825b116cb27ccc73bd4bca3c8_icgraph.pdf>
+Package pdftex.def Info: class_lista__tab_a9ae23cf825b116cb27ccc73bd4bca3c8_icg
+raph.pdf used on input line 153.
+(pdftex.def)             Requested size: 302.0pt x 100.00102pt.
+
+<class_lista__tab_afa5a23960858fae52090ef31e8529b2b_cgraph.pdf, id=1425, 301.12
+5pt x 100.375pt>
+File: class_lista__tab_afa5a23960858fae52090ef31e8529b2b_cgraph.pdf Graphic fil
+e (type pdf)
+
+<use class_lista__tab_afa5a23960858fae52090ef31e8529b2b_cgraph.pdf>
+Package pdftex.def Info: class_lista__tab_afa5a23960858fae52090ef31e8529b2b_cgr
+aph.pdf used on input line 176.
+(pdftex.def)             Requested size: 300.0pt x 100.00868pt.
+
+Underfull \vbox (badness 2245) has occurred while \output is active []
+
+ [24 <./class_lista__tab_ac9dc3e6ccaff0aef1a1370c1a83c48d9_cgraph.pdf> <./class
+_lista__tab_a9ae23cf825b116cb27ccc73bd4bca3c8_cgraph.pdf
+
+pdfTeX warning: pdflatex (file ./class_lista__tab_a9ae23cf825b116cb27ccc73bd4bc
+a3c8_cgraph.pdf): PDF inclusion: multiple pdfs with page group included in a si
+ngle page
+> <./class_lista__tab_a9ae23cf825b116cb27ccc73bd4bca3c8_icgraph.pdf
+
+pdfTeX warning: pdflatex (file ./class_lista__tab_a9ae23cf825b116cb27ccc73bd4bc
+a3c8_icgraph.pdf): PDF inclusion: multiple pdfs with page group included in a s
+ingle page
+>]
+<class_lista__tab_afa5a23960858fae52090ef31e8529b2b_icgraph.pdf, id=1449, 443.6
+575pt x 100.375pt>
+File: class_lista__tab_afa5a23960858fae52090ef31e8529b2b_icgraph.pdf Graphic fi
+le (type pdf)
+
+<use class_lista__tab_afa5a23960858fae52090ef31e8529b2b_icgraph.pdf>
+Package pdftex.def Info: class_lista__tab_afa5a23960858fae52090ef31e8529b2b_icg
+raph.pdf used on input line 188.
+(pdftex.def)             Requested size: 350.0pt x 79.18509pt.
+
+<class_lista__tab_a800998768639b41b5be5c52ec4ccbda4_icgraph.pdf, id=1456, 299.1
+175pt x 110.4125pt>
 File: class_lista__tab_a800998768639b41b5be5c52ec4ccbda4_icgraph.pdf Graphic fi
 le (type pdf)
 
 <use class_lista__tab_a800998768639b41b5be5c52ec4ccbda4_icgraph.pdf>
 Package pdftex.def Info: class_lista__tab_a800998768639b41b5be5c52ec4ccbda4_icg
-raph.pdf used on input line 161.
-(pdftex.def)             Requested size: 350.0pt x 103.49965pt.
+raph.pdf used on input line 250.
+(pdftex.def)             Requested size: 298.0pt x 110.00787pt.
 
-Underfull \hbox (badness 10000) detected at line 175
+Underfull \vbox (badness 3168) has occurred while \output is active []
+
+ [25 <./class_lista__tab_afa5a23960858fae52090ef31e8529b2b_cgraph.pdf> <./class
+_lista__tab_afa5a23960858fae52090ef31e8529b2b_icgraph.pdf
+
+pdfTeX warning: pdflatex (file ./class_lista__tab_afa5a23960858fae52090ef31e852
+9b2b_icgraph.pdf): PDF inclusion: multiple pdfs with page group included in a s
+ingle page
+>]
+<class_lista__tab_a1a20726180b67b7cf2a669cafd6d3ca3_cgraph.pdf, id=1479, 266.99
+75pt x 100.375pt>
+File: class_lista__tab_a1a20726180b67b7cf2a669cafd6d3ca3_cgraph.pdf Graphic fil
+e (type pdf)
+
+<use class_lista__tab_a1a20726180b67b7cf2a669cafd6d3ca3_cgraph.pdf>
+Package pdftex.def Info: class_lista__tab_a1a20726180b67b7cf2a669cafd6d3ca3_cgr
+aph.pdf used on input line 283.
+(pdftex.def)             Requested size: 266.0pt x 100.01021pt.
+
+Underfull \hbox (badness 10000) detected at line 297
 [][][]
  []
 
 
-<class_lista__tab_a34c4a75347b05d367d7d1b08fcbde095_cgraph.pdf, id=1376, 303.13
-25pt x 100.375pt>
+<class_lista__tab_af092dd7943f7cd5ff407485f2991a1e4_icgraph.pdf, id=1482, 560.0
+925pt x 176.66pt>
+File: class_lista__tab_af092dd7943f7cd5ff407485f2991a1e4_icgraph.pdf Graphic fi
+le (type pdf)
+
+<use class_lista__tab_af092dd7943f7cd5ff407485f2991a1e4_icgraph.pdf>
+Package pdftex.def Info: class_lista__tab_af092dd7943f7cd5ff407485f2991a1e4_icg
+raph.pdf used on input line 311.
+(pdftex.def)             Requested size: 350.0pt x 110.39874pt.
+ [26 <./class_lista__tab_a800998768639b41b5be5c52ec4ccbda4_icgraph.pdf> <./clas
+s_lista__tab_a1a20726180b67b7cf2a669cafd6d3ca3_cgraph.pdf
+
+pdfTeX warning: pdflatex (file ./class_lista__tab_a1a20726180b67b7cf2a669cafd6d
+3ca3_cgraph.pdf): PDF inclusion: multiple pdfs with page group included in a si
+ngle page
+> <./class_lista__tab_af092dd7943f7cd5ff407485f2991a1e4_icgraph.pdf
+
+pdfTeX warning: pdflatex (file ./class_lista__tab_af092dd7943f7cd5ff407485f2991
+a1e4_icgraph.pdf): PDF inclusion: multiple pdfs with page group included in a s
+ingle page
+>]
+<class_lista__tab_a34c4a75347b05d367d7d1b08fcbde095_cgraph.pdf, id=1508, 644.40
+75pt x 195.73125pt>
 File: class_lista__tab_a34c4a75347b05d367d7d1b08fcbde095_cgraph.pdf Graphic fil
 e (type pdf)
 
 <use class_lista__tab_a34c4a75347b05d367d7d1b08fcbde095_cgraph.pdf>
 Package pdftex.def Info: class_lista__tab_a34c4a75347b05d367d7d1b08fcbde095_cgr
-aph.pdf used on input line 204.
-(pdftex.def)             Requested size: 302.0pt x 100.00102pt.
- [24 <./class_lista__tab_a800998768639b41b5be5c52ec4ccbda4_icgraph.pdf> <./clas
-s_lista__tab_a34c4a75347b05d367d7d1b08fcbde095_cgraph.pdf
+aph.pdf used on input line 338.
+(pdftex.def)             Requested size: 350.0pt x 106.31152pt.
 
-pdfTeX warning: pdflatex (file ./class_lista__tab_a34c4a75347b05d367d7d1b08fcbd
-e095_cgraph.pdf): PDF inclusion: multiple pdfs with page group included in a si
-ngle page
->]
-<class_lista__tab_ac9adc6ecc7348c5e1871b239c1313405_cgraph.pdf, id=1402, 299.11
+<class_lista__tab_ac9adc6ecc7348c5e1871b239c1313405_cgraph.pdf, id=1516, 299.11
 75pt x 110.4125pt>
 File: class_lista__tab_ac9adc6ecc7348c5e1871b239c1313405_cgraph.pdf Graphic fil
 e (type pdf)
 
 <use class_lista__tab_ac9adc6ecc7348c5e1871b239c1313405_cgraph.pdf>
 Package pdftex.def Info: class_lista__tab_ac9adc6ecc7348c5e1871b239c1313405_cgr
-aph.pdf used on input line 262.
+aph.pdf used on input line 396.
 (pdftex.def)             Requested size: 298.0pt x 110.00787pt.
-
-<class_lista__tab_ac9adc6ecc7348c5e1871b239c1313405_icgraph.pdf, id=1403, 252.9
-45pt x 110.4125pt>
-File: class_lista__tab_ac9adc6ecc7348c5e1871b239c1313405_icgraph.pdf Graphic fi
-le (type pdf)
-
-<use class_lista__tab_ac9adc6ecc7348c5e1871b239c1313405_icgraph.pdf>
-Package pdftex.def Info: class_lista__tab_ac9adc6ecc7348c5e1871b239c1313405_icg
-raph.pdf used on input line 274.
-(pdftex.def)             Requested size: 252.0pt x 110.0028pt.
- [25 <./class_lista__tab_ac9adc6ecc7348c5e1871b239c1313405_cgraph.pdf> <./class
-_lista__tab_ac9adc6ecc7348c5e1871b239c1313405_icgraph.pdf
+ [27 <./class_lista__tab_a34c4a75347b05d367d7d1b08fcbde095_cgraph.pdf> <./class
+_lista__tab_ac9adc6ecc7348c5e1871b239c1313405_cgraph.pdf
 
 pdfTeX warning: pdflatex (file ./class_lista__tab_ac9adc6ecc7348c5e1871b239c131
-3405_icgraph.pdf): PDF inclusion: multiple pdfs with page group included in a s
-ingle page
+3405_cgraph.pdf): PDF inclusion: multiple pdfs with page group included in a si
+ngle page
 >]) (./struct_lista_1_1pole.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -1678,22 +1771,22 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 3.
 
-<struct_lista_1_1pole__coll__graph.pdf, id=1432, 214.8025pt x 112.42pt>
+<struct_lista_1_1pole__coll__graph.pdf, id=1544, 214.8025pt x 112.42pt>
 File: struct_lista_1_1pole__coll__graph.pdf Graphic file (type pdf)
 
 <use struct_lista_1_1pole__coll__graph.pdf>
 Package pdftex.def Info: struct_lista_1_1pole__coll__graph.pdf used on input li
 ne 15.
 (pdftex.def)             Requested size: 214.0pt x 112.00116pt.
- [26 <./struct_lista_1_1pole__coll__graph.pdf>]) (./class_program.tex
-<class_program__inherit__graph.pdf, id=1471, 605.26125pt x 156.585pt>
+ [28 <./struct_lista_1_1pole__coll__graph.pdf>]) (./class_program.tex
+<class_program__inherit__graph.pdf, id=1584, 605.26125pt x 156.585pt>
 File: class_program__inherit__graph.pdf Graphic file (type pdf)
 
 <use class_program__inherit__graph.pdf>
 Package pdftex.def Info: class_program__inherit__graph.pdf used on input line 1
 9.
 (pdftex.def)             Requested size: 350.0pt x 90.54697pt.
- [27 <./class_program__inherit__graph.pdf>]
+ [29 <./class_program__inherit__graph.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 85.
@@ -1707,46 +1800,43 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 85.
 
 
-<class_program_ae866e995ea153f83031107c194f604e5_icgraph.pdf, id=1522, 333.245p
-t x 138.5175pt>
+<class_program_ae866e995ea153f83031107c194f604e5_icgraph.pdf, id=1634, 407.5225
+pt x 138.5175pt>
 File: class_program_ae866e995ea153f83031107c194f604e5_icgraph.pdf Graphic file 
 (type pdf)
 
 <use class_program_ae866e995ea153f83031107c194f604e5_icgraph.pdf>
 Package pdftex.def Info: class_program_ae866e995ea153f83031107c194f604e5_icgrap
 h.pdf used on input line 126.
-(pdftex.def)             Requested size: 332.0pt x 138.00987pt.
- [28]
-<class_program_a4f26df1d57d90eeb7095e1ef2fe4c229_icgraph.pdf, id=1548, 383.4325
-pt x 100.375pt>
+(pdftex.def)             Requested size: 350.0pt x 118.97054pt.
+ [30]
+<class_program_a4f26df1d57d90eeb7095e1ef2fe4c229_icgraph.pdf, id=1662, 457.71pt
+ x 100.375pt>
 File: class_program_a4f26df1d57d90eeb7095e1ef2fe4c229_icgraph.pdf Graphic file 
 (type pdf)
 
 <use class_program_a4f26df1d57d90eeb7095e1ef2fe4c229_icgraph.pdf>
 Package pdftex.def Info: class_program_a4f26df1d57d90eeb7095e1ef2fe4c229_icgrap
 h.pdf used on input line 202.
-(pdftex.def)             Requested size: 350.0pt x 91.62778pt.
-
-Underfull \vbox (badness 3815) has occurred while \output is active []
-
- [29 <./class_program_ae866e995ea153f83031107c194f604e5_icgraph.pdf>]
-<class_program_ac396401ba5cade863d0e6acb727bec4e_icgraph.pdf, id=1567, 393.47pt
- x 100.375pt>
+(pdftex.def)             Requested size: 350.0pt x 76.7575pt.
+ [31 <./class_program_ae866e995ea153f83031107c194f604e5_icgraph.pdf>]
+<class_program_ac396401ba5cade863d0e6acb727bec4e_icgraph.pdf, id=1681, 467.7475
+pt x 100.375pt>
 File: class_program_ac396401ba5cade863d0e6acb727bec4e_icgraph.pdf Graphic file 
 (type pdf)
 
 <use class_program_ac396401ba5cade863d0e6acb727bec4e_icgraph.pdf>
 Package pdftex.def Info: class_program_ac396401ba5cade863d0e6acb727bec4e_icgrap
 h.pdf used on input line 229.
-(pdftex.def)             Requested size: 350.0pt x 89.28444pt.
- [30 <./class_program_a4f26df1d57d90eeb7095e1ef2fe4c229_icgraph.pdf> <./class_p
+(pdftex.def)             Requested size: 350.0pt x 75.11104pt.
+ [32 <./class_program_a4f26df1d57d90eeb7095e1ef2fe4c229_icgraph.pdf> <./class_p
 rogram_ac396401ba5cade863d0e6acb727bec4e_icgraph.pdf
 
 pdfTeX warning: pdflatex (file ./class_program_ac396401ba5cade863d0e6acb727bec4
 e_icgraph.pdf): PDF inclusion: multiple pdfs with page group included in a sing
 le page
 >]) (./class_tabx2.tex
-<class_tabx2__inherit__graph.pdf, id=1606, 132.495pt x 156.585pt>
+<class_tabx2__inherit__graph.pdf, id=1720, 132.495pt x 156.585pt>
 File: class_tabx2__inherit__graph.pdf Graphic file (type pdf)
 
 <use class_tabx2__inherit__graph.pdf>
@@ -1754,31 +1844,23 @@ Package pdftex.def Info: class_tabx2__inherit__graph.pdf used on input line 14.
 
 (pdftex.def)             Requested size: 132.0pt x 156.01117pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [31]
-<class_tabx2__coll__graph.pdf, id=1617, 132.495pt x 156.585pt>
+<class_tabx2__coll__graph.pdf, id=1721, 132.495pt x 156.585pt>
 File: class_tabx2__coll__graph.pdf Graphic file (type pdf)
 
 <use class_tabx2__coll__graph.pdf>
 Package pdftex.def Info: class_tabx2__coll__graph.pdf used on input line 23.
 (pdftex.def)             Requested size: 132.0pt x 156.01117pt.
- [32 <./class_tabx2__inherit__graph.pdf> <./class_tabx2__coll__graph.pdf
-
-pdfTeX warning: pdflatex (file ./class_tabx2__coll__graph.pdf): PDF inclusion: 
-multiple pdfs with page group included in a single page
->]) [33] [34
-
-]
+ [33 <./class_tabx2__inherit__graph.pdf>])
+[34 <./class_tabx2__coll__graph.pdf>]
 Rozdzia\PlPrIeC {\l } 5.
-(./assoctab_8hh.tex <assoctab_8hh__incl.pdf, id=1656, 235.88126pt x 212.795pt>
+(./assoctab_8hh.tex <assoctab_8hh__incl.pdf, id=1763, 235.88126pt x 212.795pt>
 File: assoctab_8hh__incl.pdf Graphic file (type pdf)
 
 <use assoctab_8hh__incl.pdf>
 Package pdftex.def Info: assoctab_8hh__incl.pdf used on input line 15.
 (pdftex.def)             Requested size: 235.0pt x 212.0022pt.
 
-<assoctab_8hh__dep__incl.pdf, id=1657, 150.5625pt x 156.585pt>
+<assoctab_8hh__dep__incl.pdf, id=1764, 150.5625pt x 156.585pt>
 File: assoctab_8hh__dep__incl.pdf Graphic file (type pdf)
 
 <use assoctab_8hh__dep__incl.pdf>
@@ -1787,9 +1869,11 @@ Package pdftex.def Info: assoctab_8hh__dep__incl.pdf used on input line 22.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35 <./assoctab_8hh__incl.pdf>]) (./assoctab_8hh_source.texpdfTeX warning (ext
-4): destination with the same identifier (name{assoctab_8hh}) has been already 
-used, duplicate ignored
+ [35
+
+ <./assoctab_8hh__incl.pdf>]) (./assoctab_8hh_source.texpdfTeX warning (ext4): 
+destination with the same identifier (name{assoctab_8hh}) has been already used
+, duplicate ignored
 <to be read again> 
                    \relax 
 l.3 }
@@ -1806,7 +1890,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [37])
 (./benchmark_8cpp.tex
-<benchmark_8cpp__incl.pdf, id=1754, 307.1475pt x 269.005pt>
+<benchmark_8cpp__incl.pdf, id=1861, 307.1475pt x 269.005pt>
 File: benchmark_8cpp__incl.pdf Graphic file (type pdf)
 
 <use benchmark_8cpp__incl.pdf>
@@ -1820,7 +1904,7 @@ ame identifier (name{benchmark_8cpp}) has been already used, duplicate ignored
 l.20 ...   \textcolor{keywordtype}{double} suma=0;
                                                    <./benchmark_8cpp__incl.pdf>
 ]) (./benchmark_8hh.tex
-<benchmark_8hh__incl.pdf, id=1795, 307.1475pt x 212.795pt>
+<benchmark_8hh__incl.pdf, id=1902, 307.1475pt x 212.795pt>
 File: benchmark_8hh__incl.pdf Graphic file (type pdf)
 
 <use benchmark_8hh__incl.pdf>
@@ -1830,7 +1914,7 @@ Package pdftex.def Info: benchmark_8hh__incl.pdf used on input line 17.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [39]
-<benchmark_8hh__dep__incl.pdf, id=1801, 237.88875pt x 156.585pt>
+<benchmark_8hh__dep__incl.pdf, id=1907, 237.88875pt x 156.585pt>
 File: benchmark_8hh__dep__incl.pdf Graphic file (type pdf)
 
 <use benchmark_8hh__dep__incl.pdf>
@@ -1846,7 +1930,7 @@ l.3 }
 pdfTeX warning: pdflatex (file ./benchmark_8hh__dep__incl.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
 >]) (./hashtab_8cpp.tex
-<hashtab_8cpp__incl.pdf, id=1829, 150.5625pt x 156.585pt>
+<hashtab_8cpp__incl.pdf, id=1936, 150.5625pt x 156.585pt>
 File: hashtab_8cpp__incl.pdf Graphic file (type pdf)
 
 <use hashtab_8cpp__incl.pdf>
@@ -1860,14 +1944,14 @@ pp}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.9 {\ttfamily \#
                  include \char`\"{}program.\-hh\char`\"{}}\\* <./hashtab_8cpp__
-incl.pdf>] <lista_8hh__incl.pdf, id=1842, 202.7575pt x 212.795pt>
+incl.pdf>] <lista_8hh__incl.pdf, id=1949, 202.7575pt x 212.795pt>
 File: lista_8hh__incl.pdf Graphic file (type pdf)
 
 <use lista_8hh__incl.pdf>
 Package pdftex.def Info: lista_8hh__incl.pdf used on input line 14.
 (pdftex.def)             Requested size: 202.0pt x 212.00543pt.
 
-<lista_8hh__dep__incl.pdf, id=1843, 134.5025pt x 156.585pt>
+<lista_8hh__dep__incl.pdf, id=1950, 134.5025pt x 156.585pt>
 File: lista_8hh__dep__incl.pdf Graphic file (type pdf)
 
 <use lista_8hh__dep__incl.pdf>
@@ -1890,25 +1974,112 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [44])
 (./lista__tab_8cpp.tex
-<lista__tab_8cpp__incl.pdf, id=1979, 202.7575pt x 269.005pt>
+<lista__tab_8cpp__incl.pdf, id=2086, 236.885pt x 269.005pt>
 File: lista__tab_8cpp__incl.pdf Graphic file (type pdf)
 
 <use lista__tab_8cpp__incl.pdf>
-Package pdftex.def Info: lista__tab_8cpp__incl.pdf used on input line 14.
-(pdftex.def)             Requested size: 202.0pt x 268.00688pt.
-) (./lista__tab_8cpp_source.tex
+Package pdftex.def Info: lista__tab_8cpp__incl.pdf used on input line 16.
+(pdftex.def)             Requested size: 236.0pt x 268.00688pt.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [45]
-[46pdfTeX warning (ext4): destination with the same identifier (name{lista__tab
-_8cpp}) has been already used, duplicate ignored
+<lista__tab_8cpp_a1deb3e2758fa73fd8968484f96d1c982_icgraph.pdf, id=2097, 481.8p
+t x 100.375pt>
+File: lista__tab_8cpp_a1deb3e2758fa73fd8968484f96d1c982_icgraph.pdf Graphic fil
+e (type pdf)
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.47 ...a3ae15e658890641b188c7ed39}{iterator};i++)
-                                                   <./lista__tab_8cpp__incl.pdf
->]) (./lista__tab_8hh.tex
-<lista__tab_8hh__incl.pdf, id=2059, 202.7575pt x 212.795pt>
+<use lista__tab_8cpp_a1deb3e2758fa73fd8968484f96d1c982_icgraph.pdf>
+Package pdftex.def Info: lista__tab_8cpp_a1deb3e2758fa73fd8968484f96d1c982_icgr
+aph.pdf used on input line 52.
+(pdftex.def)             Requested size: 350.0pt x 72.9178pt.
+
+<lista__tab_8cpp_afd1e275acd517fba36da7d94bb04246f_cgraph.pdf, id=2100, 307.147
+5pt x 138.5175pt>
+File: lista__tab_8cpp_afd1e275acd517fba36da7d94bb04246f_cgraph.pdf Graphic file
+ (type pdf)
+
+<use lista__tab_8cpp_afd1e275acd517fba36da7d94bb04246f_cgraph.pdf>
+Package pdftex.def Info: lista__tab_8cpp_afd1e275acd517fba36da7d94bb04246f_cgra
+ph.pdf used on input line 77.
+(pdftex.def)             Requested size: 306.0pt x 138.00777pt.
+ [46 <./lista__tab_8cpp__incl.pdf> <./lista__tab_8cpp_a1deb3e2758fa73fd8968484f
+96d1c982_icgraph.pdf
+
+pdfTeX warning: pdflatex (file ./lista__tab_8cpp_a1deb3e2758fa73fd8968484f96d1c
+982_icgraph.pdf): PDF inclusion: multiple pdfs with page group included in a si
+ngle page
+>]
+<lista__tab_8cpp_afd1e275acd517fba36da7d94bb04246f_icgraph.pdf, id=2124, 391.46
+25pt x 100.375pt>
+File: lista__tab_8cpp_afd1e275acd517fba36da7d94bb04246f_icgraph.pdf Graphic fil
+e (type pdf)
+
+<use lista__tab_8cpp_afd1e275acd517fba36da7d94bb04246f_icgraph.pdf>
+Package pdftex.def Info: lista__tab_8cpp_afd1e275acd517fba36da7d94bb04246f_icgr
+aph.pdf used on input line 89.
+(pdftex.def)             Requested size: 350.0pt x 89.74852pt.
+
+<lista__tab_8cpp_aba1e73e8a2200c8303fa031d788bd069_cgraph.pdf, id=2127, 210.787
+5pt x 100.375pt>
+File: lista__tab_8cpp_aba1e73e8a2200c8303fa031d788bd069_cgraph.pdf Graphic file
+ (type pdf)
+
+<use lista__tab_8cpp_aba1e73e8a2200c8303fa031d788bd069_cgraph.pdf>
+Package pdftex.def Info: lista__tab_8cpp_aba1e73e8a2200c8303fa031d788bd069_cgra
+ph.pdf used on input line 114.
+(pdftex.def)             Requested size: 210.0pt x 100.00255pt.
+
+<lista__tab_8cpp_aba1e73e8a2200c8303fa031d788bd069_icgraph.pdf, id=2128, 473.77
+pt x 100.375pt>
+File: lista__tab_8cpp_aba1e73e8a2200c8303fa031d788bd069_icgraph.pdf Graphic fil
+e (type pdf)
+
+<use lista__tab_8cpp_aba1e73e8a2200c8303fa031d788bd069_icgraph.pdf>
+Package pdftex.def Info: lista__tab_8cpp_aba1e73e8a2200c8303fa031d788bd069_icgr
+aph.pdf used on input line 126.
+(pdftex.def)             Requested size: 350.0pt x 74.15532pt.
+ [47 <./lista__tab_8cpp_afd1e275acd517fba36da7d94bb04246f_cgraph.pdf> <./lista_
+_tab_8cpp_afd1e275acd517fba36da7d94bb04246f_icgraph.pdf
+
+pdfTeX warning: pdflatex (file ./lista__tab_8cpp_afd1e275acd517fba36da7d94bb042
+46f_icgraph.pdf): PDF inclusion: multiple pdfs with page group included in a si
+ngle page
+> <./lista__tab_8cpp_aba1e73e8a2200c8303fa031d788bd069_cgraph.pdf
+
+pdfTeX warning: pdflatex (file ./lista__tab_8cpp_aba1e73e8a2200c8303fa031d788bd
+069_cgraph.pdf): PDF inclusion: multiple pdfs with page group included in a sin
+gle page
+> <./lista__tab_8cpp_aba1e73e8a2200c8303fa031d788bd069_icgraph.pdf
+
+pdfTeX warning: pdflatex (file ./lista__tab_8cpp_aba1e73e8a2200c8303fa031d788bd
+069_icgraph.pdf): PDF inclusion: multiple pdfs with page group included in a si
+ngle page
+>]
+<lista__tab_8cpp_a536abf9d26ff06b830492601f58eb288_icgraph.pdf, id=2158, 614.29
+5pt x 138.5175pt>
+File: lista__tab_8cpp_a536abf9d26ff06b830492601f58eb288_icgraph.pdf Graphic fil
+e (type pdf)
+
+<use lista__tab_8cpp_a536abf9d26ff06b830492601f58eb288_icgraph.pdf>
+Package pdftex.def Info: lista__tab_8cpp_a536abf9d26ff06b830492601f58eb288_icgr
+aph.pdf used on input line 151.
+(pdftex.def)             Requested size: 350.0pt x 78.92197pt.
+)
+(./lista__tab_8cpp_source.texpdfTeX warning (ext4): destination with the same i
+dentifier (name{lista__tab_8cpp}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3 }
+      [48 <./lista__tab_8cpp_a536abf9d26ff06b830492601f58eb288_icgraph.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [49]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [50])
+(./lista__tab_8hh.tex
+<lista__tab_8hh__incl.pdf, id=2319, 202.7575pt x 212.795pt>
 File: lista__tab_8hh__incl.pdf Graphic file (type pdf)
 
 <use lista__tab_8hh__incl.pdf>
@@ -1917,8 +2088,8 @@ Package pdftex.def Info: lista__tab_8hh__incl.pdf used on input line 14.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47]
-<lista__tab_8hh__dep__incl.pdf, id=2065, 226.8475pt x 156.585pt>
+ [51]
+<lista__tab_8hh__dep__incl.pdf, id=2325, 226.8475pt x 156.585pt>
 File: lista__tab_8hh__dep__incl.pdf Graphic file (type pdf)
 
 <use lista__tab_8hh__dep__incl.pdf>
@@ -1929,98 +2100,101 @@ identifier (name{lista__tab_8hh}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.3 }
-      [48 <./lista__tab_8hh__incl.pdf> <./lista__tab_8hh__dep__incl.pdf
+      [52 <./lista__tab_8hh__incl.pdf> <./lista__tab_8hh__dep__incl.pdf
 
 pdfTeX warning: pdflatex (file ./lista__tab_8hh__dep__incl.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
->]) (./main_8cpp.tex <main_8cpp__incl.pdf, id=2122, 527.9725pt x 269.005pt>
+>]) (./main_8cpp.tex <main_8cpp__incl.pdf, id=2384, 527.9725pt x 269.005pt>
 File: main_8cpp__incl.pdf Graphic file (type pdf)
 
 <use main_8cpp__incl.pdf>
 Package pdftex.def Info: main_8cpp__incl.pdf used on input line 15.
 (pdftex.def)             Requested size: 350.0pt x 178.32373pt.
- [49 <./main_8cpp__incl.pdf>]
-<main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf, id=2136, 381.425pt x 1
-49.55875pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [53]
+<main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf, id=2393, 467.7475pt x 
+277.035pt>
 File: main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf Graphic file (type
  pdf)
  <use main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf>
 Package pdftex.def Info: main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf
  used on input line 44.
-(pdftex.def)             Requested size: 350.0pt x 137.24199pt.
+(pdftex.def)             Requested size: 350.0pt x 207.3065pt.
 )
 (./main_8cpp_source.texpdfTeX warning (ext4): destination with the same identif
 ier (name{main_8cpp}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.3 }
-     ) (./program_8cpp.tex
-<program_8cpp__incl.pdf, id=2155, 202.7575pt x 212.795pt>
+      [54 <./main_8cpp__incl.pdf> <./main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d
+4_cgraph.pdf
+
+pdfTeX warning: pdflatex (file ./main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cg
+raph.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
+ge
+>]) (./program_8cpp.tex
+<program_8cpp__incl.pdf, id=2425, 202.7575pt x 212.795pt>
 File: program_8cpp__incl.pdf Graphic file (type pdf)
 
 <use program_8cpp__incl.pdf>
 Package pdftex.def Info: program_8cpp__incl.pdf used on input line 14.
 (pdftex.def)             Requested size: 202.0pt x 212.00543pt.
-) (./program_8cpp_source.tex [50 <./main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4
-_cgraph.pdf>] [51pdfTeX warning (ext4): destination with the same identifier (n
-ame{program_8cpp}) has been already used, duplicate ignored
+) (./program_8cpp_source.tex [55pdfTeX warning (ext4): destination with the sam
+e identifier (name{program_8cpp}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.54 ...lor{stringliteral}{"Blad odczytu pliku!"};
+l.15 ...lor{stringliteral}{"Blad odczytu pliku!"};
                                                    <./program_8cpp__incl.pdf>])
-(./program_8hh.tex <program_8hh__incl.pdf, id=2193, 202.7575pt x 156.585pt>
+(./program_8hh.tex <program_8hh__incl.pdf, id=2449, 202.7575pt x 156.585pt>
 File: program_8hh__incl.pdf Graphic file (type pdf)
 
 <use program_8hh__incl.pdf>
 Package pdftex.def Info: program_8hh__incl.pdf used on input line 15.
 (pdftex.def)             Requested size: 202.0pt x 156.004pt.
 
-<program_8hh__dep__incl.pdf, id=2194, 641.39626pt x 212.795pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [56]
+<program_8hh__dep__incl.pdf, id=2454, 641.39626pt x 212.795pt>
 File: program_8hh__dep__incl.pdf Graphic file (type pdf)
 
 <use program_8hh__dep__incl.pdf>
 Package pdftex.def Info: program_8hh__dep__incl.pdf used on input line 22.
 (pdftex.def)             Requested size: 350.0pt x 116.12195pt.
-) (./program_8hh_source.tex [52pdfTeX warning (ext4): destination with the same
- identifier (name{program_8hh}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.6 00001 \textcolor{comment}{//program.hh}
-                                            <./program_8hh__incl.pdf> <./progra
-m_8hh__dep__incl.pdf
+) (./program_8hh_source.texpdfTeX warning (ext4): destination with the same ide
+ntifier (name{program_8hh}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3 }
+      [57 <./program_8hh__incl.pdf> <./program_8hh__dep__incl.pdf
 
 pdfTeX warning: pdflatex (file ./program_8hh__dep__incl.pdf): PDF inclusion: mu
 ltiple pdfs with page group included in a single page
->]) (./tabx2_8cpp.tex <tabx2_8cpp__incl.pdf, id=2232, 202.7575pt x 269.005pt>
+>]) (./tabx2_8cpp.tex <tabx2_8cpp__incl.pdf, id=2492, 202.7575pt x 269.005pt>
 File: tabx2_8cpp__incl.pdf Graphic file (type pdf)
 
 <use tabx2_8cpp__incl.pdf>
 Package pdftex.def Info: tabx2_8cpp__incl.pdf used on input line 14.
 (pdftex.def)             Requested size: 202.0pt x 268.00688pt.
-) (./tabx2_8cpp_source.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+) (./tabx2_8cpp_source.tex) (./tabx2_8hh.tex [58pdfTeX warning (ext4): destinat
+ion with the same identifier (name{tabx2_8cpp}) has been already used, duplicat
+e ignored
 
- [53])
-(./tabx2_8hh.tex <tabx2_8hh__incl.pdf, id=2242, 202.7575pt x 212.795pt>
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.3 }
+      <./tabx2_8cpp__incl.pdf>]
+<tabx2_8hh__incl.pdf, id=2508, 202.7575pt x 212.795pt>
 File: tabx2_8hh__incl.pdf Graphic file (type pdf)
 
 <use tabx2_8hh__incl.pdf>
 Package pdftex.def Info: tabx2_8hh__incl.pdf used on input line 15.
 (pdftex.def)             Requested size: 202.0pt x 212.00543pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [54pdfTeX warning (ext4): destination with the same identifier (name{tabx2_8cp
-p}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.18 T
-      en wykres pokazuje, które pliki bezpośrednio lub pośrednio załącz...
- <./tabx2_8cpp__incl.pdf>]
-<tabx2_8hh__dep__incl.pdf, id=2253, 213.79875pt x 156.585pt>
+<tabx2_8hh__dep__incl.pdf, id=2509, 213.79875pt x 156.585pt>
 File: tabx2_8hh__dep__incl.pdf Graphic file (type pdf)
 
 <use tabx2_8hh__dep__incl.pdf>
@@ -2031,36 +2205,34 @@ ifier (name{tabx2_8hh}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.3 }
-      [55 <./tabx2_8hh__incl.pdf> <./tabx2_8hh__dep__incl.pdf
+      [59 <./tabx2_8hh__incl.pdf> <./tabx2_8hh__dep__incl.pdf
 
 pdfTeX warning: pdflatex (file ./tabx2_8hh__dep__incl.pdf): PDF inclusion: mult
 iple pdfs with page group included in a single page
->]) (./tmp_8hh.tex <tmp_8hh__incl.pdf, id=2282, 235.88126pt x 212.795pt>
+>]) (./tmp_8hh.tex <tmp_8hh__incl.pdf, id=2538, 235.88126pt x 212.795pt>
 File: tmp_8hh__incl.pdf Graphic file (type pdf)
 
 <use tmp_8hh__incl.pdf>
 Package pdftex.def Info: tmp_8hh__incl.pdf used on input line 15.
 (pdftex.def)             Requested size: 235.0pt x 212.0022pt.
-) (./tmp_8hh_source.tex [56pdfTeX warning (ext4): destination with the same ide
-ntifier (name{tmp_8hh}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
+ [60 <./tmp_8hh__incl.pdf>]) (./tmp_8hh_source.texpdfTeX warning (ext4): destin
+ation with the same identifier (name{tmp_8hh}) has been already used, duplicate
+ ignored
+<to be read again> 
+                   \relax 
 l.3 }
-      <./tmp_8hh__incl.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+      [61]) [62] (./refman.ind [63
 
- [57])
-[58] (./refman.ind [59
+] [64] [65
 
-] [60])
+])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 186.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 186.
  (./refman.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 186.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 186.
 Package rerunfilecheck Info: File `refman.out' has not changed.
-(rerunfilecheck)             Checksum: C82757F8FE30FB8F2EC7496EB4A8B68A;22179.
+(rerunfilecheck)             Checksum: 8CC2CE223D4614994E2E2067B439D2BA;23271.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2071,10 +2243,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 186.
  ) 
 Here is how much of TeX's memory you used:
- 13350 strings out of 494952
- 196971 string characters out of 6179606
- 259305 words of memory out of 5000000
- 15800 multiletter control sequences out of 15000+600000
+ 13459 strings out of 494952
+ 202350 string characters out of 6179606
+ 259722 words of memory out of 5000000
+ 15866 multiletter control sequences out of 15000+600000
  89474 words of font info for 132 fonts, out of 8000000 for 9000
  56 hyphenation exceptions out of 8191
  48i,13n,43p,514b,522s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2122,10 +2294,10 @@ w/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/u
 hvb8ac.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8ac.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on refman.pdf (68 pages, 336488 bytes).
+Output written on refman.pdf (73 pages, 370942 bytes).
 PDF statistics:
- 2642 PDF objects out of 2984 (max. 8388607)
- 2451 compressed objects within 25 object streams
- 431 named destinations out of 1000 (max. 500000)
- 1445 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2925 PDF objects out of 2984 (max. 8388607)
+ 2702 compressed objects within 28 object streams
+ 462 named destinations out of 1000 (max. 500000)
+ 1577 words of extra memory for PDF output out of 10000 (max. 10000000)
 

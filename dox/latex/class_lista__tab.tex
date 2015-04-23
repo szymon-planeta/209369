@@ -43,14 +43,22 @@ void \hyperlink{class_lista__tab_a506a6de79a600bac8316a6caf9878528}{wyczysc\-\_\
 void \hyperlink{class_lista__tab_a409e9a4edbef4337980c7184b6cbfb63}{mergesort} (int beg, int end)
 \begin{DoxyCompactList}\small\item\em Metoda mergesort. \end{DoxyCompactList}\item 
 void \hyperlink{class_lista__tab_a34c4a75347b05d367d7d1b08fcbde095}{test} ()
-\begin{DoxyCompactList}\small\item\em Metoda test. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Metoda test. \end{DoxyCompactList}\item 
+void \hyperlink{class_lista__tab_ac9dc3e6ccaff0aef1a1370c1a83c48d9}{heapsort} ()
+\begin{DoxyCompactList}\small\item\em Procedura heapsort. \end{DoxyCompactList}\item 
+void \hyperlink{class_lista__tab_a1a20726180b67b7cf2a669cafd6d3ca3}{quicksort} (int left, int right)
+\begin{DoxyCompactList}\small\item\em Metoda \hyperlink{class_lista__tab_a1a20726180b67b7cf2a669cafd6d3ca3}{quicksort(int left, int right)} przeprowadza operację sortowania szybkiego (piwot to mediana z pierwszego, srodkowego i ostatniego elementu tablicy) \end{DoxyCompactList}\item 
+void \hyperlink{class_lista__tab_a9ae23cf825b116cb27ccc73bd4bca3c8}{hybridsort} ()
+\begin{DoxyCompactList}\small\item\em Procedura hybridsort. \end{DoxyCompactList}\item 
+void \hyperlink{class_lista__tab_afa5a23960858fae52090ef31e8529b2b}{insertsort} ()
+\begin{DoxyCompactList}\small\item\em Procedura insertsort. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Atrybuty publiczne}
 \begin{DoxyCompactItemize}
 \item 
 int \hyperlink{class_lista__tab_a59e0425d896070457d1f3456b91842fd}{rozmiar}
 \begin{DoxyCompactList}\small\item\em Aktualny rozmiar tablicy. \end{DoxyCompactList}\item 
 int \hyperlink{class_lista__tab_afd2c6ba3ae15e658890641b188c7ed39}{iterator}
-\begin{DoxyCompactList}\small\item\em Iterator, zawierajacy informacje o liczbie elementow w tablicy. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Iterator, numer ostatniego elementu tablicy. \end{DoxyCompactList}\item 
 int $\ast$ \hyperlink{class_lista__tab_a123dfb670e5a5592e512c41cc4faf14e}{tab}
 \begin{DoxyCompactList}\small\item\em Wskaznik na dynamicznie alokowana tablice z danymi. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Dodatkowe Dziedziczone Składowe}
@@ -89,6 +97,99 @@ Definicja w linii \hyperlink{lista__tab_8hh_source_l00043}{43} pliku \hyperlink{
 
 
 \subsection{Dokumentacja funkcji składowych}
+\hypertarget{class_lista__tab_ac9dc3e6ccaff0aef1a1370c1a83c48d9}{\index{Lista\-\_\-tab@{Lista\-\_\-tab}!heapsort@{heapsort}}
+\index{heapsort@{heapsort}!Lista_tab@{Lista\-\_\-tab}}
+\subsubsection[{heapsort}]{\setlength{\rightskip}{0pt plus 5cm}void Lista\-\_\-tab\-::heapsort (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_lista__tab_ac9dc3e6ccaff0aef1a1370c1a83c48d9}
+Przeprowadza opreację sortowania przez kopcowanie na całej liscie 
+
+Definicja w linii \hyperlink{lista__tab_8cpp_source_l00120}{120} pliku \hyperlink{lista__tab_8cpp_source}{lista\-\_\-tab.\-cpp}.
+
+
+
+Oto graf wywołań dla tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=296pt]{class_lista__tab_ac9dc3e6ccaff0aef1a1370c1a83c48d9_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_lista__tab_a9ae23cf825b116cb27ccc73bd4bca3c8}{\index{Lista\-\_\-tab@{Lista\-\_\-tab}!hybridsort@{hybridsort}}
+\index{hybridsort@{hybridsort}!Lista_tab@{Lista\-\_\-tab}}
+\subsubsection[{hybridsort}]{\setlength{\rightskip}{0pt plus 5cm}void Lista\-\_\-tab\-::hybridsort (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_lista__tab_a9ae23cf825b116cb27ccc73bd4bca3c8}
+Przeprowadza operacje sortowania hybrydowego -\/ laczy quicksorta i heapsorta 
+
+Definicja w linii \hyperlink{lista__tab_8cpp_source_l00297}{297} pliku \hyperlink{lista__tab_8cpp_source}{lista\-\_\-tab.\-cpp}.
+
+
+
+Oto graf wywołań dla tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_lista__tab_a9ae23cf825b116cb27ccc73bd4bca3c8_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Oto graf wywoływań tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=302pt]{class_lista__tab_a9ae23cf825b116cb27ccc73bd4bca3c8_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_lista__tab_afa5a23960858fae52090ef31e8529b2b}{\index{Lista\-\_\-tab@{Lista\-\_\-tab}!insertsort@{insertsort}}
+\index{insertsort@{insertsort}!Lista_tab@{Lista\-\_\-tab}}
+\subsubsection[{insertsort}]{\setlength{\rightskip}{0pt plus 5cm}void Lista\-\_\-tab\-::insertsort (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_lista__tab_afa5a23960858fae52090ef31e8529b2b}
+Przeprowadza operacje sortowania przez wstawianie 
+
+Definicja w linii \hyperlink{lista__tab_8cpp_source_l00302}{302} pliku \hyperlink{lista__tab_8cpp_source}{lista\-\_\-tab.\-cpp}.
+
+
+
+Oto graf wywołań dla tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=300pt]{class_lista__tab_afa5a23960858fae52090ef31e8529b2b_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Oto graf wywoływań tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_lista__tab_afa5a23960858fae52090ef31e8529b2b_icgraph}
+\end{center}
+\end{figure}
+
+
 \hypertarget{class_lista__tab_a409e9a4edbef4337980c7184b6cbfb63}{\index{Lista\-\_\-tab@{Lista\-\_\-tab}!mergesort@{mergesort}}
 \index{mergesort@{mergesort}!Lista_tab@{Lista\-\_\-tab}}
 \subsubsection[{mergesort}]{\setlength{\rightskip}{0pt plus 5cm}void Lista\-\_\-tab\-::mergesort (
@@ -108,19 +209,7 @@ Dokonuje sortowania tablicy przez scalanie
 \end{DoxyParams}
 
 
-Definicja w linii \hyperlink{lista__tab_8cpp_source_l00100}{100} pliku \hyperlink{lista__tab_8cpp_source}{lista\-\_\-tab.\-cpp}.
-
-
-
-Oto graf wywoływań tej funkcji\-:
-\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=302pt]{class_lista__tab_a409e9a4edbef4337980c7184b6cbfb63_icgraph}
-\end{center}
-\end{figure}
-
+Definicja w linii \hyperlink{lista__tab_8cpp_source_l00107}{107} pliku \hyperlink{lista__tab_8cpp_source}{lista\-\_\-tab.\-cpp}.
 
 \hypertarget{class_lista__tab_affc42a7ffc6eda21076fc56eae38e980}{\index{Lista\-\_\-tab@{Lista\-\_\-tab}!pop@{pop}}
 \index{pop@{pop}!Lista_tab@{Lista\-\_\-tab}}
@@ -131,7 +220,7 @@ Oto graf wywoływań tej funkcji\-:
 )}}\label{class_lista__tab_affc42a7ffc6eda21076fc56eae38e980}
 Usuwa ostatni element listy. 
 
-Definicja w linii \hyperlink{lista__tab_8cpp_source_l00056}{56} pliku \hyperlink{lista__tab_8cpp_source}{lista\-\_\-tab.\-cpp}.
+Definicja w linii \hyperlink{lista__tab_8cpp_source_l00063}{63} pliku \hyperlink{lista__tab_8cpp_source}{lista\-\_\-tab.\-cpp}.
 
 \hypertarget{class_lista__tab_a800998768639b41b5be5c52ec4ccbda4}{\index{Lista\-\_\-tab@{Lista\-\_\-tab}!push@{push}}
 \index{push@{push}!Lista_tab@{Lista\-\_\-tab}}
@@ -149,7 +238,7 @@ Dodaje podana wartosc na koniec listy. Do wyboru 2 metody push -\/ po osiagnieci
 \end{DoxyParams}
 
 
-Definicja w linii \hyperlink{lista__tab_8cpp_source_l00032}{32} pliku \hyperlink{lista__tab_8cpp_source}{lista\-\_\-tab.\-cpp}.
+Definicja w linii \hyperlink{lista__tab_8cpp_source_l00039}{39} pliku \hyperlink{lista__tab_8cpp_source}{lista\-\_\-tab.\-cpp}.
 
 
 
@@ -158,7 +247,40 @@ Oto graf wywoływań tej funkcji\-:
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{class_lista__tab_a800998768639b41b5be5c52ec4ccbda4_icgraph}
+\includegraphics[width=298pt]{class_lista__tab_a800998768639b41b5be5c52ec4ccbda4_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_lista__tab_a1a20726180b67b7cf2a669cafd6d3ca3}{\index{Lista\-\_\-tab@{Lista\-\_\-tab}!quicksort@{quicksort}}
+\index{quicksort@{quicksort}!Lista_tab@{Lista\-\_\-tab}}
+\subsubsection[{quicksort}]{\setlength{\rightskip}{0pt plus 5cm}void Lista\-\_\-tab\-::quicksort (
+\begin{DoxyParamCaption}
+\item[{int}]{left, }
+\item[{int}]{right}
+\end{DoxyParamCaption}
+)}}\label{class_lista__tab_a1a20726180b67b7cf2a669cafd6d3ca3}
+Aby posortować całą tablicę, należy jako argumenty podać 0 i \hyperlink{class_lista__tab_af092dd7943f7cd5ff407485f2991a1e4}{size()}-\/1. quicksort(0,\hyperlink{class_lista__tab_af092dd7943f7cd5ff407485f2991a1e4}{size()}-\/1)
+
+
+\begin{DoxyParams}[1]{Parametry}
+\mbox{\tt in}  & {\em left} & -\/ początek zakresu (pierwszy element) sortowania \\
+\hline
+\mbox{\tt in}  & {\em right} & -\/ koniec zakresu (ostatni element) sortowania \\
+\hline
+\end{DoxyParams}
+
+
+Definicja w linii \hyperlink{lista__tab_8cpp_source_l00177}{177} pliku \hyperlink{lista__tab_8cpp_source}{lista\-\_\-tab.\-cpp}.
+
+
+
+Oto graf wywołań dla tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=266pt]{class_lista__tab_a1a20726180b67b7cf2a669cafd6d3ca3_cgraph}
 \end{center}
 \end{figure}
 
@@ -177,7 +299,19 @@ Rozmiar listy (liczba jej elementow)
 \end{DoxyReturn}
 
 
-Definicja w linii \hyperlink{lista__tab_8cpp_source_l00073}{73} pliku \hyperlink{lista__tab_8cpp_source}{lista\-\_\-tab.\-cpp}.
+Definicja w linii \hyperlink{lista__tab_8cpp_source_l00080}{80} pliku \hyperlink{lista__tab_8cpp_source}{lista\-\_\-tab.\-cpp}.
+
+
+
+Oto graf wywoływań tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_lista__tab_af092dd7943f7cd5ff407485f2991a1e4_icgraph}
+\end{center}
+\end{figure}
+
 
 \hypertarget{class_lista__tab_a34c4a75347b05d367d7d1b08fcbde095}{\index{Lista\-\_\-tab@{Lista\-\_\-tab}!test@{test}}
 \index{test@{test}!Lista_tab@{Lista\-\_\-tab}}
@@ -201,7 +335,7 @@ Oto graf wywołań dla tej funkcji\-:
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=302pt]{class_lista__tab_a34c4a75347b05d367d7d1b08fcbde095_cgraph}
+\includegraphics[width=350pt]{class_lista__tab_a34c4a75347b05d367d7d1b08fcbde095_cgraph}
 \end{center}
 \end{figure}
 
@@ -226,7 +360,7 @@ Implementuje \hyperlink{class_program_a4f26df1d57d90eeb7095e1ef2fe4c229}{Program
 
 
 
-Definicja w linii \hyperlink{lista__tab_8cpp_source_l00093}{93} pliku \hyperlink{lista__tab_8cpp_source}{lista\-\_\-tab.\-cpp}.
+Definicja w linii \hyperlink{lista__tab_8cpp_source_l00100}{100} pliku \hyperlink{lista__tab_8cpp_source}{lista\-\_\-tab.\-cpp}.
 
 \hypertarget{class_lista__tab_ac9adc6ecc7348c5e1871b239c1313405}{\index{Lista\-\_\-tab@{Lista\-\_\-tab}!wykonaj\-\_\-program@{wykonaj\-\_\-program}}
 \index{wykonaj\-\_\-program@{wykonaj\-\_\-program}!Lista_tab@{Lista\-\_\-tab}}
@@ -251,7 +385,7 @@ Implementuje \hyperlink{class_program_afc2ba31ffb01e8d2c6448a222fa02c8c}{Program
 
 
 
-Definicja w linii \hyperlink{lista__tab_8cpp_source_l00077}{77} pliku \hyperlink{lista__tab_8cpp_source}{lista\-\_\-tab.\-cpp}.
+Definicja w linii \hyperlink{lista__tab_8cpp_source_l00084}{84} pliku \hyperlink{lista__tab_8cpp_source}{lista\-\_\-tab.\-cpp}.
 
 
 
@@ -260,18 +394,6 @@ Oto graf wywołań dla tej funkcji\-:\nopagebreak
 \begin{center}
 \leavevmode
 \includegraphics[width=298pt]{class_lista__tab_ac9adc6ecc7348c5e1871b239c1313405_cgraph}
-\end{center}
-\end{figure}
-
-
-
-
-Oto graf wywoływań tej funkcji\-:
-\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=252pt]{class_lista__tab_ac9adc6ecc7348c5e1871b239c1313405_icgraph}
 \end{center}
 \end{figure}
 
