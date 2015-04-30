@@ -29,10 +29,11 @@ int main(){
   //cout<< a.first;
 
   Assoctab<string, string> a;
-  a["kon"]="rafal";
-  cout<<a["kon"]<<endl;
+  //a.push("bolee","kutas"); a.push("bolee","cipa");// a.push("bolee","a");
   //cout<<a["bolee"]<<endl;
-
+  // a["bolee"]="zioom";
+  //a["bolee"]="kutas";
+  cout<<a["bole"];
   
 
   return 0;

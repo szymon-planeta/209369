@@ -209,7 +209,7 @@ template <class typeK, class typeV> void Assoctab<typeK, typeV>::wyswietl(typeK 
 }
 
 template <class typeK, class typeV> const typeV& Assoctab<typeK,typeV>::operator[](typeK klucz)const{
-  cout<<"const"<<endl;
+  //cout<<"const"<<endl;
   if(tab[h(klucz)].first==NULL)
     cerr<<"Brak elementu o takim kluczu!"<<endl;
   else{
@@ -229,7 +229,7 @@ template <class typeK, class typeV> const typeV& Assoctab<typeK,typeV>::operator
 }
 
 template <class typeK, class typeV> typeV& Assoctab<typeK,typeV>::operator[](typeK klucz){
-  cout<<"nieconst"<<endl;
+  //cout<<"nieconst"<<endl;
   pole<dane> *temp; 
   if(tab[h(klucz)].first==NULL){
     tab[h(klucz)].first = new pole<dane>;
