@@ -7,7 +7,7 @@
 #include "program.hh"
 #include <sys/time.h>
 #include <fstream>
-
+#include "observer.hh"
 /*!
  * \file
  * \brief Definicja klasy Benchmark
@@ -20,7 +20,7 @@ using namespace std;
  * 
  * Jest to klasa służąca do testowania programów.
  */
-class Benchmark{
+class Benchmark: public Subject{
 private:
   /*!
    * \brief Zmienne t1, t2
@@ -35,6 +35,8 @@ private:
    * Przechowuje obliczony czas pojedynczego pomiaru (w ms)
    */
   double czas_pomiaru;
+
+  int liczba_danych;
 
 public:
   /*!
@@ -79,6 +81,9 @@ public:
    * \return Metoda zwraca sredni czas wykonania programu dla podanych parametrow.
    */
   double testuj_strukture(Program &program,char* dane, int ilosc_danych, int ilosc_testow);
+
+  double getT(){return czas_pomiaru;}
+  double getN(){return liczba_danych;}
 };
 
 #endif

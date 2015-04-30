@@ -14,7 +14,6 @@ int main(){
   Benchmark b;
   char* dane = (char*)"dane.dat";
   int ilosc_testow = 10;
-  SaveToFile x;
   /*
      a.wykonaj_program(dane, 30);
      for(int i=0; i<=a.iterator; i++)

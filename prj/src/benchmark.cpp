@@ -17,8 +17,9 @@ void Benchmark::zakoncz_pomiar(){
 double Benchmark::testuj(Program &program, char* dane, int ilosc_danych, int ilosc_testow){
   double suma=0;
   double srednia=0;
-  ofstream wyniki;
-  wyniki.open("wyniki.csv",ios::app);
+  //ofstream wyniki;
+
+  // wyniki.open("wyniki.csv",ios::app);
   
   //if(program.wczytaj_dane(dane,ilosc_danych)==false){
   //     cerr<<"Niewystarczajaca ilosc danych!"<<endl;
@@ -40,8 +41,9 @@ double Benchmark::testuj(Program &program, char* dane, int ilosc_danych, int ilo
     suma+=czas_pomiaru;
   }
   srednia=suma/(ilosc_testow);
-  wyniki<<endl<<ilosc_danych<<","<<srednia;
-  wyniki.close();
+  czas_pomiaru=srednia;
+  //wyniki<<endl<<ilosc_danych<<","<<srednia;
+  //wyniki.close();
   return srednia;
 }
 
@@ -59,7 +61,9 @@ double Benchmark::testuj_strukture(Program &program,char* dane, int ilosc_danych
     suma+=czas_pomiaru;
   }
   srednia=suma/(ilosc_testow);
-
+  czas_pomiaru = srednia;
+  liczba_danych = ilosc_danych;
+  notify();
   wyniki.open("wyniki.csv",ios::app);
   wyniki<<endl<<ilosc_danych<<","<<srednia;
   wyniki.close();
