@@ -13,14 +13,28 @@
  * \file
  * \brief Definicja klasy Assoctab
  */
+//template <class typeK, class typeV>
+//class Assoctab;
+
+//template <class typeV>
+//ostream& operator<<(ostream &, const typeV);
 
 template <class typeK, class typeV>
 class Assoctab: public Program{
 public:
   /*!
+   * \brief Struktura danych przechowywanych
+   *
+   * Zawiera klucz i wartosc
+   */
+  struct dane{
+    typeK key;
+    typeV value;
+  };
+  /*!
    * \brief Wskaznik na dynamicznie alokowana tablice z danymi
    */
-  Lista<typeK, typeV> *tab;
+  Lista<dane> *tab;
 
   
   /*!
@@ -35,7 +49,7 @@ public:
    * Ustawia poczatek listy na NULL
    */
     Assoctab(){
-    tab = new Lista<typeK, typeV> [TAB];
+    tab = new Lista<dane> [TAB];
     rozmiar = TAB;
   }
 
@@ -45,7 +59,7 @@ public:
    * Usuwa dynamicznie utworzona tablice danych oraz przypisuje wskaznikowi
    * wartosc NULL.
    */
-  ~Assoctab(){delete[] tab; tab=NULL; rozmiar=0;}
+  ~Assoctab(){delete [] tab; tab=NULL; rozmiar=0;}
 
 
 /*!
@@ -101,10 +115,10 @@ public:
    *
    * Przeprowadza test - odwoluje sie do pojedynczego klucza
    */
-  void test(){
+  // void test(){
     //typeV a = tab[h("fa37")].daj("fa37");
-    wyswietl("fa37");
-  };
+  //  wyswietl("fa37");
+  // };
 
   /*!
    * \brief Metoda wyczysc_dane
@@ -131,6 +145,8 @@ public:
    */
   void wyswietl(typeK klucz);
   
+
+
   /*
    * \brief Przeciazenie operatora []
    */
@@ -140,13 +156,12 @@ public:
    * \brief Przeciazenie operatora []
    */
   typeV& operator[](typeK klucz);
-
-
- 
 };
 
 template <class typeK, class typeV> void Assoctab<typeK, typeV>::push(typeK klucz, typeV wartosc){
-  tab[h(klucz)].push_front(klucz, wartosc);	 				 
+  dane a;
+  a.key = klucz; a.value = wartosc;
+  tab[h(klucz)].push_front(a);	 				 
 }
 
 template <class typeK, class typeV> void Assoctab<typeK, typeV>::pop(typeK klucz){
@@ -169,7 +184,7 @@ template <class typeK, class typeV> int Assoctab<typeK, typeV>::size(){
 }
 
 template <class typeK, class typeV> bool Assoctab<typeK, typeV>::wykonaj_program(char* nazwa_pliku,int ilosc_danych){
-  typeK key;
+  /* typeK key;
   typeV val;
   plik_we.open(nazwa_pliku);
   if(plik_we.good()==false){
@@ -181,23 +196,68 @@ template <class typeK, class typeV> bool Assoctab<typeK, typeV>::wykonaj_program
     plik_we >> val;
     push(key,val);
   }
-  plik_we.close();
+  plik_we.close();*/
   return true;
-}
+  }
 
 template <class typeK, class typeV> void Assoctab<typeK, typeV>::wyswietl_liste(typeK klucz){
-  tab[h(klucz)].wyswietl();				 
+  //tab[h(klucz)].wyswietl();				 
 }
 
 template <class typeK, class typeV> void Assoctab<typeK, typeV>::wyswietl(typeK klucz){
-  tab[h(klucz)].wyswietl(klucz);				 
+  //tab[h(klucz)].wyswietl(klucz);				 
 }
 
 template <class typeK, class typeV> const typeV& Assoctab<typeK,typeV>::operator[](typeK klucz)const{
-  return tab[h(klucz)].daj(klucz);
+  cout<<"const"<<endl;
+  if(tab[h(klucz)].first==NULL)
+    cerr<<"Brak elementu o takim kluczu!"<<endl;
+  else{
+    pole<dane> *temp = tab[h(klucz)].first;
+    if(temp->next==NULL){ 
+      if(temp->val.key==klucz)
+	return temp->val.value;
+    }
+    else
+      while(temp->next!=NULL){
+	if(temp->val.key==klucz)
+	  return temp->val.value;
+	else
+	  temp=temp->next;
+      }
+  }
 }
 
 template <class typeK, class typeV> typeV& Assoctab<typeK,typeV>::operator[](typeK klucz){
-  return tab[h(klucz)].daj(klucz);
+  cout<<"nieconst"<<endl;
+  pole<dane> *temp; 
+  if(tab[h(klucz)].first==NULL){
+    tab[h(klucz)].first = new pole<dane>;
+    tab[h(klucz)].first->val.key = klucz;
+    return tab[h(klucz)].first->val.value;
+  }
+  else{
+    pole<dane> *temp = tab[h(klucz)].first;
+    if(temp->next==NULL){ 
+      if(temp->val.key==klucz)
+	return temp->val.value;
+    }
+    else
+      while(temp->next!=NULL){
+	if(temp->val.key==klucz)
+	  return temp->val.value;
+	else
+	  temp=temp->next;
+      }
+  }
+  temp = new pole<dane>;
+  temp->val.key=klucz;
+  temp->next = tab[h(klucz)].first;
+  tab[h(klucz)].first = temp;
+  return temp->val.value;
+  // tab[h("bolee")].first = new pole<dane>;
+  //return tab[h("bolee")].first->val.value;
 }
+
+
 #endif

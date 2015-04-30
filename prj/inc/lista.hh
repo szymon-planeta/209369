@@ -10,17 +10,22 @@
  */
 
 /*
-struct pole{
+  struct pole{
   int wartosc;
   pole *next;
   pole(){wartosc=0; next=NULL;}
-};
+  };
 */
+template <class type>
+struct pole{
+  type val;
+  pole *next;
+  pole(){next=NULL;}
+};
 
 
-template <class type, class type2>
+template <class type>
 class Lista: public Program{
-  //zmien
   /*!
    * \brief Struktura pole
    *
@@ -28,13 +33,13 @@ class Lista: public Program{
    * przechowywana wartosc oraz wskaznik na zmienna typu
    * pole.
    */
-  struct pole{
-    type val1;
-    type2 val2;
+  /* struct pole{
+    type val;
     pole *next;
     pole(){next=NULL;}
-};
-public:  pole *first;
+    };*/
+
+public:  pole<type> *first;
 public:
   /*!
    * \brief Konstruktor bezparametryczny
@@ -51,7 +56,7 @@ public:
    *
    * \param[in] x Wartosc, ktora chcemy dodac na koniec listy.
    */
-  void push(type x, type2 y);
+  void push(type x);
 
   /*!
    * \brief Metoda push
@@ -60,7 +65,7 @@ public:
    *
    * \param[in] x Wartosc, ktora chcemy dodac na poczatek listy.
    */
-  void push_front(type x, type2 y);
+  void push_front(type x);
 
   /*!
    * \brief Procedura pop
@@ -68,6 +73,13 @@ public:
    * Usuwa ostatni element listy.
    */
   void pop();
+
+  /*!
+   * \brief Procedura pop
+   *
+   * Usuwa pierwszy element listy.
+   */
+  void pop_front();
   /*!
    * \brief Metoda size
    *
@@ -108,7 +120,7 @@ public:
       cerr<<"Lista jest pusta!"<<endl;
     }
     else{
-      pole *wsk = first;
+      pole<type> *wsk = first;
       cout<<"Key: "<<wsk->val1<< " , Value:"<<wsk->val2<<endl;
       while(wsk->next){
 	wsk=wsk->next;
@@ -125,15 +137,23 @@ public:
    *
    * \param[in] Klucz, dla ktorego chcemy wyswietlic wszystkie pola o identycznym kluczu
    */
-  void wyswietl(type key);
+  //void wyswietl(type key);
 
+
+ /*
+   *!
+   * \brief Metoda dajref z argumentem key
+   *
+   * \return Zwraca tworzy nowe pole na liscie o podanym kluczu i zwraca referencje do val2.
+   */
+ // type2& dajref(type key);
  /*
    *!
    * \brief Metoda daj z argumentem key
    *
    * \return Zwraca wartosc pierwszego napotkanego elementu na liscie, o kluczu rownym key
    */
-  type2& daj(type key);
+ // const type2& daj(type key)const;
 
  /*!
    * \brief Procedura pop
@@ -142,18 +162,19 @@ public:
    * 
    * \param[in] Wartosc val1 elementow do usuniecia
    */
-  void pop(type key);
+  //void pop();
+
+  //ostream & operator << (ostream & ostr, const pole & p);
 };
 
-template <class type, class type2> void Lista<type, type2>::push(type x, type2 y){
-  pole *nowe = new pole;
-  nowe->val1 = x;
-  nowe->val2 = y;
+template <class type> void Lista<type>::push(type x){
+  pole<type> *nowe = new pole<type>;
+  nowe->val = x;
   if(first == NULL){
     first = nowe;
   }
   else{
-    pole *wsk = first;
+    pole<type> *wsk = first;
     while(wsk->next)
       wsk=wsk->next;
     wsk->next = nowe;
@@ -161,27 +182,25 @@ template <class type, class type2> void Lista<type, type2>::push(type x, type2 y
   }
 }
 
-template <class type, class type2> void Lista<type, type2>::push_front(type x, type2 y){
-  pole *nowe = new pole;
-  nowe->val1 = x;
-  nowe->val2 = y;
+template <class type> void Lista<type>::push_front(type x){
+  pole<type> *nowe = new pole<type>;
+  nowe->val = x;
   if(first == NULL){
     first = nowe;
   }
   else{
-    pole *wsk = first->next;
-    first->next = nowe;
-    nowe->next = wsk;
+    nowe->next=first;
+    first=nowe;
   }
 }
 
-template <class type, class type2> void Lista<type, type2>::pop(){
+template <class type> void Lista<type>::pop(){
   if(first == NULL){
     cerr<<"Lista jest pusta!"<<endl;
   }
   else{
-    pole *wsk = first;
-    pole *prev = NULL;
+    pole<type> *wsk = first;
+    pole<type> *prev = NULL;
     while(wsk->next){
       prev=wsk;
       wsk=wsk->next;
@@ -197,11 +216,21 @@ template <class type, class type2> void Lista<type, type2>::pop(){
   }
 }
 
-template <class type, class type2> int Lista<type, type2>::size(){
+template <class type> void Lista<type>::pop_front(){
+  if(first == NULL)
+    cerr << "Lista jest pusta!"<<endl;
+  else{
+    pole<type> *wsk = first;
+    first = first->next;
+    delete wsk;
+  }
+}
+
+template <class type> int Lista<type>::size(){
   if(first == NULL)
     return 0;
   else{
-    pole *wsk = first;
+    pole<type> *wsk = first;
     int i=1;
     while(wsk->next){
       wsk=wsk->next;
@@ -211,16 +240,16 @@ template <class type, class type2> int Lista<type, type2>::size(){
   }
 }
 
-template <class type, class type2> bool Lista<type, type2>::wykonaj_program(char* nazwa_pliku,int ilosc_danych){
+template <class type> bool Lista<type>::wykonaj_program(char* nazwa_pliku,int ilosc_danych){
   return true;
 }
 
-template <class type, class type2> void Lista<type, type2>::wyczysc_dane(int ile){
+template <class type> void Lista<type>::wyczysc_dane(int ile){
   for(int i=0;i<ile;i++)
     pop();
 }
-
-template<class type, class type2> void Lista<type, type2>::wyswietl(type key){
+/*
+template<class type> void Lista<type>::wyswietl(type key){
   if(first == NULL){
     cerr<<"Lista jest pusta!"<<endl;
   }
@@ -234,12 +263,31 @@ template<class type, class type2> void Lista<type, type2>::wyswietl(type key){
 	cout<<"Key: "<<wsk->val1<< " , Value:"<<wsk->val2<<endl;
     }
   }
+  }
+template<class type, class type2> type2& Lista<type, type2>::dajref(type key){
+  pole *nowe = new pole;
+  nowe->val1 = key;
+  if(first == NULL){
+    first = nowe;
+  }
+  else{
+    pole *wsk = first;
+    while(wsk->next)
+      wsk=wsk->next;
+    wsk->next = nowe;
+    nowe->next = NULL;
+  }
+  return nowe->val2;
+  //type2 a;
+  // return a;
 }
-template<class type, class type2> type2& Lista<type, type2>::daj(type key){
+
+
+template<class type, class type2> const type2& Lista<type, type2>::daj(type key)const{
   if(first == NULL){
     cerr<<"Brak elementu o podanym kluczu!"<<endl;
-    //type2 a;
-    // return a;
+    type a;
+    return a;
   }
   else{
     pole *wsk = first;
@@ -248,13 +296,13 @@ template<class type, class type2> type2& Lista<type, type2>::daj(type key){
     while(wsk->next){
       wsk=wsk->next;
       if(wsk->val1 == key)
-	return wsk->val2;;
+	return wsk->val2;
     }
   }
   //type2 a;
   //return a;
 }
-
+*
 template<class type, class type2> void Lista<type, type2>::pop(type key){
   pole *wsk = first;
   pole *prev = NULL;
@@ -289,5 +337,10 @@ template<class type, class type2> void Lista<type, type2>::pop(type key){
   } 
 }
 
+template ostream & Lista<class type, class type2>::operator << (ostream & ostr, const pole & p){
+   ostr << p.val2;
+
+   return ostr;
+   }*/
 
 #endif
