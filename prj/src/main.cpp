@@ -8,8 +8,9 @@
 
 using namespace std;
 
-template<typename type>
-void insertsort(Iterable<type> &tosort, int right){
+//template<typename type>
+void insertsort(Stack<int> &tosort, int right){
+//void insertsort(Iterable<int> &tosort, int right){
   int i,j; int temp;
   for(i=1; i<=right; ++i){
     temp=tosort[i];
@@ -22,20 +23,21 @@ void insertsort(Iterable<type> &tosort, int right){
 
 int main(){
   //List<int> lista;
-  Timer a;
-  a.start_timer();
-  Queue<int> stos;
-  //Stack<int> stos;
-  for(int i=10; i>=0; i--)
+  Benchmark test;
+  SaveToFile saver;
+  test.addObs(&saver);
+  //Queue<int> stos;
+  Stack<int> stos;
+  for(int i=0; i<=10; i++)
     stos.push(i);
   //stos.pop();
   // stos.display();
   //stos[1]=10000;
   //cout<<stos[100];
-  //stos.display();
-  insertsort(stos, stos.size()-1);
-  //stos.display();
-  a.stop_timer();
-  cout<<a.getTime()<<endl;
+  stos.display();
+  test.runBenchmark(&insertsort, stos, 11, 10);
+  // insertsort(stos, stos.size()-1);
+  stos.display();
+
   return 0;
 }

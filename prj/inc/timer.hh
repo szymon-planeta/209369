@@ -10,6 +10,7 @@
  * Służy do pomiaru czasu
  */
 class Timer{
+protected:
   /*!
    * \brief Zmienne start, end
    *
