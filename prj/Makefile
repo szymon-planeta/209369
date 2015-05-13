@@ -6,36 +6,26 @@ CPPFLAGS= -c -g -Iinc -Wall -pedantic
 __start__: benchmark
 	./benchmark
 
-benchmark: obj/main.o obj/program.o obj/benchmark.o obj/tabx2.o obj/lista_tab.o 
-	g++ -Wall -pedantic -o benchmark obj/main.o obj/tabx2.o obj/lista_tab.o   \
-					obj/program.o obj/benchmark.o #obj/lista.o 	
+benchmark: obj/main.o obj/timer.o
+	g++ -Wall -pedantic -o benchmark obj/main.o obj/timer.o
 
-obj/main.o: src/main.cpp inc/program.hh	inc/benchmark.hh inc/tabx2.hh inc/lista.hh
+obj/main.o: src/main.cpp inc/abdata.hh inc/iterable.hh inc/list.hh inc/stack.hh inc/queue.hh inc/timer.hh inc/benchmark.hh inc/observer.hh
 	g++ ${CPPFLAGS} -o obj/main.o src/main.cpp
 
-obj/tabx2.o: src/tabx2.cpp inc/tabx2.hh 
-	g++ ${CPPFLAGS} -o obj/tabx2.o src/tabx2.cpp
-
-obj/benchmark.o: src/benchmark.cpp inc/benchmark.hh 
-	g++ ${CPPFLAGS} -o obj/benchmark.o src/benchmark.cpp
-
-#obj/lista.o: inc/lista.hh
-#	g++ ${CPPFLAGS} -o obj/lista.o inc/lista.hh
-
-obj/lista_tab.o: src/lista_tab.cpp inc/lista_tab.hh
-	g++ ${CPPFLAGS} -o obj/lista_tab.o src/lista_tab.cpp
-
-#obj/assoctab.o: src/assoctab.cpp inc/assoctab.hh
-#	g++ ${CPPFLAGS} -o obj/assoctab.o src/assoctab.cpp
-
-obj/program.o: src/program.cpp inc/program.hh
-	g++ ${CPPFLAGS} -o obj/program.o src/program.cpp
+obj/timer.o: src/timer.cpp inc/timer.hh 
+	g++ ${CPPFLAGS} -o obj/timer.o src/timer.cpp
 
 clean:
 	rm -f obj/*.o benchmark
 
 doc:
 	cd ../dox && make
+	cd latex && make
+
+all:
+	make clean
+	clear
+	make
 
 help:
 	@echo
@@ -50,5 +40,5 @@ help:
 	@echo " Przykladowe wywolania dla poszczegolnych wariantow. "
 	@echo "  make           # kompilacja i uruchomienie programu."
 	@echo "  make clean     # usuwa produkty kompilacji."
-	@echo "  make doc       # generuje dokumentacje w dox/html"
+	@echo "  make doc       # generuje dokumentacje w dox/latex"
 	@echo
