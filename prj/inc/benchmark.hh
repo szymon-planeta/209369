@@ -52,8 +52,8 @@ public:
    * \param[in] Ilosc danych
    * \param[in] Ilosc testow
    */
-  //template<typename type>
-  void runBenchmark(void (*f)(Stack<int>&, int), Stack<int> &container, int dataCount, int repeats);
+  template<typename type>
+  void runBenchmark(void (*f)(Iterable<type>&, int),Iterable<type> &container, int dataCount, int repeats);
 
 };
 
