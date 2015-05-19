@@ -9,7 +9,7 @@ __start__: benchmark
 benchmark: obj/main.o obj/timer.o obj/benchmark.o
 	g++ -Wall -pedantic -o benchmark obj/main.o obj/timer.o obj/benchmark.o
 
-obj/main.o: src/main.cpp inc/abdata.hh inc/iterable.hh inc/list.hh inc/stack.hh inc/queue.hh inc/timer.hh inc/observer.hh inc/benchmark.hh inc/sorts.hh inc/abdatatools.hh
+obj/main.o: src/main.cpp inc/abdata.hh inc/iterable.hh inc/list.hh inc/stack.hh inc/queue.hh inc/timer.hh inc/observer.hh inc/benchmark.hh inc/sorts.hh inc/abdatatools.hh inc/listarray.hh inc/assoctab.hh
 	g++ ${CPPFLAGS} -o obj/main.o src/main.cpp
 
 obj/benchmark.o: src/benchmark.cpp inc/benchmark.hh inc/timer.hh

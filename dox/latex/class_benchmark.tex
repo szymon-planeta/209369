@@ -10,88 +10,83 @@ Klasa \hyperlink{class_benchmark}{Benchmark}.
 
 {\ttfamily \#include $<$benchmark.\-hh$>$}
 
+
+
+Diagram dziedziczenia dla Benchmark\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=189pt]{class_benchmark__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Diagram współpracy dla Benchmark\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_benchmark__coll__graph}
+\end{center}
+\end{figure}
 \subsection*{Metody publiczne}
 \begin{DoxyCompactItemize}
 \item 
-void \hyperlink{class_benchmark_a684ddcbdd22608838da1ad23f1fcc2ce}{rozpocznij\-\_\-pomiar} ()
-\begin{DoxyCompactList}\small\item\em Procedura rozpocznij\-\_\-pomiar. \end{DoxyCompactList}\item 
-void \hyperlink{class_benchmark_a3f4b4595a3d1145d238f5b3c8486d875}{zakoncz\-\_\-pomiar} ()
-\begin{DoxyCompactList}\small\item\em Procedura zakoncz\-\_\-pomiar. \end{DoxyCompactList}\item 
-double \hyperlink{class_benchmark_ad2f9d4a8ee5a33de5261c2b2eff3d87a}{testuj} (\hyperlink{class_program}{Program} \&program, char $\ast$dane, int ilosc\-\_\-danych, int ilosc\-\_\-testow)
-\begin{DoxyCompactList}\small\item\em Metoda testuj. \end{DoxyCompactList}\item 
-double \hyperlink{class_benchmark_ac8fa0356657b4a1ffd46df6ae7fd78d0}{testuj\-\_\-strukture} (\hyperlink{class_program}{Program} \&program, char $\ast$dane, int ilosc\-\_\-danych, int ilosc\-\_\-testow)
-\begin{DoxyCompactList}\small\item\em Metoda testuj\-\_\-strukture. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\hyperlink{class_benchmark_acfca497989836a688d44477802e822d8}{Benchmark} ()
+\item 
+void \hyperlink{class_benchmark_a408a44a1d64e45b647ef6dbba2f2c3d3}{notify} ()
+\begin{DoxyCompactList}\small\item\em Wysyla powiadomienie do obserwatorow. \end{DoxyCompactList}\item 
+void \hyperlink{class_benchmark_ab65889d4c2df3eb503048ab1cc6e7413}{stop\-\_\-\-Ctimer} ()
+\begin{DoxyCompactList}\small\item\em Konczy pomiar czasu. \end{DoxyCompactList}\item 
+void \hyperlink{class_benchmark_ac4d5360d2850510913efe07cf957f4c1}{calc\-\_\-mean} ()
+\begin{DoxyCompactList}\small\item\em Oblicza srednia. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename type $>$ }\\void \hyperlink{class_benchmark_ad5d8a563d9b9163758ae04d064cc38cb}{run\-Benchmark\-Sort} (void($\ast$f)(\hyperlink{class_iterable}{Iterable}$<$ type $>$ \&, int, int), \hyperlink{class_iterable}{Iterable}$<$ type $>$ \&container, int data\-Count, int repeats)
+\begin{DoxyCompactList}\small\item\em Wykonuje zadana ilosc testow zadanej funkcji sortujacej na zadanym obiekcie dla zadanej ilosc danych. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Atrybuty prywatne}
 \begin{DoxyCompactItemize}
 \item 
-timeval \hyperlink{class_benchmark_ab951e55dc4470926e0eb0761804f13bc}{t1}
-\begin{DoxyCompactList}\small\item\em Zmienne t1, t2. \end{DoxyCompactList}\item 
-timeval \hyperlink{class_benchmark_a2b145dd2458fea33d6df41f310058bec}{t2}
-\item 
-double \hyperlink{class_benchmark_ab72b3cbe324970fd8c738f03718d52fc}{czas\-\_\-pomiaru}
-\begin{DoxyCompactList}\small\item\em Zmienna czas\-\_\-pomiaru. \end{DoxyCompactList}\end{DoxyCompactItemize}
+double \hyperlink{class_benchmark_a7130c0718e3a3ab2fea70285dab122a2}{total}
+\begin{DoxyCompactList}\small\item\em total Zmienna przechowuje calkowity czas testow \end{DoxyCompactList}\item 
+double \hyperlink{class_benchmark_aa88092b6164ad7d1243162d3012f729a}{mean}
+\begin{DoxyCompactList}\small\item\em mean Zmienna przechowuje sredni czas testow \end{DoxyCompactList}\item 
+int \hyperlink{class_benchmark_a3a56c7dad0b21e490f3024d5d0027f31}{counter}
+\begin{DoxyCompactList}\small\item\em counter Zmienna przechowuje licznik wykonanych testow \end{DoxyCompactList}\item 
+int \hyperlink{class_benchmark_a1d0eaa6febe9b7a7f5f5147e83f60910}{amount}
+\begin{DoxyCompactList}\small\item\em amount\-Zmienna przechowuje ilosc danych, jaka aktualnie jest testowana \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Dodatkowe Dziedziczone Składowe}
 
 
 \subsection{Opis szczegółowy}
 Jest to klasa służąca do testowania programów. 
 
-Definicja w linii \hyperlink{benchmark_8hh_source_l00023}{23} pliku \hyperlink{benchmark_8hh_source}{benchmark.\-hh}.
+Definicja w linii \hyperlink{benchmark_8hh_source_l00017}{17} pliku \hyperlink{benchmark_8hh_source}{benchmark.\-hh}.
+
+
+
+\subsection{Dokumentacja konstruktora i destruktora}
+\hypertarget{class_benchmark_acfca497989836a688d44477802e822d8}{\index{Benchmark@{Benchmark}!Benchmark@{Benchmark}}
+\index{Benchmark@{Benchmark}!Benchmark@{Benchmark}}
+\subsubsection[{Benchmark}]{\setlength{\rightskip}{0pt plus 5cm}Benchmark\-::\-Benchmark (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_benchmark_acfca497989836a688d44477802e822d8}
+
+
+Definicja w linii \hyperlink{benchmark_8hh_source_l00035}{35} pliku \hyperlink{benchmark_8hh_source}{benchmark.\-hh}.
 
 
 
 \subsection{Dokumentacja funkcji składowych}
-\hypertarget{class_benchmark_a684ddcbdd22608838da1ad23f1fcc2ce}{\index{Benchmark@{Benchmark}!rozpocznij\-\_\-pomiar@{rozpocznij\-\_\-pomiar}}
-\index{rozpocznij\-\_\-pomiar@{rozpocznij\-\_\-pomiar}!Benchmark@{Benchmark}}
-\subsubsection[{rozpocznij\-\_\-pomiar}]{\setlength{\rightskip}{0pt plus 5cm}void Benchmark\-::rozpocznij\-\_\-pomiar (
+\hypertarget{class_benchmark_ac4d5360d2850510913efe07cf957f4c1}{\index{Benchmark@{Benchmark}!calc\-\_\-mean@{calc\-\_\-mean}}
+\index{calc\-\_\-mean@{calc\-\_\-mean}!Benchmark@{Benchmark}}
+\subsubsection[{calc\-\_\-mean}]{\setlength{\rightskip}{0pt plus 5cm}void Benchmark\-::calc\-\_\-mean (
 \begin{DoxyParamCaption}
 {}
 \end{DoxyParamCaption}
-)}}\label{class_benchmark_a684ddcbdd22608838da1ad23f1fcc2ce}
-Rozpoczyna pomiar czasu. 
+)}}\label{class_benchmark_ac4d5360d2850510913efe07cf957f4c1}
+Dzieli sume pomiarow przez ich liczbe i zapisuje do zmiennej mean. Wysyla powiadomienie do obserwatorow. 
 
-Definicja w linii \hyperlink{benchmark_8cpp_source_l00007}{7} pliku \hyperlink{benchmark_8cpp_source}{benchmark.\-cpp}.
-
-
-
-Oto graf wywoływań tej funkcji\-:
-\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=350pt]{class_benchmark_a684ddcbdd22608838da1ad23f1fcc2ce_icgraph}
-\end{center}
-\end{figure}
-
-
-\hypertarget{class_benchmark_ad2f9d4a8ee5a33de5261c2b2eff3d87a}{\index{Benchmark@{Benchmark}!testuj@{testuj}}
-\index{testuj@{testuj}!Benchmark@{Benchmark}}
-\subsubsection[{testuj}]{\setlength{\rightskip}{0pt plus 5cm}double Benchmark\-::testuj (
-\begin{DoxyParamCaption}
-\item[{{\bf Program} \&}]{program, }
-\item[{char $\ast$}]{dane, }
-\item[{int}]{ilosc\-\_\-danych, }
-\item[{int}]{ilosc\-\_\-testow}
-\end{DoxyParamCaption}
-)}}\label{class_benchmark_ad2f9d4a8ee5a33de5261c2b2eff3d87a}
-Dokonuje testow wybranego programu. Dane wczytywane sa do tablicy.
-
-
-\begin{DoxyParams}[1]{Parametry}
-\mbox{\tt in}  & {\em program} & \hyperlink{class_program}{Program} wybrany do testowania. \\
-\hline
-\mbox{\tt in}  & {\em dane} & Wskaznik na nazwe pliku z danymi. \\
-\hline
-\mbox{\tt in}  & {\em ilosc\-\_\-danych} & Ilosc danych, ktore chcemy pobrac do testu. \\
-\hline
-\mbox{\tt in}  & {\em ilosc\-\_\-testow} & Ilosc testow, jakie chcemy przeprowadzic.\\
-\hline
-\end{DoxyParams}
-\begin{DoxyReturn}{Zwraca}
-Metoda zwraca sredni czas wykonania programu dla podanych parametrow. 
-\end{DoxyReturn}
-
-
-Definicja w linii \hyperlink{benchmark_8cpp_source_l00017}{17} pliku \hyperlink{benchmark_8cpp_source}{benchmark.\-cpp}.
+Definicja w linii \hyperlink{benchmark_8cpp_source_l00019}{19} pliku \hyperlink{benchmark_8cpp_source}{benchmark.\-cpp}.
 
 
 
@@ -99,48 +94,7 @@ Oto graf wywołań dla tej funkcji\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=328pt]{class_benchmark_ad2f9d4a8ee5a33de5261c2b2eff3d87a_cgraph}
-\end{center}
-\end{figure}
-
-
-\hypertarget{class_benchmark_ac8fa0356657b4a1ffd46df6ae7fd78d0}{\index{Benchmark@{Benchmark}!testuj\-\_\-strukture@{testuj\-\_\-strukture}}
-\index{testuj\-\_\-strukture@{testuj\-\_\-strukture}!Benchmark@{Benchmark}}
-\subsubsection[{testuj\-\_\-strukture}]{\setlength{\rightskip}{0pt plus 5cm}double Benchmark\-::testuj\-\_\-strukture (
-\begin{DoxyParamCaption}
-\item[{{\bf Program} \&}]{program, }
-\item[{char $\ast$}]{dane, }
-\item[{int}]{ilosc\-\_\-danych, }
-\item[{int}]{ilosc\-\_\-testow}
-\end{DoxyParamCaption}
-)}}\label{class_benchmark_ac8fa0356657b4a1ffd46df6ae7fd78d0}
-Dokonuje testow wybranego programu. Dane wczytywane sa do odpowiedniej struktury.
-
-
-\begin{DoxyParams}[1]{Parametry}
-\mbox{\tt in}  & {\em program} & \hyperlink{class_program}{Program} wybrany do testowania. \\
-\hline
-\mbox{\tt in}  & {\em dane} & Wskaznik na nazwe pliku z danymi. \\
-\hline
-\mbox{\tt in}  & {\em ilosc\-\_\-danych} & Ilosc danych, ktore chcemy pobrac do testu. \\
-\hline
-\mbox{\tt in}  & {\em ilosc\-\_\-testow} & Ilosc testow, jakie chcemy przeprowadzic.\\
-\hline
-\end{DoxyParams}
-\begin{DoxyReturn}{Zwraca}
-Metoda zwraca sredni czas wykonania programu dla podanych parametrow. 
-\end{DoxyReturn}
-
-
-Definicja w linii \hyperlink{benchmark_8cpp_source_l00048}{48} pliku \hyperlink{benchmark_8cpp_source}{benchmark.\-cpp}.
-
-
-
-Oto graf wywołań dla tej funkcji\-:\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=350pt]{class_benchmark_ac8fa0356657b4a1ffd46df6ae7fd78d0_cgraph}
+\includegraphics[width=350pt]{class_benchmark_ac4d5360d2850510913efe07cf957f4c1_cgraph}
 \end{center}
 \end{figure}
 
@@ -151,30 +105,124 @@ Oto graf wywoływań tej funkcji\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=294pt]{class_benchmark_ac8fa0356657b4a1ffd46df6ae7fd78d0_icgraph}
+\includegraphics[width=350pt]{class_benchmark_ac4d5360d2850510913efe07cf957f4c1_icgraph}
 \end{center}
 \end{figure}
 
 
-\hypertarget{class_benchmark_a3f4b4595a3d1145d238f5b3c8486d875}{\index{Benchmark@{Benchmark}!zakoncz\-\_\-pomiar@{zakoncz\-\_\-pomiar}}
-\index{zakoncz\-\_\-pomiar@{zakoncz\-\_\-pomiar}!Benchmark@{Benchmark}}
-\subsubsection[{zakoncz\-\_\-pomiar}]{\setlength{\rightskip}{0pt plus 5cm}void Benchmark\-::zakoncz\-\_\-pomiar (
+\hypertarget{class_benchmark_a408a44a1d64e45b647ef6dbba2f2c3d3}{\index{Benchmark@{Benchmark}!notify@{notify}}
+\index{notify@{notify}!Benchmark@{Benchmark}}
+\subsubsection[{notify}]{\setlength{\rightskip}{0pt plus 5cm}void Benchmark\-::notify (
 \begin{DoxyParamCaption}
 {}
 \end{DoxyParamCaption}
-)}}\label{class_benchmark_a3f4b4595a3d1145d238f5b3c8486d875}
-Konczy pomiar czasu i zapisuje wartosc zmierzona w zmiennej czas\-\_\-pomiaru. 
-
-Definicja w linii \hyperlink{benchmark_8cpp_source_l00011}{11} pliku \hyperlink{benchmark_8cpp_source}{benchmark.\-cpp}.
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_benchmark_a408a44a1d64e45b647ef6dbba2f2c3d3}
 
 
+Implementuje \hyperlink{class_subject_aedd8aa6de28b18ef5880566de4294bfe}{Subject}.
 
-Oto graf wywoływań tej funkcji\-:
-\nopagebreak
+
+
+Definicja w linii \hyperlink{benchmark_8cpp_source_l00008}{8} pliku \hyperlink{benchmark_8cpp_source}{benchmark.\-cpp}.
+
+
+
+Oto graf wywołań dla tej funkcji\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{class_benchmark_a3f4b4595a3d1145d238f5b3c8486d875_icgraph}
+\includegraphics[width=278pt]{class_benchmark_a408a44a1d64e45b647ef6dbba2f2c3d3_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Oto graf wywoływań tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_benchmark_a408a44a1d64e45b647ef6dbba2f2c3d3_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_benchmark_ad5d8a563d9b9163758ae04d064cc38cb}{\index{Benchmark@{Benchmark}!run\-Benchmark\-Sort@{run\-Benchmark\-Sort}}
+\index{run\-Benchmark\-Sort@{run\-Benchmark\-Sort}!Benchmark@{Benchmark}}
+\subsubsection[{run\-Benchmark\-Sort}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type $>$ void Benchmark\-::run\-Benchmark\-Sort (
+\begin{DoxyParamCaption}
+\item[{void($\ast$)({\bf Iterable}$<$ type $>$ \&, int, int)}]{f, }
+\item[{{\bf Iterable}$<$ type $>$ \&}]{container, }
+\item[{int}]{data\-Count, }
+\item[{int}]{repeats}
+\end{DoxyParamCaption}
+)}}\label{class_benchmark_ad5d8a563d9b9163758ae04d064cc38cb}
+
+\begin{DoxyParams}[1]{Parametry}
+\mbox{\tt in}  & {\em $\ast$f} & Zadawana funkcja sortujaca \\
+\hline
+\mbox{\tt in}  & {\em container} & Stuktura, ktora chcemy posortowac \\
+\hline
+\mbox{\tt in}  & {\em data\-Count} & Ilosc danych \\
+\hline
+\mbox{\tt in}  & {\em repeats} & Ilosc testow \\
+\hline
+\end{DoxyParams}
+
+
+Definicja w linii \hyperlink{benchmark_8hh_source_l00074}{74} pliku \hyperlink{benchmark_8hh_source}{benchmark.\-hh}.
+
+
+
+Oto graf wywołań dla tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_benchmark_ad5d8a563d9b9163758ae04d064cc38cb_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Oto graf wywoływań tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{class_benchmark_ad5d8a563d9b9163758ae04d064cc38cb_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_benchmark_ab65889d4c2df3eb503048ab1cc6e7413}{\index{Benchmark@{Benchmark}!stop\-\_\-\-Ctimer@{stop\-\_\-\-Ctimer}}
+\index{stop\-\_\-\-Ctimer@{stop\-\_\-\-Ctimer}!Benchmark@{Benchmark}}
+\subsubsection[{stop\-\_\-\-Ctimer}]{\setlength{\rightskip}{0pt plus 5cm}void Benchmark\-::stop\-\_\-\-Ctimer (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_benchmark_ab65889d4c2df3eb503048ab1cc6e7413}
+Zapisuje moment zakonczenia pomiaru do zmiennej end, oblicza zmierzony czas i zapisuje do zmiennej time, zwieksza counter o 1. 
+
+Definicja w linii \hyperlink{benchmark_8cpp_source_l00013}{13} pliku \hyperlink{benchmark_8cpp_source}{benchmark.\-cpp}.
+
+
+
+Oto graf wywołań dla tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{class_benchmark_ab65889d4c2df3eb503048ab1cc6e7413_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Oto graf wywoływań tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_benchmark_ab65889d4c2df3eb503048ab1cc6e7413_icgraph}
 \end{center}
 \end{figure}
 
@@ -182,26 +230,33 @@ Oto graf wywoływań tej funkcji\-:
 
 
 \subsection{Dokumentacja atrybutów składowych}
-\hypertarget{class_benchmark_ab72b3cbe324970fd8c738f03718d52fc}{\index{Benchmark@{Benchmark}!czas\-\_\-pomiaru@{czas\-\_\-pomiaru}}
-\index{czas\-\_\-pomiaru@{czas\-\_\-pomiaru}!Benchmark@{Benchmark}}
-\subsubsection[{czas\-\_\-pomiaru}]{\setlength{\rightskip}{0pt plus 5cm}double Benchmark\-::czas\-\_\-pomiaru\hspace{0.3cm}{\ttfamily [private]}}}\label{class_benchmark_ab72b3cbe324970fd8c738f03718d52fc}
-Przechowuje obliczony czas pojedynczego pomiaru (w ms) 
-
-Definicja w linii \hyperlink{benchmark_8hh_source_l00037}{37} pliku \hyperlink{benchmark_8hh_source}{benchmark.\-hh}.
-
-\hypertarget{class_benchmark_ab951e55dc4470926e0eb0761804f13bc}{\index{Benchmark@{Benchmark}!t1@{t1}}
-\index{t1@{t1}!Benchmark@{Benchmark}}
-\subsubsection[{t1}]{\setlength{\rightskip}{0pt plus 5cm}timeval Benchmark\-::t1\hspace{0.3cm}{\ttfamily [private]}}}\label{class_benchmark_ab951e55dc4470926e0eb0761804f13bc}
-Zmienne przechowujace momenty rozpaczecia i zakonczenia pomiaru czasu. 
-
-Definicja w linii \hyperlink{benchmark_8hh_source_l00030}{30} pliku \hyperlink{benchmark_8hh_source}{benchmark.\-hh}.
-
-\hypertarget{class_benchmark_a2b145dd2458fea33d6df41f310058bec}{\index{Benchmark@{Benchmark}!t2@{t2}}
-\index{t2@{t2}!Benchmark@{Benchmark}}
-\subsubsection[{t2}]{\setlength{\rightskip}{0pt plus 5cm}timeval Benchmark\-::t2\hspace{0.3cm}{\ttfamily [private]}}}\label{class_benchmark_a2b145dd2458fea33d6df41f310058bec}
+\hypertarget{class_benchmark_a1d0eaa6febe9b7a7f5f5147e83f60910}{\index{Benchmark@{Benchmark}!amount@{amount}}
+\index{amount@{amount}!Benchmark@{Benchmark}}
+\subsubsection[{amount}]{\setlength{\rightskip}{0pt plus 5cm}int Benchmark\-::amount\hspace{0.3cm}{\ttfamily [private]}}}\label{class_benchmark_a1d0eaa6febe9b7a7f5f5147e83f60910}
 
 
-Definicja w linii \hyperlink{benchmark_8hh_source_l00030}{30} pliku \hyperlink{benchmark_8hh_source}{benchmark.\-hh}.
+Definicja w linii \hyperlink{benchmark_8hh_source_l00033}{33} pliku \hyperlink{benchmark_8hh_source}{benchmark.\-hh}.
+
+\hypertarget{class_benchmark_a3a56c7dad0b21e490f3024d5d0027f31}{\index{Benchmark@{Benchmark}!counter@{counter}}
+\index{counter@{counter}!Benchmark@{Benchmark}}
+\subsubsection[{counter}]{\setlength{\rightskip}{0pt plus 5cm}int Benchmark\-::counter\hspace{0.3cm}{\ttfamily [private]}}}\label{class_benchmark_a3a56c7dad0b21e490f3024d5d0027f31}
+
+
+Definicja w linii \hyperlink{benchmark_8hh_source_l00029}{29} pliku \hyperlink{benchmark_8hh_source}{benchmark.\-hh}.
+
+\hypertarget{class_benchmark_aa88092b6164ad7d1243162d3012f729a}{\index{Benchmark@{Benchmark}!mean@{mean}}
+\index{mean@{mean}!Benchmark@{Benchmark}}
+\subsubsection[{mean}]{\setlength{\rightskip}{0pt plus 5cm}double Benchmark\-::mean\hspace{0.3cm}{\ttfamily [private]}}}\label{class_benchmark_aa88092b6164ad7d1243162d3012f729a}
+
+
+Definicja w linii \hyperlink{benchmark_8hh_source_l00025}{25} pliku \hyperlink{benchmark_8hh_source}{benchmark.\-hh}.
+
+\hypertarget{class_benchmark_a7130c0718e3a3ab2fea70285dab122a2}{\index{Benchmark@{Benchmark}!total@{total}}
+\index{total@{total}!Benchmark@{Benchmark}}
+\subsubsection[{total}]{\setlength{\rightskip}{0pt plus 5cm}double Benchmark\-::total\hspace{0.3cm}{\ttfamily [private]}}}\label{class_benchmark_a7130c0718e3a3ab2fea70285dab122a2}
+
+
+Definicja w linii \hyperlink{benchmark_8hh_source_l00021}{21} pliku \hyperlink{benchmark_8hh_source}{benchmark.\-hh}.
 
 
 

@@ -3,39 +3,35 @@
 }
 
 \begin{DoxyCode}
-00001 \textcolor{comment}{//main.cpp}
-00002 \textcolor{preprocessor}{#include <iostream>}
-00003 \textcolor{preprocessor}{#include "\hyperlink{program_8hh}{program.hh}"}
-00004 \textcolor{preprocessor}{#include "\hyperlink{tabx2_8hh}{tabx2.hh}"}
-00005 \textcolor{preprocessor}{#include "\hyperlink{benchmark_8hh}{benchmark.hh}"}
-00006 \textcolor{preprocessor}{#include "\hyperlink{lista_8hh}{lista.hh}"}
-00007 \textcolor{preprocessor}{#include "\hyperlink{lista__tab_8hh}{lista\_tab.hh}"}
-00008 \textcolor{preprocessor}{#include "\hyperlink{assoctab_8hh}{assoctab.hh}"}
-00009 
-00010 \textcolor{keyword}{using namespace }std;
-00011 
-\hypertarget{main_8cpp_source_l00012}{}\hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{00012} \textcolor{keywordtype}{int} \hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}()\{
-00013   \hyperlink{class_lista__tab}{Lista\_tab} a;
-00014   \hyperlink{class_benchmark}{Benchmark} b;
-00015   \textcolor{keywordtype}{char}* dane = (\textcolor{keywordtype}{char}*)\textcolor{stringliteral}{"dane.dat"};
-00016   \textcolor{keywordtype}{int} ilosc\_testow = 10;
-00017   \textcolor{comment}{/*}
-00018 \textcolor{comment}{     a.wykonaj\_program(dane, 30);}
-00019 \textcolor{comment}{     for(int i=0; i<=a.iterator; i++)}
-00020 \textcolor{comment}{       cout<<a.tab[i]<<endl;}
-00021 \textcolor{comment}{     // a.mergesort(0,a.iterator);}
-00022 \textcolor{comment}{     a.hybridsort();}
-00023 \textcolor{comment}{     //a.quicksort(0,a.iterator);}
-00024 \textcolor{comment}{     cout<<endl<<endl;}
-00025 \textcolor{comment}{     for(int i=0; i<=a.iterator; i++)}
-00026 \textcolor{comment}{     cout<< a.tab[i]<<endl;}
-00027 \textcolor{comment}{  */}
+00001 \textcolor{preprocessor}{#include "\hyperlink{list_8hh}{list.hh}"}
+00002 \textcolor{preprocessor}{#include "\hyperlink{stack_8hh}{stack.hh}"}
+00003 \textcolor{preprocessor}{#include "\hyperlink{queue_8hh}{queue.hh}"}
+00004 \textcolor{preprocessor}{#include "\hyperlink{iterable_8hh}{iterable.hh}"}
+00005 \textcolor{preprocessor}{#include "\hyperlink{timer_8hh}{timer.hh}"}
+00006 \textcolor{preprocessor}{#include "\hyperlink{benchmark_8hh}{benchmark.hh}"}
+00007 \textcolor{preprocessor}{#include "\hyperlink{observer_8hh}{observer.hh}"}
+00008 \textcolor{preprocessor}{#include "\hyperlink{sorts_8hh}{sorts.hh}"}
+00009 \textcolor{preprocessor}{#include "\hyperlink{abdatatools_8hh}{abdatatools.hh}"}
+00010 \textcolor{preprocessor}{#include "\hyperlink{listarray_8hh}{listarray.hh}"}
+00011 \textcolor{comment}{//#include "assoctab.hh"}
+00012 
+00013 \textcolor{keyword}{using namespace }std;
+00014 
+00015 
+\hypertarget{main_8cpp_source_l00016}{}\hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{00016} \textcolor{keywordtype}{int} \hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}()\{
+00017   \hyperlink{class_list_array}{ListArray<int>} object;
+00018   \hyperlink{class_benchmark}{Benchmark} test;
+00019   \hyperlink{class_save_to_file}{SaveToFile} saver;
+00020   test.\hyperlink{class_subject_ab372011e20fc9d82bd738cdf9bad1f84}{addObs}(&saver);
+00021   
+00022   \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i=10; i<=1000000; i*=10)\{
+00023     \hyperlink{abdatatools_8hh_a7edb0ae348ca7ede04989e1471597c61}{fillFromFile}(&\textcolor{keywordtype}{object}, i, \textcolor{stringliteral}{"dane.dat"});
+00024     test.\hyperlink{class_benchmark_ad5d8a563d9b9163758ae04d064cc38cb}{runBenchmarkSort}(&\hyperlink{sorts_8hh_a9e524b599b1e11f93f620e8ea43252ad}{quicksort}, \textcolor{keywordtype}{object}, \textcolor{keywordtype}{object}.size(), 20);
+00025     \hyperlink{abdatatools_8hh_a79921823e3c6f3062e082dcd05cf6799}{clear}(&\textcolor{keywordtype}{object});
+00026   \}
+00027  
 00028   
-00029   \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} ilosc\_danych=1; ilosc\_danych<=30;ilosc\_danych+=1)\{
-00030     cout << b.\hyperlink{class_benchmark_ac8fa0356657b4a1ffd46df6ae7fd78d0}{testuj\_strukture}(a,dane,ilosc\_danych,ilosc\_testow) << endl;
-00031   \}
-00032 
-00033    
-00034   \textcolor{keywordflow}{return} 0;
-00035 \}
+00029  
+00030   \textcolor{keywordflow}{return} 0;
+00031 \}
 \end{DoxyCode}

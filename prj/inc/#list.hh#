@@ -69,7 +69,7 @@ public:
    *
    * \return Wartosc znajdujaca sie na miejscu o podanym indeksie
    */
-  type& operator [] (const unsigned int index);
+  type& operator [] (const typeKey to);
 };
 /***************************************************/
 /*                                                 */

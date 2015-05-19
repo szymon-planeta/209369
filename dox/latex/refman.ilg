@@ -1,15 +1,36 @@
 This is makeindex, version 2.15 [TeX Live 2013] (kpathsea + Thai support).
 Scanning input file refman.idx....
-!! Input index error (file = refman.idx, line = 14):
-   -- Extra `@' at position 73 of first argument.
 !! Input index error (file = refman.idx, line = 15):
-   -- Extra `@' at position 53 of first argument.
+   -- Extra `@' at position 117 of first argument.
 !! Input index error (file = refman.idx, line = 16):
-   -- Extra `@' at position 73 of first argument.
-!! Input index error (file = refman.idx, line = 17):
    -- Extra `@' at position 53 of first argument.
-done (209 entries accepted, 4 rejected).
-Sorting entries.....done (1631 comparisons).
-Generating output file refman.ind....done (332 lines written, 0 warnings).
+
+!! Input index error (file = refman.idx, line = 52):
+   -- Extra `@' at position 73 of first argument.
+!! Input index error (file = refman.idx, line = 53):
+   -- Extra `@' at position 53 of first argument.
+
+!! Input index error (file = refman.idx, line = 57):
+   -- Extra `@' at position 65 of first argument.
+!! Input index error (file = refman.idx, line = 58):
+   -- Extra `@' at position 53 of first argument.
+
+!! Input index error (file = refman.idx, line = 74):
+   -- Extra `@' at position 119 of first argument.
+!! Input index error (file = refman.idx, line = 75):
+   -- Extra `@' at position 53 of first argument.
+
+!! Input index error (file = refman.idx, line = 105):
+   -- Extra `@' at position 67 of first argument.
+!! Input index error (file = refman.idx, line = 106):
+   -- Extra `@' at position 53 of first argument.
+
+!! Input index error (file = refman.idx, line = 125):
+   -- Extra `@' at position 67 of first argument.
+!! Input index error (file = refman.idx, line = 126):
+   -- Extra `@' at position 53 of first argument.
+done (198 entries accepted, 12 rejected).
+Sorting entries.....done (1670 comparisons).
+Generating output file refman.ind....done (306 lines written, 0 warnings).
 Output written in refman.ind.
 Transcript written in refman.ilg.

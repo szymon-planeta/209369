@@ -19,6 +19,7 @@
  * Dokonuje sortowania obiektu stosujac metode sortowania przez wstawianie
  *
  * \param[in] &tosort Referencja do obiektu typu Iterable, ktory chcemy posortowac
+ * \param[in] left Poczatek zakresu sortowania
  * \param[in] right Koniec zakresu sortowania 
  */
 template<typename type>
@@ -38,6 +39,7 @@ void insertsort(Iterable<type> &tosort, int left, int right){
  * Dokonuje sortowania obiektu stosujac metode sortowania szybkiego
  *
  * \param[in] &tosort Referencja do obiektu typu Iterable, ktory chcemy posortowac
+ * \param[in] left Poczatek zakresu sortowania
  * \param[in] right Koniec zakresu sortowania 
  */ 
 template<typename type>

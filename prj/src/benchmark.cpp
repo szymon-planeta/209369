@@ -17,8 +17,8 @@ void Benchmark::stop_Ctimer(){
 }
 
 void Benchmark::calc_mean(){
-  std::cout << total << "  " << amount << "    " << std::endl;
   mean=total/counter;
+  std::cout << mean << "  " << amount << "    " << std::endl;
   notify();
 }
 

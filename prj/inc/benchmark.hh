@@ -16,19 +16,19 @@
  */
 class Benchmark: public Subject, public Timer{
   /*!
-   * \brief Zmienna przechowuje calkowity czas testow
+   * \brief total Zmienna przechowuje calkowity czas testow
    */
   double total;
   /*!
-   * \brief Zmienna przechowuje sredni czas testow
+   * \brief mean Zmienna przechowuje sredni czas testow
    */
   double mean;
   /*!
-   * \brief Zmienna przechowuje licznik wykonanych testow
+   * \brief counter Zmienna przechowuje licznik wykonanych testow
    */
   int counter;
   /*!
-   * \brief Zmienna przechowuje ilosc danych, jaka aktualnie jest testowana
+   * \brief amountZmienna przechowuje ilosc danych, jaka aktualnie jest testowana
    */
   int amount;
 public:
@@ -58,11 +58,12 @@ public:
   void calc_mean();
 
   /*!
-   * \brief Wykonuje zadana ilosc testow zadanej funkcji dla zadanej ilosc danych
+   * \brief Wykonuje zadana ilosc testow zadanej funkcji sortujacej na zadanym obiekcie dla zadanej ilosc danych
    *
-   * \param[in] Zadawana funkcja
-   * \param[in] Ilosc danych
-   * \param[in] Ilosc testow
+   * \param[in] *f Zadawana funkcja sortujaca
+   * \param[in] container Stuktura, ktora chcemy posortowac
+   * \param[in] dataCount Ilosc danych
+   * \param[in] repeats Ilosc testow
    */
   template<typename type>
   void runBenchmarkSort(void (*f)(Iterable<type>&, int, int), Iterable<type> &container, int dataCount, int repeats);
@@ -72,6 +73,9 @@ public:
 template<typename type>
 void Benchmark::runBenchmarkSort(void (*f)(Iterable<type>&, int, int), Iterable<type> &container, int dataCount, int repeats){
   amount = dataCount;
+  total=0; 
+  mean=0;
+  counter=0;
   for(int i=1; i<=repeats; i++){
     start_timer();
     (*f)(container, 0, amount-1);
