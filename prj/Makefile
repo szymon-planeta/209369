@@ -9,13 +9,13 @@ __start__: benchmark
 benchmark: obj/main.o obj/timer.o obj/benchmark.o
 	g++ -Wall -pedantic -o benchmark obj/main.o obj/timer.o obj/benchmark.o
 
-obj/main.o: src/main.cpp inc/abdata.hh inc/iterable.hh inc/list.hh inc/stack.hh inc/queue.hh inc/timer.hh inc/observer.hh inc/benchmark.hh inc/sorts.hh inc/abdatatools.hh inc/listarray.hh inc/assoctab.hh
+obj/main.o: src/main.cpp inc/ABData/list.hh inc/ABData/abdata.hh inc/ABData/iterable.hh inc/ABData/list.hh inc/ABData/stack.hh inc/ABData/queue.hh inc/Benchmark/timer.hh inc/Benchmark/observer.hh inc/Benchmark/benchmark.hh inc/ABData/sorts.hh inc/ABData/abdatatools.hh inc/ABData/listarray.hh inc/assoctab.hh inc/Trees/trees.hh
 	g++ ${CPPFLAGS} -o obj/main.o src/main.cpp
 
-obj/benchmark.o: src/benchmark.cpp inc/benchmark.hh inc/timer.hh
+obj/benchmark.o: src/benchmark.cpp inc/Benchmark/benchmark.hh inc/Benchmark/timer.hh
 	g++ ${CPPFLAGS} -o obj/benchmark.o src/benchmark.cpp
 
-obj/timer.o: src/timer.cpp inc/timer.hh 
+obj/timer.o: src/timer.cpp inc/Benchmark/timer.hh 
 	g++ ${CPPFLAGS} -o obj/timer.o src/timer.cpp
 
 clean:

@@ -1,11 +1,11 @@
 #ifndef ASSOCTAB_HH
 #define ASSOCTAB_HH
 
-#include "node.hh"
 #include <cmath>
 #include <string>
 #include <sstream>
 #include <typeinfo>
+#include "ABData/list.hh"
 #include "tools.hh"
 
 #define TAB 1000

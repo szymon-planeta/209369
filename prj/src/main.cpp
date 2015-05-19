@@ -1,35 +1,31 @@
-#include "list.hh"
-#include "stack.hh"
-#include "queue.hh"
-#include "iterable.hh"
-#include "timer.hh"
-#include "benchmark.hh"
-#include "observer.hh"
-#include "binarytree.hh"
-#include "sorts.hh"
-#include "abdatatools.hh"
-#include "listarray.hh"
+#include "ABData/list.hh"
+#include "ABData/stack.hh"
+#include "ABData/queue.hh"
+#include "ABData/iterable.hh"
+#include "Benchmark/timer.hh"
+#include "Benchmark/benchmark.hh"
+#include "Benchmark/observer.hh"
+#include "Trees/binarytree.hh"
+#include "ABData/sorts.hh"
+#include "ABData/abdatatools.hh"
+#include "ABData/listarray.hh"
 #include "assoctab.hh"
 
 using namespace std;
 
 
 int main(){
-  //ListArray<int> object;
-  Benchmark test;
-  SaveToFile saver;
-  test.addObs(&saver);
-  /* 
-  for(int i=10; i<=1000000; i*=10){
-    fillFromFile(&object, i, "dane.dat");
-    test.runBenchmarkSort(&quicksort, object, object.size(), 20);
-    clear(&object);
-    }
-  */
-  AssocTab<string, string> object;
-  object["kon"] = "rafal";
-  cout << object["kon"] << endl;
-  object.pop("kon");
+  
+  BinaryTree<int> object;
 
+  for(int i=0; i<=11; i++)
+    object.insert(i);
+
+  object.print();
+  for(int i=0; i<=7; i++)
+    object.remove(i);
+
+  cout<<endl;
+  object.print();
   return 0;
 }

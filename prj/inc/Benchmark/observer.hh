@@ -2,7 +2,7 @@
 #define OBSERVER_HH
 
 #include <fstream>
-#include "stack.hh"
+#include "../ABData/stack.hh"
 using namespace std;
 class Subject;
 
