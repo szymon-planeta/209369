@@ -66,26 +66,9 @@ public:
    * \param[in] repeats Ilosc testow
    */
   template<typename type>
-<<<<<<< HEAD
-  void runBenchmark(void (*f)(Iterable<type>&, int),Iterable<type> &container, int dataCount, int repeats);
-=======
   void runBenchmarkSort(void (*f)(Iterable<type>&, int, int), Iterable<type> &container, int dataCount, int repeats);
->>>>>>> lab7reworked
-
 };
 
-template<typename type>
-void Benchmark::runBenchmarkSort(void (*f)(Iterable<type>&, int, int), Iterable<type> &container, int dataCount, int repeats){
-  amount = dataCount;
-  total=0; 
-  mean=0;
-  counter=0;
-  for(int i=1; i<=repeats; i++){
-    start_timer();
-    (*f)(container, 0, amount-1);
-    stop_Ctimer();
-  }
-  calc_mean();
-}
+
 
 #endif
