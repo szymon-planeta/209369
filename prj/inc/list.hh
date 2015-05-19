@@ -52,6 +52,13 @@ public:
    */
   void pop();
 
+/*!
+   * \brief Procedura pop
+   *
+   * Usuwa element o wybranym indeksie z listy.
+   */
+  void pop(unsigned int index);
+
   /*!
    * \brief Metoda size
    *
@@ -70,14 +77,6 @@ public:
    * \return Wartosc znajdujaca sie na miejscu o podanym indeksie
    */
   type& operator [] (const unsigned int index);
-  
-  /*!
-   * \brief Metoda display
-   *
-   * Wyswietla cala liste
-   */
-  void display();
-
 };
 /***************************************************/
 /*                                                 */
@@ -107,17 +106,38 @@ void List<type>::pop(){
 }
 
 template <class type> 
-unsigned int List<type>::size(){
-  return iterator;
+void List<type>::pop(unsigned int index){
+  if(!head)
+    std::cerr<<"Lista jest pusta!"<<std::endl;
+  else{
+    node<type> *ptr = head;
+    if(index==0){
+      head=head->next;
+      delete ptr;
+      iterator--;
+    }
+    else{
+      ptr=ptr->next;
+      node<type> *prev = head;
+      unsigned int i=1;
+	for(; i<index && ptr->next; i++){
+	  ptr = ptr->next;
+	  prev = prev->next;
+	}
+      if(i==index){
+	prev->next=ptr->next;
+	delete ptr;
+	iterator--;
+      }
+      else
+	std::cerr<<"Brak elementu o podanym indeksie!"<<std::endl;
+    }
+  }
 }
 
-template <class type>
-void List<type>::display(){
-  node<type> *ptr = head;
-  while(ptr){
-    std::cout<<ptr->val<<std::endl;
-    ptr=ptr->next;
-  }
+template <class type> 
+unsigned int List<type>::size(){
+  return iterator;
 }
 
 template <class type>

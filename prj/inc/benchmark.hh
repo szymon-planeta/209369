@@ -15,16 +15,28 @@
  * Jest to klasa służąca do testowania programów.
  */
 class Benchmark: public Subject, public Timer{
+  /*!
+   * \brief total Zmienna przechowuje calkowity czas testow
+   */
   double total;
+  /*!
+   * \brief mean Zmienna przechowuje sredni czas testow
+   */
   double mean;
+  /*!
+   * \brief counter Zmienna przechowuje licznik wykonanych testow
+   */
   int counter;
-  int dataNumber;
+  /*!
+   * \brief amountZmienna przechowuje ilosc danych, jaka aktualnie jest testowana
+   */
+  int amount;
 public:
   Benchmark(){
     total = 0;
     mean = 0;
     counter = 0;
-    dataNumber = 0;
+    amount = 0;
   }
   /*!
    * \brief Wysyla powiadomienie do obserwatorow
@@ -41,20 +53,39 @@ public:
   /*!
    * \brief Oblicza srednia
    *
-   * Dzieli sume pomiarow przez ich liczbe i zapisuje do zmiennej mean.
+   * Dzieli sume pomiarow przez ich liczbe i zapisuje do zmiennej mean. Wysyla powiadomienie do obserwatorow.
    */
   void calc_mean();
 
   /*!
-   * \brief Wykonuje zadana ilosc testow zadanej funkcji dla zadanej ilosc danych
+   * \brief Wykonuje zadana ilosc testow zadanej funkcji sortujacej na zadanym obiekcie dla zadanej ilosc danych
    *
-   * \param[in] Zadawana funkcja
-   * \param[in] Ilosc danych
-   * \param[in] Ilosc testow
+   * \param[in] *f Zadawana funkcja sortujaca
+   * \param[in] container Stuktura, ktora chcemy posortowac
+   * \param[in] dataCount Ilosc danych
+   * \param[in] repeats Ilosc testow
    */
   template<typename type>
+<<<<<<< HEAD
   void runBenchmark(void (*f)(Iterable<type>&, int),Iterable<type> &container, int dataCount, int repeats);
+=======
+  void runBenchmarkSort(void (*f)(Iterable<type>&, int, int), Iterable<type> &container, int dataCount, int repeats);
+>>>>>>> lab7reworked
 
 };
+
+template<typename type>
+void Benchmark::runBenchmarkSort(void (*f)(Iterable<type>&, int, int), Iterable<type> &container, int dataCount, int repeats){
+  amount = dataCount;
+  total=0; 
+  mean=0;
+  counter=0;
+  for(int i=1; i<=repeats; i++){
+    start_timer();
+    (*f)(container, 0, amount-1);
+    stop_Ctimer();
+  }
+  calc_mean();
+}
 
 #endif

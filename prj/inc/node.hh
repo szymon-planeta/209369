@@ -1,6 +1,18 @@
 #ifndef NODE_HH
 #define NODE_HH
 
+
+template<typename typeKey, class type>
+struct AssocData{
+  typeKey key;
+  type val;
+
+  AssocData(){}
+  AssocData(typeKey k){key=k;}
+  AssocData(typeKey k, type v){key=k; val=v;}
+};
+
+
  /*! \file
    * \brief Struktura node
    *
