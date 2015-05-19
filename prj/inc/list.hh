@@ -52,6 +52,13 @@ public:
    */
   void pop();
 
+/*!
+   * \brief Procedura pop
+   *
+   * Usuwa element o wybranym indeksie z listy.
+   */
+  void pop(unsigned int index);
+
   /*!
    * \brief Metoda size
    *
@@ -95,6 +102,36 @@ void List<type>::pop(){
     head = head->next;
     delete ptr;
     iterator--;
+  }
+}
+
+template <class type> 
+void List<type>::pop(unsigned int index){
+  if(!head)
+    std::cerr<<"Lista jest pusta!"<<std::endl;
+  else{
+    node<type> *ptr = head;
+    if(index==0){
+      head=head->next;
+      delete ptr;
+      iterator--;
+    }
+    else{
+      ptr=ptr->next;
+      node<type> *prev = head;
+      unsigned int i=1;
+	for(; i<index && ptr->next; i++){
+	  ptr = ptr->next;
+	  prev = prev->next;
+	}
+      if(i==index){
+	prev->next=ptr->next;
+	delete ptr;
+	iterator--;
+      }
+      else
+	std::cerr<<"Brak elementu o podanym indeksie!"<<std::endl;
+    }
   }
 }
 

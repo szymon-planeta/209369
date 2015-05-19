@@ -1,6 +1,8 @@
 #ifndef TOOLS_HH
 #define TOOLS_HH
 
+#include <sstream>
+
 /*!
  * \brief Plik zawiera definicje roznych przydatnych funkcji
  */
@@ -16,6 +18,13 @@ void substitute(type& val1, type& val2){
   type tmp = val1;
   val1 = val2;
   val2 = tmp;
+}
+
+template <typename type>
+std::string tostring(const type& toConvert){
+  std::ostringstream os;
+  os << toConvert;
+  return os.str();
 }
 
 #endif

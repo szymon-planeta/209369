@@ -5,206 +5,218 @@
 \indexentry{push@{push}!ABData@{A\discretionary {-}{}{}B\discretionary {-}{}{}Data}|hyperpage}{8}
 \indexentry{A\discretionary {-}{}{}B\discretionary {-}{}{}Data@{A\discretionary {-}{}{}B\discretionary {-}{}{}Data}!size@{size}|hyperpage}{8}
 \indexentry{size@{size}!ABData@{A\discretionary {-}{}{}B\discretionary {-}{}{}Data}|hyperpage}{8}
-\indexentry{Assoc\discretionary {-}{}{}Tab$<$ type\discretionary {-}{}{}Key $>$@{Assoc\discretionary {-}{}{}Tab$<$ type\discretionary {-}{}{}Key $>$}|hyperpage}{8}
+\indexentry{Assoc\discretionary {-}{}{}Data$<$ type\discretionary {-}{}{}Key, type $>$@{Assoc\discretionary {-}{}{}Data$<$ type\discretionary {-}{}{}Key, type $>$}|hyperpage}{8}
+\indexentry{Assoc\discretionary {-}{}{}Data@{Assoc\discretionary {-}{}{}Data}!Assoc\discretionary {-}{}{}Data@{Assoc\discretionary {-}{}{}Data}|hyperpage}{9}
+\indexentry{Assoc\discretionary {-}{}{}Data@{Assoc\discretionary {-}{}{}Data}!AssocData@{Assoc\discretionary {-}{}{}Data}|hyperpage}{9}
+\indexentry{Assoc\discretionary {-}{}{}Data@{Assoc\discretionary {-}{}{}Data}!Assoc\discretionary {-}{}{}Data@{Assoc\discretionary {-}{}{}Data}|hyperpage}{9}
+\indexentry{Assoc\discretionary {-}{}{}Data@{Assoc\discretionary {-}{}{}Data}!AssocData@{Assoc\discretionary {-}{}{}Data}|hyperpage}{9}
+\indexentry{Assoc\discretionary {-}{}{}Data@{Assoc\discretionary {-}{}{}Data}!Assoc\discretionary {-}{}{}Data@{Assoc\discretionary {-}{}{}Data}|hyperpage}{9}
+\indexentry{Assoc\discretionary {-}{}{}Data@{Assoc\discretionary {-}{}{}Data}!AssocData@{Assoc\discretionary {-}{}{}Data}|hyperpage}{9}
+\indexentry{Assoc\discretionary {-}{}{}Data@{Assoc\discretionary {-}{}{}Data}!key@{key}|hyperpage}{9}
+\indexentry{key@{key}!AssocData@{Assoc\discretionary {-}{}{}Data}|hyperpage}{9}
+\indexentry{Assoc\discretionary {-}{}{}Data@{Assoc\discretionary {-}{}{}Data}!val@{val}|hyperpage}{9}
+\indexentry{val@{val}!AssocData@{Assoc\discretionary {-}{}{}Data}|hyperpage}{9}
+\indexentry{Assoc\discretionary {-}{}{}Tab$<$ type\discretionary {-}{}{}Key, type $>$@{Assoc\discretionary {-}{}{}Tab$<$ type\discretionary {-}{}{}Key, type $>$}|hyperpage}{9}
 \indexentry{Assoc\discretionary {-}{}{}Tab@{Assoc\discretionary {-}{}{}Tab}!Assoc\discretionary {-}{}{}Tab@{Assoc\discretionary {-}{}{}Tab}|hyperpage}{10}
 \indexentry{Assoc\discretionary {-}{}{}Tab@{Assoc\discretionary {-}{}{}Tab}!AssocTab@{Assoc\discretionary {-}{}{}Tab}|hyperpage}{10}
-\indexentry{Assoc\discretionary {-}{}{}Tab@{Assoc\discretionary {-}{}{}Tab}!$\sim $\discretionary {-}{}{}Assoctab@{$\sim $\discretionary {-}{}{}Assoctab}|hyperpage}{10}
-\indexentry{$\sim $\discretionary {-}{}{}Assoctab@{$\sim $\discretionary {-}{}{}Assoctab}!AssocTab@{Assoc\discretionary {-}{}{}Tab}|hyperpage}{10}
-\indexentry{Assoc\discretionary {-}{}{}Tab@{Assoc\discretionary {-}{}{}Tab}!hash@{hash}|hyperpage}{10}
-\indexentry{hash@{hash}!AssocTab@{Assoc\discretionary {-}{}{}Tab}|hyperpage}{10}
-\indexentry{Assoc\discretionary {-}{}{}Tab@{Assoc\discretionary {-}{}{}Tab}!operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}|hyperpage}{10}
-\indexentry{operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}!AssocTab@{Assoc\discretionary {-}{}{}Tab}|hyperpage}{10}
-\indexentry{Assoc\discretionary {-}{}{}Tab@{Assoc\discretionary {-}{}{}Tab}!pop@{pop}|hyperpage}{10}
-\indexentry{pop@{pop}!AssocTab@{Assoc\discretionary {-}{}{}Tab}|hyperpage}{10}
-\indexentry{Assoc\discretionary {-}{}{}Tab@{Assoc\discretionary {-}{}{}Tab}!push@{push}|hyperpage}{10}
-\indexentry{push@{push}!AssocTab@{Assoc\discretionary {-}{}{}Tab}|hyperpage}{10}
-\indexentry{Assoc\discretionary {-}{}{}Tab@{Assoc\discretionary {-}{}{}Tab}!size@{size}|hyperpage}{11}
-\indexentry{size@{size}!AssocTab@{Assoc\discretionary {-}{}{}Tab}|hyperpage}{11}
-\indexentry{Assoc\discretionary {-}{}{}Tab@{Assoc\discretionary {-}{}{}Tab}!counter@{counter}|hyperpage}{11}
-\indexentry{counter@{counter}!AssocTab@{Assoc\discretionary {-}{}{}Tab}|hyperpage}{11}
-\indexentry{Assoc\discretionary {-}{}{}Tab@{Assoc\discretionary {-}{}{}Tab}!tab@{tab}|hyperpage}{11}
-\indexentry{tab@{tab}!AssocTab@{Assoc\discretionary {-}{}{}Tab}|hyperpage}{11}
-\indexentry{Benchmark@{Benchmark}|hyperpage}{11}
-\indexentry{Benchmark@{Benchmark}!Benchmark@{Benchmark}|hyperpage}{13}
-\indexentry{Benchmark@{Benchmark}!Benchmark@{Benchmark}|hyperpage}{13}
-\indexentry{Benchmark@{Benchmark}!calc\discretionary {-}{}{}\_\discretionary {-}{}{}mean@{calc\discretionary {-}{}{}\_\discretionary {-}{}{}mean}|hyperpage}{13}
-\indexentry{calc\discretionary {-}{}{}\_\discretionary {-}{}{}mean@{calc\discretionary {-}{}{}\_\discretionary {-}{}{}mean}!Benchmark@{Benchmark}|hyperpage}{13}
-\indexentry{Benchmark@{Benchmark}!notify@{notify}|hyperpage}{13}
-\indexentry{notify@{notify}!Benchmark@{Benchmark}|hyperpage}{13}
-\indexentry{Benchmark@{Benchmark}!run\discretionary {-}{}{}Benchmark\discretionary {-}{}{}Sort@{run\discretionary {-}{}{}Benchmark\discretionary {-}{}{}Sort}|hyperpage}{14}
-\indexentry{run\discretionary {-}{}{}Benchmark\discretionary {-}{}{}Sort@{run\discretionary {-}{}{}Benchmark\discretionary {-}{}{}Sort}!Benchmark@{Benchmark}|hyperpage}{14}
-\indexentry{Benchmark@{Benchmark}!stop\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Ctimer@{stop\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Ctimer}|hyperpage}{14}
-\indexentry{stop\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Ctimer@{stop\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Ctimer}!Benchmark@{Benchmark}|hyperpage}{14}
-\indexentry{Benchmark@{Benchmark}!amount@{amount}|hyperpage}{15}
-\indexentry{amount@{amount}!Benchmark@{Benchmark}|hyperpage}{15}
-\indexentry{Benchmark@{Benchmark}!counter@{counter}|hyperpage}{15}
-\indexentry{counter@{counter}!Benchmark@{Benchmark}|hyperpage}{15}
-\indexentry{Benchmark@{Benchmark}!mean@{mean}|hyperpage}{15}
-\indexentry{mean@{mean}!Benchmark@{Benchmark}|hyperpage}{15}
-\indexentry{Benchmark@{Benchmark}!total@{total}|hyperpage}{15}
-\indexentry{total@{total}!Benchmark@{Benchmark}|hyperpage}{15}
-\indexentry{Assoc\discretionary {-}{}{}Tab$<$ type\discretionary {-}{}{}Key $>$\discretionary {-}{}{}::\discretionary {-}{}{}Data@{Assoc\discretionary {-}{}{}Tab$<$ type\discretionary {-}{}{}Key $>$\discretionary {-}{}{}::\discretionary {-}{}{}Data}|hyperpage}{15}
-\indexentry{Assoc\discretionary {-}{}{}Tab\discretionary {-}{}{}::\discretionary {-}{}{}Data@{Assoc\discretionary {-}{}{}Tab\discretionary {-}{}{}::\discretionary {-}{}{}Data}!key@{key}|hyperpage}{16}
-\indexentry{key@{key}!AssocTab::Data@{Assoc\discretionary {-}{}{}Tab\discretionary {-}{}{}::\discretionary {-}{}{}Data}|hyperpage}{16}
-\indexentry{Assoc\discretionary {-}{}{}Tab\discretionary {-}{}{}::\discretionary {-}{}{}Data@{Assoc\discretionary {-}{}{}Tab\discretionary {-}{}{}::\discretionary {-}{}{}Data}!val@{val}|hyperpage}{16}
-\indexentry{val@{val}!AssocTab::Data@{Assoc\discretionary {-}{}{}Tab\discretionary {-}{}{}::\discretionary {-}{}{}Data}|hyperpage}{16}
-\indexentry{Iterable$<$ type $>$@{Iterable$<$ type $>$}|hyperpage}{16}
-\indexentry{Iterable@{Iterable}!operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}|hyperpage}{17}
-\indexentry{operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}!Iterable@{Iterable}|hyperpage}{17}
-\indexentry{List$<$ type $>$@{List$<$ type $>$}|hyperpage}{17}
-\indexentry{List@{List}!List@{List}|hyperpage}{18}
-\indexentry{List@{List}!List@{List}|hyperpage}{18}
-\indexentry{List@{List}!operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}|hyperpage}{18}
-\indexentry{operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}!List@{List}|hyperpage}{18}
-\indexentry{List@{List}!pop@{pop}|hyperpage}{18}
-\indexentry{pop@{pop}!List@{List}|hyperpage}{18}
-\indexentry{List@{List}!push@{push}|hyperpage}{18}
-\indexentry{push@{push}!List@{List}|hyperpage}{18}
-\indexentry{List@{List}!size@{size}|hyperpage}{19}
-\indexentry{size@{size}!List@{List}|hyperpage}{19}
-\indexentry{List@{List}!head@{head}|hyperpage}{19}
-\indexentry{head@{head}!List@{List}|hyperpage}{19}
-\indexentry{List@{List}!iterator@{iterator}|hyperpage}{19}
-\indexentry{iterator@{iterator}!List@{List}|hyperpage}{19}
-\indexentry{List\discretionary {-}{}{}Array$<$ type $>$@{List\discretionary {-}{}{}Array$<$ type $>$}|hyperpage}{19}
-\indexentry{List\discretionary {-}{}{}Array@{List\discretionary {-}{}{}Array}!List\discretionary {-}{}{}Array@{List\discretionary {-}{}{}Array}|hyperpage}{20}
-\indexentry{List\discretionary {-}{}{}Array@{List\discretionary {-}{}{}Array}!ListArray@{List\discretionary {-}{}{}Array}|hyperpage}{20}
-\indexentry{List\discretionary {-}{}{}Array@{List\discretionary {-}{}{}Array}!$\sim $\discretionary {-}{}{}List\discretionary {-}{}{}Array@{$\sim $\discretionary {-}{}{}List\discretionary {-}{}{}Array}|hyperpage}{20}
-\indexentry{$\sim $\discretionary {-}{}{}List\discretionary {-}{}{}Array@{$\sim $\discretionary {-}{}{}List\discretionary {-}{}{}Array}!ListArray@{List\discretionary {-}{}{}Array}|hyperpage}{20}
-\indexentry{List\discretionary {-}{}{}Array@{List\discretionary {-}{}{}Array}!operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}|hyperpage}{21}
-\indexentry{operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}!ListArray@{List\discretionary {-}{}{}Array}|hyperpage}{21}
-\indexentry{List\discretionary {-}{}{}Array@{List\discretionary {-}{}{}Array}!pop@{pop}|hyperpage}{21}
-\indexentry{pop@{pop}!ListArray@{List\discretionary {-}{}{}Array}|hyperpage}{21}
-\indexentry{List\discretionary {-}{}{}Array@{List\discretionary {-}{}{}Array}!push@{push}|hyperpage}{21}
-\indexentry{push@{push}!ListArray@{List\discretionary {-}{}{}Array}|hyperpage}{21}
-\indexentry{List\discretionary {-}{}{}Array@{List\discretionary {-}{}{}Array}!size@{size}|hyperpage}{21}
-\indexentry{size@{size}!ListArray@{List\discretionary {-}{}{}Array}|hyperpage}{21}
-\indexentry{List\discretionary {-}{}{}Array@{List\discretionary {-}{}{}Array}!counter@{counter}|hyperpage}{21}
-\indexentry{counter@{counter}!ListArray@{List\discretionary {-}{}{}Array}|hyperpage}{21}
-\indexentry{List\discretionary {-}{}{}Array@{List\discretionary {-}{}{}Array}!iterator@{iterator}|hyperpage}{21}
-\indexentry{iterator@{iterator}!ListArray@{List\discretionary {-}{}{}Array}|hyperpage}{21}
-\indexentry{List\discretionary {-}{}{}Array@{List\discretionary {-}{}{}Array}!tab@{tab}|hyperpage}{22}
-\indexentry{tab@{tab}!ListArray@{List\discretionary {-}{}{}Array}|hyperpage}{22}
-\indexentry{node$<$ type $>$@{node$<$ type $>$}|hyperpage}{22}
-\indexentry{node@{node}!node@{node}|hyperpage}{23}
-\indexentry{node@{node}!node@{node}|hyperpage}{23}
-\indexentry{node@{node}!node@{node}|hyperpage}{23}
-\indexentry{node@{node}!node@{node}|hyperpage}{23}
-\indexentry{node@{node}!next@{next}|hyperpage}{23}
-\indexentry{next@{next}!node@{node}|hyperpage}{23}
-\indexentry{node@{node}!val@{val}|hyperpage}{23}
-\indexentry{val@{val}!node@{node}|hyperpage}{23}
-\indexentry{Observer@{Observer}|hyperpage}{23}
-\indexentry{Observer@{Observer}!update@{update}|hyperpage}{24}
-\indexentry{update@{update}!Observer@{Observer}|hyperpage}{24}
-\indexentry{Queue$<$ type $>$@{Queue$<$ type $>$}|hyperpage}{24}
-\indexentry{Queue@{Queue}!Queue@{Queue}|hyperpage}{25}
-\indexentry{Queue@{Queue}!Queue@{Queue}|hyperpage}{25}
-\indexentry{Queue@{Queue}!display@{display}|hyperpage}{25}
-\indexentry{display@{display}!Queue@{Queue}|hyperpage}{25}
-\indexentry{Queue@{Queue}!operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}|hyperpage}{25}
-\indexentry{operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}!Queue@{Queue}|hyperpage}{25}
-\indexentry{Queue@{Queue}!pop@{pop}|hyperpage}{25}
-\indexentry{pop@{pop}!Queue@{Queue}|hyperpage}{25}
-\indexentry{Queue@{Queue}!push@{push}|hyperpage}{25}
-\indexentry{push@{push}!Queue@{Queue}|hyperpage}{25}
-\indexentry{Queue@{Queue}!size@{size}|hyperpage}{27}
-\indexentry{size@{size}!Queue@{Queue}|hyperpage}{27}
-\indexentry{Queue@{Queue}!head@{head}|hyperpage}{27}
-\indexentry{head@{head}!Queue@{Queue}|hyperpage}{27}
-\indexentry{Queue@{Queue}!iterator@{iterator}|hyperpage}{27}
-\indexentry{iterator@{iterator}!Queue@{Queue}|hyperpage}{27}
-\indexentry{Save\discretionary {-}{}{}To\discretionary {-}{}{}File@{Save\discretionary {-}{}{}To\discretionary {-}{}{}File}|hyperpage}{27}
-\indexentry{Save\discretionary {-}{}{}To\discretionary {-}{}{}File@{Save\discretionary {-}{}{}To\discretionary {-}{}{}File}!update@{update}|hyperpage}{28}
-\indexentry{update@{update}!SaveToFile@{Save\discretionary {-}{}{}To\discretionary {-}{}{}File}|hyperpage}{28}
-\indexentry{Stack$<$ type $>$@{Stack$<$ type $>$}|hyperpage}{28}
-\indexentry{Stack@{Stack}!Stack@{Stack}|hyperpage}{30}
-\indexentry{Stack@{Stack}!Stack@{Stack}|hyperpage}{30}
-\indexentry{Stack@{Stack}!display@{display}|hyperpage}{30}
-\indexentry{display@{display}!Stack@{Stack}|hyperpage}{30}
-\indexentry{Stack@{Stack}!operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}|hyperpage}{30}
-\indexentry{operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}!Stack@{Stack}|hyperpage}{30}
-\indexentry{Stack@{Stack}!pop@{pop}|hyperpage}{30}
-\indexentry{pop@{pop}!Stack@{Stack}|hyperpage}{30}
-\indexentry{Stack@{Stack}!push@{push}|hyperpage}{30}
-\indexentry{push@{push}!Stack@{Stack}|hyperpage}{30}
-\indexentry{Stack@{Stack}!size@{size}|hyperpage}{30}
-\indexentry{size@{size}!Stack@{Stack}|hyperpage}{30}
-\indexentry{Stack@{Stack}!head@{head}|hyperpage}{31}
-\indexentry{head@{head}!Stack@{Stack}|hyperpage}{31}
-\indexentry{Stack@{Stack}!iterator@{iterator}|hyperpage}{31}
-\indexentry{iterator@{iterator}!Stack@{Stack}|hyperpage}{31}
-\indexentry{Subject@{Subject}|hyperpage}{31}
-\indexentry{Subject@{Subject}!add\discretionary {-}{}{}Obs@{add\discretionary {-}{}{}Obs}|hyperpage}{32}
-\indexentry{add\discretionary {-}{}{}Obs@{add\discretionary {-}{}{}Obs}!Subject@{Subject}|hyperpage}{32}
-\indexentry{Subject@{Subject}!notify@{notify}|hyperpage}{32}
-\indexentry{notify@{notify}!Subject@{Subject}|hyperpage}{32}
-\indexentry{Subject@{Subject}!obss@{obss}|hyperpage}{33}
-\indexentry{obss@{obss}!Subject@{Subject}|hyperpage}{33}
-\indexentry{Timer@{Timer}|hyperpage}{33}
-\indexentry{Timer@{Timer}!Timer@{Timer}|hyperpage}{34}
-\indexentry{Timer@{Timer}!Timer@{Timer}|hyperpage}{34}
-\indexentry{Timer@{Timer}!get\discretionary {-}{}{}Time@{get\discretionary {-}{}{}Time}|hyperpage}{34}
-\indexentry{get\discretionary {-}{}{}Time@{get\discretionary {-}{}{}Time}!Timer@{Timer}|hyperpage}{34}
-\indexentry{Timer@{Timer}!start\discretionary {-}{}{}\_\discretionary {-}{}{}timer@{start\discretionary {-}{}{}\_\discretionary {-}{}{}timer}|hyperpage}{34}
-\indexentry{start\discretionary {-}{}{}\_\discretionary {-}{}{}timer@{start\discretionary {-}{}{}\_\discretionary {-}{}{}timer}!Timer@{Timer}|hyperpage}{34}
-\indexentry{Timer@{Timer}!stop\discretionary {-}{}{}\_\discretionary {-}{}{}timer@{stop\discretionary {-}{}{}\_\discretionary {-}{}{}timer}|hyperpage}{34}
-\indexentry{stop\discretionary {-}{}{}\_\discretionary {-}{}{}timer@{stop\discretionary {-}{}{}\_\discretionary {-}{}{}timer}!Timer@{Timer}|hyperpage}{34}
-\indexentry{Timer@{Timer}!end@{end}|hyperpage}{34}
-\indexentry{end@{end}!Timer@{Timer}|hyperpage}{34}
-\indexentry{Timer@{Timer}!start@{start}|hyperpage}{34}
-\indexentry{start@{start}!Timer@{Timer}|hyperpage}{34}
-\indexentry{Timer@{Timer}!time@{time}|hyperpage}{35}
-\indexentry{time@{time}!Timer@{Timer}|hyperpage}{35}
-\indexentry{abdata.\discretionary {-}{}{}hh@{abdata.\discretionary {-}{}{}hh}|hyperpage}{37}
-\indexentry{abdata.\discretionary {-}{}{}hh@{abdata.\discretionary {-}{}{}hh}|hyperpage}{38}
-\indexentry{abdatatools.\discretionary {-}{}{}hh@{abdatatools.\discretionary {-}{}{}hh}|hyperpage}{38}
-\indexentry{abdatatools.\discretionary {-}{}{}hh@{abdatatools.\discretionary {-}{}{}hh}!clear@{clear}|hyperpage}{39}
-\indexentry{clear@{clear}!abdatatools.hh@{abdatatools.\discretionary {-}{}{}hh}|hyperpage}{39}
-\indexentry{abdatatools.\discretionary {-}{}{}hh@{abdatatools.\discretionary {-}{}{}hh}!fill\discretionary {-}{}{}From\discretionary {-}{}{}File@{fill\discretionary {-}{}{}From\discretionary {-}{}{}File}|hyperpage}{39}
-\indexentry{fill\discretionary {-}{}{}From\discretionary {-}{}{}File@{fill\discretionary {-}{}{}From\discretionary {-}{}{}File}!abdatatools.hh@{abdatatools.\discretionary {-}{}{}hh}|hyperpage}{39}
+\indexentry{Assoc\discretionary {-}{}{}Tab@{Assoc\discretionary {-}{}{}Tab}!Assoc\discretionary {-}{}{}Tab@{Assoc\discretionary {-}{}{}Tab}|hyperpage}{10}
+\indexentry{Assoc\discretionary {-}{}{}Tab@{Assoc\discretionary {-}{}{}Tab}!AssocTab@{Assoc\discretionary {-}{}{}Tab}|hyperpage}{10}
+\indexentry{Assoc\discretionary {-}{}{}Tab@{Assoc\discretionary {-}{}{}Tab}!$\sim $\discretionary {-}{}{}Assoc\discretionary {-}{}{}Tab@{$\sim $\discretionary {-}{}{}Assoc\discretionary {-}{}{}Tab}|hyperpage}{12}
+\indexentry{$\sim $\discretionary {-}{}{}Assoc\discretionary {-}{}{}Tab@{$\sim $\discretionary {-}{}{}Assoc\discretionary {-}{}{}Tab}!AssocTab@{Assoc\discretionary {-}{}{}Tab}|hyperpage}{12}
+\indexentry{Assoc\discretionary {-}{}{}Tab@{Assoc\discretionary {-}{}{}Tab}!hash@{hash}|hyperpage}{12}
+\indexentry{hash@{hash}!AssocTab@{Assoc\discretionary {-}{}{}Tab}|hyperpage}{12}
+\indexentry{Assoc\discretionary {-}{}{}Tab@{Assoc\discretionary {-}{}{}Tab}!operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}|hyperpage}{12}
+\indexentry{operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}!AssocTab@{Assoc\discretionary {-}{}{}Tab}|hyperpage}{12}
+\indexentry{Assoc\discretionary {-}{}{}Tab@{Assoc\discretionary {-}{}{}Tab}!pop@{pop}|hyperpage}{12}
+\indexentry{pop@{pop}!AssocTab@{Assoc\discretionary {-}{}{}Tab}|hyperpage}{12}
+\indexentry{Assoc\discretionary {-}{}{}Tab@{Assoc\discretionary {-}{}{}Tab}!push@{push}|hyperpage}{13}
+\indexentry{push@{push}!AssocTab@{Assoc\discretionary {-}{}{}Tab}|hyperpage}{13}
+\indexentry{Assoc\discretionary {-}{}{}Tab@{Assoc\discretionary {-}{}{}Tab}!size@{size}|hyperpage}{13}
+\indexentry{size@{size}!AssocTab@{Assoc\discretionary {-}{}{}Tab}|hyperpage}{13}
+\indexentry{Assoc\discretionary {-}{}{}Tab@{Assoc\discretionary {-}{}{}Tab}!counter@{counter}|hyperpage}{13}
+\indexentry{counter@{counter}!AssocTab@{Assoc\discretionary {-}{}{}Tab}|hyperpage}{13}
+\indexentry{Assoc\discretionary {-}{}{}Tab@{Assoc\discretionary {-}{}{}Tab}!tab@{tab}|hyperpage}{13}
+\indexentry{tab@{tab}!AssocTab@{Assoc\discretionary {-}{}{}Tab}|hyperpage}{13}
+\indexentry{Benchmark@{Benchmark}|hyperpage}{14}
+\indexentry{Benchmark@{Benchmark}!Benchmark@{Benchmark}|hyperpage}{15}
+\indexentry{Benchmark@{Benchmark}!Benchmark@{Benchmark}|hyperpage}{15}
+\indexentry{Benchmark@{Benchmark}!calc\discretionary {-}{}{}\_\discretionary {-}{}{}mean@{calc\discretionary {-}{}{}\_\discretionary {-}{}{}mean}|hyperpage}{15}
+\indexentry{calc\discretionary {-}{}{}\_\discretionary {-}{}{}mean@{calc\discretionary {-}{}{}\_\discretionary {-}{}{}mean}!Benchmark@{Benchmark}|hyperpage}{15}
+\indexentry{Benchmark@{Benchmark}!notify@{notify}|hyperpage}{16}
+\indexentry{notify@{notify}!Benchmark@{Benchmark}|hyperpage}{16}
+\indexentry{Benchmark@{Benchmark}!run\discretionary {-}{}{}Benchmark\discretionary {-}{}{}Sort@{run\discretionary {-}{}{}Benchmark\discretionary {-}{}{}Sort}|hyperpage}{16}
+\indexentry{run\discretionary {-}{}{}Benchmark\discretionary {-}{}{}Sort@{run\discretionary {-}{}{}Benchmark\discretionary {-}{}{}Sort}!Benchmark@{Benchmark}|hyperpage}{16}
+\indexentry{Benchmark@{Benchmark}!stop\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Ctimer@{stop\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Ctimer}|hyperpage}{17}
+\indexentry{stop\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Ctimer@{stop\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Ctimer}!Benchmark@{Benchmark}|hyperpage}{17}
+\indexentry{Benchmark@{Benchmark}!amount@{amount}|hyperpage}{17}
+\indexentry{amount@{amount}!Benchmark@{Benchmark}|hyperpage}{17}
+\indexentry{Benchmark@{Benchmark}!counter@{counter}|hyperpage}{17}
+\indexentry{counter@{counter}!Benchmark@{Benchmark}|hyperpage}{17}
+\indexentry{Benchmark@{Benchmark}!mean@{mean}|hyperpage}{17}
+\indexentry{mean@{mean}!Benchmark@{Benchmark}|hyperpage}{17}
+\indexentry{Benchmark@{Benchmark}!total@{total}|hyperpage}{18}
+\indexentry{total@{total}!Benchmark@{Benchmark}|hyperpage}{18}
+\indexentry{Iterable$<$ type $>$@{Iterable$<$ type $>$}|hyperpage}{18}
+\indexentry{Iterable@{Iterable}!operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}|hyperpage}{18}
+\indexentry{operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}!Iterable@{Iterable}|hyperpage}{18}
+\indexentry{List$<$ type $>$@{List$<$ type $>$}|hyperpage}{19}
+\indexentry{List@{List}!List@{List}|hyperpage}{20}
+\indexentry{List@{List}!List@{List}|hyperpage}{20}
+\indexentry{List@{List}!operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}|hyperpage}{20}
+\indexentry{operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}!List@{List}|hyperpage}{20}
+\indexentry{List@{List}!pop@{pop}|hyperpage}{20}
+\indexentry{pop@{pop}!List@{List}|hyperpage}{20}
+\indexentry{List@{List}!pop@{pop}|hyperpage}{20}
+\indexentry{pop@{pop}!List@{List}|hyperpage}{20}
+\indexentry{List@{List}!push@{push}|hyperpage}{20}
+\indexentry{push@{push}!List@{List}|hyperpage}{20}
+\indexentry{List@{List}!size@{size}|hyperpage}{21}
+\indexentry{size@{size}!List@{List}|hyperpage}{21}
+\indexentry{List@{List}!head@{head}|hyperpage}{21}
+\indexentry{head@{head}!List@{List}|hyperpage}{21}
+\indexentry{List@{List}!iterator@{iterator}|hyperpage}{21}
+\indexentry{iterator@{iterator}!List@{List}|hyperpage}{21}
+\indexentry{List\discretionary {-}{}{}Array$<$ type $>$@{List\discretionary {-}{}{}Array$<$ type $>$}|hyperpage}{21}
+\indexentry{List\discretionary {-}{}{}Array@{List\discretionary {-}{}{}Array}!List\discretionary {-}{}{}Array@{List\discretionary {-}{}{}Array}|hyperpage}{22}
+\indexentry{List\discretionary {-}{}{}Array@{List\discretionary {-}{}{}Array}!ListArray@{List\discretionary {-}{}{}Array}|hyperpage}{22}
+\indexentry{List\discretionary {-}{}{}Array@{List\discretionary {-}{}{}Array}!$\sim $\discretionary {-}{}{}List\discretionary {-}{}{}Array@{$\sim $\discretionary {-}{}{}List\discretionary {-}{}{}Array}|hyperpage}{22}
+\indexentry{$\sim $\discretionary {-}{}{}List\discretionary {-}{}{}Array@{$\sim $\discretionary {-}{}{}List\discretionary {-}{}{}Array}!ListArray@{List\discretionary {-}{}{}Array}|hyperpage}{22}
+\indexentry{List\discretionary {-}{}{}Array@{List\discretionary {-}{}{}Array}!operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}|hyperpage}{23}
+\indexentry{operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}!ListArray@{List\discretionary {-}{}{}Array}|hyperpage}{23}
+\indexentry{List\discretionary {-}{}{}Array@{List\discretionary {-}{}{}Array}!pop@{pop}|hyperpage}{23}
+\indexentry{pop@{pop}!ListArray@{List\discretionary {-}{}{}Array}|hyperpage}{23}
+\indexentry{List\discretionary {-}{}{}Array@{List\discretionary {-}{}{}Array}!push@{push}|hyperpage}{23}
+\indexentry{push@{push}!ListArray@{List\discretionary {-}{}{}Array}|hyperpage}{23}
+\indexentry{List\discretionary {-}{}{}Array@{List\discretionary {-}{}{}Array}!size@{size}|hyperpage}{23}
+\indexentry{size@{size}!ListArray@{List\discretionary {-}{}{}Array}|hyperpage}{23}
+\indexentry{List\discretionary {-}{}{}Array@{List\discretionary {-}{}{}Array}!counter@{counter}|hyperpage}{23}
+\indexentry{counter@{counter}!ListArray@{List\discretionary {-}{}{}Array}|hyperpage}{23}
+\indexentry{List\discretionary {-}{}{}Array@{List\discretionary {-}{}{}Array}!iterator@{iterator}|hyperpage}{23}
+\indexentry{iterator@{iterator}!ListArray@{List\discretionary {-}{}{}Array}|hyperpage}{23}
+\indexentry{List\discretionary {-}{}{}Array@{List\discretionary {-}{}{}Array}!tab@{tab}|hyperpage}{24}
+\indexentry{tab@{tab}!ListArray@{List\discretionary {-}{}{}Array}|hyperpage}{24}
+\indexentry{node$<$ type $>$@{node$<$ type $>$}|hyperpage}{24}
+\indexentry{node@{node}!node@{node}|hyperpage}{25}
+\indexentry{node@{node}!node@{node}|hyperpage}{25}
+\indexentry{node@{node}!node@{node}|hyperpage}{25}
+\indexentry{node@{node}!node@{node}|hyperpage}{25}
+\indexentry{node@{node}!next@{next}|hyperpage}{25}
+\indexentry{next@{next}!node@{node}|hyperpage}{25}
+\indexentry{node@{node}!val@{val}|hyperpage}{25}
+\indexentry{val@{val}!node@{node}|hyperpage}{25}
+\indexentry{Observer@{Observer}|hyperpage}{25}
+\indexentry{Observer@{Observer}!update@{update}|hyperpage}{26}
+\indexentry{update@{update}!Observer@{Observer}|hyperpage}{26}
+\indexentry{Queue$<$ type $>$@{Queue$<$ type $>$}|hyperpage}{26}
+\indexentry{Queue@{Queue}!Queue@{Queue}|hyperpage}{27}
+\indexentry{Queue@{Queue}!Queue@{Queue}|hyperpage}{27}
+\indexentry{Queue@{Queue}!display@{display}|hyperpage}{27}
+\indexentry{display@{display}!Queue@{Queue}|hyperpage}{27}
+\indexentry{Queue@{Queue}!operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}|hyperpage}{27}
+\indexentry{operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}!Queue@{Queue}|hyperpage}{27}
+\indexentry{Queue@{Queue}!pop@{pop}|hyperpage}{27}
+\indexentry{pop@{pop}!Queue@{Queue}|hyperpage}{27}
+\indexentry{Queue@{Queue}!push@{push}|hyperpage}{27}
+\indexentry{push@{push}!Queue@{Queue}|hyperpage}{27}
+\indexentry{Queue@{Queue}!size@{size}|hyperpage}{29}
+\indexentry{size@{size}!Queue@{Queue}|hyperpage}{29}
+\indexentry{Queue@{Queue}!head@{head}|hyperpage}{29}
+\indexentry{head@{head}!Queue@{Queue}|hyperpage}{29}
+\indexentry{Queue@{Queue}!iterator@{iterator}|hyperpage}{29}
+\indexentry{iterator@{iterator}!Queue@{Queue}|hyperpage}{29}
+\indexentry{Save\discretionary {-}{}{}To\discretionary {-}{}{}File@{Save\discretionary {-}{}{}To\discretionary {-}{}{}File}|hyperpage}{29}
+\indexentry{Save\discretionary {-}{}{}To\discretionary {-}{}{}File@{Save\discretionary {-}{}{}To\discretionary {-}{}{}File}!update@{update}|hyperpage}{30}
+\indexentry{update@{update}!SaveToFile@{Save\discretionary {-}{}{}To\discretionary {-}{}{}File}|hyperpage}{30}
+\indexentry{Stack$<$ type $>$@{Stack$<$ type $>$}|hyperpage}{30}
+\indexentry{Stack@{Stack}!Stack@{Stack}|hyperpage}{32}
+\indexentry{Stack@{Stack}!Stack@{Stack}|hyperpage}{32}
+\indexentry{Stack@{Stack}!display@{display}|hyperpage}{32}
+\indexentry{display@{display}!Stack@{Stack}|hyperpage}{32}
+\indexentry{Stack@{Stack}!operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}|hyperpage}{32}
+\indexentry{operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}!Stack@{Stack}|hyperpage}{32}
+\indexentry{Stack@{Stack}!pop@{pop}|hyperpage}{32}
+\indexentry{pop@{pop}!Stack@{Stack}|hyperpage}{32}
+\indexentry{Stack@{Stack}!push@{push}|hyperpage}{32}
+\indexentry{push@{push}!Stack@{Stack}|hyperpage}{32}
+\indexentry{Stack@{Stack}!size@{size}|hyperpage}{32}
+\indexentry{size@{size}!Stack@{Stack}|hyperpage}{32}
+\indexentry{Stack@{Stack}!head@{head}|hyperpage}{33}
+\indexentry{head@{head}!Stack@{Stack}|hyperpage}{33}
+\indexentry{Stack@{Stack}!iterator@{iterator}|hyperpage}{33}
+\indexentry{iterator@{iterator}!Stack@{Stack}|hyperpage}{33}
+\indexentry{Subject@{Subject}|hyperpage}{33}
+\indexentry{Subject@{Subject}!add\discretionary {-}{}{}Obs@{add\discretionary {-}{}{}Obs}|hyperpage}{34}
+\indexentry{add\discretionary {-}{}{}Obs@{add\discretionary {-}{}{}Obs}!Subject@{Subject}|hyperpage}{34}
+\indexentry{Subject@{Subject}!notify@{notify}|hyperpage}{34}
+\indexentry{notify@{notify}!Subject@{Subject}|hyperpage}{34}
+\indexentry{Subject@{Subject}!obss@{obss}|hyperpage}{35}
+\indexentry{obss@{obss}!Subject@{Subject}|hyperpage}{35}
+\indexentry{Timer@{Timer}|hyperpage}{35}
+\indexentry{Timer@{Timer}!Timer@{Timer}|hyperpage}{36}
+\indexentry{Timer@{Timer}!Timer@{Timer}|hyperpage}{36}
+\indexentry{Timer@{Timer}!get\discretionary {-}{}{}Time@{get\discretionary {-}{}{}Time}|hyperpage}{36}
+\indexentry{get\discretionary {-}{}{}Time@{get\discretionary {-}{}{}Time}!Timer@{Timer}|hyperpage}{36}
+\indexentry{Timer@{Timer}!start\discretionary {-}{}{}\_\discretionary {-}{}{}timer@{start\discretionary {-}{}{}\_\discretionary {-}{}{}timer}|hyperpage}{36}
+\indexentry{start\discretionary {-}{}{}\_\discretionary {-}{}{}timer@{start\discretionary {-}{}{}\_\discretionary {-}{}{}timer}!Timer@{Timer}|hyperpage}{36}
+\indexentry{Timer@{Timer}!stop\discretionary {-}{}{}\_\discretionary {-}{}{}timer@{stop\discretionary {-}{}{}\_\discretionary {-}{}{}timer}|hyperpage}{36}
+\indexentry{stop\discretionary {-}{}{}\_\discretionary {-}{}{}timer@{stop\discretionary {-}{}{}\_\discretionary {-}{}{}timer}!Timer@{Timer}|hyperpage}{36}
+\indexentry{Timer@{Timer}!end@{end}|hyperpage}{36}
+\indexentry{end@{end}!Timer@{Timer}|hyperpage}{36}
+\indexentry{Timer@{Timer}!start@{start}|hyperpage}{37}
+\indexentry{start@{start}!Timer@{Timer}|hyperpage}{37}
+\indexentry{Timer@{Timer}!time@{time}|hyperpage}{37}
+\indexentry{time@{time}!Timer@{Timer}|hyperpage}{37}
+\indexentry{abdata.\discretionary {-}{}{}hh@{abdata.\discretionary {-}{}{}hh}|hyperpage}{39}
+\indexentry{abdata.\discretionary {-}{}{}hh@{abdata.\discretionary {-}{}{}hh}|hyperpage}{40}
 \indexentry{abdatatools.\discretionary {-}{}{}hh@{abdatatools.\discretionary {-}{}{}hh}|hyperpage}{40}
-\indexentry{assoctab.\discretionary {-}{}{}hh@{assoctab.\discretionary {-}{}{}hh}|hyperpage}{40}
-\indexentry{assoctab.\discretionary {-}{}{}hh@{assoctab.\discretionary {-}{}{}hh}!H\discretionary {-}{}{}A\discretionary {-}{}{}S\discretionary {-}{}{}H@{H\discretionary {-}{}{}A\discretionary {-}{}{}S\discretionary {-}{}{}H}|hyperpage}{41}
-\indexentry{H\discretionary {-}{}{}A\discretionary {-}{}{}S\discretionary {-}{}{}H@{H\discretionary {-}{}{}A\discretionary {-}{}{}S\discretionary {-}{}{}H}!assoctab.hh@{assoctab.\discretionary {-}{}{}hh}|hyperpage}{41}
-\indexentry{assoctab.\discretionary {-}{}{}hh@{assoctab.\discretionary {-}{}{}hh}!T\discretionary {-}{}{}A\discretionary {-}{}{}B@{T\discretionary {-}{}{}A\discretionary {-}{}{}B}|hyperpage}{41}
-\indexentry{T\discretionary {-}{}{}A\discretionary {-}{}{}B@{T\discretionary {-}{}{}A\discretionary {-}{}{}B}!assoctab.hh@{assoctab.\discretionary {-}{}{}hh}|hyperpage}{41}
-\indexentry{assoctab.\discretionary {-}{}{}hh@{assoctab.\discretionary {-}{}{}hh}|hyperpage}{41}
-\indexentry{benchmark.\discretionary {-}{}{}cpp@{benchmark.\discretionary {-}{}{}cpp}|hyperpage}{42}
-\indexentry{benchmark.\discretionary {-}{}{}cpp@{benchmark.\discretionary {-}{}{}cpp}|hyperpage}{42}
-\indexentry{benchmark.\discretionary {-}{}{}hh@{benchmark.\discretionary {-}{}{}hh}|hyperpage}{43}
-\indexentry{benchmark.\discretionary {-}{}{}hh@{benchmark.\discretionary {-}{}{}hh}|hyperpage}{44}
-\indexentry{iterable.\discretionary {-}{}{}hh@{iterable.\discretionary {-}{}{}hh}|hyperpage}{44}
-\indexentry{iterable.\discretionary {-}{}{}hh@{iterable.\discretionary {-}{}{}hh}!display@{display}|hyperpage}{45}
-\indexentry{display@{display}!iterable.hh@{iterable.\discretionary {-}{}{}hh}|hyperpage}{45}
-\indexentry{iterable.\discretionary {-}{}{}hh@{iterable.\discretionary {-}{}{}hh}|hyperpage}{45}
-\indexentry{list.\discretionary {-}{}{}hh@{list.\discretionary {-}{}{}hh}|hyperpage}{46}
-\indexentry{list.\discretionary {-}{}{}hh@{list.\discretionary {-}{}{}hh}|hyperpage}{46}
-\indexentry{listarray.\discretionary {-}{}{}hh@{listarray.\discretionary {-}{}{}hh}|hyperpage}{47}
-\indexentry{listarray.\discretionary {-}{}{}hh@{listarray.\discretionary {-}{}{}hh}|hyperpage}{48}
-\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{49}
-\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}!main@{main}|hyperpage}{50}
-\indexentry{main@{main}!main.cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{50}
-\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{50}
-\indexentry{node.\discretionary {-}{}{}hh@{node.\discretionary {-}{}{}hh}|hyperpage}{51}
-\indexentry{node.\discretionary {-}{}{}hh@{node.\discretionary {-}{}{}hh}|hyperpage}{52}
-\indexentry{observer.\discretionary {-}{}{}hh@{observer.\discretionary {-}{}{}hh}|hyperpage}{52}
-\indexentry{observer.\discretionary {-}{}{}hh@{observer.\discretionary {-}{}{}hh}|hyperpage}{53}
-\indexentry{queue.\discretionary {-}{}{}hh@{queue.\discretionary {-}{}{}hh}|hyperpage}{54}
-\indexentry{queue.\discretionary {-}{}{}hh@{queue.\discretionary {-}{}{}hh}|hyperpage}{54}
-\indexentry{sorts.\discretionary {-}{}{}hh@{sorts.\discretionary {-}{}{}hh}|hyperpage}{56}
-\indexentry{sorts.\discretionary {-}{}{}hh@{sorts.\discretionary {-}{}{}hh}!insertsort@{insertsort}|hyperpage}{56}
-\indexentry{insertsort@{insertsort}!sorts.hh@{sorts.\discretionary {-}{}{}hh}|hyperpage}{56}
-\indexentry{sorts.\discretionary {-}{}{}hh@{sorts.\discretionary {-}{}{}hh}!quicksort@{quicksort}|hyperpage}{57}
-\indexentry{quicksort@{quicksort}!sorts.hh@{sorts.\discretionary {-}{}{}hh}|hyperpage}{57}
-\indexentry{sorts.\discretionary {-}{}{}hh@{sorts.\discretionary {-}{}{}hh}|hyperpage}{57}
-\indexentry{stack.\discretionary {-}{}{}hh@{stack.\discretionary {-}{}{}hh}|hyperpage}{58}
-\indexentry{stack.\discretionary {-}{}{}hh@{stack.\discretionary {-}{}{}hh}|hyperpage}{59}
-\indexentry{timer.\discretionary {-}{}{}cpp@{timer.\discretionary {-}{}{}cpp}|hyperpage}{60}
-\indexentry{timer.\discretionary {-}{}{}cpp@{timer.\discretionary {-}{}{}cpp}|hyperpage}{61}
-\indexentry{timer.\discretionary {-}{}{}hh@{timer.\discretionary {-}{}{}hh}|hyperpage}{61}
-\indexentry{timer.\discretionary {-}{}{}hh@{timer.\discretionary {-}{}{}hh}|hyperpage}{62}
-\indexentry{tools.\discretionary {-}{}{}hh@{tools.\discretionary {-}{}{}hh}|hyperpage}{63}
-\indexentry{tools.\discretionary {-}{}{}hh@{tools.\discretionary {-}{}{}hh}!substitute@{substitute}|hyperpage}{63}
-\indexentry{substitute@{substitute}!tools.hh@{tools.\discretionary {-}{}{}hh}|hyperpage}{63}
-\indexentry{tools.\discretionary {-}{}{}hh@{tools.\discretionary {-}{}{}hh}|hyperpage}{64}
+\indexentry{abdatatools.\discretionary {-}{}{}hh@{abdatatools.\discretionary {-}{}{}hh}!clear@{clear}|hyperpage}{41}
+\indexentry{clear@{clear}!abdatatools.hh@{abdatatools.\discretionary {-}{}{}hh}|hyperpage}{41}
+\indexentry{abdatatools.\discretionary {-}{}{}hh@{abdatatools.\discretionary {-}{}{}hh}!fill\discretionary {-}{}{}From\discretionary {-}{}{}File@{fill\discretionary {-}{}{}From\discretionary {-}{}{}File}|hyperpage}{41}
+\indexentry{fill\discretionary {-}{}{}From\discretionary {-}{}{}File@{fill\discretionary {-}{}{}From\discretionary {-}{}{}File}!abdatatools.hh@{abdatatools.\discretionary {-}{}{}hh}|hyperpage}{41}
+\indexentry{abdatatools.\discretionary {-}{}{}hh@{abdatatools.\discretionary {-}{}{}hh}|hyperpage}{41}
+\indexentry{assoctab.\discretionary {-}{}{}hh@{assoctab.\discretionary {-}{}{}hh}|hyperpage}{42}
+\indexentry{assoctab.\discretionary {-}{}{}hh@{assoctab.\discretionary {-}{}{}hh}!H\discretionary {-}{}{}A\discretionary {-}{}{}S\discretionary {-}{}{}H@{H\discretionary {-}{}{}A\discretionary {-}{}{}S\discretionary {-}{}{}H}|hyperpage}{43}
+\indexentry{H\discretionary {-}{}{}A\discretionary {-}{}{}S\discretionary {-}{}{}H@{H\discretionary {-}{}{}A\discretionary {-}{}{}S\discretionary {-}{}{}H}!assoctab.hh@{assoctab.\discretionary {-}{}{}hh}|hyperpage}{43}
+\indexentry{assoctab.\discretionary {-}{}{}hh@{assoctab.\discretionary {-}{}{}hh}!T\discretionary {-}{}{}A\discretionary {-}{}{}B@{T\discretionary {-}{}{}A\discretionary {-}{}{}B}|hyperpage}{43}
+\indexentry{T\discretionary {-}{}{}A\discretionary {-}{}{}B@{T\discretionary {-}{}{}A\discretionary {-}{}{}B}!assoctab.hh@{assoctab.\discretionary {-}{}{}hh}|hyperpage}{43}
+\indexentry{assoctab.\discretionary {-}{}{}hh@{assoctab.\discretionary {-}{}{}hh}|hyperpage}{43}
+\indexentry{benchmark.\discretionary {-}{}{}cpp@{benchmark.\discretionary {-}{}{}cpp}|hyperpage}{44}
+\indexentry{benchmark.\discretionary {-}{}{}cpp@{benchmark.\discretionary {-}{}{}cpp}|hyperpage}{45}
+\indexentry{benchmark.\discretionary {-}{}{}hh@{benchmark.\discretionary {-}{}{}hh}|hyperpage}{45}
+\indexentry{benchmark.\discretionary {-}{}{}hh@{benchmark.\discretionary {-}{}{}hh}|hyperpage}{46}
+\indexentry{iterable.\discretionary {-}{}{}hh@{iterable.\discretionary {-}{}{}hh}|hyperpage}{47}
+\indexentry{iterable.\discretionary {-}{}{}hh@{iterable.\discretionary {-}{}{}hh}!display@{display}|hyperpage}{48}
+\indexentry{display@{display}!iterable.hh@{iterable.\discretionary {-}{}{}hh}|hyperpage}{48}
+\indexentry{iterable.\discretionary {-}{}{}hh@{iterable.\discretionary {-}{}{}hh}|hyperpage}{48}
+\indexentry{list.\discretionary {-}{}{}hh@{list.\discretionary {-}{}{}hh}|hyperpage}{48}
+\indexentry{list.\discretionary {-}{}{}hh@{list.\discretionary {-}{}{}hh}|hyperpage}{49}
+\indexentry{listarray.\discretionary {-}{}{}hh@{listarray.\discretionary {-}{}{}hh}|hyperpage}{50}
+\indexentry{listarray.\discretionary {-}{}{}hh@{listarray.\discretionary {-}{}{}hh}|hyperpage}{51}
+\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{52}
+\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}!main@{main}|hyperpage}{53}
+\indexentry{main@{main}!main.cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{53}
+\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{53}
+\indexentry{node.\discretionary {-}{}{}hh@{node.\discretionary {-}{}{}hh}|hyperpage}{54}
+\indexentry{node.\discretionary {-}{}{}hh@{node.\discretionary {-}{}{}hh}|hyperpage}{55}
+\indexentry{observer.\discretionary {-}{}{}hh@{observer.\discretionary {-}{}{}hh}|hyperpage}{55}
+\indexentry{observer.\discretionary {-}{}{}hh@{observer.\discretionary {-}{}{}hh}|hyperpage}{56}
+\indexentry{queue.\discretionary {-}{}{}hh@{queue.\discretionary {-}{}{}hh}|hyperpage}{57}
+\indexentry{queue.\discretionary {-}{}{}hh@{queue.\discretionary {-}{}{}hh}|hyperpage}{57}
+\indexentry{sorts.\discretionary {-}{}{}hh@{sorts.\discretionary {-}{}{}hh}|hyperpage}{59}
+\indexentry{sorts.\discretionary {-}{}{}hh@{sorts.\discretionary {-}{}{}hh}!insertsort@{insertsort}|hyperpage}{60}
+\indexentry{insertsort@{insertsort}!sorts.hh@{sorts.\discretionary {-}{}{}hh}|hyperpage}{60}
+\indexentry{sorts.\discretionary {-}{}{}hh@{sorts.\discretionary {-}{}{}hh}!quicksort@{quicksort}|hyperpage}{60}
+\indexentry{quicksort@{quicksort}!sorts.hh@{sorts.\discretionary {-}{}{}hh}|hyperpage}{60}
+\indexentry{sorts.\discretionary {-}{}{}hh@{sorts.\discretionary {-}{}{}hh}|hyperpage}{60}
+\indexentry{stack.\discretionary {-}{}{}hh@{stack.\discretionary {-}{}{}hh}|hyperpage}{61}
+\indexentry{stack.\discretionary {-}{}{}hh@{stack.\discretionary {-}{}{}hh}|hyperpage}{62}
+\indexentry{timer.\discretionary {-}{}{}cpp@{timer.\discretionary {-}{}{}cpp}|hyperpage}{63}
+\indexentry{timer.\discretionary {-}{}{}cpp@{timer.\discretionary {-}{}{}cpp}|hyperpage}{64}
+\indexentry{timer.\discretionary {-}{}{}hh@{timer.\discretionary {-}{}{}hh}|hyperpage}{64}
+\indexentry{timer.\discretionary {-}{}{}hh@{timer.\discretionary {-}{}{}hh}|hyperpage}{65}
+\indexentry{tools.\discretionary {-}{}{}hh@{tools.\discretionary {-}{}{}hh}|hyperpage}{66}
+\indexentry{tools.\discretionary {-}{}{}hh@{tools.\discretionary {-}{}{}hh}!substitute@{substitute}|hyperpage}{67}
+\indexentry{substitute@{substitute}!tools.hh@{tools.\discretionary {-}{}{}hh}|hyperpage}{67}
+\indexentry{tools.\discretionary {-}{}{}hh@{tools.\discretionary {-}{}{}hh}!tostring@{tostring}|hyperpage}{67}
+\indexentry{tostring@{tostring}!tools.hh@{tools.\discretionary {-}{}{}hh}|hyperpage}{67}
+\indexentry{tools.\discretionary {-}{}{}hh@{tools.\discretionary {-}{}{}hh}|hyperpage}{67}
