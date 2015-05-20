@@ -10,19 +10,16 @@
 #include "ABData/abdatatools.hh"
 #include "ABData/listarray.hh"
 #include "assoctab.hh"
-#include "Trees/redblacktree.hh"
+#include "Trees/redblacktree"
 
 using namespace std;
 
 
 int main(){
     
-  RedBlackTree<int> object;
-  object.insert(5); object.insert(6);
+  BinaryTree<int> object;
 
-  object.print();
-
-  /*for(int i=0; i<=11; i++)
+  for(int i=0; i<=11; i++)
     object.insert(i);
 
   object.print();
@@ -30,7 +27,7 @@ int main(){
     object.remove(i);
 
   cout<<endl;
-  object.print();*/
+  object.print();
   return 0;
 
 }

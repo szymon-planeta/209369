@@ -3,7 +3,6 @@
 
 #include <iostream>
 #include <cstdlib>
-#include "../ABData/list.hh"
 #include "trees.hh"
 
 /*!
