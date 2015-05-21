@@ -8,8 +8,8 @@
 #include "ABData/list.hh"
 #include "tools.hh"
 
-#define TAB 1000
-#define HASH 0.6180339887  //Donald Knuth hashing const
+const int TAB = 1000;
+const double HASH = 0.6180339887;  //Donald Knuth hashing const
 
 /*!
  * \file

@@ -63,8 +63,8 @@ public:
   }
 
   void insert(const type elem);
-  bool remove(const type elem){}
-  bool search(const type elem){}
+  bool remove(const type elem){return true;}
+  bool search(const type elem){return true;}
   void print();
 
 };

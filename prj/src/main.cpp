@@ -11,26 +11,32 @@
 #include "ABData/listarray.hh"
 #include "assoctab.hh"
 #include "Trees/redblacktree.hh"
+#include "Graphs/graph.hh"
 
 using namespace std;
 
 
 int main(){
-    
-  RedBlackTree<int> object;
-  object.insert(5); object.insert(6);
+  
+  Graph<int> object(9);
+
+  object.insert(0,1);  
+  object.insert(0,2);
+  object.insert(1,3);  
+  object.insert(1,4);
+  object.insert(2,4);
+  object.insert(2,5);
+  object.insert(2,6);
+  object.insert(3,3);
+  object.insert(3,6);
+  object.insert(4,6);
+  object.insert(5,7);
+  object.insert(7,8);
 
   object.print();
 
-  /*for(int i=0; i<=11; i++)
-    object.insert(i);
+  object.search(0,8);
 
-  object.print();
-  for(int i=0; i<=7; i++)
-    object.remove(i);
-
-  cout<<endl;
-  object.print();*/
   return 0;
 
 }
