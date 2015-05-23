@@ -16,21 +16,14 @@ using namespace std;
 
 
 int main(){
-    
-  RedBlackTree<int> object;
-  object.insert(5); object.insert(6);
-
-  object.print();
-
-  /*for(int i=0; i<=11; i++)
-    object.insert(i);
-
-  object.print();
-  for(int i=0; i<=7; i++)
-    object.remove(i);
-
-  cout<<endl;
-  object.print();*/
+  Benchmark test;
+  SaveToFile saver;
+  test.addObs(&saver);
+  //BinaryTree<int> object;
+    RedBlackTree<int> object;
+  for(int i=1; i<=1000000; i*=10)
+  test.runBenchmarkSearchTree(&Trees<int>::search, object, i, 10, (char*)"dane2.dat");
+  //test.runBenchmarkFillTree(&Trees<int>::insert, object, i, 10, (char*)"dane.dat");
+ 
   return 0;
-
 }

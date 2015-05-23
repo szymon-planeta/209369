@@ -12,7 +12,7 @@ void Benchmark::notify(){
 
 void Benchmark::stop_Ctimer(){
   stop_timer();
-  total+=time;
+  total+=atime;
   counter++;
 }
 
@@ -35,3 +35,6 @@ void Benchmark::runBenchmarkSort(void (*f)(Iterable<type>&, int, int), Iterable<
   }
   calc_mean();
 }
+
+
+

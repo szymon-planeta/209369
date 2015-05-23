@@ -4,7 +4,8 @@
 #include <iostream>
 #include <cstdlib>
 #include "trees.hh"
-
+#include "tools.hh"
+#include <cmath>
 /*!
  * \file
  * \brief Definicja klasy drzewa binarnego
@@ -20,11 +21,11 @@ struct treenode{
    */
   type val;
   /*!
-   * \brief Wskaznik na lewy wezel
+   * \brief Wskaznik na lewe dziecko
    */
   treenode *left;
   /*!
-   * \brief Wskaznik na prawy
+   * \brief Wskaznik na prawe dziecko
    */
   treenode *right;
 
@@ -48,6 +49,10 @@ struct treenode{
 template <class type>
 class BinaryTree: public Trees<type>{
 private:
+  /*!
+   * \brief numberOfNodes - ilosc wezlow w drzewie
+   */
+  int numberOfNodes;
   /*!
    * \brief Root - korzen drzewa - wskaznik na pierwszy element drzewa
    */
@@ -79,12 +84,64 @@ private:
    *
    */
   treenode<type> * findMin(treenode<type> *node);
+
+  /*!
+   * \brief Metoda rotateLeft
+   *
+   * Metoda pomocnicza pomocna przy balansowaniu drzewa
+   */
+  bool rotateLeft(treenode<type> *node);
+  /*!
+   * \brief Metoda rotateRight
+   *
+   * Metoda pomocnicza pomocna przy balansowaniu drzewa
+   *
+   * \param[in] node 
+   */
+  bool rotateRight(treenode<type> *node);
+
+  /*!
+   * \brief Procedura balance
+   *
+   * Balansuje drzewo
+   *
+   * \param[in] root Korzen drzewa, ktore chcemy balansowac
+   */
+  void balance(treenode<type> *root);
+
+  /*!
+   * \brief Metoda deleteTree
+   *
+   * Usuwa drzewa zaczynajace sie w podanym wezle
+   *
+   * \param[in] node Korzen drzewa, ktore chcemy usunac
+   */
+  void deleteTree(treenode<type> *node);
+
+  /*!
+   * \brief Metoda prywatna height
+   * 
+   * Znajduje wysokosc poddrzewa rozpoczynajacego sie w zadanym korzeniu
+   *
+   * \param[in] node Korzen drzewa, ktorego wysokosc chcemy znalezc
+   *
+   * \return Wysokosc drzewa
+   */
+  int height(treenode<type> *node);
+  
 public:
   /*!
    * \brief Konstruktor bezparametryczny
    */
   BinaryTree(){
+    numberOfNodes = 0;
     root = NULL;
+  }
+  /*!
+   * \brief Destruktor
+   */
+  ~BinaryTree(){
+    deleteTree(root);
   }
   /*!
    * \brief Metoda insert
@@ -123,6 +180,20 @@ public:
    * Elementy wyswietlane sa w nastepujacej kolejności: korzen, lewe poddrzewo, prawe poddrzewo
    */
   void print();
+
+  /*!
+   * \brief Procedura height
+   *
+   * \return Zwraca wysokosc calego drzewa
+   */
+  int height();
+
+  /*!
+   * \brief Procedura clear
+   *
+   * Czysci drzewo, usuwa wszystkie jego wezly
+   */
+  void clear(){deleteTree(root); root=NULL; }
 };
 
 template <class type>
@@ -149,6 +220,9 @@ void BinaryTree<type>::insert(const type elem){
     insert(elem, root);
   else
     root = new treenode<type>(elem);
+  ++numberOfNodes;
+  if(height(root)>2*log2(numberOfNodes)) //USTAWIONO 2
+    balance(root);
 }
 
 template <class type>
@@ -246,5 +320,69 @@ treenode<type> * BinaryTree<type>::findMin(treenode<type> *node){
   while(ptr->left != NULL)
     ptr = ptr->left;
   return ptr;
+}
+
+template <class type>
+bool BinaryTree<type>::rotateLeft(treenode<type> *node){
+  treenode<type> *ptr; 
+  if(node==NULL || node->right==NULL)
+    return false;
+  ptr=node->right;
+  node->right=ptr->right;
+  ptr->right=ptr->left;
+  ptr->left=node->left;
+  node->left=ptr;
+ 
+  substitute(node->val, ptr->val);
+  return true;
+}
+template<class type>
+bool BinaryTree<type>::rotateRight(treenode<type> *node){
+  treenode<type> *ptr;
+  if(node==NULL || node->left==NULL)
+    return false;
+  ptr=node->left;
+  node->left=ptr->left;
+  ptr->left=ptr->right;
+  ptr->right=node->right;
+  node->right=ptr;
+ 
+  substitute(node->val, ptr->val);
+  return true;
+}
+
+template <class type>
+void BinaryTree<type>::balance(treenode<type> *root){
+  treenode<type> *ptr; 
+  int nodecount, i;
+  for(ptr=root, nodecount=0; ptr!=NULL; ptr=ptr->right, ++nodecount)
+    while(rotateRight(ptr)==true)
+      {}
+  for(i=nodecount/2; i>0; i/=2){
+    int j;
+    for(ptr=root, j=0; j<i; ++j, ptr=ptr->right)
+      rotateLeft(ptr);
+  }      
+}
+
+template <class type>
+void BinaryTree<type>::deleteTree(treenode<type> *node){
+  if(node){
+    deleteTree(node->left);
+    deleteTree(node->right);
+    delete node;
+  }
+}
+
+template <class type>
+int BinaryTree<type>::height(treenode<type> *node){
+  if(node==NULL) 
+    return 0;
+  return 1+max(height(node->left),height(node->right));
+}
+
+template <class type>
+int BinaryTree<type>::height(){
+  return height(root);
 }
 #endif
