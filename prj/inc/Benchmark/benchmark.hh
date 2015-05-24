@@ -127,13 +127,14 @@ void Benchmark::runBenchmarkSearchTree(bool (Trees<type>::*f)(type), Trees<type>
   type tmp;
   for(int j=1; j<=dataCount; j++){
     input >> tmp;
-    tree.insert(tmp);
+    tree.insert(j);
   }
   input.close();
   srand(time(NULL));
   for(int i=1; i<=repeats; i++){
     start_timer();
-    (tree.*f)(48830);
+    for(int j=1; j<=dataCount; j++)
+      (tree.*f)(48830);
     stop_Ctimer();
   }
   calc_mean();

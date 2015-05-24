@@ -12,8 +12,7 @@ Klasa \hyperlink{class_benchmark}{Benchmark}.
 
 
 
-Diagram dziedziczenia dla Benchmark
-\nopagebreak
+Diagram dziedziczenia dla Benchmark\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -22,8 +21,7 @@ Diagram dziedziczenia dla Benchmark
 \end{figure}
 
 
-Diagram współpracy dla Benchmark\-:
-\nopagebreak
+Diagram współpracy dla Benchmark\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -42,7 +40,11 @@ void \hyperlink{class_benchmark_ab65889d4c2df3eb503048ab1cc6e7413}{stop\-\_\-\-C
 void \hyperlink{class_benchmark_ac4d5360d2850510913efe07cf957f4c1}{calc\-\_\-mean} ()
 \begin{DoxyCompactList}\small\item\em Oblicza srednia. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename type $>$ }\\void \hyperlink{class_benchmark_ad5d8a563d9b9163758ae04d064cc38cb}{run\-Benchmark\-Sort} (void($\ast$f)(\hyperlink{class_iterable}{Iterable}$<$ type $>$ \&, int, int), \hyperlink{class_iterable}{Iterable}$<$ type $>$ \&container, int data\-Count, int repeats)
-\begin{DoxyCompactList}\small\item\em Wykonuje zadana ilosc testow zadanej funkcji sortujacej na zadanym obiekcie dla zadanej ilosc danych. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Wykonuje zadana ilosc testow zadanej funkcji sortujacej na zadanym obiekcie dla zadanej ilosc danych. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename type $>$ }\\void \hyperlink{class_benchmark_ac0795fc9eae36d523dde2fe06ea10fc0}{run\-Benchmark\-Fill\-Tree} (void(\hyperlink{class_trees}{Trees}$<$ type $>$\-::$\ast$f)(type), \hyperlink{class_trees}{Trees}$<$ type $>$ \&tree, int data\-Count, int repeats, char $\ast$data\-File)
+\begin{DoxyCompactList}\small\item\em Wykonuje zadana ilosc testow zadanej funkcji na zadanym obiekcie dla zadanej ilosc danych. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename type $>$ }\\void \hyperlink{class_benchmark_a9e6b5ef8df351452be5fa0c8d127367a}{run\-Benchmark\-Search\-Tree} (bool(\hyperlink{class_trees}{Trees}$<$ type $>$\-::$\ast$f)(type), \hyperlink{class_trees}{Trees}$<$ type $>$ \&tree, int data\-Count, int repeats, char $\ast$data\-File)
+\begin{DoxyCompactList}\small\item\em Wykonuje zadana ilosc testow zadanej funkcji na zadanym obiekcie dla zadanej ilosc danych. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Atrybuty prywatne}
 \begin{DoxyCompactItemize}
 \item 
@@ -60,7 +62,7 @@ int \hyperlink{class_benchmark_a1d0eaa6febe9b7a7f5f5147e83f60910}{amount}
 \subsection{Opis szczegółowy}
 Jest to klasa służąca do testowania programów. 
 
-Definicja w linii \hyperlink{benchmark_8hh_source_l00017}{17} pliku \hyperlink{benchmark_8hh_source}{benchmark.\-hh}.
+Definicja w linii \hyperlink{benchmark_8hh_source_l00020}{20} pliku \hyperlink{benchmark_8hh_source}{benchmark.\-hh}.
 
 
 
@@ -74,7 +76,7 @@ Definicja w linii \hyperlink{benchmark_8hh_source_l00017}{17} pliku \hyperlink{b
 )\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_benchmark_acfca497989836a688d44477802e822d8}
 
 
-Definicja w linii \hyperlink{benchmark_8hh_source_l00035}{35} pliku \hyperlink{benchmark_8hh_source}{benchmark.\-hh}.
+Definicja w linii \hyperlink{benchmark_8hh_source_l00038}{38} pliku \hyperlink{benchmark_8hh_source}{benchmark.\-hh}.
 
 
 
@@ -92,8 +94,7 @@ Definicja w linii \hyperlink{benchmark_8cpp_source_l00019}{19} pliku \hyperlink{
 
 
 
-Oto graf wywołań dla tej funkcji\-:
-\nopagebreak
+Oto graf wywołań dla tej funkcji\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -131,8 +132,7 @@ Definicja w linii \hyperlink{benchmark_8cpp_source_l00008}{8} pliku \hyperlink{b
 
 
 
-Oto graf wywołań dla tej funkcji\-:
-\nopagebreak
+Oto graf wywołań dla tej funkcji\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -149,6 +149,94 @@ Oto graf wywoływań tej funkcji\-:
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{class_benchmark_a408a44a1d64e45b647ef6dbba2f2c3d3_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_benchmark_ac0795fc9eae36d523dde2fe06ea10fc0}{\index{Benchmark@{Benchmark}!run\-Benchmark\-Fill\-Tree@{run\-Benchmark\-Fill\-Tree}}
+\index{run\-Benchmark\-Fill\-Tree@{run\-Benchmark\-Fill\-Tree}!Benchmark@{Benchmark}}
+\subsubsection[{run\-Benchmark\-Fill\-Tree}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type $>$ void Benchmark\-::run\-Benchmark\-Fill\-Tree (
+\begin{DoxyParamCaption}
+\item[{void({\bf Trees}$<$ type $>$\-::$\ast$)(type)}]{f, }
+\item[{{\bf Trees}$<$ type $>$ \&}]{tree, }
+\item[{int}]{data\-Count, }
+\item[{int}]{repeats, }
+\item[{char $\ast$}]{data\-File}
+\end{DoxyParamCaption}
+)}}\label{class_benchmark_ac0795fc9eae36d523dde2fe06ea10fc0}
+
+\begin{DoxyParams}[1]{Parametry}
+\mbox{\tt in}  & {\em $\ast$f} & Zadawana funkcja wypelniajaca \\
+\hline
+\mbox{\tt in}  & {\em container} & Drzewo, ktore chcemy testowac \\
+\hline
+\mbox{\tt in}  & {\em data\-Count} & Ilosc danych \\
+\hline
+\mbox{\tt in}  & {\em repeats} & Ilosc testow \\
+\hline
+\end{DoxyParams}
+
+
+Definicja w linii \hyperlink{benchmark_8hh_source_l00098}{98} pliku \hyperlink{benchmark_8hh_source}{benchmark.\-hh}.
+
+
+
+Oto graf wywołań dla tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_benchmark_ac0795fc9eae36d523dde2fe06ea10fc0_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Oto graf wywoływań tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=322pt]{class_benchmark_ac0795fc9eae36d523dde2fe06ea10fc0_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_benchmark_a9e6b5ef8df351452be5fa0c8d127367a}{\index{Benchmark@{Benchmark}!run\-Benchmark\-Search\-Tree@{run\-Benchmark\-Search\-Tree}}
+\index{run\-Benchmark\-Search\-Tree@{run\-Benchmark\-Search\-Tree}!Benchmark@{Benchmark}}
+\subsubsection[{run\-Benchmark\-Search\-Tree}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type $>$ void Benchmark\-::run\-Benchmark\-Search\-Tree (
+\begin{DoxyParamCaption}
+\item[{bool({\bf Trees}$<$ type $>$\-::$\ast$)(type)}]{f, }
+\item[{{\bf Trees}$<$ type $>$ \&}]{tree, }
+\item[{int}]{data\-Count, }
+\item[{int}]{repeats, }
+\item[{char $\ast$}]{data\-File}
+\end{DoxyParamCaption}
+)}}\label{class_benchmark_a9e6b5ef8df351452be5fa0c8d127367a}
+
+\begin{DoxyParams}[1]{Parametry}
+\mbox{\tt in}  & {\em $\ast$f} & Zadawana funkcja szukajaca \\
+\hline
+\mbox{\tt in}  & {\em container} & Drzewo, ktore chcemy testowac \\
+\hline
+\mbox{\tt in}  & {\em data\-Count} & Ilosc danych \\
+\hline
+\mbox{\tt in}  & {\em repeats} & Ilosc testow \\
+\hline
+\end{DoxyParams}
+
+
+Definicja w linii \hyperlink{benchmark_8hh_source_l00120}{120} pliku \hyperlink{benchmark_8hh_source}{benchmark.\-hh}.
+
+
+
+Oto graf wywołań dla tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_benchmark_a9e6b5ef8df351452be5fa0c8d127367a_cgraph}
 \end{center}
 \end{figure}
 
@@ -176,12 +264,11 @@ Oto graf wywoływań tej funkcji\-:
 \end{DoxyParams}
 
 
-Definicja w linii \hyperlink{benchmark_8hh_source_l00074}{74} pliku \hyperlink{benchmark_8hh_source}{benchmark.\-hh}.
+Definicja w linii \hyperlink{benchmark_8cpp_source_l00026}{26} pliku \hyperlink{benchmark_8cpp_source}{benchmark.\-cpp}.
 
 
 
-Oto graf wywołań dla tej funkcji\-:
-\nopagebreak
+Oto graf wywołań dla tej funkcji\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -203,8 +290,7 @@ Definicja w linii \hyperlink{benchmark_8cpp_source_l00013}{13} pliku \hyperlink{
 
 
 
-Oto graf wywołań dla tej funkcji\-:
-\nopagebreak
+Oto graf wywołań dla tej funkcji\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -233,28 +319,28 @@ Oto graf wywoływań tej funkcji\-:
 \subsubsection[{amount}]{\setlength{\rightskip}{0pt plus 5cm}int Benchmark\-::amount\hspace{0.3cm}{\ttfamily [private]}}}\label{class_benchmark_a1d0eaa6febe9b7a7f5f5147e83f60910}
 
 
-Definicja w linii \hyperlink{benchmark_8hh_source_l00033}{33} pliku \hyperlink{benchmark_8hh_source}{benchmark.\-hh}.
+Definicja w linii \hyperlink{benchmark_8hh_source_l00036}{36} pliku \hyperlink{benchmark_8hh_source}{benchmark.\-hh}.
 
 \hypertarget{class_benchmark_a3a56c7dad0b21e490f3024d5d0027f31}{\index{Benchmark@{Benchmark}!counter@{counter}}
 \index{counter@{counter}!Benchmark@{Benchmark}}
 \subsubsection[{counter}]{\setlength{\rightskip}{0pt plus 5cm}int Benchmark\-::counter\hspace{0.3cm}{\ttfamily [private]}}}\label{class_benchmark_a3a56c7dad0b21e490f3024d5d0027f31}
 
 
-Definicja w linii \hyperlink{benchmark_8hh_source_l00029}{29} pliku \hyperlink{benchmark_8hh_source}{benchmark.\-hh}.
+Definicja w linii \hyperlink{benchmark_8hh_source_l00032}{32} pliku \hyperlink{benchmark_8hh_source}{benchmark.\-hh}.
 
 \hypertarget{class_benchmark_aa88092b6164ad7d1243162d3012f729a}{\index{Benchmark@{Benchmark}!mean@{mean}}
 \index{mean@{mean}!Benchmark@{Benchmark}}
 \subsubsection[{mean}]{\setlength{\rightskip}{0pt plus 5cm}double Benchmark\-::mean\hspace{0.3cm}{\ttfamily [private]}}}\label{class_benchmark_aa88092b6164ad7d1243162d3012f729a}
 
 
-Definicja w linii \hyperlink{benchmark_8hh_source_l00025}{25} pliku \hyperlink{benchmark_8hh_source}{benchmark.\-hh}.
+Definicja w linii \hyperlink{benchmark_8hh_source_l00028}{28} pliku \hyperlink{benchmark_8hh_source}{benchmark.\-hh}.
 
 \hypertarget{class_benchmark_a7130c0718e3a3ab2fea70285dab122a2}{\index{Benchmark@{Benchmark}!total@{total}}
 \index{total@{total}!Benchmark@{Benchmark}}
 \subsubsection[{total}]{\setlength{\rightskip}{0pt plus 5cm}double Benchmark\-::total\hspace{0.3cm}{\ttfamily [private]}}}\label{class_benchmark_a7130c0718e3a3ab2fea70285dab122a2}
 
 
-Definicja w linii \hyperlink{benchmark_8hh_source_l00021}{21} pliku \hyperlink{benchmark_8hh_source}{benchmark.\-hh}.
+Definicja w linii \hyperlink{benchmark_8hh_source_l00024}{24} pliku \hyperlink{benchmark_8hh_source}{benchmark.\-hh}.
 
 
 

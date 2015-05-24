@@ -15,7 +15,6 @@ public:
   virtual void insert(const type elem)=0;
   virtual bool remove(const type elem)=0;
   virtual bool search(const type elem)=0;
-  virtual void print()=0;
   virtual void clear()=0;
 };
 

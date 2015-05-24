@@ -2,8 +2,13 @@
 
   \item {$\sim $\discretionary {-}{}{}Assoc\discretionary {-}{}{}Tab}
     \subitem {Assoc\discretionary {-}{}{}Tab}, \hyperpage{12}
+  \item {$\sim $\discretionary {-}{}{}Binary\discretionary {-}{}{}Tree}
+    \subitem {Binary\discretionary {-}{}{}Tree}, \hyperpage{22}
   \item {$\sim $\discretionary {-}{}{}List\discretionary {-}{}{}Array}
-    \subitem {List\discretionary {-}{}{}Array}, \hyperpage{22}
+    \subitem {List\discretionary {-}{}{}Array}, \hyperpage{32}
+  \item {$\sim $\discretionary {-}{}{}Red\discretionary {-}{}{}Black\discretionary {-}{}{}Tree}
+    \subitem {Red\discretionary {-}{}{}Black\discretionary {-}{}{}Tree}, 
+		\hyperpage{42}
 
   \indexspace
 
@@ -13,15 +18,15 @@
     \subitem {size}, \hyperpage{8}
   \item {A\discretionary {-}{}{}B\discretionary {-}{}{}Data$<$ type $>$}, 
 		\hyperpage{7}
-  \item {abdata.\discretionary {-}{}{}hh}, \hyperpage{39, 40}
-  \item {abdatatools.\discretionary {-}{}{}hh}, \hyperpage{40, 41}
-    \subitem {clear}, \hyperpage{41}
+  \item {abdata.\discretionary {-}{}{}hh}, \hyperpage{57}
+  \item {abdatatools.\discretionary {-}{}{}hh}, \hyperpage{58, 59}
+    \subitem {clear}, \hyperpage{59}
     \subitem {fill\discretionary {-}{}{}From\discretionary {-}{}{}File}, 
-		\hyperpage{41}
+		\hyperpage{59}
   \item {add\discretionary {-}{}{}Obs}
-    \subitem {Subject}, \hyperpage{34}
+    \subitem {Subject}, \hyperpage{51}
   \item {amount}
-    \subitem {Benchmark}, \hyperpage{17}
+    \subitem {Benchmark}, \hyperpage{19}
   \item {Assoc\discretionary {-}{}{}Data}
     \subitem {Assoc\discretionary {-}{}{}Data}, \hyperpage{9}
     \subitem {Assoc\discretionary {-}{}{}Data}, \hyperpage{9}
@@ -42,86 +47,154 @@
     \subitem {tab}, \hyperpage{13}
   \item {Assoc\discretionary {-}{}{}Tab$<$ type\discretionary {-}{}{}Key, type $>$}, 
 		\hyperpage{9}
-  \item {assoctab.\discretionary {-}{}{}hh}, \hyperpage{42, 43}
+  \item {assoctab.\discretionary {-}{}{}hh}, \hyperpage{60, 61}
     \subitem {H\discretionary {-}{}{}A\discretionary {-}{}{}S\discretionary {-}{}{}H}, 
-		\hyperpage{43}
+		\hyperpage{61}
     \subitem {T\discretionary {-}{}{}A\discretionary {-}{}{}B}, 
-		\hyperpage{43}
+		\hyperpage{61}
+  \item {atime}
+    \subitem {Timer}, \hyperpage{53}
 
   \indexspace
 
-  \item {Benchmark}, \hyperpage{14}
-    \subitem {amount}, \hyperpage{17}
+  \item {balance}
+    \subitem {Binary\discretionary {-}{}{}Tree}, \hyperpage{22}
+  \item {Benchmark}, \hyperpage{13}
+    \subitem {amount}, \hyperpage{19}
     \subitem {Benchmark}, \hyperpage{15}
     \subitem {calc\discretionary {-}{}{}\_\discretionary {-}{}{}mean}, 
 		\hyperpage{15}
-    \subitem {counter}, \hyperpage{17}
-    \subitem {mean}, \hyperpage{17}
+    \subitem {counter}, \hyperpage{20}
+    \subitem {mean}, \hyperpage{20}
     \subitem {notify}, \hyperpage{16}
-    \subitem {run\discretionary {-}{}{}Benchmark\discretionary {-}{}{}Sort}, 
+    \subitem {run\discretionary {-}{}{}Benchmark\discretionary {-}{}{}Fill\discretionary {-}{}{}Tree}, 
 		\hyperpage{16}
-    \subitem {stop\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Ctimer}, 
+    \subitem {run\discretionary {-}{}{}Benchmark\discretionary {-}{}{}Search\discretionary {-}{}{}Tree}, 
 		\hyperpage{17}
-    \subitem {total}, \hyperpage{18}
-  \item {benchmark.\discretionary {-}{}{}cpp}, \hyperpage{44, 45}
-  \item {benchmark.\discretionary {-}{}{}hh}, \hyperpage{45, 46}
+    \subitem {run\discretionary {-}{}{}Benchmark\discretionary {-}{}{}Sort}, 
+		\hyperpage{17}
+    \subitem {stop\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Ctimer}, 
+		\hyperpage{19}
+    \subitem {total}, \hyperpage{20}
+  \item {benchmark.\discretionary {-}{}{}cpp}, \hyperpage{62, 63}
+  \item {benchmark.\discretionary {-}{}{}hh}, \hyperpage{63, 64}
+  \item {Binary\discretionary {-}{}{}Tree}
+    \subitem {$\sim $\discretionary {-}{}{}Binary\discretionary {-}{}{}Tree}, 
+		\hyperpage{22}
+    \subitem {balance}, \hyperpage{22}
+    \subitem {Binary\discretionary {-}{}{}Tree}, \hyperpage{22}
+    \subitem {Binary\discretionary {-}{}{}Tree}, \hyperpage{22}
+    \subitem {clear}, \hyperpage{22}
+    \subitem {delete\discretionary {-}{}{}Tree}, \hyperpage{23}
+    \subitem {find\discretionary {-}{}{}Min}, \hyperpage{23}
+    \subitem {height}, \hyperpage{23, 24}
+    \subitem {insert}, \hyperpage{24}
+    \subitem {number\discretionary {-}{}{}Of\discretionary {-}{}{}Nodes}, 
+		\hyperpage{27}
+    \subitem {print}, \hyperpage{24}
+    \subitem {remove}, \hyperpage{24}
+    \subitem {root}, \hyperpage{27}
+    \subitem {rotate\discretionary {-}{}{}Left}, \hyperpage{26}
+    \subitem {rotate\discretionary {-}{}{}Right}, \hyperpage{26}
+    \subitem {search}, \hyperpage{26}
+  \item {Binary\discretionary {-}{}{}Tree$<$ type $>$}, \hyperpage{20}
+  \item {binarytree.\discretionary {-}{}{}hh}, \hyperpage{65, 66}
 
   \indexspace
 
   \item {calc\discretionary {-}{}{}\_\discretionary {-}{}{}mean}
     \subitem {Benchmark}, \hyperpage{15}
   \item {clear}
-    \subitem {abdatatools.\discretionary {-}{}{}hh}, \hyperpage{41}
+    \subitem {abdatatools.\discretionary {-}{}{}hh}, \hyperpage{59}
+    \subitem {Binary\discretionary {-}{}{}Tree}, \hyperpage{22}
+    \subitem {Red\discretionary {-}{}{}Black\discretionary {-}{}{}Tree}, 
+		\hyperpage{42}
+    \subitem {Trees}, \hyperpage{55}
+  \item {color}
+    \subitem {rbtreenode}, \hyperpage{40}
+  \item {correct}
+    \subitem {Red\discretionary {-}{}{}Black\discretionary {-}{}{}Tree}, 
+		\hyperpage{43}
+  \item {correct\discretionary {-}{}{}Left}
+    \subitem {Red\discretionary {-}{}{}Black\discretionary {-}{}{}Tree}, 
+		\hyperpage{43}
+  \item {correct\discretionary {-}{}{}Right}
+    \subitem {Red\discretionary {-}{}{}Black\discretionary {-}{}{}Tree}, 
+		\hyperpage{43}
   \item {counter}
     \subitem {Assoc\discretionary {-}{}{}Tab}, \hyperpage{13}
-    \subitem {Benchmark}, \hyperpage{17}
-    \subitem {List\discretionary {-}{}{}Array}, \hyperpage{23}
+    \subitem {Benchmark}, \hyperpage{20}
+    \subitem {List\discretionary {-}{}{}Array}, \hyperpage{33}
+  \item {create\discretionary {-}{}{}Bindings}
+    \subitem {Red\discretionary {-}{}{}Black\discretionary {-}{}{}Tree}, 
+		\hyperpage{43}
 
   \indexspace
 
+  \item {delete\discretionary {-}{}{}Tree}
+    \subitem {Binary\discretionary {-}{}{}Tree}, \hyperpage{23}
+    \subitem {Red\discretionary {-}{}{}Black\discretionary {-}{}{}Tree}, 
+		\hyperpage{43}
   \item {display}
-    \subitem {iterable.\discretionary {-}{}{}hh}, \hyperpage{48}
-    \subitem {Queue}, \hyperpage{27}
-    \subitem {Stack}, \hyperpage{32}
+    \subitem {iterable.\discretionary {-}{}{}hh}, \hyperpage{70}
+    \subitem {Queue}, \hyperpage{37}
+    \subitem {Stack}, \hyperpage{48}
 
   \indexspace
 
   \item {end}
-    \subitem {Timer}, \hyperpage{36}
+    \subitem {Timer}, \hyperpage{53}
 
   \indexspace
 
   \item {fill\discretionary {-}{}{}From\discretionary {-}{}{}File}
-    \subitem {abdatatools.\discretionary {-}{}{}hh}, \hyperpage{41}
+    \subitem {abdatatools.\discretionary {-}{}{}hh}, \hyperpage{59}
+  \item {find\discretionary {-}{}{}Min}
+    \subitem {Binary\discretionary {-}{}{}Tree}, \hyperpage{23}
+    \subitem {Red\discretionary {-}{}{}Black\discretionary {-}{}{}Tree}, 
+		\hyperpage{44}
+  \item {find\discretionary {-}{}{}Suitable\discretionary {-}{}{}Parent}
+    \subitem {Red\discretionary {-}{}{}Black\discretionary {-}{}{}Tree}, 
+		\hyperpage{44}
 
   \indexspace
 
   \item {get\discretionary {-}{}{}Time}
-    \subitem {Timer}, \hyperpage{36}
+    \subitem {Timer}, \hyperpage{52}
 
   \indexspace
 
   \item {H\discretionary {-}{}{}A\discretionary {-}{}{}S\discretionary {-}{}{}H}
-    \subitem {assoctab.\discretionary {-}{}{}hh}, \hyperpage{43}
+    \subitem {assoctab.\discretionary {-}{}{}hh}, \hyperpage{61}
   \item {hash}
     \subitem {Assoc\discretionary {-}{}{}Tab}, \hyperpage{12}
   \item {head}
-    \subitem {List}, \hyperpage{21}
-    \subitem {Queue}, \hyperpage{29}
-    \subitem {Stack}, \hyperpage{33}
+    \subitem {List}, \hyperpage{30}
+    \subitem {Queue}, \hyperpage{37}
+    \subitem {Stack}, \hyperpage{49}
+  \item {height}
+    \subitem {Binary\discretionary {-}{}{}Tree}, \hyperpage{23, 24}
 
   \indexspace
 
+  \item {init}
+    \subitem {Red\discretionary {-}{}{}Black\discretionary {-}{}{}Tree}, 
+		\hyperpage{44}
+  \item {insert}
+    \subitem {Binary\discretionary {-}{}{}Tree}, \hyperpage{24}
+    \subitem {Red\discretionary {-}{}{}Black\discretionary {-}{}{}Tree}, 
+		\hyperpage{44}
+    \subitem {Trees}, \hyperpage{56}
   \item {insertsort}
-    \subitem {sorts.\discretionary {-}{}{}hh}, \hyperpage{60}
-  \item {Iterable$<$ type $>$}, \hyperpage{18}
-  \item {iterable.\discretionary {-}{}{}hh}, \hyperpage{47, 48}
-    \subitem {display}, \hyperpage{48}
+    \subitem {sorts.\discretionary {-}{}{}hh}, \hyperpage{88}
+  \item {Iterable$<$ type $>$}, \hyperpage{27}
+  \item {iterable.\discretionary {-}{}{}hh}, \hyperpage{69, 70}
+    \subitem {display}, \hyperpage{70}
   \item {iterator}
-    \subitem {List}, \hyperpage{21}
-    \subitem {List\discretionary {-}{}{}Array}, \hyperpage{23}
-    \subitem {Queue}, \hyperpage{29}
-    \subitem {Stack}, \hyperpage{33}
+    \subitem {List}, \hyperpage{30}
+    \subitem {List\discretionary {-}{}{}Array}, \hyperpage{33}
+    \subitem {Queue}, \hyperpage{37}
+    \subitem {Stack}, \hyperpage{49}
 
   \indexspace
 
@@ -130,180 +203,281 @@
 
   \indexspace
 
+  \item {left}
+    \subitem {rbtreenode}, \hyperpage{40}
+    \subitem {treenode}, \hyperpage{54}
   \item {List}
-    \subitem {head}, \hyperpage{21}
-    \subitem {iterator}, \hyperpage{21}
-    \subitem {List}, \hyperpage{20}
-    \subitem {pop}, \hyperpage{20}
-    \subitem {push}, \hyperpage{20}
-    \subitem {size}, \hyperpage{21}
-  \item {List$<$ type $>$}, \hyperpage{19}
-  \item {list.\discretionary {-}{}{}hh}, \hyperpage{48, 49}
+    \subitem {head}, \hyperpage{30}
+    \subitem {iterator}, \hyperpage{30}
+    \subitem {List}, \hyperpage{29}
+    \subitem {pop}, \hyperpage{29}
+    \subitem {push}, \hyperpage{30}
+    \subitem {size}, \hyperpage{30}
+  \item {List$<$ type $>$}, \hyperpage{28}
+  \item {list.\discretionary {-}{}{}hh}, \hyperpage{71, 72}
   \item {List\discretionary {-}{}{}Array}
     \subitem {$\sim $\discretionary {-}{}{}List\discretionary {-}{}{}Array}, 
-		\hyperpage{22}
-    \subitem {counter}, \hyperpage{23}
-    \subitem {iterator}, \hyperpage{23}
-    \subitem {List\discretionary {-}{}{}Array}, \hyperpage{22}
-    \subitem {List\discretionary {-}{}{}Array}, \hyperpage{22}
-    \subitem {pop}, \hyperpage{23}
-    \subitem {push}, \hyperpage{23}
-    \subitem {size}, \hyperpage{23}
-    \subitem {tab}, \hyperpage{24}
-  \item {List\discretionary {-}{}{}Array$<$ type $>$}, \hyperpage{21}
-  \item {listarray.\discretionary {-}{}{}hh}, \hyperpage{50, 51}
+		\hyperpage{32}
+    \subitem {counter}, \hyperpage{33}
+    \subitem {iterator}, \hyperpage{33}
+    \subitem {List\discretionary {-}{}{}Array}, \hyperpage{32}
+    \subitem {List\discretionary {-}{}{}Array}, \hyperpage{32}
+    \subitem {pop}, \hyperpage{32}
+    \subitem {push}, \hyperpage{32}
+    \subitem {size}, \hyperpage{33}
+    \subitem {tab}, \hyperpage{33}
+  \item {List\discretionary {-}{}{}Array$<$ type $>$}, \hyperpage{30}
+  \item {listarray.\discretionary {-}{}{}hh}, \hyperpage{73, 74}
 
   \indexspace
 
   \item {main}
-    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{53}
-  \item {main.\discretionary {-}{}{}cpp}, \hyperpage{52, 53}
-    \subitem {main}, \hyperpage{53}
+    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{75}
+  \item {main.\discretionary {-}{}{}cpp}, \hyperpage{75, 76}
+    \subitem {main}, \hyperpage{75}
   \item {mean}
-    \subitem {Benchmark}, \hyperpage{17}
+    \subitem {Benchmark}, \hyperpage{20}
 
   \indexspace
 
   \item {next}
-    \subitem {node}, \hyperpage{25}
+    \subitem {node}, \hyperpage{34}
   \item {node}
-    \subitem {next}, \hyperpage{25}
-    \subitem {node}, \hyperpage{25}
-    \subitem {val}, \hyperpage{25}
-  \item {node$<$ type $>$}, \hyperpage{24}
-  \item {node.\discretionary {-}{}{}hh}, \hyperpage{54, 55}
+    \subitem {next}, \hyperpage{34}
+    \subitem {node}, \hyperpage{34}
+    \subitem {val}, \hyperpage{34}
+  \item {node$<$ type $>$}, \hyperpage{33}
+  \item {node.\discretionary {-}{}{}hh}, \hyperpage{76, 77}
   \item {notify}
     \subitem {Benchmark}, \hyperpage{16}
-    \subitem {Subject}, \hyperpage{34}
+    \subitem {Subject}, \hyperpage{51}
+  \item {number\discretionary {-}{}{}Of\discretionary {-}{}{}Nodes}
+    \subitem {Binary\discretionary {-}{}{}Tree}, \hyperpage{27}
 
   \indexspace
 
-  \item {Observer}, \hyperpage{25}
-    \subitem {update}, \hyperpage{26}
-  \item {observer.\discretionary {-}{}{}hh}, \hyperpage{55, 56}
+  \item {Observer}, \hyperpage{34}
+    \subitem {update}, \hyperpage{35}
+  \item {observer.\discretionary {-}{}{}hh}, \hyperpage{78, 79}
   \item {obss}
-    \subitem {Subject}, \hyperpage{35}
+    \subitem {Subject}, \hyperpage{51}
 
   \indexspace
 
+  \item {parent}
+    \subitem {rbtreenode}, \hyperpage{40}
   \item {pop}
     \subitem {A\discretionary {-}{}{}B\discretionary {-}{}{}Data}, 
 		\hyperpage{7}
     \subitem {Assoc\discretionary {-}{}{}Tab}, \hyperpage{12}
-    \subitem {List}, \hyperpage{20}
-    \subitem {List\discretionary {-}{}{}Array}, \hyperpage{23}
-    \subitem {Queue}, \hyperpage{27}
-    \subitem {Stack}, \hyperpage{32}
+    \subitem {List}, \hyperpage{29}
+    \subitem {List\discretionary {-}{}{}Array}, \hyperpage{32}
+    \subitem {Queue}, \hyperpage{37}
+    \subitem {Stack}, \hyperpage{48}
+  \item {print}
+    \subitem {Binary\discretionary {-}{}{}Tree}, \hyperpage{24}
+    \subitem {Red\discretionary {-}{}{}Black\discretionary {-}{}{}Tree}, 
+		\hyperpage{44}
   \item {push}
     \subitem {A\discretionary {-}{}{}B\discretionary {-}{}{}Data}, 
 		\hyperpage{8}
     \subitem {Assoc\discretionary {-}{}{}Tab}, \hyperpage{13}
-    \subitem {List}, \hyperpage{20}
-    \subitem {List\discretionary {-}{}{}Array}, \hyperpage{23}
-    \subitem {Queue}, \hyperpage{27}
-    \subitem {Stack}, \hyperpage{32}
+    \subitem {List}, \hyperpage{30}
+    \subitem {List\discretionary {-}{}{}Array}, \hyperpage{32}
+    \subitem {Queue}, \hyperpage{37}
+    \subitem {Stack}, \hyperpage{49}
 
   \indexspace
 
   \item {Queue}
-    \subitem {display}, \hyperpage{27}
-    \subitem {head}, \hyperpage{29}
-    \subitem {iterator}, \hyperpage{29}
-    \subitem {pop}, \hyperpage{27}
-    \subitem {push}, \hyperpage{27}
-    \subitem {Queue}, \hyperpage{27}
-    \subitem {size}, \hyperpage{29}
-  \item {Queue$<$ type $>$}, \hyperpage{26}
-  \item {queue.\discretionary {-}{}{}hh}, \hyperpage{57}
+    \subitem {display}, \hyperpage{37}
+    \subitem {head}, \hyperpage{37}
+    \subitem {iterator}, \hyperpage{37}
+    \subitem {pop}, \hyperpage{37}
+    \subitem {push}, \hyperpage{37}
+    \subitem {Queue}, \hyperpage{36}
+    \subitem {size}, \hyperpage{37}
+  \item {Queue$<$ type $>$}, \hyperpage{35}
+  \item {queue.\discretionary {-}{}{}hh}, \hyperpage{79, 80}
   \item {quicksort}
-    \subitem {sorts.\discretionary {-}{}{}hh}, \hyperpage{60}
+    \subitem {sorts.\discretionary {-}{}{}hh}, \hyperpage{88}
 
   \indexspace
 
-  \item {run\discretionary {-}{}{}Benchmark\discretionary {-}{}{}Sort}
+  \item {R\discretionary {-}{}{}E\discretionary {-}{}{}B\discretionary {-}{}{}B\discretionary {-}{}{}L\discretionary {-}{}{}A\discretionary {-}{}{}C\discretionary {-}{}{}K\discretionary {-}{}{}T\discretionary {-}{}{}R\discretionary {-}{}{}E\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}H\discretionary {-}{}{}H}
+    \subitem {redblacktree.\discretionary {-}{}{}hh}, \hyperpage{82}
+  \item {rbtreenode}
+    \subitem {color}, \hyperpage{40}
+    \subitem {left}, \hyperpage{40}
+    \subitem {parent}, \hyperpage{40}
+    \subitem {rbtreenode}, \hyperpage{39}
+    \subitem {right}, \hyperpage{40}
+    \subitem {val}, \hyperpage{40}
+  \item {rbtreenode$<$ type $>$}, \hyperpage{38}
+  \item {Red\discretionary {-}{}{}Black\discretionary {-}{}{}Tree}
+    \subitem {$\sim $\discretionary {-}{}{}Red\discretionary {-}{}{}Black\discretionary {-}{}{}Tree}, 
+		\hyperpage{42}
+    \subitem {clear}, \hyperpage{42}
+    \subitem {correct}, \hyperpage{43}
+    \subitem {correct\discretionary {-}{}{}Left}, \hyperpage{43}
+    \subitem {correct\discretionary {-}{}{}Right}, \hyperpage{43}
+    \subitem {create\discretionary {-}{}{}Bindings}, \hyperpage{43}
+    \subitem {delete\discretionary {-}{}{}Tree}, \hyperpage{43}
+    \subitem {find\discretionary {-}{}{}Min}, \hyperpage{44}
+    \subitem {find\discretionary {-}{}{}Suitable\discretionary {-}{}{}Parent}, 
+		\hyperpage{44}
+    \subitem {init}, \hyperpage{44}
+    \subitem {insert}, \hyperpage{44}
+    \subitem {print}, \hyperpage{44}
+    \subitem {Red\discretionary {-}{}{}Black\discretionary {-}{}{}Tree}, 
+		\hyperpage{42}
+    \subitem {Red\discretionary {-}{}{}Black\discretionary {-}{}{}Tree}, 
+		\hyperpage{42}
+    \subitem {remove}, \hyperpage{45}
+    \subitem {root}, \hyperpage{45}
+    \subitem {rotate\discretionary {-}{}{}Left}, \hyperpage{45}
+    \subitem {rotate\discretionary {-}{}{}Right}, \hyperpage{45}
+    \subitem {search}, \hyperpage{45}
+    \subitem {sentinel}, \hyperpage{46}
+    \subitem {set\discretionary {-}{}{}New\discretionary {-}{}{}Root}, 
+		\hyperpage{45}
+  \item {Red\discretionary {-}{}{}Black\discretionary {-}{}{}Tree$<$ type $>$}, 
+		\hyperpage{40}
+  \item {redblacktree.\discretionary {-}{}{}hh}, \hyperpage{81, 82}
+    \subitem {R\discretionary {-}{}{}E\discretionary {-}{}{}B\discretionary {-}{}{}B\discretionary {-}{}{}L\discretionary {-}{}{}A\discretionary {-}{}{}C\discretionary {-}{}{}K\discretionary {-}{}{}T\discretionary {-}{}{}R\discretionary {-}{}{}E\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}H\discretionary {-}{}{}H}, 
+		\hyperpage{82}
+  \item {remove}
+    \subitem {Binary\discretionary {-}{}{}Tree}, \hyperpage{24}
+    \subitem {Red\discretionary {-}{}{}Black\discretionary {-}{}{}Tree}, 
+		\hyperpage{45}
+    \subitem {Trees}, \hyperpage{56}
+  \item {right}
+    \subitem {rbtreenode}, \hyperpage{40}
+    \subitem {treenode}, \hyperpage{54}
+  \item {root}
+    \subitem {Binary\discretionary {-}{}{}Tree}, \hyperpage{27}
+    \subitem {Red\discretionary {-}{}{}Black\discretionary {-}{}{}Tree}, 
+		\hyperpage{45}
+  \item {rotate\discretionary {-}{}{}Left}
+    \subitem {Binary\discretionary {-}{}{}Tree}, \hyperpage{26}
+    \subitem {Red\discretionary {-}{}{}Black\discretionary {-}{}{}Tree}, 
+		\hyperpage{45}
+  \item {rotate\discretionary {-}{}{}Right}
+    \subitem {Binary\discretionary {-}{}{}Tree}, \hyperpage{26}
+    \subitem {Red\discretionary {-}{}{}Black\discretionary {-}{}{}Tree}, 
+		\hyperpage{45}
+  \item {run\discretionary {-}{}{}Benchmark\discretionary {-}{}{}Fill\discretionary {-}{}{}Tree}
     \subitem {Benchmark}, \hyperpage{16}
+  \item {run\discretionary {-}{}{}Benchmark\discretionary {-}{}{}Search\discretionary {-}{}{}Tree}
+    \subitem {Benchmark}, \hyperpage{17}
+  \item {run\discretionary {-}{}{}Benchmark\discretionary {-}{}{}Sort}
+    \subitem {Benchmark}, \hyperpage{17}
 
   \indexspace
 
   \item {Save\discretionary {-}{}{}To\discretionary {-}{}{}File}, 
-		\hyperpage{29}
-    \subitem {update}, \hyperpage{30}
+		\hyperpage{46}
+    \subitem {update}, \hyperpage{47}
+  \item {search}
+    \subitem {Binary\discretionary {-}{}{}Tree}, \hyperpage{26}
+    \subitem {Red\discretionary {-}{}{}Black\discretionary {-}{}{}Tree}, 
+		\hyperpage{45}
+    \subitem {Trees}, \hyperpage{56}
+  \item {sentinel}
+    \subitem {Red\discretionary {-}{}{}Black\discretionary {-}{}{}Tree}, 
+		\hyperpage{46}
+  \item {set\discretionary {-}{}{}New\discretionary {-}{}{}Root}
+    \subitem {Red\discretionary {-}{}{}Black\discretionary {-}{}{}Tree}, 
+		\hyperpage{45}
   \item {size}
     \subitem {A\discretionary {-}{}{}B\discretionary {-}{}{}Data}, 
 		\hyperpage{8}
     \subitem {Assoc\discretionary {-}{}{}Tab}, \hyperpage{13}
-    \subitem {List}, \hyperpage{21}
-    \subitem {List\discretionary {-}{}{}Array}, \hyperpage{23}
-    \subitem {Queue}, \hyperpage{29}
-    \subitem {Stack}, \hyperpage{32}
-  \item {sorts.\discretionary {-}{}{}hh}, \hyperpage{59, 60}
-    \subitem {insertsort}, \hyperpage{60}
-    \subitem {quicksort}, \hyperpage{60}
+    \subitem {List}, \hyperpage{30}
+    \subitem {List\discretionary {-}{}{}Array}, \hyperpage{33}
+    \subitem {Queue}, \hyperpage{37}
+    \subitem {Stack}, \hyperpage{49}
+  \item {sorts.\discretionary {-}{}{}hh}, \hyperpage{87, 88}
+    \subitem {insertsort}, \hyperpage{88}
+    \subitem {quicksort}, \hyperpage{88}
   \item {Stack}
-    \subitem {display}, \hyperpage{32}
-    \subitem {head}, \hyperpage{33}
-    \subitem {iterator}, \hyperpage{33}
-    \subitem {pop}, \hyperpage{32}
-    \subitem {push}, \hyperpage{32}
-    \subitem {size}, \hyperpage{32}
-    \subitem {Stack}, \hyperpage{32}
-  \item {Stack$<$ type $>$}, \hyperpage{30}
-  \item {stack.\discretionary {-}{}{}hh}, \hyperpage{61, 62}
+    \subitem {display}, \hyperpage{48}
+    \subitem {head}, \hyperpage{49}
+    \subitem {iterator}, \hyperpage{49}
+    \subitem {pop}, \hyperpage{48}
+    \subitem {push}, \hyperpage{49}
+    \subitem {size}, \hyperpage{49}
+    \subitem {Stack}, \hyperpage{48}
+  \item {Stack$<$ type $>$}, \hyperpage{47}
+  \item {stack.\discretionary {-}{}{}hh}, \hyperpage{89, 90}
   \item {start}
-    \subitem {Timer}, \hyperpage{37}
+    \subitem {Timer}, \hyperpage{53}
   \item {start\discretionary {-}{}{}\_\discretionary {-}{}{}timer}
-    \subitem {Timer}, \hyperpage{36}
+    \subitem {Timer}, \hyperpage{52}
   \item {stop\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Ctimer}
-    \subitem {Benchmark}, \hyperpage{17}
+    \subitem {Benchmark}, \hyperpage{19}
   \item {stop\discretionary {-}{}{}\_\discretionary {-}{}{}timer}
-    \subitem {Timer}, \hyperpage{36}
-  \item {Subject}, \hyperpage{33}
-    \subitem {add\discretionary {-}{}{}Obs}, \hyperpage{34}
-    \subitem {notify}, \hyperpage{34}
-    \subitem {obss}, \hyperpage{35}
+    \subitem {Timer}, \hyperpage{53}
+  \item {Subject}, \hyperpage{50}
+    \subitem {add\discretionary {-}{}{}Obs}, \hyperpage{51}
+    \subitem {notify}, \hyperpage{51}
+    \subitem {obss}, \hyperpage{51}
   \item {substitute}
-    \subitem {tools.\discretionary {-}{}{}hh}, \hyperpage{67}
+    \subitem {tools.\discretionary {-}{}{}hh}, \hyperpage{95}
 
   \indexspace
 
   \item {T\discretionary {-}{}{}A\discretionary {-}{}{}B}
-    \subitem {assoctab.\discretionary {-}{}{}hh}, \hyperpage{43}
+    \subitem {assoctab.\discretionary {-}{}{}hh}, \hyperpage{61}
   \item {tab}
     \subitem {Assoc\discretionary {-}{}{}Tab}, \hyperpage{13}
-    \subitem {List\discretionary {-}{}{}Array}, \hyperpage{24}
-  \item {time}
-    \subitem {Timer}, \hyperpage{37}
-  \item {Timer}, \hyperpage{35}
-    \subitem {end}, \hyperpage{36}
-    \subitem {get\discretionary {-}{}{}Time}, \hyperpage{36}
-    \subitem {start}, \hyperpage{37}
+    \subitem {List\discretionary {-}{}{}Array}, \hyperpage{33}
+  \item {Timer}, \hyperpage{51}
+    \subitem {atime}, \hyperpage{53}
+    \subitem {end}, \hyperpage{53}
+    \subitem {get\discretionary {-}{}{}Time}, \hyperpage{52}
+    \subitem {start}, \hyperpage{53}
     \subitem {start\discretionary {-}{}{}\_\discretionary {-}{}{}timer}, 
-		\hyperpage{36}
+		\hyperpage{52}
     \subitem {stop\discretionary {-}{}{}\_\discretionary {-}{}{}timer}, 
-		\hyperpage{36}
-    \subitem {time}, \hyperpage{37}
-    \subitem {Timer}, \hyperpage{36}
-  \item {timer.\discretionary {-}{}{}cpp}, \hyperpage{63, 64}
-  \item {timer.\discretionary {-}{}{}hh}, \hyperpage{64, 65}
-  \item {tools.\discretionary {-}{}{}hh}, \hyperpage{66, 67}
-    \subitem {substitute}, \hyperpage{67}
-    \subitem {tostring}, \hyperpage{67}
+		\hyperpage{53}
+    \subitem {Timer}, \hyperpage{52}
+  \item {timer.\discretionary {-}{}{}cpp}, \hyperpage{91, 92}
+  \item {timer.\discretionary {-}{}{}hh}, \hyperpage{92, 93}
+  \item {tools.\discretionary {-}{}{}hh}, \hyperpage{94, 95}
+    \subitem {substitute}, \hyperpage{95}
+    \subitem {tostring}, \hyperpage{95}
   \item {tostring}
-    \subitem {tools.\discretionary {-}{}{}hh}, \hyperpage{67}
+    \subitem {tools.\discretionary {-}{}{}hh}, \hyperpage{95}
   \item {total}
-    \subitem {Benchmark}, \hyperpage{18}
+    \subitem {Benchmark}, \hyperpage{20}
+  \item {treenode}
+    \subitem {left}, \hyperpage{54}
+    \subitem {right}, \hyperpage{54}
+    \subitem {treenode}, \hyperpage{54}
+    \subitem {val}, \hyperpage{55}
+  \item {treenode$<$ type $>$}, \hyperpage{54}
+  \item {Trees}
+    \subitem {clear}, \hyperpage{55}
+    \subitem {insert}, \hyperpage{56}
+    \subitem {remove}, \hyperpage{56}
+    \subitem {search}, \hyperpage{56}
+  \item {Trees$<$ type $>$}, \hyperpage{55}
+  \item {trees.\discretionary {-}{}{}hh}, \hyperpage{96}
 
   \indexspace
 
   \item {update}
-    \subitem {Observer}, \hyperpage{26}
+    \subitem {Observer}, \hyperpage{35}
     \subitem {Save\discretionary {-}{}{}To\discretionary {-}{}{}File}, 
-		\hyperpage{30}
+		\hyperpage{47}
 
   \indexspace
 
   \item {val}
     \subitem {Assoc\discretionary {-}{}{}Data}, \hyperpage{9}
-    \subitem {node}, \hyperpage{25}
+    \subitem {node}, \hyperpage{34}
+    \subitem {rbtreenode}, \hyperpage{40}
+    \subitem {treenode}, \hyperpage{55}
 
 \end{theindex}

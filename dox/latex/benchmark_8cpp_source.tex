@@ -3,7 +3,7 @@
 }
 
 \begin{DoxyCode}
-00001 \textcolor{preprocessor}{#include "\hyperlink{benchmark_8hh}{benchmark.hh}"}
+00001 \textcolor{preprocessor}{#include "\hyperlink{benchmark_8hh}{Benchmark/benchmark.hh}"}
 00002 \textcolor{preprocessor}{#include <cstdlib>}
 00003 \textcolor{preprocessor}{#include <iostream>}
 \hypertarget{benchmark_8cpp_source_l00008}{}\hyperlink{class_benchmark_a408a44a1d64e45b647ef6dbba2f2c3d3}{00008} \textcolor{keywordtype}{void} \hyperlink{class_benchmark_a408a44a1d64e45b647ef6dbba2f2c3d3}{Benchmark::notify}()\{
@@ -13,7 +13,7 @@
 00012 
 \hypertarget{benchmark_8cpp_source_l00013}{}\hyperlink{class_benchmark_ab65889d4c2df3eb503048ab1cc6e7413}{00013} \textcolor{keywordtype}{void} \hyperlink{class_benchmark_ab65889d4c2df3eb503048ab1cc6e7413}{Benchmark::stop\_Ctimer}()\{
 00014   \hyperlink{class_timer_ac05cde2d44f1a1fc40554bf78a65fe0e}{stop\_timer}();
-00015   \hyperlink{class_benchmark_a7130c0718e3a3ab2fea70285dab122a2}{total}+=\hyperlink{class_timer_aa410e9f94d1cdb79090fcf159f8f4d8c}{time};
+00015   \hyperlink{class_benchmark_a7130c0718e3a3ab2fea70285dab122a2}{total}+=\hyperlink{class_timer_ab07af01194380dc8df3f3791f9aa803a}{atime};
 00016   \hyperlink{class_benchmark_a3a56c7dad0b21e490f3024d5d0027f31}{counter}++;
 00017 \}
 00018 
@@ -23,4 +23,22 @@
 00022   \hyperlink{class_benchmark_a408a44a1d64e45b647ef6dbba2f2c3d3}{notify}();
 00023 \}
 00024 
+00025 \textcolor{keyword}{template}<\textcolor{keyword}{typename} type>
+\hypertarget{benchmark_8cpp_source_l00026}{}\hyperlink{class_benchmark_ad5d8a563d9b9163758ae04d064cc38cb}{00026} \textcolor{keywordtype}{void} \hyperlink{class_benchmark_ad5d8a563d9b9163758ae04d064cc38cb}{Benchmark::runBenchmarkSort}(\textcolor{keywordtype}{void} (*f)(
+      \hyperlink{class_iterable}{Iterable<type>}&, \textcolor{keywordtype}{int}, \textcolor{keywordtype}{int}), \hyperlink{class_iterable}{Iterable<type>} &container, \textcolor{keywordtype}{int} dataCount, \textcolor{keywordtype}{int} 
+      repeats)\{
+00027   \hyperlink{class_benchmark_a1d0eaa6febe9b7a7f5f5147e83f60910}{amount} = dataCount;
+00028   \hyperlink{class_benchmark_a7130c0718e3a3ab2fea70285dab122a2}{total}=0; 
+00029   \hyperlink{class_benchmark_aa88092b6164ad7d1243162d3012f729a}{mean}=0;
+00030   \hyperlink{class_benchmark_a3a56c7dad0b21e490f3024d5d0027f31}{counter}=0;
+00031   \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i=1; i<=repeats; i++)\{
+00032     \hyperlink{class_timer_a83d4b873e3275a61004b5679672045c0}{start\_timer}();
+00033     (*f)(container, 0, \hyperlink{class_benchmark_a1d0eaa6febe9b7a7f5f5147e83f60910}{amount}-1);
+00034     \hyperlink{class_benchmark_ab65889d4c2df3eb503048ab1cc6e7413}{stop\_Ctimer}();
+00035   \}
+00036   \hyperlink{class_benchmark_ac4d5360d2850510913efe07cf957f4c1}{calc\_mean}();
+00037 \}
+00038 
+00039 
+00040 
 \end{DoxyCode}
