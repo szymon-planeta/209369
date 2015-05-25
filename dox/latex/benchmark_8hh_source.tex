@@ -8,45 +8,90 @@
 00003 \textcolor{preprocessor}{}
 00004 \textcolor{preprocessor}{#include "\hyperlink{observer_8hh}{observer.hh}"}
 00005 \textcolor{preprocessor}{#include "\hyperlink{timer_8hh}{timer.hh}"}
-00006 
-\hypertarget{benchmark_8hh_source_l00017}{}\hyperlink{class_benchmark}{00017} \textcolor{keyword}{class }\hyperlink{class_benchmark}{Benchmark}: \textcolor{keyword}{public} \hyperlink{class_subject}{Subject}, \textcolor{keyword}{public} \hyperlink{class_timer}{Timer}\{
-\hypertarget{benchmark_8hh_source_l00021}{}\hyperlink{class_benchmark_a7130c0718e3a3ab2fea70285dab122a2}{00021}   \textcolor{keywordtype}{double} \hyperlink{class_benchmark_a7130c0718e3a3ab2fea70285dab122a2}{total};
-\hypertarget{benchmark_8hh_source_l00025}{}\hyperlink{class_benchmark_aa88092b6164ad7d1243162d3012f729a}{00025}   \textcolor{keywordtype}{double} \hyperlink{class_benchmark_aa88092b6164ad7d1243162d3012f729a}{mean};
-\hypertarget{benchmark_8hh_source_l00029}{}\hyperlink{class_benchmark_a3a56c7dad0b21e490f3024d5d0027f31}{00029}   \textcolor{keywordtype}{int} \hyperlink{class_benchmark_a3a56c7dad0b21e490f3024d5d0027f31}{counter};
-\hypertarget{benchmark_8hh_source_l00033}{}\hyperlink{class_benchmark_a1d0eaa6febe9b7a7f5f5147e83f60910}{00033}   \textcolor{keywordtype}{int} \hyperlink{class_benchmark_a1d0eaa6febe9b7a7f5f5147e83f60910}{amount};
-00034 \textcolor{keyword}{public}:
-\hypertarget{benchmark_8hh_source_l00035}{}\hyperlink{class_benchmark_acfca497989836a688d44477802e822d8}{00035}   \hyperlink{class_benchmark_acfca497989836a688d44477802e822d8}{Benchmark}()\{
-00036     \hyperlink{class_benchmark_a7130c0718e3a3ab2fea70285dab122a2}{total} = 0;
-00037     \hyperlink{class_benchmark_aa88092b6164ad7d1243162d3012f729a}{mean} = 0;
-00038     \hyperlink{class_benchmark_a3a56c7dad0b21e490f3024d5d0027f31}{counter} = 0;
-00039     \hyperlink{class_benchmark_a1d0eaa6febe9b7a7f5f5147e83f60910}{amount} = 0;
-00040   \}
-00044   \textcolor{keywordtype}{void} \hyperlink{class_benchmark_a408a44a1d64e45b647ef6dbba2f2c3d3}{notify}();
-00051   \textcolor{keywordtype}{void} \hyperlink{class_benchmark_ab65889d4c2df3eb503048ab1cc6e7413}{stop\_Ctimer}();
-00052 
-00058   \textcolor{keywordtype}{void} \hyperlink{class_benchmark_ac4d5360d2850510913efe07cf957f4c1}{calc\_mean}();
-00059 
-00068   \textcolor{keyword}{template}<\textcolor{keyword}{typename} type>
-00069   \textcolor{keywordtype}{void} \hyperlink{class_benchmark_ad5d8a563d9b9163758ae04d064cc38cb}{runBenchmarkSort}(\textcolor{keywordtype}{void} (*f)(\hyperlink{class_iterable}{Iterable<type>}&, \textcolor{keywordtype}{int}, \textcolor{keywordtype}{int}), 
+00006 \textcolor{preprocessor}{#include "\hyperlink{trees_8hh}{Trees/trees.hh}"}
+00007 \textcolor{preprocessor}{#include <cstdlib>}
+00008 \textcolor{preprocessor}{#include <ctime>}
+00009 
+\hypertarget{benchmark_8hh_source_l00020}{}\hyperlink{class_benchmark}{00020} \textcolor{keyword}{class }\hyperlink{class_benchmark}{Benchmark}: \textcolor{keyword}{public} \hyperlink{class_subject}{Subject}, \textcolor{keyword}{public} \hyperlink{class_timer}{Timer}\{
+\hypertarget{benchmark_8hh_source_l00024}{}\hyperlink{class_benchmark_a7130c0718e3a3ab2fea70285dab122a2}{00024}   \textcolor{keywordtype}{double} \hyperlink{class_benchmark_a7130c0718e3a3ab2fea70285dab122a2}{total};
+\hypertarget{benchmark_8hh_source_l00028}{}\hyperlink{class_benchmark_aa88092b6164ad7d1243162d3012f729a}{00028}   \textcolor{keywordtype}{double} \hyperlink{class_benchmark_aa88092b6164ad7d1243162d3012f729a}{mean};
+\hypertarget{benchmark_8hh_source_l00032}{}\hyperlink{class_benchmark_a3a56c7dad0b21e490f3024d5d0027f31}{00032}   \textcolor{keywordtype}{int} \hyperlink{class_benchmark_a3a56c7dad0b21e490f3024d5d0027f31}{counter};
+\hypertarget{benchmark_8hh_source_l00036}{}\hyperlink{class_benchmark_a1d0eaa6febe9b7a7f5f5147e83f60910}{00036}   \textcolor{keywordtype}{int} \hyperlink{class_benchmark_a1d0eaa6febe9b7a7f5f5147e83f60910}{amount};
+00037 \textcolor{keyword}{public}:
+\hypertarget{benchmark_8hh_source_l00038}{}\hyperlink{class_benchmark_acfca497989836a688d44477802e822d8}{00038}   \hyperlink{class_benchmark_acfca497989836a688d44477802e822d8}{Benchmark}()\{
+00039     \hyperlink{class_benchmark_a7130c0718e3a3ab2fea70285dab122a2}{total} = 0;
+00040     \hyperlink{class_benchmark_aa88092b6164ad7d1243162d3012f729a}{mean} = 0;
+00041     \hyperlink{class_benchmark_a3a56c7dad0b21e490f3024d5d0027f31}{counter} = 0;
+00042     \hyperlink{class_benchmark_a1d0eaa6febe9b7a7f5f5147e83f60910}{amount} = 0;
+00043   \}
+00047   \textcolor{keywordtype}{void} \hyperlink{class_benchmark_a408a44a1d64e45b647ef6dbba2f2c3d3}{notify}();
+00054   \textcolor{keywordtype}{void} \hyperlink{class_benchmark_ab65889d4c2df3eb503048ab1cc6e7413}{stop\_Ctimer}();
+00055 
+00061   \textcolor{keywordtype}{void} \hyperlink{class_benchmark_ac4d5360d2850510913efe07cf957f4c1}{calc\_mean}();
+00062 
+00071   \textcolor{keyword}{template}<\textcolor{keyword}{typename} type>
+00072   \textcolor{keywordtype}{void} \hyperlink{class_benchmark_ad5d8a563d9b9163758ae04d064cc38cb}{runBenchmarkSort}(\textcolor{keywordtype}{void} (*f)(\hyperlink{class_iterable}{Iterable<type>}&, \textcolor{keywordtype}{int}, \textcolor{keywordtype}{int}), 
       \hyperlink{class_iterable}{Iterable<type>} &container, \textcolor{keywordtype}{int} dataCount, \textcolor{keywordtype}{int} repeats);
-00070 
-00071 \};
-00072 
-00073 \textcolor{keyword}{template}<\textcolor{keyword}{typename} type>
-\hypertarget{benchmark_8hh_source_l00074}{}\hyperlink{class_benchmark_ad5d8a563d9b9163758ae04d064cc38cb}{00074} \textcolor{keywordtype}{void} \hyperlink{class_benchmark_ad5d8a563d9b9163758ae04d064cc38cb}{Benchmark::runBenchmarkSort}(\textcolor{keywordtype}{void} (*f)(
-      \hyperlink{class_iterable}{Iterable<type>}&, \textcolor{keywordtype}{int}, \textcolor{keywordtype}{int}), \hyperlink{class_iterable}{Iterable<type>} &container, \textcolor{keywordtype}{int} dataCount, \textcolor{keywordtype}{int} 
-      repeats)\{
-00075   \hyperlink{class_benchmark_a1d0eaa6febe9b7a7f5f5147e83f60910}{amount} = dataCount;
-00076   \hyperlink{class_benchmark_a7130c0718e3a3ab2fea70285dab122a2}{total}=0; 
-00077   \hyperlink{class_benchmark_aa88092b6164ad7d1243162d3012f729a}{mean}=0;
-00078   \hyperlink{class_benchmark_a3a56c7dad0b21e490f3024d5d0027f31}{counter}=0;
-00079   \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i=1; i<=repeats; i++)\{
-00080     \hyperlink{class_timer_a83d4b873e3275a61004b5679672045c0}{start\_timer}();
-00081     (*f)(container, 0, \hyperlink{class_benchmark_a1d0eaa6febe9b7a7f5f5147e83f60910}{amount}-1);
-00082     \hyperlink{class_benchmark_ab65889d4c2df3eb503048ab1cc6e7413}{stop\_Ctimer}();
-00083   \}
-00084   \hyperlink{class_benchmark_ac4d5360d2850510913efe07cf957f4c1}{calc\_mean}();
-00085 \}
-00086 
-00087 \textcolor{preprocessor}{#endif}
+00073 
+00082   \textcolor{keyword}{template}<\textcolor{keyword}{typename} type>
+00083   \textcolor{keywordtype}{void} \hyperlink{class_benchmark_ac0795fc9eae36d523dde2fe06ea10fc0}{runBenchmarkFillTree}(\textcolor{keywordtype}{void} (\hyperlink{class_trees}{Trees<type>}::*f)(type), 
+      \hyperlink{class_trees}{Trees<type>} &tree, \textcolor{keywordtype}{int} dataCount, \textcolor{keywordtype}{int} repeats, \textcolor{keywordtype}{char}* dataFile);
+00084 
+00093   \textcolor{keyword}{template}<\textcolor{keyword}{typename} type>
+00094   \textcolor{keywordtype}{void} \hyperlink{class_benchmark_a9e6b5ef8df351452be5fa0c8d127367a}{runBenchmarkSearchTree}(\textcolor{keywordtype}{bool} (\hyperlink{class_trees}{Trees<type>}::*f)(type), 
+      \hyperlink{class_trees}{Trees<type>} &tree, \textcolor{keywordtype}{int} dataCount, \textcolor{keywordtype}{int} repeats, \textcolor{keywordtype}{char}* dataFile);
+00095 \};
+00096 
+00097 \textcolor{keyword}{template}<\textcolor{keyword}{typename} type>
+\hypertarget{benchmark_8hh_source_l00098}{}\hyperlink{class_benchmark_ac0795fc9eae36d523dde2fe06ea10fc0}{00098} \textcolor{keywordtype}{void} \hyperlink{class_benchmark_ac0795fc9eae36d523dde2fe06ea10fc0}{Benchmark::runBenchmarkFillTree}(\textcolor{keywordtype}{void} (
+      \hyperlink{class_trees}{Trees<type>}::*f)(type), \hyperlink{class_trees}{Trees<type>} &tree, \textcolor{keywordtype}{int} dataCount, \textcolor{keywordtype}{int} repeats, \textcolor{keywordtype}{char}* dataFile
+      )\{
+00099   \hyperlink{class_benchmark_a1d0eaa6febe9b7a7f5f5147e83f60910}{amount} = dataCount;
+00100   \hyperlink{class_benchmark_a7130c0718e3a3ab2fea70285dab122a2}{total}=0; 
+00101   \hyperlink{class_benchmark_aa88092b6164ad7d1243162d3012f729a}{mean}=0;
+00102   \hyperlink{class_benchmark_a3a56c7dad0b21e490f3024d5d0027f31}{counter}=0;
+00103   ifstream input;
+00104   input.open(dataFile);
+00105   type tmp;
+00106   \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i=1; i<=repeats; i++)\{
+00107     tree.\hyperlink{class_trees_ac9020e649202c980ecb9917e13524471}{clear}();
+00108     \hyperlink{class_timer_a83d4b873e3275a61004b5679672045c0}{start\_timer}();
+00109     \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} j=1; j<=dataCount; j++)\{
+00110       input >> tmp;
+00111       (tree.*f)(tmp);
+00112     \}
+00113     \hyperlink{class_benchmark_ab65889d4c2df3eb503048ab1cc6e7413}{stop\_Ctimer}();
+00114   \}
+00115   \hyperlink{class_benchmark_ac4d5360d2850510913efe07cf957f4c1}{calc\_mean}();
+00116   input.close();
+00117 \}
+00118 
+00119 \textcolor{keyword}{template}<\textcolor{keyword}{typename} type>
+\hypertarget{benchmark_8hh_source_l00120}{}\hyperlink{class_benchmark_a9e6b5ef8df351452be5fa0c8d127367a}{00120} \textcolor{keywordtype}{void} \hyperlink{class_benchmark_a9e6b5ef8df351452be5fa0c8d127367a}{Benchmark::runBenchmarkSearchTree}(\textcolor{keywordtype}{bool} (
+      \hyperlink{class_trees}{Trees<type>}::*f)(type), \hyperlink{class_trees}{Trees<type>} &tree, \textcolor{keywordtype}{int} dataCount, \textcolor{keywordtype}{int} repeats, \textcolor{keywordtype}{char}* dataFile
+      )\{
+00121   \hyperlink{class_benchmark_a1d0eaa6febe9b7a7f5f5147e83f60910}{amount} = dataCount;
+00122   \hyperlink{class_benchmark_a7130c0718e3a3ab2fea70285dab122a2}{total}=0; 
+00123   \hyperlink{class_benchmark_aa88092b6164ad7d1243162d3012f729a}{mean}=0;
+00124   \hyperlink{class_benchmark_a3a56c7dad0b21e490f3024d5d0027f31}{counter}=0;
+00125   ifstream input;
+00126   input.open(dataFile);
+00127   type tmp;
+00128   \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} j=1; j<=dataCount; j++)\{
+00129     input >> tmp;
+00130     tree.\hyperlink{class_trees_a00b4642b409350691f93b4b94598e68e}{insert}(j);
+00131   \}
+00132   input.close();
+00133   srand(time(NULL));
+00134   \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i=1; i<=repeats; i++)\{
+00135     \hyperlink{class_timer_a83d4b873e3275a61004b5679672045c0}{start\_timer}();
+00136     \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} j=1; j<=dataCount; j++)
+00137       (tree.*f)(48830);
+00138     \hyperlink{class_benchmark_ab65889d4c2df3eb503048ab1cc6e7413}{stop\_Ctimer}();
+00139   \}
+00140   \hyperlink{class_benchmark_ac4d5360d2850510913efe07cf957f4c1}{calc\_mean}();
+00141 \}
+00142 
+00143 
+00144 \textcolor{preprocessor}{#endif}
 \end{DoxyCode}

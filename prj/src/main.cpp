@@ -17,6 +17,7 @@ using namespace std;
 
 
 int main(){
+
   
   Graph<int> object(9);
 
@@ -37,6 +38,15 @@ int main(){
 
   object.search(0,8);
 
-  return 0;
 
+  Benchmark test;
+  SaveToFile saver;
+  test.addObs(&saver);
+  // BinaryTree<int> object;
+  RedBlackTree<int> object;
+  //for(int i=1; i<=10000000; i*=10)
+    // test.runBenchmarkSearchTree(&Trees<int>::search, object, i, 10, (char*)"dane.dat");
+  // test.runBenchmarkFillTree(&Trees<int>::insert, object, i, 10, (char*)"dane.dat");
+ 
+  return 0;
 }

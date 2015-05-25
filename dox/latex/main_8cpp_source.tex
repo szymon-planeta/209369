@@ -3,38 +3,34 @@
 }
 
 \begin{DoxyCode}
-00001 \textcolor{preprocessor}{#include "\hyperlink{list_8hh}{list.hh}"}
-00002 \textcolor{preprocessor}{#include "\hyperlink{stack_8hh}{stack.hh}"}
-00003 \textcolor{preprocessor}{#include "\hyperlink{queue_8hh}{queue.hh}"}
-00004 \textcolor{preprocessor}{#include "\hyperlink{iterable_8hh}{iterable.hh}"}
-00005 \textcolor{preprocessor}{#include "\hyperlink{timer_8hh}{timer.hh}"}
-00006 \textcolor{preprocessor}{#include "\hyperlink{benchmark_8hh}{benchmark.hh}"}
-00007 \textcolor{preprocessor}{#include "\hyperlink{observer_8hh}{observer.hh}"}
-00008 \textcolor{preprocessor}{#include "\hyperlink{sorts_8hh}{sorts.hh}"}
-00009 \textcolor{preprocessor}{#include "\hyperlink{abdatatools_8hh}{abdatatools.hh}"}
-00010 \textcolor{preprocessor}{#include "\hyperlink{listarray_8hh}{listarray.hh}"}
-00011 \textcolor{preprocessor}{#include "\hyperlink{assoctab_8hh}{assoctab.hh}"}
-00012 
-00013 \textcolor{keyword}{using namespace }std;
-00014 
-00015 
-\hypertarget{main_8cpp_source_l00016}{}\hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{00016} \textcolor{keywordtype}{int} \hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}()\{
-00017   \textcolor{comment}{//ListArray<int> object;}
-00018   \hyperlink{class_benchmark}{Benchmark} test;
-00019   \hyperlink{class_save_to_file}{SaveToFile} saver;
-00020   test.\hyperlink{class_subject_ab372011e20fc9d82bd738cdf9bad1f84}{addObs}(&saver);
-00021   \textcolor{comment}{/* }
-00022 \textcolor{comment}{  for(int i=10; i<=1000000; i*=10)\{}
-00023 \textcolor{comment}{    fillFromFile(&object, i, "dane.dat");}
-00024 \textcolor{comment}{    test.runBenchmarkSort(&quicksort, object, object.size(), 20);}
-00025 \textcolor{comment}{    clear(&object);}
-00026 \textcolor{comment}{    \}}
-00027 \textcolor{comment}{  */}
-00028   \hyperlink{class_assoc_tab}{AssocTab<string, string>} object;
-00029   \textcolor{keywordtype}{object}[\textcolor{stringliteral}{"kon"}] = \textcolor{stringliteral}{"rafal"};
-00030   cout << \textcolor{keywordtype}{object}[\textcolor{stringliteral}{"kon"}] << endl;
-00031   \textcolor{keywordtype}{object}.\hyperlink{class_assoc_tab_a94c65968a50b6cee7894bded35410824}{pop}(\textcolor{stringliteral}{"kon"});
-00032 
-00033   \textcolor{keywordflow}{return} 0;
-00034 \}
+00001 \textcolor{preprocessor}{#include "\hyperlink{list_8hh}{ABData/list.hh}"}
+00002 \textcolor{preprocessor}{#include "\hyperlink{stack_8hh}{ABData/stack.hh}"}
+00003 \textcolor{preprocessor}{#include "\hyperlink{queue_8hh}{ABData/queue.hh}"}
+00004 \textcolor{preprocessor}{#include "\hyperlink{iterable_8hh}{ABData/iterable.hh}"}
+00005 \textcolor{preprocessor}{#include "\hyperlink{timer_8hh}{Benchmark/timer.hh}"}
+00006 \textcolor{preprocessor}{#include "\hyperlink{benchmark_8hh}{Benchmark/benchmark.hh}"}
+00007 \textcolor{preprocessor}{#include "\hyperlink{observer_8hh}{Benchmark/observer.hh}"}
+00008 \textcolor{preprocessor}{#include "\hyperlink{binarytree_8hh}{Trees/binarytree.hh}"}
+00009 \textcolor{preprocessor}{#include "\hyperlink{sorts_8hh}{ABData/sorts.hh}"}
+00010 \textcolor{preprocessor}{#include "\hyperlink{abdatatools_8hh}{ABData/abdatatools.hh}"}
+00011 \textcolor{preprocessor}{#include "\hyperlink{listarray_8hh}{ABData/listarray.hh}"}
+00012 \textcolor{preprocessor}{#include "\hyperlink{assoctab_8hh}{assoctab.hh}"}
+00013 \textcolor{preprocessor}{#include "\hyperlink{redblacktree_8hh}{Trees/redblacktree.hh}"}
+00014 \textcolor{preprocessor}{#include "unistd.h"}
+00015 \textcolor{keyword}{using namespace }std;
+00016 
+00017 
+\hypertarget{main_8cpp_source_l00018}{}\hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{00018} \textcolor{keywordtype}{int} \hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}()\{
+00019   \hyperlink{class_benchmark}{Benchmark} test;
+00020   \hyperlink{class_save_to_file}{SaveToFile} saver;
+00021   test.\hyperlink{class_subject_ab372011e20fc9d82bd738cdf9bad1f84}{addObs}(&saver);
+00022   \textcolor{comment}{// BinaryTree<int> object;}
+00023   \hyperlink{class_red_black_tree}{RedBlackTree<int>} object;
+00024   \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i=1; i<=10000000; i*=10)
+00025     \textcolor{comment}{// test.runBenchmarkSearchTree(&Trees<int>::search, object, i, 10, (char*)"dane.dat");}
+00026     test.\hyperlink{class_benchmark_ac0795fc9eae36d523dde2fe06ea10fc0}{runBenchmarkFillTree}(&\hyperlink{class_trees}{Trees<int>::insert}, \textcolor{keywordtype}{object}, i, 10, (\textcolor{keywordtype}{
+      char}*)\textcolor{stringliteral}{"dane.dat"});
+00027  
+00028   \textcolor{keywordflow}{return} 0;
+00029 \}
 \end{DoxyCode}

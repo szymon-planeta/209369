@@ -23,13 +23,13 @@ protected:
    *
    * Przechowuje zmierzony czas
    */
-  double time;
+  double atime;
 
 public:
   /*!
    * \brief Konstruktor bezparametryczny
    */
-  Timer(){time=0;}
+  Timer(){atime=0;}
   /*!
    * \brief Zapisuje moment rozpoczecia pomiaru do zmiennej start.
    */
