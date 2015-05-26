@@ -19,7 +19,7 @@ using namespace std;
 int main(){
 
   
-  Graph<int> object(9);
+  Graph object(9);
 
   object.insert(0,1);  
   object.insert(0,2);
@@ -36,7 +36,8 @@ int main(){
 
   object.print();
 
-  object.search(0,8);
+  //  object.BFS(0,8);
+  object.DFS();
 
 
   Benchmark test;

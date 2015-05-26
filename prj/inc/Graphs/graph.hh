@@ -2,64 +2,83 @@
 #define GRAPH_HH
 
 #include "ABData/list.hh"
-#include "ABData/listarray.hh"
+#include "ABData/queue.hh"
+#include "ABData/stack.hh"
 
 #include <iostream>
 
+/*!
+ * \file
+ * \brief Definicja klasy Graph
+ */
 const int DEFAULT_SIZE=100;
 
-template <class type>
 class Graph{
+  /*!
+   * \brief Licznik wierzcholkow grafu
+   */
   int vCount;
  /*!
    * \brief Wskaznik na dynamicznie alokowana tablice list
    */
   List<int> *tab;
-
-  type *data;
+private:
+  /*!
+   * \brief Metoda DFS_visit
+   *
+   * Metoda pomocnicza dla metody DFS
+   */
+  void DFS_visit(int u, int time, char *color, int *previous, int *d, int *f);
 
 public:
-  Graph(){tab = new List<type> [DEFAULT_SIZE];
-    data = new type [DEFAULT_SIZE];
+  /*!
+   * \brief Konstruktor bezparametryczny
+   */
+  Graph(){tab = new List<int> [DEFAULT_SIZE];
     vCount=DEFAULT_SIZE;}
-
-  Graph(int c){tab = new List<type> [c];
-    data = new type [c];
+  /*!
+   * \brief Konstruktor parametryczny
+   *
+   * \param[in] c Ilosc wierzcholkow
+   */
+  Graph(int c){tab = new List<int> [c];
     vCount=c;}
-
+  /*!
+   * \brief Metoda insert
+   *
+   * Wstawia polaczenie miedzy wierzcholkami
+   *
+   * \param[in] v1 Nr wierzcholka pierwszego
+   * \param[in] v2 Nr wierzcholka drugiego
+   */
   void insert(int v1, int v2);
+  /*!
+   * \brief Procedura print
+   *
+   * Wyswietla graf w formie WIERZCHOLEK | LISTA WIERZCHOLKOW Z KTORYMI JEST POLACZONY
+   */
   void print();
-  bool search(int vBegin, int vEnd);
+  /*!
+   * \brief Metoda BFS (Breadth First Search)
+   *
+   * Metoda przeszukiwania grafu wszerz. Przeszukuje caly graf
+   */
+  void BFS(int source);
+  /*!
+   * \brief Metoda BFS (Breadth First Search)
+   *
+   * Metoda przeszukiwania grafu wszerz. Znajduje sciezke pomiedzy dwoma zadanymi
+   * wierzcholkami i wypisuje ja na ekran
+   */
+  void BFS(int source, int finish);
+
+  /*!
+   * \brief Metoda DFS (Depth First Search)
+   *
+   * Metoda przeszukiwania grafu w glab. Przeszukuje caly graf.
+   */
+  void DFS();
 
 };
-
-template <class type>
-void Graph<type>::insert(int v1, int v2){
-  tab[v1].push(v2);
-  if(v1!=v2)
-    tab[v2].push(v1);
-}
-
-template <class type>
-void Graph<type>::print(){
-  for(int i=0; i<vCount; i++){
-    std::cout<<i<<" | ";
-    for(int j=0; j<tab[i].size();j++)
-      std::cout<<(tab[i])[j] << " ";
-    std::cout<<std::endl;
-  }
-}
-
-template <class type>
-bool Graph<type>::search(int vBegin, int vEnd){
-  /* ListArray<int> path(vCount);
-  for(int i=0; i<tab[i].size(); i++)
-    if(data[i].visited==false){
-      data[i].visited=true;
-      path.push(i);
-      search(i,vEnd)
-      }*/
-  return false;
-}
 
 #endif
