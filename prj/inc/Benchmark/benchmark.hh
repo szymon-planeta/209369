@@ -105,11 +105,14 @@ void Benchmark::runBenchmarkFillTree(void (Trees<type>::*f)(type), Trees<type> &
   type tmp;
   for(int i=1; i<=repeats; i++){
     tree.clear();
-    start_timer();
-    for(int j=1; j<=dataCount; j++){
+    
+    for(int j=1; j<=dataCount-1; j++){
       input >> tmp;
       (tree.*f)(tmp);
     }
+    start_timer();
+    input >> tmp;
+    (tree.*f)(tmp);
     stop_Ctimer();
   }
   calc_mean();
@@ -127,14 +130,15 @@ void Benchmark::runBenchmarkSearchTree(bool (Trees<type>::*f)(type), Trees<type>
   type tmp;
   for(int j=1; j<=dataCount; j++){
     input >> tmp;
-    tree.insert(j);
+    tree.insert(tmp);
   }
   input.close();
   srand(time(NULL));
   for(int i=1; i<=repeats; i++){
+    //for(int j=1; j<=dataCount-1; j++)
+    //   (tree.*f)(48830);
     start_timer();
-    for(int j=1; j<=dataCount; j++)
-      (tree.*f)(48830);
+    (tree.*f)(48830);
     stop_Ctimer();
   }
   calc_mean();
