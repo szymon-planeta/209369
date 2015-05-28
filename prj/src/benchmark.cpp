@@ -36,5 +36,31 @@ void Benchmark::runBenchmarkSort(void (*f)(Iterable<type>&, int, int), Iterable<
   calc_mean();
 }
 
+void Benchmark::runBenchmarkSearchGraph(void (Graph::*f)(), Graph graph, int dataCount, int repeats){
+  amount = dataCount;
+  total=0; 
+  mean=0;
+  counter=0;
+
+  /* DANE - spojny losowy (*/
+  if(dataCount>1)
+    graph.insertE(0, 1);
+  for(int j=1; j<dataCount; j++)
+    graph.insertE(j, rand()%j);
+  /* DANE - 0 ze wszystkimi 
+     for(int j=0; j<dataCount; j++)
+     graph.insertE(0,j);*/
+  /* DANE - LISTA 
+     for(int j=0; j<=dataCount-2; j++){
+     graph.insertE(j, j+1);
+     }*/
+  for(int i=1; i<=repeats; i++){
+    start_timer();
+    (graph.*f)();
+    stop_Ctimer();
+  }
+  calc_mean();
+}
+
 
 

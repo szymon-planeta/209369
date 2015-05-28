@@ -16,21 +16,43 @@
 00011 \textcolor{preprocessor}{#include "\hyperlink{listarray_8hh}{ABData/listarray.hh}"}
 00012 \textcolor{preprocessor}{#include "\hyperlink{assoctab_8hh}{assoctab.hh}"}
 00013 \textcolor{preprocessor}{#include "\hyperlink{redblacktree_8hh}{Trees/redblacktree.hh}"}
-00014 \textcolor{preprocessor}{#include "unistd.h"}
-00015 \textcolor{keyword}{using namespace }std;
-00016 
+00014 \textcolor{preprocessor}{#include "\hyperlink{graph_8hh}{Graphs/graph.hh}"}
+00015 
+00016 \textcolor{keyword}{using namespace }std;
 00017 
-\hypertarget{main_8cpp_source_l00018}{}\hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{00018} \textcolor{keywordtype}{int} \hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}()\{
-00019   \hyperlink{class_benchmark}{Benchmark} test;
-00020   \hyperlink{class_save_to_file}{SaveToFile} saver;
-00021   test.\hyperlink{class_subject_ab372011e20fc9d82bd738cdf9bad1f84}{addObs}(&saver);
-00022   \textcolor{comment}{// BinaryTree<int> object;}
-00023   \hyperlink{class_red_black_tree}{RedBlackTree<int>} object;
-00024   \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i=1; i<=10000000; i*=10)
-00025     \textcolor{comment}{// test.runBenchmarkSearchTree(&Trees<int>::search, object, i, 10, (char*)"dane.dat");}
-00026     test.\hyperlink{class_benchmark_ac0795fc9eae36d523dde2fe06ea10fc0}{runBenchmarkFillTree}(&\hyperlink{class_trees}{Trees<int>::insert}, \textcolor{keywordtype}{object}, i, 10, (\textcolor{keywordtype}{
-      char}*)\textcolor{stringliteral}{"dane.dat"});
-00027  
-00028   \textcolor{keywordflow}{return} 0;
-00029 \}
+00018 
+\hypertarget{main_8cpp_source_l00019}{}\hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{00019} \textcolor{keywordtype}{int} \hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}()\{
+00020 
+00021   
+00022   \hyperlink{class_benchmark}{Benchmark} test;
+00023   \hyperlink{class_save_to_file}{SaveToFile} saver;
+00024   test.\hyperlink{class_subject_ab372011e20fc9d82bd738cdf9bad1f84}{addObs}(&saver);
+00025   
+00026 
+00027   \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i=1; i<=1000000; i*=10)\{
+00028     \hyperlink{class_graph}{Graph} object(i);
+00029     test.\hyperlink{class_benchmark_ae9e23e7f4cf294fad57f5c98298bf874}{runBenchmarkSearchGraph}(&\hyperlink{class_graph_aa89036af82002a332699d5722d7863d9}{Graph::DFS}, \textcolor{keywordtype}{object}, i, 3);
+00030   \}
+00031  
+00032   \textcolor{comment}{/*  object.insertE(0,1);  }
+00033 \textcolor{comment}{      object.insertE(0,2);}
+00034 \textcolor{comment}{      object.insertE(1,3);  }
+00035 \textcolor{comment}{      object.insertE(1,4);}
+00036 \textcolor{comment}{      object.insertE(2,4);}
+00037 \textcolor{comment}{      object.insertE(2,5);}
+00038 \textcolor{comment}{      object.insertE(2,6);}
+00039 \textcolor{comment}{      object.insertE(3,3);}
+00040 \textcolor{comment}{      object.insertE(3,6);}
+00041 \textcolor{comment}{  object.insertE(4,6);}
+00042 \textcolor{comment}{  object.insertE(5,7);}
+00043 \textcolor{comment}{  object.insertE(7,8)}
+00044 \textcolor{comment}{  object.print();}
+00045 \textcolor{comment}{  object.BFS();}
+00046 \textcolor{comment}{  object.DFS();*/}
+00047 
+00048 
+00049 
+00050  
+00051   \textcolor{keywordflow}{return} 0;
+00052 \}
 \end{DoxyCode}

@@ -19,35 +19,34 @@ using namespace std;
 int main(){
 
   
-  Graph object(9);
-
-  object.insert(0,1);  
-  object.insert(0,2);
-  object.insert(1,3);  
-  object.insert(1,4);
-  object.insert(2,4);
-  object.insert(2,5);
-  object.insert(2,6);
-  object.insert(3,3);
-  object.insert(3,6);
-  object.insert(4,6);
-  object.insert(5,7);
-  object.insert(7,8);
-
-  object.print();
-
-  //  object.BFS(0,8);
-  object.DFS();
-
-
   Benchmark test;
   SaveToFile saver;
   test.addObs(&saver);
-  // BinaryTree<int> object;
-  // RedBlackTree<int> object;
-  //for(int i=1; i<=10000000; i*=10)
-    // test.runBenchmarkSearchTree(&Trees<int>::search, object, i, 10, (char*)"dane.dat");
-  // test.runBenchmarkFillTree(&Trees<int>::insert, object, i, 10, (char*)"dane.dat");
+  
+
+  for(int i=1; i<=1000000; i*=10){
+    Graph object(i);
+    test.runBenchmarkSearchGraph(&Graph::DFS, object, i, 3);
+  }
+ 
+  /*  object.insertE(0,1);  
+      object.insertE(0,2);
+      object.insertE(1,3);  
+      object.insertE(1,4);
+      object.insertE(2,4);
+      object.insertE(2,5);
+      object.insertE(2,6);
+      object.insertE(3,3);
+      object.insertE(3,6);
+  object.insertE(4,6);
+  object.insertE(5,7);
+  object.insertE(7,8)
+  object.print();
+  object.BFS();
+  object.DFS();*/
+
+
+
  
   return 0;
 }

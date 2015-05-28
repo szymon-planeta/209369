@@ -6,7 +6,7 @@
  * \brief Ciala metod klasy Graph
  */
 
-void Graph::insert(int v1, int v2){
+void Graph::insertE(int v1, int v2){
   tab[v1].push(v2);
   if(v1!=v2)
     tab[v2].push(v1);
@@ -20,7 +20,37 @@ void Graph::print(){
     std::cout<<std::endl;
   }
 }
-
+void Graph::BFS(){
+  int source = 0;
+  int *distance = new int [vCount];
+  char *color = new char [vCount];
+  int *previous = new int [vCount];
+  for(int i=0; i<vCount; i++){
+    color[i]='w';
+    distance[i]= -1;
+    previous[i]= -1;
+  }
+  color[source]='g';
+  distance[source]=0;
+  previous[source]=-2;
+  Queue<int> Q;
+  Q.push(source);
+  while(Q.size()>0){
+    for(unsigned int i=0; i<tab[Q[0]].size(); i++){
+      if(color[tab[Q[0]][i]]=='w'){
+	color[tab[Q[0]][i]]='g';
+	distance[tab[Q[0]][i]]=distance[Q[0]]+1;
+	previous[tab[Q[0]][i]] = Q[0];
+	Q.push(tab[Q[0]][i]);
+      }
+    }
+    color[Q[0]]='b';
+    Q.pop();
+  }
+  delete distance;
+  delete color;
+  delete previous;
+}
 void Graph::BFS(int source){
   int *distance = new int [vCount];
   char *color = new char [vCount];
@@ -88,6 +118,7 @@ void Graph::BFS(int source, int finish){
 	path.display();
 	for(unsigned int j=0; j<Q.size(); j++)
 	  Q.pop();
+	break;
       }
     }
     color[Q[0]]='b';
@@ -124,4 +155,5 @@ void Graph::DFS_visit(int u, int time, char *color, int *previous, int *d, int *
     }
   color[u] = 'b';
   f[u] = time;
+  time++;
 }

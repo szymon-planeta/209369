@@ -39,6 +39,33 @@
 00036   \hyperlink{class_benchmark_ac4d5360d2850510913efe07cf957f4c1}{calc\_mean}();
 00037 \}
 00038 
-00039 
-00040 
+\hypertarget{benchmark_8cpp_source_l00039}{}\hyperlink{class_benchmark_ae9e23e7f4cf294fad57f5c98298bf874}{00039} \textcolor{keywordtype}{void} \hyperlink{class_benchmark_ae9e23e7f4cf294fad57f5c98298bf874}{Benchmark::runBenchmarkSearchGraph}(\textcolor{keywordtype}{void} (
+      \hyperlink{class_graph}{Graph}::*f)(), \hyperlink{class_graph}{Graph} graph, \textcolor{keywordtype}{int} dataCount, \textcolor{keywordtype}{int} repeats)\{
+00040   \hyperlink{class_benchmark_a1d0eaa6febe9b7a7f5f5147e83f60910}{amount} = dataCount;
+00041   \hyperlink{class_benchmark_a7130c0718e3a3ab2fea70285dab122a2}{total}=0; 
+00042   \hyperlink{class_benchmark_aa88092b6164ad7d1243162d3012f729a}{mean}=0;
+00043   \hyperlink{class_benchmark_a3a56c7dad0b21e490f3024d5d0027f31}{counter}=0;
+00044 
+00045   \textcolor{comment}{/* DANE - spojny losowy (*/}
+00046   \textcolor{keywordflow}{if}(dataCount>1)
+00047     graph.\hyperlink{class_graph_a98e8eaa5f6a140aefc67a9bf07023c27}{insertE}(0, 1);
+00048   \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} j=1; j<dataCount; j++)
+00049     graph.\hyperlink{class_graph_a98e8eaa5f6a140aefc67a9bf07023c27}{insertE}(j, rand()%j);
+00050   \textcolor{comment}{/* DANE - 0 ze wszystkimi }
+00051 \textcolor{comment}{     for(int j=0; j<dataCount; j++)}
+00052 \textcolor{comment}{     graph.insertE(0,j);*/}
+00053   \textcolor{comment}{/* DANE - LISTA }
+00054 \textcolor{comment}{     for(int j=0; j<=dataCount-2; j++)\{}
+00055 \textcolor{comment}{     graph.insertE(j, j+1);}
+00056 \textcolor{comment}{     \}*/}
+00057   \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i=1; i<=repeats; i++)\{
+00058     \hyperlink{class_timer_a83d4b873e3275a61004b5679672045c0}{start\_timer}();
+00059     (graph.*f)();
+00060     \hyperlink{class_benchmark_ab65889d4c2df3eb503048ab1cc6e7413}{stop\_Ctimer}();
+00061   \}
+00062   \hyperlink{class_benchmark_ac4d5360d2850510913efe07cf957f4c1}{calc\_mean}();
+00063 \}
+00064 
+00065 
+00066 
 \end{DoxyCode}

@@ -4,6 +4,7 @@
 #include "observer.hh"
 #include "timer.hh"
 #include "Trees/trees.hh"
+#include "Graphs/graph.hh"
 #include <cstdlib>
 #include <ctime>
 
@@ -71,27 +72,39 @@ public:
   template<typename type>
   void runBenchmarkSort(void (*f)(Iterable<type>&, int, int), Iterable<type> &container, int dataCount, int repeats);
 
- /*!
+  /*!
    * \brief Wykonuje zadana ilosc testow zadanej funkcji na zadanym obiekcie dla zadanej ilosc danych
    *
    * \param[in] *f Zadawana funkcja wypelniajaca
-   * \param[in] container Drzewo, ktore chcemy testowac
+   * \param[in] tree Drzewo, ktore chcemy testowac
    * \param[in] dataCount Ilosc danych
    * \param[in] repeats Ilosc testow
+   * \param[in] dataFile Plik, z ktorego pobierzemy dane wejsciowe
    */
   template<typename type>
   void runBenchmarkFillTree(void (Trees<type>::*f)(type), Trees<type> &tree, int dataCount, int repeats, char* dataFile);
 
-/*!
+  /*!
    * \brief Wykonuje zadana ilosc testow zadanej funkcji na zadanym obiekcie dla zadanej ilosc danych
    *
    * \param[in] *f Zadawana funkcja szukajaca
-   * \param[in] container Drzewo, ktore chcemy testowac
+   * \param[in] tree Drzewo, ktore chcemy testowac
    * \param[in] dataCount Ilosc danych
    * \param[in] repeats Ilosc testow
+   * \param[in] dataFile Plik, z ktorego pobierzemy dane wejsciowe
    */
   template<typename type>
   void runBenchmarkSearchTree(bool (Trees<type>::*f)(type), Trees<type> &tree, int dataCount, int repeats, char* dataFile);
+
+  /*!
+   * \brief Wykonuje zadana ilosc testow zadanej funkcji na zadanym obiekcie dla zadanej ilosc danych
+   *
+   * \param[in] *f Zadawana funkcja wypelniajaca
+   * \param[in] graph graf, ktory chcemy testowac
+   * \param[in] dataCount Ilosc danych
+   * \param[in] repeats Ilosc testow
+   */
+  void runBenchmarkSearchGraph(void (Graph::*f)(), Graph graph, int dataCount, int repeats);
 };
 
 template<typename type>
@@ -139,6 +152,5 @@ void Benchmark::runBenchmarkSearchTree(bool (Trees<type>::*f)(type), Trees<type>
   }
   calc_mean();
 }
-
 
 #endif

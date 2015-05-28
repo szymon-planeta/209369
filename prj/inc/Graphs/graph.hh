@@ -44,14 +44,14 @@ public:
   Graph(int c){tab = new List<int> [c];
     vCount=c;}
   /*!
-   * \brief Metoda insert
+   * \brief Metoda insertE
    *
    * Wstawia polaczenie miedzy wierzcholkami
    *
    * \param[in] v1 Nr wierzcholka pierwszego
    * \param[in] v2 Nr wierzcholka drugiego
    */
-  void insert(int v1, int v2);
+  void insertE(int v1, int v2);
   /*!
    * \brief Procedura print
    *
@@ -62,13 +62,21 @@ public:
    * \brief Metoda BFS (Breadth First Search)
    *
    * Metoda przeszukiwania grafu wszerz. Przeszukuje caly graf
+   *
+   * \param[in] Zrodlo, od ktorego chcemy zaczac przeszukiwanie
+   *
+   * W przypadku braku podanego argumentu, zrodlem bedzie 0.
    */
+  void BFS();
   void BFS(int source);
   /*!
    * \brief Metoda BFS (Breadth First Search)
    *
    * Metoda przeszukiwania grafu wszerz. Znajduje sciezke pomiedzy dwoma zadanymi
    * wierzcholkami i wypisuje ja na ekran
+   *
+   * \param[in] source Zrodlo, z ktorego zaczynamy poszukiwanie
+   * \param[in] finish Element, ktorego szukamy
    */
   void BFS(int source, int finish);
 
